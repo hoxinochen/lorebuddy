@@ -1,0 +1,13 @@
+{
+  "schema": "core.source-entry@0.1.0",
+  "id": "urn:uuid:00000000-0000-5000-8000-000000000003",
+  "artifact_id": "urn:uuid:00000000-0000-5000-8000-000000000002",
+  "original_path": "/虚构章节/规则.htm",
+  "storage_path": "../escape/规则.htm",
+  "size": 128,
+  "digest": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "media_type": "text/html",
+  "charset": {"declared": "gb2312", "detected": "gbk", "status": "mismatch"},
+  "extraction_status": "extracted",
+  "lifecycle": {"status": "draft", "revision": 1}
+}

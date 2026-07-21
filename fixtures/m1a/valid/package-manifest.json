@@ -1,0 +1,13 @@
+{
+  "schema": "core.package-manifest@0.1.0",
+  "id": "urn:uuid:00000000-0000-5000-8000-000000000001",
+  "namespace": "example",
+  "slug": "sample-rules",
+  "title": "虚构规则样本",
+  "package_version": "0.1.0",
+  "visibility": "restricted",
+  "language": "zh-Hans",
+  "applicability": {"system_id": "example-system", "ruleset_id": "unknown"},
+  "lifecycle": {"status": "draft", "revision": 1},
+  "extensions": {}
+}

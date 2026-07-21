@@ -1,0 +1,11 @@
+{
+  "schema": "core.source-fragment@0.1.0",
+  "id": "urn:uuid:00000000-0000-5000-8000-000000000004",
+  "entry_id": "urn:uuid:00000000-0000-5000-8000-000000000003",
+  "entry_digest": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "locator": {"kind": "byte-range", "start": 0, "parser": "fixture-parser@1"},
+  "fragment_digest": "sha256:cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+  "source_mapping_ids": [],
+  "boundary_record_id": "urn:uuid:00000000-0000-5000-8000-000000000006",
+  "lifecycle": {"status": "draft", "revision": 1}
+}

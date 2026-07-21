@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "core.source-entry@0.1.0",
+  "title": "LoreBuddy Source Entry",
+  "type": "object",
+  "x-lorebuddy-version": "0.1.0",
+  "x-lorebuddy-profile": "m1-profile@0.1.0",
+  "additionalProperties": false,
+  "required": ["schema", "id", "artifact_id", "original_path", "storage_path", "size", "digest", "media_type", "charset", "extraction_status", "lifecycle"],
+  "properties": {
+    "schema": {"const": "core.source-entry@0.1.0"},
+    "id": {"$ref": "#/$defs/id"},
+    "artifact_id": {"$ref": "#/$defs/id"},
+    "original_path": {"type": "string", "minLength": 1, "not": {"pattern": "\\u0000"}},
+    "storage_path": {
+      "type": "string", "minLength": 1,
+      "allOf": [
+        {"not": {"pattern": "^/"}},
+        {"not": {"pattern": "(^|/)\\.\\.(/|$)"}},
+        {"not": {"pattern": "\\\\"}}
+      ]
+    },
+    "size": {"type": "integer", "minimum": 0},
+    "digest": {"$ref": "#/$defs/digest"},
+    "media_type": {"type": "string", "pattern": "^[a-z0-9.+-]+/[a-z0-9.+-]+$"},
+    "charset": {
+      "type": "object", "additionalProperties": false,
+      "required": ["declared", "detected", "status"],
+      "properties": {
+        "declared": {"type": ["string", "null"]},
+        "detected": {"type": ["string", "null"]},
+        "status": {"enum": ["exact", "mismatch", "unknown", "not-applicable"]}
+      }
+    },
+    "extraction_status": {"enum": ["pending", "extracted", "failed"]},
+    "lifecycle": {"$ref": "#/$defs/lifecycle"},
+    "extensions": {"$ref": "#/$defs/extensions"}
+  },
+  "$defs": {
+    "id": {"type": "string", "pattern": "^urn:uuid:[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"},
+    "digest": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+    "lifecycle": {"type": "object", "additionalProperties": false, "required": ["status", "revision"], "properties": {"status": {"enum": ["draft", "active"]}, "revision": {"type": "integer", "minimum": 1}}},
+    "extensions": {"type": "object", "propertyNames": {"pattern": "^[a-z][a-z0-9-]{1,63}$"}, "additionalProperties": {"type": "object"}}
+  }
+}

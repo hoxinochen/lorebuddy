@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "core.package-manifest@0.1.0",
+  "title": "LoreBuddy M1 Package Manifest",
+  "type": "object",
+  "x-lorebuddy-version": "0.1.0",
+  "x-lorebuddy-profile": "m1-profile@0.1.0",
+  "additionalProperties": false,
+  "required": ["schema", "id", "namespace", "slug", "title", "package_version", "visibility", "language", "lifecycle"],
+  "properties": {
+    "schema": {"const": "core.package-manifest@0.1.0"},
+    "id": {"type": "string", "pattern": "^urn:uuid:[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"},
+    "namespace": {"type": "string", "pattern": "^[a-z][a-z0-9-]{1,63}$"},
+    "slug": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{1,79}$"},
+    "title": {"type": "string", "minLength": 1},
+    "package_version": {"type": "string", "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)(?:-[0-9A-Za-z.-]+)?$"},
+    "visibility": {"enum": ["restricted", "private"]},
+    "language": {"type": "string", "pattern": "^[A-Za-z]{2,8}(?:-[A-Za-z0-9]{1,8})*$"},
+    "applicability": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["system_id", "ruleset_id"],
+      "properties": {
+        "system_id": {"type": "string", "minLength": 1},
+        "ruleset_id": {"type": "string", "minLength": 1}
+      }
+    },
+    "lifecycle": {"$ref": "#/$defs/lifecycle"},
+    "extensions": {"$ref": "#/$defs/extensions"}
+  },
+  "$defs": {
+    "lifecycle": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "revision"],
+      "properties": {"status": {"enum": ["draft", "active"]}, "revision": {"type": "integer", "minimum": 1}}
+    },
+    "extensions": {
+      "type": "object", "propertyNames": {"pattern": "^[a-z][a-z0-9-]{1,63}$"},
+      "additionalProperties": {"type": "object"}
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "core.source-fragment@0.1.0",
+  "title": "LoreBuddy Source Fragment",
+  "type": "object",
+  "x-lorebuddy-version": "0.1.0",
+  "x-lorebuddy-profile": "m1-profile@0.1.0",
+  "additionalProperties": false,
+  "required": ["schema", "id", "entry_id", "entry_digest", "locator", "fragment_digest", "source_mapping_ids", "boundary_record_id", "lifecycle"],
+  "properties": {
+    "schema": {"const": "core.source-fragment@0.1.0"},
+    "id": {"$ref": "#/$defs/id"},
+    "entry_id": {"$ref": "#/$defs/id"},
+    "entry_digest": {"$ref": "#/$defs/digest"},
+    "locator": {
+      "type": "object", "additionalProperties": false,
+      "required": ["kind", "start", "end", "parser"],
+      "properties": {
+        "kind": {"enum": ["byte-range", "dom-event-range"]},
+        "start": {"type": "integer", "minimum": 0},
+        "end": {"type": "integer", "minimum": 1},
+        "parser": {"type": "string", "minLength": 1}
+      }
+    },
+    "fragment_digest": {"$ref": "#/$defs/digest"},
+    "source_mapping_ids": {"type": "array", "items": {"$ref": "#/$defs/id"}, "uniqueItems": true},
+    "boundary_record_id": {"$ref": "#/$defs/id"},
+    "lifecycle": {"$ref": "#/$defs/lifecycle"},
+    "extensions": {"$ref": "#/$defs/extensions"}
+  },
+  "$defs": {
+    "id": {"type": "string", "pattern": "^urn:uuid:[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"},
+    "digest": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+    "lifecycle": {"type": "object", "additionalProperties": false, "required": ["status", "revision"], "properties": {"status": {"enum": ["draft", "active"]}, "revision": {"type": "integer", "minimum": 1}}},
+    "extensions": {"type": "object", "propertyNames": {"pattern": "^[a-z][a-z0-9-]{1,63}$"}, "additionalProperties": {"type": "object"}}
+  }
+}

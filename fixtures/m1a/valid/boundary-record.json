@@ -1,0 +1,18 @@
+{
+  "schema": "core.boundary-record@0.1.0",
+  "id": "urn:uuid:00000000-0000-5000-8000-000000000006",
+  "artifact_id": "urn:uuid:00000000-0000-5000-8000-000000000002",
+  "entry_id": "urn:uuid:00000000-0000-5000-8000-000000000003",
+  "candidate_key": "sha256:eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+  "locator": {"kind": "byte-range", "start": 0, "end": 64},
+  "proposed_title": "虚构规则",
+  "status": "approved",
+  "node_id": "urn:uuid:00000000-0000-5000-8000-000000000007",
+  "decision": {
+    "review_status": "approved",
+    "reviewer_id": "urn:uuid:00000000-0000-5000-8000-000000000009",
+    "reason": "Fixture 中的人工确认示例"
+  },
+  "lifecycle": {"status": "active", "revision": 1},
+  "extensions": {}
+}

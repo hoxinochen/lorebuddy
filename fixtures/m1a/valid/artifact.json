@@ -1,0 +1,13 @@
+{
+  "schema": "core.source-artifact@0.1.0",
+  "id": "urn:uuid:00000000-0000-5000-8000-000000000002",
+  "package_id": "urn:uuid:00000000-0000-5000-8000-000000000001",
+  "original_filename": "fictional-rules.chm",
+  "size": 1024,
+  "digest": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "format": "chm",
+  "acquisition": {"source_kind": "user-provided", "source_label": "虚构 Fixture"},
+  "access_status": "restricted",
+  "lifecycle": {"status": "draft", "revision": 1},
+  "extensions": {}
+}

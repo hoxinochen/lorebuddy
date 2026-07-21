@@ -1,0 +1,9 @@
+{
+  "schema": "core.source-mapping@0.1.0",
+  "id": "urn:uuid:00000000-0000-5000-8000-000000000005",
+  "source": {"kind": "fragment", "id": "urn:uuid:00000000-0000-5000-8000-000000000004"},
+  "target": {"work_id": "unknown", "edition_id": "unknown"},
+  "mapping_status": "guessed",
+  "review_status": "unreviewed",
+  "lifecycle": {"status": "draft", "revision": 1}
+}

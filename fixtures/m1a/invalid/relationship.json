@@ -1,0 +1,10 @@
+{
+  "schema": "core.relationship@0.1.0",
+  "id": "urn:uuid:00000000-0000-5000-8000-000000000010",
+  "source_node_id": "urn:uuid:00000000-0000-5000-8000-000000000007",
+  "predicate": "references",
+  "target": {"kind": "node"},
+  "assertion": {"basis": "source-explicit", "evidence_ids": []},
+  "scope": {"system_id": "example-system", "ruleset_id": "unknown"},
+  "lifecycle": {"status": "draft", "revision": 1}
+}

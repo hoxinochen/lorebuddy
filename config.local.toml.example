@@ -1,0 +1,7 @@
+[obsidian]
+vault_root = "/path/to/your/obsidian-vault"
+test_publish_subdirectory = "_LoreBuddy-M1"
+publish_subdirectory = "LoreBuddy"
+
+[build]
+staging_root = "build/obsidian-staging"

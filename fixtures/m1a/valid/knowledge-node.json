@@ -1,0 +1,24 @@
+{
+  "schema": "core.knowledge-node@0.1.0",
+  "id": "urn:uuid:00000000-0000-5000-8000-000000000007",
+  "package_id": "urn:uuid:00000000-0000-5000-8000-000000000001",
+  "kind": "rule",
+  "title": "虚构规则",
+  "language": "zh-Hans",
+  "aliases": [{"value": "Fictional Rule", "language": "en"}],
+  "content": {
+    "mode": "transcription",
+    "fidelity_target": "verbatim-visible-text",
+    "body_digest": "sha256:dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+  },
+  "provenance": [{
+    "id": "urn:uuid:00000000-0000-5000-8000-000000000008",
+    "fragment_id": "urn:uuid:00000000-0000-5000-8000-000000000004",
+    "role": "transcription",
+    "coverage": "full",
+    "source_mapping_ids": ["urn:uuid:00000000-0000-5000-8000-000000000005"]
+  }],
+  "relationship_ids": [],
+  "lifecycle": {"status": "draft", "revision": 1},
+  "extensions": {}
+}

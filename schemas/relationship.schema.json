@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "core.relationship@0.1.0",
+  "title": "LoreBuddy Relationship",
+  "type": "object",
+  "x-lorebuddy-version": "0.1.0",
+  "x-lorebuddy-profile": "m1-profile@0.1.0",
+  "additionalProperties": false,
+  "required": ["schema", "id", "source_node_id", "predicate", "target", "assertion", "scope", "lifecycle"],
+  "properties": {
+    "schema": {"const": "core.relationship@0.1.0"},
+    "id": {"$ref": "#/$defs/id"},
+    "source_node_id": {"$ref": "#/$defs/id"},
+    "predicate": {"type": "string", "pattern": "^[a-z][a-z0-9._-]{1,127}$"},
+    "target": {
+      "type": "object", "additionalProperties": false,
+      "required": ["kind", "id"],
+      "properties": {
+        "kind": {"enum": ["node", "external"]},
+        "id": {"type": "string", "minLength": 1}
+      }
+    },
+    "assertion": {
+      "type": "object", "additionalProperties": false,
+      "required": ["basis", "evidence_ids"],
+      "properties": {
+        "basis": {"enum": ["source-explicit", "editorial-reviewed", "inferred", "unknown"]},
+        "evidence_ids": {"type": "array", "items": {"$ref": "#/$defs/id"}, "uniqueItems": true}
+      }
+    },
+    "scope": {
+      "type": "object", "additionalProperties": false,
+      "required": ["system_id", "ruleset_id"],
+      "properties": {"system_id": {"type": "string", "minLength": 1}, "ruleset_id": {"type": "string", "minLength": 1}}
+    },
+    "lifecycle": {"$ref": "#/$defs/lifecycle"},
+    "extensions": {"$ref": "#/$defs/extensions"}
+  },
+  "$defs": {
+    "id": {"type": "string", "pattern": "^urn:uuid:[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"},
+    "lifecycle": {"type": "object", "additionalProperties": false, "required": ["status", "revision"], "properties": {"status": {"enum": ["draft", "active", "deprecated", "withdrawn"]}, "revision": {"type": "integer", "minimum": 1}}},
+    "extensions": {"type": "object", "propertyNames": {"pattern": "^[a-z][a-z0-9-]{1,63}$"}, "additionalProperties": {"type": "object"}}
+  }
+}

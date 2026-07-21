@@ -1,0 +1,10 @@
+{
+  "schema": "core.package-manifest@0.1.0",
+  "namespace": "example",
+  "slug": "sample-rules",
+  "title": "缺少 Package ID",
+  "package_version": "0.1.0",
+  "visibility": "restricted",
+  "language": "zh-Hans",
+  "lifecycle": {"status": "draft", "revision": 1}
+}

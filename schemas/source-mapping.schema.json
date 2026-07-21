@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "core.source-mapping@0.1.0",
+  "title": "LoreBuddy Source Mapping",
+  "type": "object",
+  "x-lorebuddy-version": "0.1.0",
+  "x-lorebuddy-profile": "m1-profile@0.1.0",
+  "additionalProperties": false,
+  "required": ["schema", "id", "source", "target", "mapping_status", "review_status", "lifecycle"],
+  "properties": {
+    "schema": {"const": "core.source-mapping@0.1.0"},
+    "id": {"$ref": "#/$defs/id"},
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["kind", "id"],
+      "properties": {"kind": {"enum": ["entry", "fragment"]}, "id": {"$ref": "#/$defs/id"}}
+    },
+    "target": {
+      "type": "object", "additionalProperties": false,
+      "required": ["work_id", "edition_id"],
+      "properties": {
+        "work_id": {"oneOf": [{"$ref": "#/$defs/id"}, {"const": "unknown"}]},
+        "edition_id": {"oneOf": [{"$ref": "#/$defs/id"}, {"const": "unknown"}]}
+      }
+    },
+    "mapping_status": {"enum": ["verified", "claimed", "inferred", "unknown"]},
+    "review_status": {"enum": ["approved", "pending", "unreviewed"]},
+    "lifecycle": {"$ref": "#/$defs/lifecycle"},
+    "extensions": {"$ref": "#/$defs/extensions"}
+  },
+  "$defs": {
+    "id": {"type": "string", "pattern": "^urn:uuid:[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"},
+    "lifecycle": {"type": "object", "additionalProperties": false, "required": ["status", "revision"], "properties": {"status": {"enum": ["draft", "active", "deprecated"]}, "revision": {"type": "integer", "minimum": 1}}},
+    "extensions": {"type": "object", "propertyNames": {"pattern": "^[a-z][a-z0-9-]{1,63}$"}, "additionalProperties": {"type": "object"}}
+  }
+}

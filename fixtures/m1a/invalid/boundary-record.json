@@ -1,0 +1,13 @@
+{
+  "schema": "core.boundary-record@0.1.0",
+  "id": "urn:uuid:00000000-0000-5000-8000-000000000006",
+  "artifact_id": "urn:uuid:00000000-0000-5000-8000-000000000002",
+  "entry_id": "urn:uuid:00000000-0000-5000-8000-000000000003",
+  "candidate_key": "sha256:eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+  "locator": {"kind": "byte-range", "start": 0, "end": 64},
+  "proposed_title": "批准状态却没有 Node ID",
+  "status": "approved",
+  "node_id": null,
+  "decision": {"review_status": "approved", "reviewer_id": null, "reason": null},
+  "lifecycle": {"status": "active", "revision": 1}
+}
