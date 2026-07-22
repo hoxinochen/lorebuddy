@@ -14,7 +14,7 @@
 
 ## 2. 项目当前状态
 
-Milestone 0 已建立架构基线，Milestone 0.5 已完成 Scope Alignment。当前 `Milestone 1-A: Executable Foundation` 已完成待确认：可执行 Schema、Registry、Fixture、Validator、ID / Slug、配置、CLI 与测试已建立；尚未创建正式 Package、读取 CHM 或写入 Obsidian Vault。
+Milestone 0 已建立架构基线，Milestone 0.5 已完成 Scope Alignment，`Milestone 1-A: Executable Foundation` 已通过架构门禁。`Milestone 1-B: Controlled Acquisition and Source Inventory` 已完成真实摄取、完整 Inventory、Source Preservation、来源语义验证与确定性重跑，等待架构确认；不自动进入样本语义阶段或 Obsidian 发布阶段。
 
 ---
 
@@ -68,7 +68,7 @@ Required / Deferred 无歧义；Workspace / Vault 和本地配置边界明确；
 
 ## 5. Milestone 1：Minimal Ingestion Vertical Slice
 
-当前状态：M1-A Executable Foundation 完成待确认；M1-B 尚未开始。
+当前状态：M1-A Executable Foundation 已确认；M1-B Controlled Acquisition and Source Inventory 完成待架构确认。
 
 ### Goal
 

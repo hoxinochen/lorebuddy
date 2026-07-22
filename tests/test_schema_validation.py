@@ -26,7 +26,11 @@ def test_all_valid_and_invalid_fixtures_have_expected_result() -> None:
             counts[expectation] += 1
             schema_ids[expectation].add(data["schema"])
     assert counts == {"valid": 8, "invalid": 8}
-    registered = {entry.schema_id for entry in validator.registry.list_entries()}
+    registered = {
+        entry.schema_id
+        for entry in validator.registry.list_entries()
+        if entry.schema_id.startswith("core.")
+    }
     assert schema_ids == {"valid": registered, "invalid": registered}
 
 

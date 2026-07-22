@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "m1b.acquisition-report@0.1.0",
+  "title": "M1-B Acquisition Report",
+  "type": "object",
+  "x-lorebuddy-version": "0.1.0",
+  "x-lorebuddy-profile": "m1-profile@0.1.0",
+  "additionalProperties": false,
+  "required": ["schema", "artifact_id", "artifact_digest", "backend", "summary", "inventory_files", "deterministic_fields", "non_deterministic_fields", "semantic_inventory_sha256"],
+  "properties": {
+    "schema": {"const": "m1b.acquisition-report@0.1.0"},
+    "artifact_id": {"type": "string"},
+    "artifact_digest": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+    "backend": {"$ref": "#/$defs/backend"},
+    "summary": {"type": "object"},
+    "inventory_files": {"type": "object", "additionalProperties": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"}},
+    "deterministic_fields": {"type": "string"},
+    "non_deterministic_fields": {"type": "array", "items": {"type": "string"}},
+    "semantic_inventory_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  },
+  "$defs": {"backend": {"type": "object", "additionalProperties": false, "required": ["name", "version", "executable_name", "executable_sha256"], "properties": {"name": {"type": "string"}, "version": {"type": "string"}, "executable_name": {"type": "string"}, "executable_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}}}}
+}

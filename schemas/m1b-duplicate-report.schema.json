@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "m1b.duplicate-report@0.1.0",
+  "title": "M1-B Duplicate Report",
+  "type": "object",
+  "x-lorebuddy-version": "0.1.0",
+  "x-lorebuddy-profile": "m1-profile@0.1.0",
+  "additionalProperties": false,
+  "required": ["schema", "byte_identical_groups", "same_name_different_content_groups", "path_conflicts", "summary"],
+  "properties": {
+    "schema": {"const": "m1b.duplicate-report@0.1.0"},
+    "byte_identical_groups": {"type": "array", "items": {"type": "object", "required": ["digest", "entry_ids", "paths"], "additionalProperties": false, "properties": {"digest": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"}, "entry_ids": {"type": "array", "minItems": 2, "items": {"type": "string"}}, "paths": {"type": "array", "minItems": 2, "items": {"type": "string"}}}}},
+    "same_name_different_content_groups": {"type": "array", "items": {"type": "object", "required": ["filename_key", "entry_ids"], "additionalProperties": false, "properties": {"filename_key": {"type": "string"}, "entry_ids": {"type": "array", "minItems": 2, "items": {"type": "string"}}}}},
+    "path_conflicts": {"type": "object", "additionalProperties": {"type": "array", "items": {"type": "string"}}},
+    "summary": {"type": "object", "additionalProperties": false, "required": ["byte_identical_groups", "same_name_different_content_groups", "path_conflict_entries"], "properties": {"byte_identical_groups": {"type": "integer", "minimum": 0}, "same_name_different_content_groups": {"type": "integer", "minimum": 0}, "path_conflict_entries": {"type": "integer", "minimum": 0}}}
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "schema": "m1b.source-path-map-record@0.1.0",
+  "entry_id": "not-an-id",
+  "original_path": "../index.html",
+  "normalized_path": "../index.html",
+  "preserved_path": "entries/../index.html",
+  "path_status": "safe",
+  "safety_remapped": false
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "m1b.source-path-map-record@0.1.0",
+  "title": "M1-B Source Path Map Record",
+  "type": "object",
+  "x-lorebuddy-version": "0.1.0",
+  "x-lorebuddy-profile": "m1-profile@0.1.0",
+  "additionalProperties": false,
+  "required": ["schema", "entry_id", "original_path", "normalized_path", "preserved_path", "path_status", "safety_remapped"],
+  "properties": {
+    "schema": {"const": "m1b.source-path-map-record@0.1.0"},
+    "entry_id": {"type": "string", "pattern": "^urn:uuid:[0-9a-f-]{36}$"},
+    "original_path": {"type": "string", "minLength": 1},
+    "normalized_path": {"type": "string", "minLength": 1},
+    "preserved_path": {"type": "string", "pattern": "^entries/", "not": {"pattern": "(^|/)\\.\\.(/|$)"}},
+    "path_status": {"type": "string", "minLength": 1},
+    "safety_remapped": {"type": "boolean"}
+  }
+}

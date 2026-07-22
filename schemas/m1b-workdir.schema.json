@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "m1b.acquisition-workdir@0.1.0",
+  "title": "M1-B Acquisition Workdir Ownership",
+  "type": "object",
+  "x-lorebuddy-version": "0.1.0",
+  "x-lorebuddy-profile": "m1-profile@0.1.0",
+  "additionalProperties": false,
+  "required": ["schema", "artifact_id"],
+  "properties": {"schema": {"const": "m1b.acquisition-workdir@0.1.0"}, "artifact_id": {"type": "string", "pattern": "^urn:uuid:[0-9a-f-]{36}$"}}
+}

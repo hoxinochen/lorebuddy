@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "m1b.backend-execution@0.1.0",
+  "title": "M1-B Backend Execution Log",
+  "type": "object",
+  "x-lorebuddy-version": "0.1.0",
+  "x-lorebuddy-profile": "m1-profile@0.1.0",
+  "additionalProperties": false,
+  "required": ["schema", "backend", "argv", "exit_code", "stdout", "stderr", "duration_seconds"],
+  "properties": {
+    "schema": {"const": "m1b.backend-execution@0.1.0"},
+    "backend": {"type": "object"},
+    "argv": {"type": "array", "items": {"type": "string"}},
+    "exit_code": {"type": "integer"},
+    "stdout": {"type": "string"},
+    "stderr": {"type": "string"},
+    "duration_seconds": {"type": "number", "minimum": 0}
+  }
+}

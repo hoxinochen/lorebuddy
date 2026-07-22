@@ -1,6 +1,6 @@
 # Milestone 1：最小摄取纵向闭环
 
-状态：**M1 Design Confirmed / M1-A 完成待确认**  
+状态：**M1 Design Confirmed / M1-B 完成待架构确认**
 实施配置版本：`m1-profile@0.1.0`  
 前置基线：[Milestone 0](../milestone-0/README.md)
 
@@ -57,6 +57,7 @@ M0 描述 LoreBuddy 的长期架构上限；M1 Implementation Profile 决定当�
 | [Obsidian Publish Profile](obsidian-publish-profile.md) | Workspace → Staging → Vault 的本地发布合同 |
 | [Backlog](backlog.md) | 暂缓能力、未来启用条件和兼容点 |
 | [M1-A Executable Foundation](m1a-executable-foundation.md) | Schema、Registry、Fixture、Validator、CLI 与测试基础 |
+| [M1-B Controlled Acquisition](m1b-controlled-acquisition.md) | 受控 CHM 摄取、完整 Entry Inventory 与 Source Preservation |
 | [项目 Roadmap](../../ROADMAP.md) | 渐进式开发顺序与各阶段 Exit Gate |
 
 ## 5. 本轮不产生的内容
@@ -82,14 +83,15 @@ M0 描述 LoreBuddy 的长期架构上限；M1 Implementation Profile 决定当�
 
 ## 7. 当前执行状态
 
-M1 设计已确认。`Milestone 1-A: Executable Foundation` 已建立可执行 Schema、Registry、Fixture、Validator、稳定 ID / Slug、配置读取、CLI 和自动测试，等待本轮实现确认。
+M1 设计与 `Milestone 1-A: Executable Foundation` 已通过架构门禁。`Milestone 1-B: Controlled Acquisition and Source Inventory` 已完成真实 CHM 摘要核对、7-Zip 受控解包、7,148 个 Entry 的 Inventory 与原始字节保存、来源语义验证和两次确定性重跑，等待架构确认。当前停留在 M1-B，不进入 M1-C。
 
-进入 M1-B 前仍需用户确认：
+M1-B 已确认以下实施边界：
 
-1. 8 个 M1 最小 Schema 的字段边界；
-2. UUIDv5 只用于显式输入的确定性基础身份，最终 Node 身份仍等待样本验证；
-3. 中文标题在 M1-A 不依赖拼音库，默认回退为 `node--<short-id>.md`；
-4. M1-B 只允许建立受限 Acquisition Package 与真实 Inventory，不自动开始样本转换；
-5. 本地绝对路径继续只由未跟踪配置注入。
+1. M1-A 基础设施继续作为依赖；
+2. Artifact 与 Entry 使用显式来源事实派生的确定性 UUIDv5；
+3. CHM 原件保持忽略、未提交和不可修改；
+4. 真实产物只写入 Git 忽略的 `build/`；
+5. 不生成 Fragment、Boundary、Knowledge Node、Library、Relationship 或 Publisher；
+6. 不访问 Obsidian Vault，不进入 M1-C。
 
-确认 M1-A 不等于授权公开发布、CHM 摄取或 Vault 写入。
+完成 M1-B 后必须停止并等待架构确认；M1-B 通过不自动授权样本语义解析、公开发布或 Vault 写入。

@@ -25,20 +25,22 @@ D&D 5e 只是首个输入场景。所有平台级设计都必须能够容纳 Pat
 
 ## 3. 当前阶段门禁
 
-当前阶段为 `Milestone 1-A: Executable Foundation`。当前实施合同是 `docs/milestone-1/implementation-profile.md`；Milestone 0 文档仍是架构上限，但不自动构成 M1-A 的强制实现范围。发生范围冲突时，依次遵循 M1 Implementation Profile、M1 Decision Status、M1 Acceptance Criteria，再回到 M0 Architecture Baseline。
+当前阶段为 `Milestone 1-B: Controlled Acquisition and Source Inventory`。当前实施合同是 `docs/milestone-1/implementation-profile.md`；Milestone 0 文档仍是架构上限，但不自动构成 M1-B 的强制实现范围。发生范围冲突时，依次遵循 M1 Implementation Profile、M1 Decision Status、M1 Acceptance Criteria、M1-B 已确认实施边界，再回到 M0 Architecture Baseline。
 
-本阶段只允许实现 M1-A 明确要求的可执行基础设施：Python Package 骨架、M1 最小 Schema、Schema Registry、虚构 Fixture、Validator、稳定 ID / Slug 工具、本地配置读取、基础 CLI、自动测试与配套文档。不得自行恢复 M1 已标记为 `DEFERRED` 或 `OUT_OF_SCOPE` 的能力。
+本阶段只允许 Acquire、完整 Entry Inventory 和 Preserve Source；M1-A 的 Schema、Registry、Validator、稳定 ID、配置与 CLI 基础设施继续作为依赖。允许在 Git 忽略的 `build/` 中对摘要已确认的真实 CHM 执行受控解包与确定性验证。不得自行恢复 M1 已标记为 `DEFERRED` 或 `OUT_OF_SCOPE` 的能力。
 
-在下一阶段获得确认前：
+在 M1-B 完成并获得下一阶段确认前：
 
-- 不解包、解析或转换真实 CHM；
-- 不创建真实 Entry Inventory；
-- 不创建正式 Package、`sources/`、`library/` 或 Knowledge Node；
-- 不执行样本摄取、Boundary 人审或 Fidelity 验证；
+- 不生成 Source Fragment；
+- 不进行 Boundary Candidate 判断或 Boundary 人工确认；
+- 不生成 Knowledge Node 或 Markdown Library；
+- 不构建 Relationship、Alias Index 或 Node Index；
 - 不实现 Publisher、Obsidian Staging 或 Vault 写入；
 - 不访问或修改 Obsidian Vault 与 `.obsidian/`；
+- 不进行样本语义解析或完整 Fidelity Coverage Map；
 - 不实现 AI、Agent、RAG、Embedding、向量数据库、Runtime、Campaign 或多设备同步；
-- 完成 M1-A 交付和验证后立即停止，等待架构确认。
+- 不进入 M1-C；
+- 完成 M1-B 交付和验证后立即停止，等待架构确认。
 
 ## 4. 不可变原则
 

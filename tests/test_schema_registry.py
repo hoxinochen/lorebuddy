@@ -14,8 +14,9 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 def test_registry_loads_all_m1a_schemas() -> None:
     registry = SchemaRegistry.from_project_root(PROJECT_ROOT)
     entries = registry.list_entries()
-    assert len(entries) == 8
-    assert {entry.status for entry in entries} == {"active", "experimental"}
+    m1a_entries = [entry for entry in entries if entry.schema_id.startswith("core.")]
+    assert len(m1a_entries) == 8
+    assert {entry.status for entry in m1a_entries} == {"active", "experimental"}
     assert all(entry.profile == "m1-profile@0.1.0" for entry in entries)
 
 

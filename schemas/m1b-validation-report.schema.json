@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "m1b.acquisition-validation-report@0.1.0",
+  "title": "M1-B Acquisition Validation Report",
+  "type": "object",
+  "x-lorebuddy-version": "0.1.0",
+  "x-lorebuddy-profile": "m1-profile@0.1.0",
+  "additionalProperties": false,
+  "required": ["schema", "valid", "errors", "summary"],
+  "properties": {
+    "schema": {"const": "m1b.acquisition-validation-report@0.1.0"},
+    "valid": {"type": "boolean"},
+    "errors": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["code", "message"], "properties": {"code": {"type": "string"}, "message": {"type": "string"}}}},
+    "summary": {"type": "object", "additionalProperties": false, "required": ["artifact_count", "entry_count", "saved_file_count"], "properties": {"artifact_count": {"type": "integer", "minimum": 0}, "entry_count": {"type": "integer", "minimum": 0}, "saved_file_count": {"type": "integer", "minimum": 0}}}
+  }
+}
