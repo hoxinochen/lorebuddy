@@ -15,34 +15,55 @@ D&D 5e 只是首个输入场景。所有平台级设计都必须能够容纳 Pat
 3. 为什么不采用替代方案？
 4. 对版本、迁移、追溯和未来系统有什么影响？
 
-## 2. 沟通与文档
+## 2. 产品交付原则
+
+在不破坏 Architecture Authority、Deterministic Build、Source Fidelity 和 Module Boundary 的前提下，LoreBuddy 默认优先缩短用户获得可用产品的反馈周期。
+
+若多个方案均满足工程质量要求，默认优先：
+
+- 更早交付用户可见能力；
+- 更短反馈循环；
+- 更小、可验证、可独立发布的 Milestone；
+- 避免为了未来架构提前引入当前版本不会使用的复杂度。
+
+该原则属于产品策略，不能作为降低 Fidelity、Validator、Architecture 或测试质量的理由。
+
+## 3. 沟通与文档
 
 - 默认使用简体中文。
 - 专业术语首次出现时采用“中文（English）”形式；Schema、Runtime、Package、Manifest、Front Matter、Graph、Relationship、Protocol 等约定术语可直接保留英文。
 - 文档采用工程说明风格，不写营销文案，不用未验证的断言代替证据。
 - 架构变更必须更新相应规范；改变已确认边界时必须增加架构决策记录（Architecture Decision Record，ADR）。
 - 不确定的来源、授权、版本或映射必须显式标记为 `unknown`、`claimed` 或 `inferred`，不得猜测。
+- 当 Prompt 已明确声明“先读取并遵守 AGENTS.md、ROADMAP.md、Milestone 文档”时，后续 Prompt 不应重复复述这些文档内容。Prompt 应尽可能保持精简，只描述本轮目标、新增约束、本轮范围和 Deliverable。
 
-## 3. 当前阶段门禁
+## 4. 当前阶段门禁
 
-当前阶段为 `Milestone 1-B: Controlled Acquisition and Source Inventory`。当前实施合同是 `docs/milestone-1/implementation-profile.md`；Milestone 0 文档仍是架构上限，但不自动构成 M1-B 的强制实现范围。发生范围冲突时，依次遵循 M1 Implementation Profile、M1 Decision Status、M1 Acceptance Criteria、M1-B 已确认实施边界，再回到 M0 Architecture Baseline。
+当前阶段为 `Milestone 1-C4: GPT Project Export（实现与自动验收完成）`。当前实施合同是 `docs/milestone-1/implementation-profile.md`；Milestone 0 文档仍是架构上限，但不自动构成 M1-C4 的强制实现范围。发生范围冲突时，依次遵循 M1 Implementation Profile、M1 Decision Status、M1 Acceptance Criteria、经确认的 M1-C4 实施边界，再回到 M0 Architecture Baseline。
 
-本阶段只允许 Acquire、完整 Entry Inventory 和 Preserve Source；M1-A 的 Schema、Registry、Validator、稳定 ID、配置与 CLI 基础设施继续作为依赖。允许在 Git 忽略的 `build/` 中对摘要已确认的真实 CHM 执行受控解包与确定性验证。不得自行恢复 M1 已标记为 `DEFERRED` 或 `OUT_OF_SCOPE` 的能力。
+M1-C1 的 10 个复杂真实样本已于 2026-07-23 通过人工验收；M1-C2A 已为 6,819 个 HTML Entry 生成两份零差异的全量 Markdown 构建。M1-C2B 已修复三个已确认的 Converter Bug 家族并通过 Release Gate。M1-C3 的自动验收与 Obsidian 人工验收均已完成。M1-C4 已把通过 Validator 的 M1-C3 Baseline 确定性导出为 20 个 GPT Project 文件：2 个控制文件、18 个内容包、6,819 个 Entry 原字节各保留一次；全局任务路由和包级内容导航由 Publisher 路径机械生成，默认采用明确可识别的最新适用规则。不得自行恢复 M1 已标记为 `DEFERRED` / `OUT_OF_SCOPE` 的能力。
 
-在 M1-B 完成并获得下一阶段确认前：
+在新的实施门禁获得确认前：
 
 - 不生成 Source Fragment；
 - 不进行 Boundary Candidate 判断或 Boundary 人工确认；
 - 不生成 Knowledge Node 或 Markdown Library；
 - 不构建 Relationship、Alias Index 或 Node Index；
-- 不实现 Publisher、Obsidian Staging 或 Vault 写入；
+- M1-C3 与 M1-C4 产物只允许保留在 Workspace 的 Git 忽略构建目录；
 - 不访问或修改 Obsidian Vault 与 `.obsidian/`；
-- 不进行样本语义解析或完整 Fidelity Coverage Map；
+- 不进行完整 Fidelity Coverage Map；
 - 不实现 AI、Agent、RAG、Embedding、向量数据库、Runtime、Campaign 或多设备同步；
-- 不进入 M1-C；
-- 完成 M1-B 交付和验证后立即停止，等待架构确认。
+- 不按导航树复制同一正文；
+- 不批量修复 unresolved 或 Source 缺陷；
+- 不实现向用户现有 Vault 的覆盖、增量同步或删除；
+- 不扩大 Validator；
+- 不重新执行 M1-C2A 或 M1-C3 全量构建，除非新的实施门禁明确要求；
+- 不进入 M2；
+- 不继续修改已通过的 Publisher 或 GPT Export，除非用户验收发现可复现问题；
+- GPT Export 只消费显式 M1-C3 Baseline，不读取隐式 Source 或 Vault 状态；
+- GPT Export 不得把文件合并行为表述为 Fragment、Knowledge Node 或语义切分。
 
-## 4. 不可变原则
+## 5. 不可变原则
 
 ### 4.1 原始来源不可变
 
@@ -100,7 +121,7 @@ Source Fragment / Entry
 
 在授权 Access Domain 中，上述完整链必须可解析。公开 Package 无权披露受限 Source 时，只能使用 `external-public-receipt` 并标记 `traceability: attested`；完整 Fragment、Mapping、Review 和 Lock 必须存在于受限 Audit Package，公开 Receipt 不得冒充 Full Traceability。
 
-## 5. 目标目录职责
+## 6. 目标目录职责
 
 平台级目录不得包含 D&D 专属命名。
 
@@ -132,7 +153,7 @@ packages/<namespace>/<package-slug>/
 
 Package 是发布、授权、依赖和访问控制边界。不得把整个规则系统默认做成一个永久 Package。
 
-## 6. 新增知识的位置
+## 7. 新增知识的位置
 
 - 原始容器、原始 HTML、图片、CSS、导航和索引资源进入 `sources/artifacts/`。
 - 每个 Artifact 的 `inventory.jsonl` 是 `core.source-entry@0.1.0` 的唯一规范记录流；`entries/` 只保存其指向的不可变字节，`path-map.jsonl` 只能由 Inventory 确定性生成。
@@ -161,7 +182,7 @@ Package 是发布、授权、依赖和访问控制边界。不得把整个规则
 
 禁止直接手工编辑 `index/`。若索引错误，应修改事实源或生成器后重建。
 
-## 7. 元数据维护
+## 8. 元数据维护
 
 - Front Matter 必须通过对应 Schema。
 - `id` 使用稳定 UUID URN；标题、slug、路径和正文摘要都不是身份。
@@ -172,7 +193,7 @@ Package 是发布、授权、依赖和访问控制边界。不得把整个规则
 - 标签使用命名空间化标识；不得把自由文本标签当作稳定分类。
 - 正文摘要只用于完整性校验，不用于节点身份。
 
-## 8. 新增 Package
+## 9. 新增 Package
 
 新增 Package 前必须明确：
 
@@ -190,7 +211,7 @@ Package 是发布、授权、依赖和访问控制边界。不得把整个规则
 
 `public | restricted | private` 不是足够的线性授权模型；依赖还必须通过 Access Domain / Principal 判定。公开 Release 采用默认拒绝 Rights 合并，并从空目录按 Payload 白名单生成；`reports/`、私有 Lock、完整 Review 或任意额外文件不得进入 Release Archive。
 
-## 9. 支持新的 TRPG 系统
+## 10. 支持新的 TRPG 系统
 
 - 先建立系统与规则版本注册项，再建立 Package。
 - 平台核心只提供通用 Envelope、来源、关系、规则、参考条目、叙事实体和事件等能力。
@@ -198,7 +219,7 @@ Package 是发布、授权、依赖和访问控制边界。不得把整个规则
 - 至少在多个系统中证明语义一致后，字段或关系才能提升到平台核心。
 - 不建立包含大量无意义可选字段的“万能 TRPG Schema”。
 
-## 10. 避免重复知识
+## 11. 避免重复知识
 
 - 相同标题、文件名、Alias 或相似正文只能产生重复候选，不能触发自动合并。
 - 逐字相同但来源、版本或适用范围不同的文本仍可作为不同节点保存。
@@ -206,7 +227,7 @@ Package 是发布、授权、依赖和访问控制边界。不得把整个规则
 - 版本变体使用 `variant_of`、`revises`、`corrects`、`supersedes` 或 `translation_of` 等关系连接。
 - 汇总概念可以建立无官方正文的概念节点，但不得把编辑性总结混入官方转写正文。
 
-## 11. 转换与验证要求
+## 12. 转换与验证要求
 
 - 转换必须可重跑、幂等并锁定工具版本。
 - 构建过程中不得依赖网络上的“最新内容”。外部资源必须作为单独摄取行为处理。
@@ -221,7 +242,7 @@ Package 是发布、授权、依赖和访问控制边界。不得把整个规则
 - 同一输入、相同工具链、相同人工决策账本必须生成字节一致的规范输出。
 - 所有异常必须进入机器可读问题清单，禁止静默跳过。
 
-## 12. 提交前检查
+## 13. 提交前检查
 
 涉及规范或知识数据的变更至少检查：
 

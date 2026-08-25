@@ -14,7 +14,80 @@
 
 ## 2. 项目当前状态
 
-Milestone 0 已建立架构基线，Milestone 0.5 已完成 Scope Alignment，`Milestone 1-A: Executable Foundation` 已通过架构门禁。`Milestone 1-B: Controlled Acquisition and Source Inventory` 已完成真实摄取、完整 Inventory、Source Preservation、来源语义验证与确定性重跑，等待架构确认；不自动进入样本语义阶段或 Obsidian 发布阶段。
+Milestone 0 已建立架构基线，Milestone 0.5 已完成 Scope Alignment，M1-A 与 M1-B 已通过架构门禁。M1-C1 已通过人工验收，M1-C2A 已生成全量 Markdown 构建，M1-C2B 已通过 Release Gate。M1-C3 已完成人工与自动验收。M1-C4 已生成低文件数 GPT Project Export。
+
+---
+
+## Current Product State
+
+### Current Release
+
+当前产品基线包括 M1-C3 Obsidian Baseline Vault 与 M1-C4 GPT Project Export。前者包含 6,819 份可搜索 Note、104 个本地资产、8,187 个完整 HHC 导航节点、1,489 个分层导航索引、首页、稳定 Ownership Manifest 与报告；后者把全部正文原字节收纳为 20 个可上传文件，通过全局任务路由和包级内容导航减少无关检索，并保留后续文件名额。
+
+### User-visible Capabilities
+
+- Full Markdown Archive：6,819 个真实 HTML Entry 已生成可阅读 Markdown；
+- Asset Extraction：104 个可用本地资产已提取并校验；
+- Deterministic Build：两次独立全量构建完整目录零差异；
+- Validator：可检查 UTF-8、路径、Front Matter、Manifest、Asset 与输出闭合；
+- Reports：提供编码、Fidelity、Link、Asset、Navigation 和失败分类；
+- Manifest：每个物理 Entry 有稳定 ID、Source Path、Navigation Paths 和输出位置；
+- Obsidian Baseline Vault：可直接打开、按与 Source Path 最相符的 HHC 主路径浏览和全文搜索；
+- Navigation：Home、69 个顶层入口及保留纯目录节点与兄弟顺序的完整 HHC 树；
+- Link Projection：已解析内部链接和本地图片在发布视图中闭合。
+- GPT Project Export：可把完整正文作为低文件数资料上传给 GPT 使用，并按任务、来源和导航主题缩小检索范围。
+
+### Current Limitations
+
+产品暂未实现：
+
+- 尚未向用户现有 Vault 执行增量覆盖发布；
+- 尚无 Fragment、Knowledge Node 或 AI Native Knowledge Library。
+- GPT 内容包不包含图片二进制，合并后的原相对链接不保证可点击。
+
+Source Reality：
+
+- 4,403 个缺失目标、135 个缺失 Anchor、134 个缺失本地 Asset；
+- 38 个 External Image Reference；
+- 74 个正文极短但完整保留的 Source 页面；
+- 1 个 Intentional Blank 页面。
+
+后续 Milestone：
+
+- M2 提供可恢复、可审核的受控批次更新；
+- 后续 Knowledge Layer 再引入 Fragment、Knowledge Node 与检索能力。
+
+### 已完成的真实使用验证与下一步
+
+用户已经在 ChatGPT Project 使用 M1-C4 Export，并形成两套基于实际体验的优化稿：
+一套为 GPT 的 20 文件以内特化输入，另一套为 NotebookLM 使用的语料库。两者又用于
+DND Terminal 的建卡、测试怪物数据、技能合规和角色卡合规工作。结论见
+[`M1 使用反馈与 v0.2 需求依据`](docs/milestone-1/m1-usage-feedback-and-v02-requirements.md)。
+
+下一步是封存该使用证据和 M1-C1～C4 的可复现工程基线，再以新的 Implementation
+Profile 启动“可选择规则知识层”。当前状态不自动授权 M2 或 Knowledge Layer。
+
+---
+
+## User Deliverables
+
+| 阶段 | User Deliverable |
+|---|---|
+| M0 | 可审阅的 Knowledge Package Architecture Baseline |
+| M0.5 | 与本地优先、单用户、Obsidian 目标对齐的 M1 实施合同 |
+| M1-A | 可执行 CLI、Schema Registry、Validator 与测试基础 |
+| M1-B | 完整 Source Inventory、原始 Entry 保存和可复核摘要 |
+| M1-C1 | 10 个经人工验收的真实 Markdown 样本 |
+| M1-C2A | Full Markdown Archive、Assets、Reports、Validator、Manifest |
+| M1-C2B | Release Checklist、Known Limitations、Release Decision、Publisher Input Contract |
+| M1-C3 | Obsidian Baseline Vault：可浏览、可搜索、图片、内部链接、自动索引 |
+| M1-C4 | GPT Project Export：20 个上传文件、完整正文、稳定来源元数据和后续文件余量 |
+| M2 | 可暂停、可审核、可恢复的受控批次更新及质量报告 |
+| M3 | 可日常使用、可增量发布、可回滚的正式 Obsidian Vault |
+| M4 | 面向实际查询的导航、全文搜索与来源定位 |
+| M5 | 第二 Ruleset 的可用知识包，证明产品不绑定 D&D |
+| M6 | 与生成内容隔离的个人笔记、Campaign、House Rule 和批注工作流 |
+| Future RFC | 经授权、可审计的共享或公开 Release |
 
 ---
 
@@ -40,6 +113,10 @@ CHM 只读分析；Package 与四层边界；Source、Provenance、Node、Relati
 
 M0 Draft 被接受为 Architecture Baseline；未激活能力不成为 M1 门禁。
 
+### User Deliverable
+
+一套可供后续实现、审核和迁移使用的 Knowledge Package Architecture Baseline。
+
 ---
 
 ## 4. Milestone 0.5：Scope Alignment
@@ -64,11 +141,15 @@ Required / Deferred 无歧义；Workspace / Vault 和本地配置边界明确；
 
 用户确认 M1 Profile、决策状态、Obsidian Profile 和验收标准。
 
+### User Deliverable
+
+一份明确当前产品边界、Vault 目标和 Deferred 能力的 M1 实施合同。
+
 ---
 
 ## 5. Milestone 1：Minimal Ingestion Vertical Slice
 
-当前状态：M1-A Executable Foundation 已确认；M1-B Controlled Acquisition and Source Inventory 完成待架构确认。
+当前状态：M1-A、M1-B 与 M1-C1 已确认；M1-C2A 已完成；M1-C2B Release Gate 已通过；M1-C3 人工与自动验收完成；M1-C4 GPT Project Export 已完成。
 
 ### Goal
 
@@ -89,6 +170,10 @@ Required / Deferred 无歧义；Workspace / Vault 和本地配置边界明确；
 ### Exit Gate
 
 用户批准样本格式和日常体验；Acceptance Record 无未批准 Critical / High 问题。
+
+### User Deliverable
+
+Full Markdown Archive、可追溯 Manifest、Assets、Reports，以及 Release Gate 通过后的 Obsidian Baseline Vault。
 
 ---
 
@@ -114,6 +199,10 @@ Required / Deferred 无歧义；Workspace / Vault 和本地配置边界明确；
 
 用户批准批次策略和审核容量，再单独决定是否扩大覆盖。
 
+### User Deliverable
+
+可暂停、可审核、可恢复的知识更新批次，以及用户可理解的覆盖、问题和质量报告。
+
 ---
 
 ## 7. Milestone 3：Obsidian Production Publishing
@@ -137,6 +226,10 @@ LoreBuddy 自有同步；多设备并发发布；用户编辑自动回流；公�
 ### Exit Gate
 
 用户接受正式目录为日常只读知识库，并确认恢复流程可操作。
+
+### User Deliverable
+
+可作为日常 TRPG 参考资料使用的正式 Obsidian Vault，支持增量更新、备份和回滚。
 
 ---
 
@@ -162,6 +255,10 @@ RAG、Embedding 和 Agent Runtime；把搜索数据库变成事实源；自动�
 
 用户确认导航和搜索改善真实使用且没有引入事实漂移。
 
+### User Deliverable
+
+可从标题、Alias、关系和来源快速定位知识的本地导航与搜索体验。
+
 ---
 
 ## 9. Milestone 5：Second Ruleset Package
@@ -185,6 +282,10 @@ RAG、Embedding 和 Agent Runtime；把搜索数据库变成事实源；自动�
 ### Exit Gate
 
 Core / Profile 边界通过第二系统反证，相关 ADR 被确认。
+
+### User Deliverable
+
+一个真实可用的第二 Ruleset Package，以及跨系统并存而不互相污染的知识体验。
 
 ---
 
@@ -210,6 +311,10 @@ Core / Profile 边界通过第二系统反证，相关 ADR 被确认。
 
 用户确认个人知识工作流稳定，访问和恢复边界明确。
 
+### User Deliverable
+
+不会被重新发布覆盖的个人笔记、Campaign、NPC、Timeline、House Rule 和批注空间。
+
 ---
 
 ## 11. Future RFC：Sharing and Public Release
@@ -233,6 +338,10 @@ Rights Authority Domain；Claim / Lineage / Decision；Release Rights Binding；
 ### Exit Gate
 
 独立 RFC、法律/授权确认、威胁模型和 Implementation Profile 全部批准后，才允许公开 Release。
+
+### User Deliverable
+
+在授权明确后可安全共享、审计和验证的 LoreBuddy Release。
 
 ## 12. Roadmap 变更规则
 

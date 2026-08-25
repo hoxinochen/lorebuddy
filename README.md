@@ -8,20 +8,18 @@ LoreBuddy 是一个长期维护的 TRPG（Tabletop RPG）知识平台。
 
 ## 当前状态
 
-当前处于 **Milestone 1-A：Executable Foundation 完成待确认**。
+M1-C4 的本地产品基线已完成：受控摄取、全量 Markdown、独立 Obsidian
+Baseline Vault 和低文件数 GPT Project Export 均已有自动或人工验收。GPT 特化稿与
+NotebookLM 优化稿已经过实际使用，并在建卡、怪物数据、技能合规和角色卡合规等
+DND Terminal 工作流中验证了下一阶段的需求。
 
-Milestone 0 已建立架构基线，Milestone 1 设计已经确认。本阶段只建立：
+当前收尾目标是把这份使用证据和 M1-C1～C4 的实现固定为可复现基线；这不自动
+启动 Rule Object、Knowledge Node、RAG 或 Runtime。下一阶段将单独建立实施合同，
+先处理书籍目录、Ruleset 选择与 LLM 友好的规则表达。
 
-- Python Package 骨架；
-- M1 最小可执行 Schema 与 Registry；
-- 虚构 Fixture 与统一 Validator；
-- 稳定 ID、跨平台 Slug 和本地配置工具；
-- 不含摄取、转换或发布能力的基础 CLI；
-- 自动测试与 M1-A 实施文档。
-
-本阶段不读取或解包真实 CHM，不创建 Package、Entry Inventory 或 Knowledge Node，不访问 Obsidian Vault，也不实现 Publisher、AI、RAG、Embedding、Runtime 或 Campaign。
-
-当前实施入口见 [Milestone 1 设计索引](docs/milestone-1/README.md) 与 [M1-A Executable Foundation](docs/milestone-1/m1a-executable-foundation.md)。
+当前实施入口见 [Milestone 1 索引](docs/milestone-1/README.md)、
+[M1 使用反馈与 v0.2 需求依据](docs/milestone-1/m1-usage-feedback-and-v02-requirements.md)
+与 [项目 Roadmap](ROADMAP.md)。
 
 ## 核心约束
 
@@ -35,6 +33,6 @@ Milestone 0 已建立架构基线，Milestone 1 设计已经确认。本阶段�
 
 ## 当前输入
 
-仓库中的 `DND五版不全书26.06.30.chm` 是第一个待摄取的来源工件（Source Artifact）。它是包含多个版本、出版物、第三方资料和模组内容的聚合资料，不应被建模为单一规则书。
-
-该文件目前只完成只读结构分析，尚未展开到仓库，也尚未生成任何知识节点。
+首个来源工件是包含多个版本、出版物、第三方资料和模组内容的聚合资料；它不得被
+建模为单一规则书。M1 已对其执行受控摄取和只读 Markdown / 发布视图构建，但来源
+身份、版权与再分发范围仍保持 `unknown` 或 `claimed`，不因构建通过而升级为权威结论。

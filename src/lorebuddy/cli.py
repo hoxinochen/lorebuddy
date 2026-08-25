@@ -18,6 +18,25 @@ from lorebuddy.acquisition import (
     run_acquisition,
 )
 from lorebuddy.registry import RegistryError, SchemaRegistry
+from lorebuddy.publishing import (
+    GPTProjectExportError,
+    ObsidianPublisherError,
+    build_gpt_project_export,
+    dry_run_obsidian_baseline,
+    load_obsidian_publish_report,
+    publish_obsidian_baseline,
+    validate_obsidian_baseline,
+    validate_gpt_project_export,
+)
+from lorebuddy.samples import (
+    M1C1Error,
+    M1C2AError,
+    build_full_markdown,
+    build_samples,
+    load_full_build_report,
+    validate_full_build,
+    validate_sample_build,
+)
 from lorebuddy.validation import DocumentLoadError, SchemaValidator, load_document
 from lorebuddy.validation.source_semantics import validate_acquisition
 
@@ -60,6 +79,73 @@ def _parser() -> argparse.ArgumentParser:
     report = acquire_commands.add_parser("report", help="读取 Acquisition Report")
     report.add_argument("artifact_dir", type=Path)
     report.add_argument("--json", action="store_true")
+
+    samples = commands.add_parser("samples", help="M1-C1 真实 Markdown 样本")
+    sample_commands = samples.add_subparsers(dest="sample_command", required=True)
+    sample_build = sample_commands.add_parser("build", help="从已验证 M1-B Artifact 构建固定样本")
+    sample_build.add_argument("artifact_dir", type=Path)
+    sample_build.add_argument("--output", type=Path, default=Path("build/m1c1-samples"))
+    sample_build.add_argument("--json", action="store_true")
+    sample_validate = sample_commands.add_parser("validate", help="校验 M1-C1 样本产物")
+    sample_validate.add_argument("output", type=Path)
+    sample_validate.add_argument("--json", action="store_true")
+
+    markdown = commands.add_parser("markdown", help="M1-C2A 全量 Markdown 构建")
+    markdown_commands = markdown.add_subparsers(dest="markdown_command", required=True)
+    markdown_build = markdown_commands.add_parser("build", help="转换 Artifact 中全部 HTML Entry")
+    markdown_build.add_argument("artifact_dir", type=Path)
+    markdown_build.add_argument("--output", type=Path, default=Path("build/m1c2a-full"))
+    markdown_build.add_argument("--json", action="store_true")
+    markdown_validate = markdown_commands.add_parser("validate", help="校验 M1-C2A 全量产物")
+    markdown_validate.add_argument("output", type=Path)
+    markdown_validate.add_argument("--json", action="store_true")
+    markdown_report = markdown_commands.add_parser("report", help="读取 M1-C2A Build Report")
+    markdown_report.add_argument("output", type=Path)
+    markdown_report.add_argument("--json", action="store_true")
+
+    obsidian = commands.add_parser("obsidian", help="M1-C3 Obsidian Baseline Publisher")
+    obsidian_commands = obsidian.add_subparsers(dest="obsidian_command", required=True)
+    obsidian_publish = obsidian_commands.add_parser(
+        "publish", help="从已验证 M1-C2A Build Root 生成独立 Baseline Vault"
+    )
+    obsidian_publish.add_argument("build_root", type=Path)
+    obsidian_publish.add_argument(
+        "--output", type=Path, default=Path("build/m1c3-obsidian-baseline")
+    )
+    obsidian_publish.add_argument("--dry-run", action="store_true")
+    obsidian_publish.add_argument("--json", action="store_true")
+    obsidian_validate = obsidian_commands.add_parser(
+        "validate", help="校验 M1-C3 Baseline Vault"
+    )
+    obsidian_validate.add_argument("output", type=Path)
+    obsidian_validate.add_argument("--json", action="store_true")
+    obsidian_report = obsidian_commands.add_parser(
+        "report", help="读取 M1-C3 Publish Report"
+    )
+    obsidian_report.add_argument("output", type=Path)
+    obsidian_report.add_argument("--json", action="store_true")
+
+    gpt_export = commands.add_parser(
+        "gpt-export", help="从 M1-C3 Baseline 生成低文件数 GPT Project 资料"
+    )
+    gpt_commands = gpt_export.add_subparsers(
+        dest="gpt_export_command", required=True
+    )
+    gpt_build = gpt_commands.add_parser("build", help="生成确定性 GPT Project Export")
+    gpt_build.add_argument("source_root", type=Path)
+    gpt_build.add_argument(
+        "--output", type=Path, default=Path("build/m1c4-gpt-project-export")
+    )
+    gpt_build.add_argument("--max-upload-files", type=int, default=20)
+    gpt_build.add_argument("--max-content-files", type=int, default=18)
+    gpt_build.add_argument("--max-bundle-bytes", type=int, default=1_950_000)
+    gpt_build.add_argument("--json", action="store_true")
+    gpt_validate = gpt_commands.add_parser(
+        "validate", help="对照 M1-C3 Baseline 验证 GPT Project Export"
+    )
+    gpt_validate.add_argument("source_root", type=Path)
+    gpt_validate.add_argument("output", type=Path)
+    gpt_validate.add_argument("--json", action="store_true")
     return parser
 
 
@@ -120,6 +206,64 @@ def main(argv: Sequence[str] | None = None, *, project_root: Path | None = None)
     args = _parser().parse_args(argv)
     root = (project_root or Path.cwd()).resolve()
     try:
+        if args.command == "gpt-export":
+            if args.gpt_export_command == "build":
+                payload = build_gpt_project_export(
+                    args.source_root,
+                    args.output,
+                    max_upload_files=args.max_upload_files,
+                    max_content_files=args.max_content_files,
+                    max_bundle_bytes=args.max_bundle_bytes,
+                )
+                _print_payload(payload, args.json)
+                return 0
+            if args.gpt_export_command == "validate":
+                payload = validate_gpt_project_export(
+                    args.source_root, args.output
+                )
+                _print_payload(payload, args.json)
+                return 0 if payload["valid"] else 1
+
+        if args.command == "obsidian":
+            if args.obsidian_command == "publish":
+                payload = (
+                    dry_run_obsidian_baseline(args.build_root, args.output)
+                    if args.dry_run
+                    else publish_obsidian_baseline(args.build_root, args.output)
+                )
+                _print_payload(payload, args.json)
+                return 0
+            if args.obsidian_command == "validate":
+                payload = validate_obsidian_baseline(args.output)
+                _print_payload(payload, args.json)
+                return 0 if payload["valid"] else 1
+            if args.obsidian_command == "report":
+                _print_payload(load_obsidian_publish_report(args.output), args.json)
+                return 0
+
+        if args.command == "markdown":
+            if args.markdown_command == "build":
+                payload = build_full_markdown(args.artifact_dir, args.output)
+                _print_payload(payload, args.json)
+                return 0
+            if args.markdown_command == "validate":
+                payload = validate_full_build(args.output)
+                _print_payload(payload, args.json)
+                return 0 if payload["valid"] else 1
+            if args.markdown_command == "report":
+                _print_payload(load_full_build_report(args.output), args.json)
+                return 0
+
+        if args.command == "samples":
+            if args.sample_command == "build":
+                payload = build_samples(args.artifact_dir, args.output)
+                _print_payload(payload, args.json)
+                return 0
+            if args.sample_command == "validate":
+                payload = validate_sample_build(args.output)
+                _print_payload(payload, args.json)
+                return 0 if payload["valid"] else 1
+
         if args.command == "acquire":
             if args.acquire_command == "inspect":
                 _print_payload(inspect_artifact(args.chm_path), args.json)
@@ -165,7 +309,16 @@ def main(argv: Sequence[str] | None = None, *, project_root: Path | None = None)
             return 0 if result.valid else 1
         if args.command == "fixtures" and args.fixture_command == "validate":
             return _validate_fixtures(root, validator)
-    except (AcquisitionError, BackendUnavailableError, ConfigError, RegistryError) as exc:
+    except (
+        AcquisitionError,
+        BackendUnavailableError,
+        ConfigError,
+        M1C1Error,
+        M1C2AError,
+        GPTProjectExportError,
+        ObsidianPublisherError,
+        RegistryError,
+    ) as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
         return 2
     return 2

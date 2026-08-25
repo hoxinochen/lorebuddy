@@ -1,6 +1,6 @@
 # Milestone 1：最小摄取纵向闭环
 
-状态：**M1 Design Confirmed / M1-B 完成待架构确认**
+状态：**M1-C4 已完成；真实使用验证已补录，待工程基线封存**
 实施配置版本：`m1-profile@0.1.0`  
 前置基线：[Milestone 0](../milestone-0/README.md)
 
@@ -58,6 +58,14 @@ M0 描述 LoreBuddy 的长期架构上限；M1 Implementation Profile 决定当�
 | [Backlog](backlog.md) | 暂缓能力、未来启用条件和兼容点 |
 | [M1-A Executable Foundation](m1a-executable-foundation.md) | Schema、Registry、Fixture、Validator、CLI 与测试基础 |
 | [M1-B Controlled Acquisition](m1b-controlled-acquisition.md) | 受控 CHM 摄取、完整 Entry Inventory 与 Source Preservation |
+| [M1-C1 Real Markdown Samples](m1c1-real-markdown-samples.md) | 10 个真实页面的 Markdown、资产、链接与确定性验证 |
+| [M1-C2A Full Markdown Build](m1c2a-full-markdown-build.md) | 全部 HTML Entry 的 Markdown、资产、报告与稳定发布输入 |
+| [M1-C2B Release Gate](m1c2b-release-gate.md) | 异常工程分类、Release Checklist 与 Publisher Input Contract |
+| [M1 Known Limitations](m1-known-limitations.md) | Converter、Source Reality 与 Accepted Limitation 基线 |
+| [M1-C3 Obsidian Baseline Publisher](m1c3-obsidian-baseline-publisher.md) | 独立 Vault 投影、Ownership、Validator、确定性与产品验收 |
+| [M1-C3 人工验收记录](m1c3-acceptance.md) | Obsidian 人工验收、最终基线与本机杂项文件边界 |
+| [M1-C4 GPT Project Export](m1c4-gpt-project-export.md) | 低文件数 GPT 项目资料、文件预算、原字节闭合与确定性 |
+| [M1 使用反馈与 v0.2 需求依据](m1-usage-feedback-and-v02-requirements.md) | GPT / NotebookLM 实际体验、DND Terminal 验证与下一阶段需求 |
 | [项目 Roadmap](../../ROADMAP.md) | 渐进式开发顺序与各阶段 Exit Gate |
 
 ## 5. 本轮不产生的内容
@@ -83,7 +91,7 @@ M0 描述 LoreBuddy 的长期架构上限；M1 Implementation Profile 决定当�
 
 ## 7. 当前执行状态
 
-M1 设计与 `Milestone 1-A: Executable Foundation` 已通过架构门禁。`Milestone 1-B: Controlled Acquisition and Source Inventory` 已完成真实 CHM 摘要核对、7-Zip 受控解包、7,148 个 Entry 的 Inventory 与原始字节保存、来源语义验证和两次确定性重跑，等待架构确认。当前停留在 M1-B，不进入 M1-C。
+M1-A 与 M1-B 已通过架构门禁。M1-C1 已通过人工验收，M1-C2A 已完成全量构建。M1-C2B 已完成三个 Converter Bug 家族的最小修复并通过 Release Gate。M1-C3 已完成自动验收与 Obsidian 人工验收：6,819 份正文、104 个 Asset、8,187 个 HHC 导航节点和 1,489 个分层导航索引。M1-C4 已把该基线确定性导出为 20 个 GPT Project 上传文件，保留全部 6,819 份 Note 原字节，并增加全局任务路由、包级内容导航和默认新版优先策略，不进入 Fragment 或 Knowledge Layer。
 
 M1-B 已确认以下实施边界：
 
