@@ -11,6 +11,9 @@ M2 验证可选择的规则知识层，而非继续扩大 Markdown 发布范围�
 |---|---|
 | [M2 ABC](abc.md) | 本轮启动授权、边界、协作职责与停止条件 |
 | [Implementation Profile](implementation-profile.md) | M2-A 至 M2-D 的实施合同与验收条件 |
-| [外部交付登记](external-delivery-register.md) | Antigravity 的 Book Catalog / Profile 交付状态与接纳要求 |
+| [外部交付登记](external-delivery-register.md) | Antigravity 的 Book Catalog / Profile 交付状态与接纳记录 |
 
 M2 不自动授权全量语义转换、规则自动采纳、DND Terminal 写入、COC 扩展或公开发布。
+
+M2-A 新交付已接纳为受限候选输入；M2-B 当前仅完成最小契约设计，见
+[`m2b-minimal-contract.md`](m2b-minimal-contract.md)。

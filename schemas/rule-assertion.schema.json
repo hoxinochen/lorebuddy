@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "m2.rule-assertion@0.1.0",
+  "title": "LoreBuddy M2 Rule Assertion",
+  "type": "object",
+  "x-lorebuddy-version": "0.1.0",
+  "x-lorebuddy-profile": "m2-rule-cluster-pilot@0.2.0",
+  "additionalProperties": false,
+  "required": ["schema", "id", "ruleset", "assertion", "source_bindings", "review_status"],
+  "properties": {
+    "schema": {"const": "m2.rule-assertion@0.1.0"},
+    "id": {"$ref": "#/$defs/id"},
+    "ruleset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["system", "version", "profile_id"],
+      "properties": {
+        "system": {"type": "string", "minLength": 1},
+        "version": {"type": "string", "minLength": 1},
+        "profile_id": {"type": "string", "minLength": 1}
+      }
+    },
+    "assertion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["trigger", "conditions", "activities", "effects", "prerequisites", "choices"],
+      "properties": {
+        "trigger": {"type": "array", "maxItems": 1, "items": {"$ref": "#/$defs/trigger"}},
+        "conditions": {"type": "array", "items": {"$ref": "#/$defs/condition"}},
+        "activities": {"type": "array", "items": {"$ref": "#/$defs/activity"}},
+        "effects": {"type": "array", "items": {"$ref": "#/$defs/effect"}},
+        "prerequisites": {"type": "array", "items": {"$ref": "#/$defs/prerequisite"}},
+        "choices": {"type": "array", "items": {"$ref": "#/$defs/choice"}}
+      },
+      "anyOf": [
+        {"required": ["trigger"], "properties": {"trigger": {"minItems": 1}}},
+        {"required": ["conditions"], "properties": {"conditions": {"minItems": 1}}},
+        {"required": ["activities"], "properties": {"activities": {"minItems": 1}}},
+        {"required": ["effects"], "properties": {"effects": {"minItems": 1}}},
+        {"required": ["prerequisites"], "properties": {"prerequisites": {"minItems": 1}}},
+        {"required": ["choices"], "properties": {"choices": {"minItems": 1}}}
+      ]
+    },
+    "source_bindings": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/source_binding"}
+    },
+    "review_status": {"enum": ["candidate", "in_review", "approved", "rejected"]},
+    "review_record": {"$ref": "#/$defs/review_record"}
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^urn:uuid:[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+    },
+    "clause": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "text"],
+      "properties": {
+        "kind": {"type": "string"},
+        "text": {"type": "string", "minLength": 1}
+      }
+    },
+    "trigger": {
+      "allOf": [{"$ref": "#/$defs/clause"}, {"properties": {"kind": {"const": "trigger"}}}]
+    },
+    "condition": {
+      "allOf": [{"$ref": "#/$defs/clause"}, {"properties": {"kind": {"const": "condition"}}}]
+    },
+    "activity": {
+      "allOf": [{"$ref": "#/$defs/clause"}, {"properties": {"kind": {"enum": ["activity", "operation"]}}}]
+    },
+    "effect": {
+      "allOf": [{"$ref": "#/$defs/clause"}, {"properties": {"kind": {"const": "effect"}}}]
+    },
+    "prerequisite": {
+      "allOf": [{"$ref": "#/$defs/clause"}, {"properties": {"kind": {"const": "prerequisite"}}}]
+    },
+    "choice": {
+      "allOf": [{"$ref": "#/$defs/clause"}, {"properties": {"kind": {"const": "choice"}}}]
+    },
+    "source_binding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["entry_id", "source_path", "body_range"],
+      "properties": {
+        "entry_id": {"$ref": "#/$defs/id"},
+        "source_path": {"type": "string", "minLength": 1},
+        "body_range": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["unit", "start", "end"],
+          "properties": {
+            "unit": {"enum": ["lines", "utf8_bytes"]},
+            "start": {"type": "integer", "minimum": 0},
+            "end": {"type": "integer", "minimum": 0}
+          }
+        }
+      }
+    },
+    "review_record": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["review_id", "decision", "reviewer", "reason"],
+      "properties": {
+        "review_id": {"$ref": "#/$defs/id"},
+        "decision": {"enum": ["approved", "rejected"]},
+        "reviewer": {"type": "string", "minLength": 1},
+        "reason": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}

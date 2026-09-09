@@ -73,7 +73,9 @@ def _delivery(tmp_path: Path) -> tuple[Path, Path]:
             }
         ],
     )
-    (root / "book-catalog.yaml").write_text("- id: book-2024\n  name_zh: 测试书\n", encoding="utf-8")
+    (root / "book-catalog.yaml").write_text(
+        "- id: book-2024\n  name_zh: 测试书\n  source_identity_status: claimed\n", encoding="utf-8"
+    )
     (root / "ruleset-profiles.yaml").write_text(
         "profiles:\n- id: strict\n  name: 测试\n  description: 仅选择书籍\n  active_books:\n  - book-2024\n  fallback_books: []\n",
         encoding="utf-8",
@@ -122,7 +124,9 @@ def test_m2a_delivery_accepts_a_closed_claimed_catalog(tmp_path: Path) -> None:
 def test_m2a_delivery_rejects_unreviewed_catalog_status_and_profile_semantics(tmp_path: Path) -> None:
     root, upstream = _delivery(tmp_path)
     (root / "book-catalog.yaml").write_text(
-        "- id: book-2024\n  name_zh: 测试书\n  authority: official-current\n", encoding="utf-8"
+        "- id: book-2024\n  name_zh: 测试书\n  authority: official-current\n"
+        "  source_identity_status: verified\n",
+        encoding="utf-8",
     )
     profiles = yaml.safe_load((root / "ruleset-profiles.yaml").read_text(encoding="utf-8"))
     profiles["profiles"][0]["version_precedence"] = ["2024"]
@@ -132,5 +136,6 @@ def test_m2a_delivery_rejects_unreviewed_catalog_status_and_profile_semantics(tm
     assert not result["valid"]
     assert {error["code"] for error in result["errors"]} >= {
         "CATALOG_UNREVIEWED_STATUS",
+        "CATALOG_SOURCE_IDENTITY_STATUS",
         "PROFILE_SEMANTIC_FIELD",
     }

@@ -25,8 +25,8 @@ Ruleset 适用性和人工审核均通过后才可标记为 `approved`。
 
 | 阶段 | 状态 | 交付与 Gate |
 |---|---|---|
-| M2-A Book Catalog 接纳 | 外部已实现，待验收 | 锁定外部交付；验证 6,819 Entry 集合闭合、映射依据、Profile 选择与 11 条隔离队列 |
-| M2-B 最小契约 | 未开始 | Rule Assertion / Source Binding Schema、候选与批准状态机、Validator fixture |
+| M2-A Book Catalog 接纳 | `accepted_for_m2_input` | 已锁定 `antigravity-book-catalog@2026-09-09`；6,819 Entry 集合闭合、映射依据、Profile 选择与 11 条隔离队列通过独立验收 |
+| M2-B 最小契约 | 设计已启动 | Rule Assertion / Source Binding Schema、候选与批准状态机、Validator fixture |
 | M2-C 规则簇试点 | 未开始 | Conditions / 0 HP 与少量 Weapon Mastery 的候选、审核记录和批准对象 |
 | M2-D 消费验证 | 未开始 | Rule Card、终端候选包、对照案例、低推理消费质量报告 |
 

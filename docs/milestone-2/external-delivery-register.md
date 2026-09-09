@@ -1,6 +1,6 @@
 # M2 外部交付登记
 
-状态：**pending_acceptance**
+状态：**accepted_for_m2_input**
 
 ## D-2026-09-04-antigravity-book-catalog
 
@@ -25,7 +25,7 @@
 4. 为每条映射补充或可确定性重建 `mapping_basis`；
 5. 通过后在本文件追加接纳结论；失败项仅进入 Review Queue，不回写 M1 Source。
 
-## Codex 独立接纳结论（2026-09-09）
+## Codex 独立接纳结论（2026-09-09，前序交付）
 
 **结论：`pending_acceptance`（未通过 M2-A Gate）。** 此结论只针对
 `antigravity-book-catalog@2026-09-04` 于 2026-09-09 11:45 +08:00 生成的候选交付；
@@ -54,3 +54,38 @@
 3. 重算所有受影响文件及 Delivery Manifest 摘要，附上 Antigravity 单元/冒烟结果；随后由
    Codex 用固定 M1-C3 Manifest 重新运行独立 Validator。接纳前不得生成 Rule Assertion、
    Rule Card 或任何终端候选包。
+
+## Codex 独立接纳结论（2026-09-09，新交付）
+
+**结论：`accepted_for_m2_input`。** 接纳对象为新的
+`antigravity-book-catalog@2026-09-09`，前序交付保持在
+`m2a-delivery-manifest.2026-09-04.json`、`book-catalog.2026-09-04.yaml` 和
+`ruleset-profiles.2026-09-04.yaml` 中归档，未被覆写。
+
+Codex 使用固定的 M1-C3 Publisher Manifest 和仓内
+`lorebuddy.validation.validate_m2a_delivery` 重新执行，结果为 `valid: true`，错误数为
+0。6,819 Entry 的闭合、6,808/11 互斥分流、逐条路径、Mapping 字段、Delivery 文件摘要、
+Catalog 来源身份状态和 Profile 字段白名单均通过。
+
+| 固定对象 | 摘要 |
+|---|---|
+| Delivery ID | `antigravity-book-catalog@2026-09-09` |
+| M1-C3 Manifest | `d9172ac3befdd0be00547d9d72f9f212e2ead8c16412c96b9a155a32adf56458` |
+| Mapping | `030a2d30d2d39601a6dc97d1bd293f3742387ca26293f7053e0501755a77bbec` |
+| Review Queue | `f72609e9728704418768ef8140dd31bed07ea89c464ea64e67703f6a48f05e55` |
+| Book Catalog | `97a55427b642e770f443834316f7be81f95b0f3763d205a7ed7ecc9a2bfbac62` |
+| Ruleset Profiles | `d8d97f8635bd86a99299bf2891602223469bec04e940f81836ab4c1952a169c8` |
+| Validation Report | `0a976f39be9024a4b33d593d396c758eb5f64e8d989b88f81e66268e9f46b050` |
+| Smoke Report | `1f33f32c51f01eb143e0d10e5ed5e6e8e62cdbe52f8911a01d75481b46d8959a` |
+| Delivery Manifest | `b53c52a0a205a1098698da69829286eb792ff41fe7ba5b9b9400e9fcb9beebda` |
+
+接纳范围与例外：
+
+- 仅接纳为 M2 后续候选输入边界；不等于出版身份、Rights、规则权威或 DND Terminal 采纳；
+- Catalog 的 `source_identity_status: claimed` 仍是未独立核验的来源身份声明；
+- Profile 只提供 `active_books` 与 `fallback_books` 选择，fallback 不裁决跨书冲突、覆盖或
+  House Rule；
+- Review Queue 的 11 条记录继续隔离，不进入规则候选集合；
+- 本接纳不授权全量 Rule Object、自动采纳、Rule Card、终端候选包或 Runtime。
+
+Antigravity 的生成器与冒烟测试报告可作为交付证据，但不替代上述 Codex 独立 Validator。

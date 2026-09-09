@@ -189,6 +189,8 @@ def validate_m2a_delivery(delivery_dir: Path | str, m1_manifest_path: Path | str
         catalog_ids.add(book["id"])
         for field in PROHIBITED_CATALOG_STATUS_FIELDS & set(book):
             _error(errors, "CATALOG_UNREVIEWED_STATUS", f"book:{number}:{field}")
+        if book.get("source_identity_status") != "claimed":
+            _error(errors, "CATALOG_SOURCE_IDENTITY_STATUS", f"book:{number}")
     unknown_books = {entry.get("book_id") for entry in mapping} - catalog_ids
     if unknown_books:
         _error(errors, "MAPPING_UNKNOWN_BOOK", str(sorted(unknown_books)))
