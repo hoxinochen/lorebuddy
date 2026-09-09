@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lorebuddy"
-version = "0.1.0"
-description = "LoreBuddy M1 local knowledge publishing baseline"
+version = "0.2.0.dev0"
+description = "LoreBuddy M2 rule cluster pilot"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [

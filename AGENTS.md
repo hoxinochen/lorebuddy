@@ -39,29 +39,34 @@ D&D 5e 只是首个输入场景。所有平台级设计都必须能够容纳 Pat
 
 ## 4. 当前阶段门禁
 
-当前阶段为 `Milestone 1-C4: GPT Project Export（实现与自动验收完成）`。当前实施合同是 `docs/milestone-1/implementation-profile.md`；Milestone 0 文档仍是架构上限，但不自动构成 M1-C4 的强制实现范围。发生范围冲突时，依次遵循 M1 Implementation Profile、M1 Decision Status、M1 Acceptance Criteria、经确认的 M1-C4 实施边界，再回到 M0 Architecture Baseline。
+当前阶段为 `Milestone 2: Rule Cluster Pilot（规则簇试点与接纳）`。当前实施合同是
+`docs/milestone-2/implementation-profile.md`，启动授权与边界见
+`docs/milestone-2/abc.md`。M1-C4 是已冻结的 `v0.1.0` 基线；M2 只消费其显式
+Manifest 和受控的外部交付，不重写 M1 Source 或 Publisher。
 
-M1-C1 的 10 个复杂真实样本已于 2026-07-23 通过人工验收；M1-C2A 已为 6,819 个 HTML Entry 生成两份零差异的全量 Markdown 构建。M1-C2B 已修复三个已确认的 Converter Bug 家族并通过 Release Gate。M1-C3 的自动验收与 Obsidian 人工验收均已完成。M1-C4 已把通过 Validator 的 M1-C3 Baseline 确定性导出为 20 个 GPT Project 文件：2 个控制文件、18 个内容包、6,819 个 Entry 原字节各保留一次；全局任务路由和包级内容导航由 Publisher 路径机械生成，默认采用明确可识别的最新适用规则。不得自行恢复 M1 已标记为 `DEFERRED` / `OUT_OF_SCOPE` 的能力。
+M2-A 的 Book Catalog、Entry-to-Book Mapping、Ruleset Profile 与 Review Queue 已由
+Antigravity 在外部工作区实现，当前状态为 `externally_implemented_pending_acceptance`。
+它在通过 LoreBuddy 的输入锁定、集合闭合、字段语义和 Profile 验收前，只能作为候选
+交付，不得被称为已批准的出版身份、规则事实或 DND Terminal 准入数据。
 
-在新的实施门禁获得确认前：
+本阶段只允许：
 
-- 不生成 Source Fragment；
-- 不进行 Boundary Candidate 判断或 Boundary 人工确认；
-- 不生成 Knowledge Node 或 Markdown Library；
-- 不构建 Relationship、Alias Index 或 Node Index；
-- M1-C3 与 M1-C4 产物只允许保留在 Workspace 的 Git 忽略构建目录；
-- 不访问或修改 Obsidian Vault 与 `.obsidian/`；
-- 不进行完整 Fidelity Coverage Map；
-- 不实现 AI、Agent、RAG、Embedding、向量数据库、Runtime、Campaign 或多设备同步；
-- 不按导航树复制同一正文；
-- 不批量修复 unresolved 或 Source 缺陷；
-- 不实现向用户现有 Vault 的覆盖、增量同步或删除；
-- 不扩大 Validator；
-- 不重新执行 M1-C2A 或 M1-C3 全量构建，除非新的实施门禁明确要求；
-- 不进入 M2；
-- 不继续修改已通过的 Publisher 或 GPT Export，除非用户验收发现可复现问题；
-- GPT Export 只消费显式 M1-C3 Baseline，不读取隐式 Source 或 Vault 状态；
-- GPT Export 不得把文件合并行为表述为 Fragment、Knowledge Node 或语义切分。
+- 验收并登记 M2-A 外部交付；
+- 定义 Rule Assertion、Trigger / Condition、Activity、Effect、Prerequisite、Choice 和
+  Source Binding 的最小契约；
+- 生成带来源范围和审核状态的规则候选；
+- 对经确认的 D&D 2024 小样本执行规则簇试点、确定性验证和人工审核；
+- 从已批准对象确定性编译 Rule Card，以及只读的 DND Terminal 候选包。
+
+在 M2 Exit Gate 获得确认前：
+
+- 不进行全量 Rule Object 转换、自动采纳或批量覆盖；
+- 不把 Antigravity 输出、模型输出或冒烟测试当作规则权威或正式接纳；
+- 不直接修改 DND Terminal、角色卡、怪物模板或正在运行的 Campaign；
+- 不把 D&D 专属字段提升为平台核心，也不在本阶段实现 COC / 社交 / 心智规则簇；
+- 不实现 Runtime、RAG、Embedding、向量数据库、公开 Release、多人同步或用户 Vault 覆盖；
+- 不修改 M1 Source、已通过的 Publisher 或 GPT Export；
+- 不因路径、书名或 Catalog 分类自动把来源身份、权利或规则优先级升级为 `verified`。
 
 ## 5. 不可变原则
 

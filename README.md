@@ -8,18 +8,18 @@ LoreBuddy 是一个长期维护的 TRPG（Tabletop RPG）知识平台。
 
 ## 当前状态
 
-M1-C4 的本地产品基线已完成：受控摄取、全量 Markdown、独立 Obsidian
+`v0.1.0` 已冻结 M1-C4 本地产品基线：受控摄取、全量 Markdown、独立 Obsidian
 Baseline Vault 和低文件数 GPT Project Export 均已有自动或人工验收。GPT 特化稿与
-NotebookLM 优化稿已经过实际使用，并在建卡、怪物数据、技能合规和角色卡合规等
-DND Terminal 工作流中验证了下一阶段的需求。
+NotebookLM 优化稿的实际使用，已在建卡、怪物数据、技能合规和角色卡合规等 DND
+Terminal 工作流中证明下一阶段需求。
 
-当前收尾目标是把这份使用证据和 M1-C1～C4 的实现固定为可复现基线；这不自动
-启动 Rule Object、Knowledge Node、RAG 或 Runtime。下一阶段将单独建立实施合同，
-先处理书籍目录、Ruleset 选择与 LLM 友好的规则表达。
+当前为 `v0.2.0.dev0 / M2 Rule Cluster Pilot`：以 Antigravity 的外部 Book Catalog
+交付为候选输入，先验证 D&D 2024 小样本的规则候选、审核对象、Rule Card 与终端候选包。
+它不授权全量 Rule Object、Runtime、RAG 或直接修改 DND Terminal。
 
 当前实施入口见 [Milestone 1 索引](docs/milestone-1/README.md)、
-[M1 使用反馈与 v0.2 需求依据](docs/milestone-1/m1-usage-feedback-and-v02-requirements.md)
-与 [项目 Roadmap](ROADMAP.md)。
+[M1 使用反馈与 v0.2 需求依据](docs/milestone-1/m1-usage-feedback-and-v02-requirements.md)、
+[M2 启动授权](docs/milestone-2/abc.md) 与 [项目 Roadmap](ROADMAP.md)。
 
 ## 核心约束
 

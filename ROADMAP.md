@@ -52,10 +52,11 @@ Source Reality：
 - 74 个正文极短但完整保留的 Source 页面；
 - 1 个 Intentional Blank 页面。
 
-后续 Milestone：
+当前 Milestone：
 
-- M2 提供可恢复、可审核的受控批次更新；
-- 后续 Knowledge Layer 再引入 Fragment、Knowledge Node 与检索能力。
+- M2 以 Rule Cluster Pilot 启动可选择的规则知识层；
+- Antigravity 已外部实现 Book Catalog 与 Ruleset Profile，等待 LoreBuddy 接纳验收；
+- 本轮只证明 D&D 2024 小样本的候选、审核、Rule Card 与终端候选包闭环。
 
 ### 已完成的真实使用验证与下一步
 
@@ -64,8 +65,8 @@ Source Reality：
 DND Terminal 的建卡、测试怪物数据、技能合规和角色卡合规工作。结论见
 [`M1 使用反馈与 v0.2 需求依据`](docs/milestone-1/m1-usage-feedback-and-v02-requirements.md)。
 
-下一步是封存该使用证据和 M1-C1～C4 的可复现工程基线，再以新的 Implementation
-Profile 启动“可选择规则知识层”。当前状态不自动授权 M2 或 Knowledge Layer。
+M1 已冻结为 `v0.1.0`。当前已启动 M2 Rule Cluster Pilot；其边界、外部交付状态与
+验收门禁见 [`M2 文档索引`](docs/milestone-2/README.md)。
 
 ---
 
@@ -82,7 +83,7 @@ Profile 启动“可选择规则知识层”。当前状态不自动授权 M2 �
 | M1-C2B | Release Checklist、Known Limitations、Release Decision、Publisher Input Contract |
 | M1-C3 | Obsidian Baseline Vault：可浏览、可搜索、图片、内部链接、自动索引 |
 | M1-C4 | GPT Project Export：20 个上传文件、完整正文、稳定来源元数据和后续文件余量 |
-| M2 | 可暂停、可审核、可恢复的受控批次更新及质量报告 |
+| M2 | 可选择的规则知识层试点：Book Catalog 接纳、Rule Object 候选/审核、Rule Card 与终端候选包 |
 | M3 | 可日常使用、可增量发布、可回滚的正式 Obsidian Vault |
 | M4 | 面向实际查询的导航、全文搜索与来源定位 |
 | M5 | 第二 Ruleset 的可用知识包，证明产品不绑定 D&D |
@@ -177,31 +178,39 @@ Full Markdown Archive、可追溯 Manifest、Assets、Reports，以及 Release G
 
 ---
 
-## 6. Milestone 2：Controlled Batch Ingestion
+## 6. Milestone 2：Rule Cluster Pilot
 
 ### Goal
 
-把样本闭环扩展为可暂停、可审核、可恢复的受控批次摄取。
+以受控的 D&D 2024 小样本证明“书籍选择 → 规则候选 → 审核对象 → LLM Rule Card /
+终端候选包”的闭环。受控批次是这一闭环的实现纪律，而不是本阶段唯一产品目标。
 
 ### In Scope
 
-页面族批次队列；Issue / Review；增量构建和恢复；覆盖、质量、性能报告；必要的 Redirect / Tombstone；按真实问题扩展 Fidelity。
+M2-A 外部 Book Catalog 交付的接纳验收；Ruleset Profile；最小 Rule Object 契约；
+来源绑定；规则候选；确定性验证；人工审核；D&D 2024 状态/生命周期与武器精通的
+小样本；Rule Card；只读终端候选包；质量报告。
 
 ### Out of Scope
 
-无人监督全量转换；公开发行；正式目录迁移；AI Runtime 或向量数据库。
+无人监督全量转换；将模型候选自动采纳；直接修改 DND Terminal；公开发行；正式目录
+迁移；AI Runtime、向量数据库；COC、社交与心智规则簇。
 
 ### Acceptance Criteria
 
-批次可重跑且失败不污染批准结果；人工决策可复用；未支持页面稳定阻塞并可恢复；性能满足约定批次规模。
+外部 M2-A 交付可与 M1-C3 Manifest 闭合且其身份状态不被夸大；每个批准对象可定位
+到 Entry 与正文范围；候选不能绕过审核；相同已批准输入可确定性生成 Rule Card；终端
+候选包不包含未批准对象；人工案例验证所选状态与武器精通链路。
 
 ### Exit Gate
 
-用户批准批次策略和审核容量，再单独决定是否扩大覆盖。
+用户接受 M2-A 接纳结论与试点规则簇；候选/批准边界、来源定位和低推理消费收益均可
+复核。通过不自动授权全量转换、COC 扩展或 DND Terminal 写入。
 
 ### User Deliverable
 
-可暂停、可审核、可恢复的知识更新批次，以及用户可理解的覆盖、问题和质量报告。
+可选择的 D&D 2024 规则试点包：经审核的少量规则对象、Rule Card、终端候选包，以及
+覆盖、问题与质量报告。
 
 ---
 
