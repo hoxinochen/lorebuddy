@@ -89,3 +89,45 @@ Backlog 项进入实施前必须：
 4. 说明对现有 ID、Schema、Manifest 和迁移的影响；
 5. 增加验收标准；
 6. 确认不会追溯性改变 Source 或已批准 Node 正文。
+
+
+## 9. DND使用反馈：Guidance版本与来源核验（2026-10-13）
+
+- **状态：** 2026-10-16已完成本项差异原因核验，结论见下；出版／翻译／权利身份仍未核实，DND下游准入未发生。本记录不构成M2规则对象批准或后续实施授权。
+- **Origin：** User在DND Terminal v0.15.0 AMD-003批注指出本地Guidance与线上条目不一致，并于2026-10-13同意由LoreBuddy处理、记入Backlog。
+- **实际观察：** NotebookLM_Version/Lore_01_核心玩家规则.md的Guidance段落描述一次属性检定加d4后结束；D&D Beyond 2024条目描述选定技能并在持续期间适用。本地条目的具体版本／出版映射仍需核验，差异不等于可以认定本地原文错误。
+- **参考定位：** 本地标题“神导术｜Guidance”，原导出行17050附近；2024对照 https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#Guidance 。目录名称和页面路径只是定位，不能代替Edition／Entry／Fragment审核。
+- **建议方向与替代方案：** 定位对应摄取Artifact／Entry／Fragment，分别核验规则版本、语言与出版声明，再形成可追溯变体／映射和受控候选。采用明确版本候选供DND选择；直接覆盖本地文本虽然快，但会混版、丢失来源，故不采用。
+- **启用条件：** 在M2来源映射／规则簇小样本职责内明确输入集合、精确片段和审核对象，并通过对应Profile批准；不扩大为全量法术修正或自动下游采纳。
+- **兼容与迁移：** M1 Source、已通过Publisher、原NotebookLM／GPT输出及已批准Node保持原字节；核验发现修正应走新版记录和关系，不能静默改原文。身份／权利未知状态保留，候选结果不得直接改DND正在运行的团。
+- **后续验收：** 双方片段有定位及摘要，版本结论有审核依据，候选正文不混版，原来源无变化，下游明确选择且不自动覆盖。
+- **跨项目关系：** DND Terminal Design §17.4保留版本依赖；LoreBuddy承担源数据核验。当前只新增这条待办，不处理原资料、不发起其他聊天任务或发布。
+
+### 2026-10-16 Guidance差异核验结论
+
+User本轮明确要求先解决神导术差异、解释原因，随后停止。上方保留2026-10-13的原始问题记录；本节更新其来源差异核验结果，不关闭DND未来条目选择和准入提醒。
+
+**结论：此前引用的NotebookLM第17050行附近是2014规则文本；同一文件第27324行附近已经保存2024规则文本。差异来自用旧版片段对照新版，而非本次发现2024源条目被转写成旧版。** 两段都可以分别追溯到独立的原始HTML Entry，两个原文均无需覆盖或修正。
+
+| 核验项 | 2014文本 | 2024文本 |
+|---|---|---|
+| NotebookLM定位 | `Lore_01_核心玩家规则.md` 第17050–17058行（含Anchor） | 同文件第27324–27332行（含Anchor） |
+| 规则差异 | 一次属性检定可加d4，使用后法术结束 | 施法时选择一项技能，持续期间使用该技能的属性检定加1d4；没有使用一次即结束的条款 |
+| Entry ID | `urn:uuid:4f5a2d13-d1fb-5ea2-935e-f1c1e41113b4` | `urn:uuid:aeefb9c1-aff9-5982-98ab-0643f145eba5` |
+| 原始Source Path | `玩家手册/魔法/法术详述/戏法.html` | `玩家手册2024/法术详述/0环.htm` |
+| M2-A登记 | `phb-2014`，`source_identity_status: claimed` | `phb-2024`，`source_identity_status: claimed` |
+| M1-C3完整Note字节范围 | UTF-8 `[5978,6439)`，第107–115行 | UTF-8 `[7201,7598)`，第122–130行 |
+| 原始HTML字节范围 | GB18030 `[5026,5441)` | GB18030 `[6146,6513)` |
+
+范围均从文件开头按0计数、结束位置不包含；原始HTML范围以`<H4 id="Guidance">`开始、下一个`<H4 id="Light">`之前结束。M1-C3／NotebookLM片段含Guidance Anchor与标题，不含下一法术和尾部空行；这些是本次检查定位，不是新建或批准的Source Fragment。
+
+证据与检查：
+
+- 两个Entry均属于Artifact `urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408`。本次复算保存的CHM容器摘要，与Artifact Record中的`836eea8912cf6c068687e99db4a1b4b6b915aeb2ef8af35cfb040803184686f2`一致。
+- 旧／新HTML全文SHA-256分别为`b4114e9d2d32c6d9cc584db6ca94e93dbdc4c6890389183e3a7253635cced086`、`bf6bad14227eff5ef7e369e8b63b641de14dfa45a2645659988822a10140fc25`，均与摄取Inventory及M1-C3 Publisher Manifest一致；两个Publisher Note全文摘要也与Manifest一致。只读解码原始HTML，确认两套机制已经分别存在于Source。
+- NotebookLM整文件SHA-256为`b9c329141af1aecaa32dcb26bed6333d88b9ced935146dc9a5cef47888780be8`。两段分别与对应M1-C3片段唯一匹配；比较只统一CRLF／LF并排除尾部空行，不忽略正文字符或标点。Publisher Manifest与M2-A Mapping摘要仍分别为既有锁定的`d9172ac3befdd0be00547d9d72f9f212e2ead8c16412c96b9a155a32adf56458`、`030a2d30d2d39601a6dc97d1bd293f3742387ca26293f7053e0501755a77bbec`。
+- 2026-10-16直接读取[D&D Beyond旧版Guidance](https://www.dndbeyond.com/spells/2132-guidance)和[新版Guidance](https://www.dndbeyond.com/spells/2618971-guidance)。旧页明确标注Legacy／Basic Rules (2014)；两页分别支持上表的旧／新机制差异。此项是官方网页对照，不是冻结的新摄取Artifact，也不据此证明本地中文的官方翻译身份。
+- 同一NotebookLM文件包含两个相同`id="Guidance"`及同名标题；只按标题或`#Guidance`定位不能区分规则版本。该歧义可解释错选风险，但本次没有足够历史日志证明最初具体通过哪种搜索、跳转或模型选择路径取到了旧版。
+- 可重跑的局部核对脚本与机器结果保存在忽略目录`build/guidance-source-investigation-2026-10-16/verify.py`及`evidence.json`；不复制规则正文。本节为持久核验结论，临时结果不是事实源或正式映射合同。
+
+处置：本项“差异原因未明”已解决。后续若选择D&D 2024神导术，应以已定位的2024 Entry与精确片段为候选依据，并完成独立准入；不得继续把第17050行的旧版机制当作2024预设。保留2014变体，不按同名合并；M2-A出版身份保持`claimed`，翻译与再分发权保持`unknown`。本次未修改Source、M1构建、NotebookLM／GPT输出、DND代码／规则基线／实例或冻结记录，未创建批准规则对象；到此停止，等待User下一步指令。
