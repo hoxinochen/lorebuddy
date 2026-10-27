@@ -1,0 +1,18 @@
+{
+  "binding": {
+    "adopted_decision_ids": [],
+    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+    "source_evidence_id": "urn:uuid:c2e7faea-d234-518d-9499-4c9351c842d7",
+    "source_note_utf8_range": {
+      "end": 2456,
+      "start": 2382
+    }
+  },
+  "id": "urn:uuid:3df3efa1-205a-5096-8994-b00005f94343",
+  "json_pointer": "/critical_fields/allowed/0",
+  "review_status": "candidate",
+  "revision": 1,
+  "subject_id": "urn:uuid:eb31f875-0047-53b6-a275-f029cfb2a215",
+  "value": "S.ChaosStaff"
+}

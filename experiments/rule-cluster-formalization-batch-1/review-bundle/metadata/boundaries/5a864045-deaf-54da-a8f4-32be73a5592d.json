@@ -1,0 +1,24 @@
+{
+  "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+  "candidate_key": "sha256:7fc7c134011c71148dfe6bfe905887be98660d3c0209c3fbbea7071896202378",
+  "decision": {
+    "reason": "Audit envelope only; per-subject derived ranges remain separate.",
+    "review_status": "pending",
+    "reviewer_id": null
+  },
+  "entry_id": "urn:uuid:e2f3f7c0-0fd2-569c-b264-08db06c4c19d",
+  "id": "urn:uuid:5a864045-deaf-54da-a8f4-32be73a5592d",
+  "lifecycle": {
+    "revision": 1,
+    "status": "draft"
+  },
+  "locator": {
+    "end": 50442,
+    "kind": "byte-range",
+    "start": 0
+  },
+  "node_id": null,
+  "proposed_title": "五环",
+  "schema": "core.boundary-record@0.1.0",
+  "status": "proposed"
+}

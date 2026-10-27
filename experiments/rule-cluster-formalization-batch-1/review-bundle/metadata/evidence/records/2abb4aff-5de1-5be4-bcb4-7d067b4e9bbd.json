@@ -1,0 +1,26 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:40d6b4ba5aec75b37f3ec3ac1c5dda84a869111b8ae82cf196a683a4ecff44f5",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/附录C：术语汇编/状态.md",
+  "id": "urn:uuid:2abb4aff-5de1-5be4-bcb4-7d067b4e9bbd",
+  "original_record": {
+    "alias": "P.CHARMED",
+    "id": "urn:uuid:2abb4aff-5de1-5be4-bcb4-7d067b4e9bbd",
+    "line_range": [
+      36,
+      42
+    ],
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 1892,
+      "interval": "[start,end)",
+      "start": 1529
+    },
+    "source_entry_id": "urn:uuid:89505d38-cbaf-5747-9798-96f1a0bf6718",
+    "text": "<a id=\"Charmed\"></a>\n### 魅惑 Charmed【状态】\n\n魅惑状态期间，你将遭受以下这些效应。\n**无法伤害魅惑源Can't Harm the Charmer。** 你无法攻击魅惑源，也无法将其作为伤害性能力或魔法效应的对象。\n**社交优势Social Advantage。** 魅惑源对你进行的任何有关社交的属性检定均具有优势。\n\n",
+    "text_sha256": "35a1960f8c956271250b0d636ccfbf315ee0dc703733ed626f5883cc4c38958e"
+  },
+  "raw_fragment_id": "urn:uuid:8971179e-39ce-5b76-812d-ab574f55a9c7",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

@@ -1,0 +1,108 @@
+{
+  "body": {
+    "digest": "sha256:34ba072ac22cdfa97e8ea372dff76afb4e7b813a1e4bb591c818003ba72fa6a9",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/2965fca5-70ac-5730-bdfe-71e87a89038a.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "activation": "bonus_action",
+      "equipment": "unchanged",
+      "flying_only_true_form": true,
+      "forms": [
+        "small_humanoid",
+        "medium_humanoid",
+        "true_form"
+      ],
+      "stats": "unchanged_except_flying"
+    },
+    "editorial_explanation": "形态不自动换成梦魔卡；装备不变。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:23b49faa-8694-51e7-8cdb-a078c69cacb7",
+            "json_pointer": "/critical_fields/activation"
+          },
+          {
+            "extraction_id": "urn:uuid:2cfe851f-685b-5f06-a99d-3e6b0b751565",
+            "json_pointer": "/critical_fields/forms/0"
+          },
+          {
+            "extraction_id": "urn:uuid:3f168514-25e8-52df-b1c3-c1c2e341de13",
+            "json_pointer": "/critical_fields/forms/1"
+          },
+          {
+            "extraction_id": "urn:uuid:89b4bea2-600b-5ba7-8ba1-1b0230ddd88a",
+            "json_pointer": "/critical_fields/forms/2"
+          },
+          {
+            "extraction_id": "urn:uuid:8bf13790-b2a1-5578-99de-5c6e16051c34",
+            "json_pointer": "/critical_fields/stats"
+          },
+          {
+            "extraction_id": "urn:uuid:7097a8e4-b71b-5731-9f3b-f97e7624b8fe",
+            "json_pointer": "/critical_fields/flying_only_true_form"
+          },
+          {
+            "extraction_id": "urn:uuid:78f91cbf-49e4-59ee-9c72-f0b15a5bc223",
+            "json_pointer": "/critical_fields/equipment"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "pointer": "/critical_fields",
+      "source_evidence": "SU.ABILITY.6"
+    },
+    "id": "urn:uuid:2965fca5-70ac-5730-bdfe-71e87a89038a",
+    "kind": "附赠动作Bonus Actions",
+    "mechanics": {
+      "clauses": {
+        "activation": "bonus_action",
+        "equipment": "unchanged",
+        "flying_only_true_form": true,
+        "forms": [
+          "small_humanoid",
+          "medium_humanoid",
+          "true_form"
+        ],
+        "stats": "unchanged_except_flying"
+      },
+      "dependencies": [],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+    },
+    "owner_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+    "required_evidence": [],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:83f96905-64df-5ea4-a524-f50d2ca33596",
+    "title": "变形",
+    "verbatim_evidence": "SU.ABILITY.6",
+    "verbatim_text": "**变形Shape-Shift。**魅魔变形为小型或中型的类人生物，或变回其真实形态。除飞行速度仅其真实形态可用以外，其各形态下游戏数据均相同。魅魔着装或携带的任何装备都不会随之变化。\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:2965fca5-70ac-5730-bdfe-71e87a89038a",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:3e26f664-178e-58f0-a6dc-bbe222e487b7",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:83f96905-64df-5ea4-a524-f50d2ca33596",
+    "derived_note_utf8_range": {
+      "end": 4040,
+      "start": 3793
+    },
+    "entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+    "fragment_id": "urn:uuid:ab664971-31bb-5827-81c4-9d5f7275a56e",
+    "mapping_id": "urn:uuid:4a7721ec-278a-529c-b1a5-258cb61423d1"
+  },
+  "subject_kind": "ability",
+  "title": "变形",
+  "uncompiled_semantics_retained": true
+}

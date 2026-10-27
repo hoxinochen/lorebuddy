@@ -1,0 +1,196 @@
+{
+  "body": {
+    "digest": "sha256:d211c3d33cc52b43da833fdb4ad5bca95052bf401a879606ebf8676270d3e835",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/c428c860-1e7b-5a39-8eff-54cbc6726dca.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "activation": "bonus_action",
+      "dc": 15,
+      "dice": "4d8",
+      "else_damage": 18,
+      "failure_if_current_hp_lte": 20,
+      "low_hp": "unconscious_1_hour",
+      "low_hp_ends": [
+        "damage",
+        "another_creature_within_5_ft_uses_action_to_wake"
+      ],
+      "range_ft": 60,
+      "recharge": [
+        6
+      ],
+      "save": "wisdom",
+      "target": "one_visible_creature",
+      "type": "psychic"
+    },
+    "editorial_explanation": "以判定时当前HP选择分支；高HP伤害分支不在伤后低于20时追加昏迷。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:6f99dd68-d478-5f7c-9f95-ff40279ace18",
+            "json_pointer": "/critical_fields/activation"
+          },
+          {
+            "extraction_id": "urn:uuid:c0bb4edd-615d-5cc9-89eb-b9da5d946fa2",
+            "json_pointer": "/critical_fields/recharge/0"
+          },
+          {
+            "extraction_id": "urn:uuid:ef19c0cd-726c-59d6-bd4c-6139585917fa",
+            "json_pointer": "/critical_fields/save"
+          },
+          {
+            "extraction_id": "urn:uuid:d756ad22-c712-510c-976e-ac8eb05bdecc",
+            "json_pointer": "/critical_fields/dc"
+          },
+          {
+            "extraction_id": "urn:uuid:5be8f5c2-6d93-5799-a601-16b6f78106e9",
+            "json_pointer": "/critical_fields/range_ft"
+          },
+          {
+            "extraction_id": "urn:uuid:3ab8bd25-c084-5620-a473-96a3750174e8",
+            "json_pointer": "/critical_fields/target"
+          },
+          {
+            "extraction_id": "urn:uuid:4c518148-34e3-565c-84dd-7e412471089e",
+            "json_pointer": "/critical_fields/failure_if_current_hp_lte"
+          },
+          {
+            "extraction_id": "urn:uuid:2f525542-80e1-51b2-b1c9-da9747360748",
+            "json_pointer": "/critical_fields/low_hp"
+          },
+          {
+            "extraction_id": "urn:uuid:ef97ebb4-0c44-5b27-9241-3564af04cb75",
+            "json_pointer": "/critical_fields/low_hp_ends/0"
+          },
+          {
+            "extraction_id": "urn:uuid:6a4c14eb-606e-5b15-b756-e85a0b2d911c",
+            "json_pointer": "/critical_fields/low_hp_ends/1"
+          },
+          {
+            "extraction_id": "urn:uuid:3e5bdad1-1931-5c5b-9a35-27658b4b6f17",
+            "json_pointer": "/critical_fields/else_damage"
+          },
+          {
+            "extraction_id": "urn:uuid:f4444ab5-4cd3-514b-9d1a-d3afe0fb3edd",
+            "json_pointer": "/critical_fields/dice"
+          },
+          {
+            "extraction_id": "urn:uuid:42ae8420-f6b2-5cf4-8633-b3c55494c88d",
+            "json_pointer": "/critical_fields/type"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "pointer": "/critical_fields",
+      "source_evidence": "IN.ABILITY.5"
+    },
+    "id": "urn:uuid:c428c860-1e7b-5a39-8eff-54cbc6726dca",
+    "kind": "附赠动作Bonus Actions",
+    "mechanics": {
+      "branch_selection_time": "before_applying_this_effect; no_reentry_after_damage",
+      "branches": [
+        {
+          "effect": {
+            "early_end": [
+              "damage",
+              "another_creature_within_5ft_uses_action_to_wake"
+            ],
+            "hours": 1,
+            "kind": "unconscious"
+          },
+          "when": {
+            "save": "failure",
+            "target_current_hp_lte": 20
+          }
+        },
+        {
+          "effect": {
+            "amount": {
+              "dice": "4d8",
+              "printed_fixed": 18
+            },
+            "damage_type": "psychic",
+            "kind": "damage"
+          },
+          "when": {
+            "save": "failure",
+            "target_current_hp_gt": 20
+          }
+        },
+        {
+          "effect": {
+            "kind": "none_stated"
+          },
+          "when": {
+            "save": "success"
+          }
+        }
+      ],
+      "clauses": {
+        "activation": "bonus_action",
+        "dc": 15,
+        "dice": "4d8",
+        "else_damage": 18,
+        "failure_if_current_hp_lte": 20,
+        "low_hp": "unconscious_1_hour",
+        "low_hp_ends": [
+          "damage",
+          "another_creature_within_5_ft_uses_action_to_wake"
+        ],
+        "range_ft": 60,
+        "recharge": [
+          6
+        ],
+        "save": "wisdom",
+        "target": "one_visible_creature",
+        "type": "psychic"
+      },
+      "dependencies": [
+        "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+        "urn:uuid:4dfe39fd-0141-5e50-ae95-ebeaa474aab9"
+      ],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+    },
+    "owner_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+    "required_evidence": [
+      "P.UNCONSCIOUS",
+      "P.RESISTANCE"
+    ],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:bc146ab1-be32-5848-9c30-6bd65d4ad38f",
+    "title": "噩梦",
+    "verbatim_evidence": "IN.ABILITY.5",
+    "verbatim_text": "**噩梦Nightmare（充能6）。***感知豁免检定：*DC15，单一60尺内梦魔可见的生物。*失败：*若目标的生命值为20或更低，则其陷入昏迷状态，持续1小时并在其受到伤害或被目标5尺内的另一生物用一个动作摇醒时提前结束；否则，目标受到18（4d8）心灵伤害。\n"
+  },
+  "dependency_ids": [
+    "urn:uuid:4dfe39fd-0141-5e50-ae95-ebeaa474aab9",
+    "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb"
+  ],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:c428c860-1e7b-5a39-8eff-54cbc6726dca",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:19723d04-1815-5a6c-aeb7-072279b07ec3",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:bc146ab1-be32-5848-9c30-6bd65d4ad38f",
+    "derived_note_utf8_range": {
+      "end": 4175,
+      "start": 3841
+    },
+    "entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+    "fragment_id": "urn:uuid:3da4dc0e-0945-5ef1-8d58-92662fc6ea04",
+    "mapping_id": "urn:uuid:63ace06a-e3e6-5b0c-b9bb-590596d6589b"
+  },
+  "subject_kind": "ability",
+  "title": "噩梦",
+  "uncompiled_semantics_retained": true
+}

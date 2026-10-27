@@ -1,0 +1,18 @@
+{
+  "binding": {
+    "adopted_decision_ids": [],
+    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+    "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+    "source_evidence_id": "urn:uuid:7a7fb0eb-da38-51c4-99e4-09e87ba8cdeb",
+    "source_note_utf8_range": {
+      "end": 2776,
+      "start": 2545
+    }
+  },
+  "id": "urn:uuid:8e513784-66ec-559b-9fab-a72236d9a1da",
+  "json_pointer": "/critical_fields/through_creatures_objects",
+  "review_status": "candidate",
+  "revision": 1,
+  "subject_id": "urn:uuid:e8ebb0c9-ad53-54a1-96ff-34506c82bf8c",
+  "value": "difficult_terrain"
+}

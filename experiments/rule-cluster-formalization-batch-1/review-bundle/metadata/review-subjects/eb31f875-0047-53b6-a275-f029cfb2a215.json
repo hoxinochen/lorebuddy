@@ -1,0 +1,79 @@
+{
+  "body": {
+    "digest": "sha256:a56677c61b93687c3dd2bb080c54214d08f0332974462b7889edd21177cd57ff",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/eb31f875-0047-53b6-a275-f029cfb2a215.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "allowed": [
+        "S.ChaosStaff"
+      ],
+      "attacks": 3
+    },
+    "editorial_explanation": "三次混沌法杖，不存在法术替换许可。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:1709fce1-7acd-5ef7-9d17-0efd54bce664",
+            "json_pointer": "/critical_fields/attacks"
+          },
+          {
+            "extraction_id": "urn:uuid:3df3efa1-205a-5096-8994-b00005f94343",
+            "json_pointer": "/critical_fields/allowed/0"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "local_evidence": "S.ABILITY.3",
+      "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+      "pointer": "/critical_fields"
+    },
+    "id": "urn:uuid:eb31f875-0047-53b6-a275-f029cfb2a215",
+    "kind": "动作Actions",
+    "mechanics": {
+      "clauses": {
+        "allowed": [
+          "S.ChaosStaff"
+        ],
+        "attacks": 3
+      },
+      "dependencies": [],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+    },
+    "owner_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+    "required_evidence": [],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:c2e7faea-d234-518d-9499-4c9351c842d7",
+    "title": "多重攻击",
+    "verbatim_evidence": "S.ABILITY.3",
+    "verbatim_text": "\n**多重攻击Multiattack。**史拉蟾发动三次混沌法杖攻击。\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:eb31f875-0047-53b6-a275-f029cfb2a215",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:c587d188-15a9-5982-9084-a8e3e441b92e",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:c2e7faea-d234-518d-9499-4c9351c842d7",
+    "derived_note_utf8_range": {
+      "end": 2456,
+      "start": 2382
+    },
+    "entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+    "fragment_id": "urn:uuid:2f037a82-6e86-5b22-b290-e00cb0335153",
+    "mapping_id": "urn:uuid:d69b0a1f-7a80-5cc0-ad1c-f9a647e5d626"
+  },
+  "subject_kind": "ability",
+  "title": "多重攻击",
+  "uncompiled_semantics_retained": true
+}

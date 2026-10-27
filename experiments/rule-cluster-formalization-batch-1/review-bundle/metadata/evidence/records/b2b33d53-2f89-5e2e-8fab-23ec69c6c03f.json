@@ -1,0 +1,26 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:d823339e2eca6cc5d203709d83f2b6e5c69a0dee88f5c7dcc7018814ba64b01a",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/附录C：术语汇编/其他术语.md",
+  "id": "urn:uuid:b2b33d53-2f89-5e2e-8fab-23ec69c6c03f",
+  "original_record": {
+    "alias": "P.LONG_REST",
+    "id": "urn:uuid:b2b33d53-2f89-5e2e-8fab-23ec69c6c03f",
+    "line_range": [
+      432,
+      451
+    ],
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 29429,
+      "interval": "[start,end)",
+      "start": 27788
+    },
+    "source_entry_id": "urn:uuid:110fe3cc-449c-5d30-9bc5-47198a153a06",
+    "text": "<a id=\"Long_Rest\"></a>\n### 长休 Long Rest\n\n长休指的是一段长时间的休整期（至少8小时），任何生物都可以进行长休。在一次长休期间，你进行至少6小时的睡眠，并进行至多2小时的轻度活动，例如阅读、交谈、进食或站岗。\n睡眠期间，你陷入昏迷状态。完成一次长休后，你必须等待至少16小时后才能开始另一次长休。\n**长休的增益Benefits of the Rest。**你必须具有至少1点生命值才能开始一次长休，当你完成长休时，你将获得以下这些增益：\n**恢复全部生命值Regain All HP。**你恢复所有已损失的生命值并重获所有已消耗的生命值骰。如果你的生命值上限被减少了，那么其在此时也会恢复原状。\n**属性值恢复Ability Scores Restored。**如果你的某项属性值被减少了，那么其在此时会恢复原状。\n**力竭消退Exhaustion Reduced。**如果你具有力竭等级，你的力竭等级减少1级。\n **特殊特性Special Feature。**有些特性会在长休时恢复。如果你拥有此类特性，长休完成时这些特性会以它们自己描述中写明的方式恢复。\n**打断长休Interrupting the Rest。**一次长休会因下列原因而被打断：\n\n- 投掷先攻\n- 施展一道非戏法的法术\n- 受到任何伤害\n- 1小时的行走或其他的体力劳动\n\n如果你在长休被打断之前休息了至少1小时，你可以获得一次短休的增益。另见“短休Short Rest”。\n你可以在被打断后立刻继续你的长休，但为了完成这次长休，每被打断一次你就需要额外休息1小时。\n\n",
+    "text_sha256": "5a3ff5ec3f86c1afb4f8b17b7d1a0d4062c642df7790e0f712f3aaeb9abc67a5"
+  },
+  "raw_fragment_id": "urn:uuid:ddb774de-514e-58f9-81d3-40c80ee27e77",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

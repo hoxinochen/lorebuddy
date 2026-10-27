@@ -1,0 +1,26 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:a9059840540c273cb7c63b35c46986bf767426fbe7584892306d9493892382ee",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/异怪/史拉蟾/史拉绿蟾.md",
+  "id": "urn:uuid:f621096f-4f2e-5f51-8a98-3330d1b33807",
+  "original_record": {
+    "alias": "S.CARD",
+    "id": "urn:uuid:f621096f-4f2e-5f51-8a98-3330d1b33807",
+    "line_range": [
+      19,
+      51
+    ],
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 3373,
+      "interval": "[start,end)",
+      "start": 901
+    },
+    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+    "text": "<a id=\"Green_Slaad\"></a>\n##### 史拉绿蟾Green Slaad\n\n大型异怪，混乱中立\n\n<table><tr><td><strong>AC </strong>16</td><td><strong>先攻 </strong>+5（15）</td></tr> <tr><td colspan=\"2\"><strong>HP </strong>144（17d10+51）</td></tr> <tr><td colspan=\"2\"><strong>速度 </strong>30尺</td></tr></table>\n\n<table><tr><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th></tr> <tr><td><strong>力量</strong></td><td>16</td><td>+3</td><td>+3</td> <td></td> <td><strong>敏捷</strong></td><td>15</td><td>+2</td><td>+2</td> <td></td> <td><strong>体质</strong></td><td>16</td><td>+3</td><td>+3</td></tr> <tr><td><strong>智力</strong></td><td>11</td><td>+0</td><td>+0</td> <td></td> <td><strong>感知</strong></td><td>8</td><td>-1</td><td>-1</td> <td></td> <td><strong>魅力</strong></td><td>18</td><td>+4</td><td>+4</td></tr> </table>\n\n| **技能**奥秘+3，察觉+2 |\n| --- |\n| **抗性**强酸，寒冷，火焰，闪电，雷鸣 |\n| **感官**盲视30尺，黑暗视觉60尺；被动察觉12 |\n| **语言**通用语，史拉蟾语；心灵感应60尺 |\n| **CR**8（XP3900；PB+3） |\n\n###### 特质Traits\n\n**魔法抗性Magic Resistance。**史拉蟾对抗法术和其他魔法效应时进行的豁免检定具有优势。\n**再生Regeneration。**若史拉蟾至少拥有1生命值，则其在自己回合开始时回复10生命值。\n\n###### 动作Actions\n\n**多重攻击Multiattack。**史拉蟾发动三次混沌法杖攻击。\n **混沌法杖Chaos Staff。***近战或远程攻击检定：*+7，触及10尺或射程60尺。*命中：*8（1d8+4）力场伤害。目标陷入某种状态直至史拉蟾的下个回合开始，掷1d4决定：1，魅惑；2，恐慌；3，中毒；4，失能。\n **施法Spellcasting。**史拉蟾施展以下一道法术，无需材料成分并使用魅力作为施法属性（法术豁免DC14，法术攻击命中+6）：\n（译注：应为DC15，命中+7，但原文如此）\n ***随意：****侦测魔法Detect Magic，侦测思想Detect Thoughts，法师之手Mage Hand*\n ***每项1/日：****火球术Fireball，隐形术Invisibility*（仅自身）\n\n###### 附赠动作Bonus Actions\n\n**变形Shape-Shift。**史拉蟾变形为小型或中型的类人生物，或变回其真实形态。除体型以外，其各形态下游戏数据均相同。史拉蟾着装或携带的任何装备都不会随之变化。\n",
+    "text_sha256": "bf07b709e1080ec50be6f192d3f71c0520838b40fec8d20a4fc5e5effc9a7e97"
+  },
+  "raw_fragment_id": "urn:uuid:2f037a82-6e86-5b22-b290-e00cb0335153",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

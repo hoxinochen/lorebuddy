@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:002c984c128b987a5a6f2ae9dfb3c99824e59a96d1df993b89ce2f1158c531a3",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/元素/四元素/土元素.md",
+  "id": "urn:uuid:f7bddd35-351d-570f-8011-c1d3777d3bb5",
+  "original_record": {
+    "alias": "E.ABILITY.1",
+    "id": "urn:uuid:f7bddd35-351d-570f-8011-c1d3777d3bb5",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 3414,
+      "interval": "[start,end)",
+      "start": 3253
+    },
+    "source_entry_id": "urn:uuid:57a08374-1e20-5c97-a1f3-00447e3b05d9",
+    "text": "\n**遁地Earth Glide。**土元素可以掘穴穿过非魔法且未经加工的泥土及岩石。遁地期间，土元素不会破坏其穿过的任何材质。\n",
+    "text_sha256": "58d4d7617884f80a5114c83f5fef316e727cd2093ecc5c0cf96645b44133f0d2"
+  },
+  "raw_fragment_id": "urn:uuid:8144d427-b3e6-53aa-bddc-c78ae18e3a0d",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

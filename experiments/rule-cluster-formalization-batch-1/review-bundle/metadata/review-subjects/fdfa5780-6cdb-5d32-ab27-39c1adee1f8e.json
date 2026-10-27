@@ -1,0 +1,105 @@
+{
+  "body": {
+    "digest": "sha256:eb4beabe8984311da1dd46e5d817c80c708ffd3c559ac91e9ece72664eefed61",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/fdfa5780-6cdb-5d32-ab27-39c1adee1f8e.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "attack_bonus": 7,
+      "damage": 16,
+      "dice": "2d10+5",
+      "reach_ft": 5,
+      "type": "psychic"
+    },
+    "editorial_explanation": "仅本卡攻击。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:d122963b-95d5-55b4-9dd2-0165ed0def62",
+            "json_pointer": "/critical_fields/attack_bonus"
+          },
+          {
+            "extraction_id": "urn:uuid:e969126c-e6a6-563f-bdd7-1e31e5619b05",
+            "json_pointer": "/critical_fields/reach_ft"
+          },
+          {
+            "extraction_id": "urn:uuid:eb4ab9e6-34ce-5704-a76f-5718784c2dab",
+            "json_pointer": "/critical_fields/damage"
+          },
+          {
+            "extraction_id": "urn:uuid:2f22cc1b-3b2d-5467-8f7c-28f82628c30d",
+            "json_pointer": "/critical_fields/dice"
+          },
+          {
+            "extraction_id": "urn:uuid:44851f5c-6642-5447-8866-7f5ef317b5f8",
+            "json_pointer": "/critical_fields/type"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "pointer": "/critical_fields",
+      "source_evidence": "SU.ABILITY.3"
+    },
+    "id": "urn:uuid:fdfa5780-6cdb-5d32-ab27-39c1adee1f8e",
+    "kind": "动作Actions",
+    "mechanics": {
+      "clauses": {
+        "attack_bonus": 7,
+        "damage": 16,
+        "dice": "2d10+5",
+        "reach_ft": 5,
+        "type": "psychic"
+      },
+      "damage": {
+        "amount": {
+          "dice": "2d10+5",
+          "printed_fixed": 16,
+          "selection": "use_scene_amount_mode; recorded_dice_must_not_be_rerolled"
+        },
+        "damage_type": "psychic",
+        "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+        "linked_reduction_from_damage_taken": false,
+        "other_effects": [],
+        "save_success": null,
+        "trigger": "hit"
+      },
+      "dependencies": [],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+    },
+    "owner_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+    "required_evidence": [],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:8b86d615-d12b-59a4-af05-46b85e1ffd20",
+    "title": "魔性之触",
+    "verbatim_evidence": "SU.ABILITY.3",
+    "verbatim_text": " **魔性之触Fiendish Touch。**近战攻击：+7，触及5尺。*命中：*16（2d10+5）心灵伤害。\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:fdfa5780-6cdb-5d32-ab27-39c1adee1f8e",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:5aa69af2-c0c9-5144-8aad-ac5a3a733f9f",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:8b86d615-d12b-59a4-af05-46b85e1ffd20",
+    "derived_note_utf8_range": {
+      "end": 3358,
+      "start": 3250
+    },
+    "entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+    "fragment_id": "urn:uuid:ab664971-31bb-5827-81c4-9d5f7275a56e",
+    "mapping_id": "urn:uuid:4a7721ec-278a-529c-b1a5-258cb61423d1"
+  },
+  "subject_kind": "ability",
+  "title": "魔性之触",
+  "uncompiled_semantics_retained": true
+}

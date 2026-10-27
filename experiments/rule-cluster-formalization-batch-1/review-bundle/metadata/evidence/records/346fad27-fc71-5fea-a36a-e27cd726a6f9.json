@@ -1,0 +1,26 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:d823339e2eca6cc5d203709d83f2b6e5c69a0dee88f5c7dcc7018814ba64b01a",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/附录C：术语汇编/其他术语.md",
+  "id": "urn:uuid:346fad27-fc71-5fea-a36a-e27cd726a6f9",
+  "original_record": {
+    "alias": "P.IMMUNITY",
+    "id": "urn:uuid:346fad27-fc71-5fea-a36a-e27cd726a6f9",
+    "line_range": [
+      389,
+      393
+    ],
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 24568,
+      "interval": "[start,end)",
+      "start": 24402
+    },
+    "source_entry_id": "urn:uuid:110fe3cc-449c-5d30-9bc5-47198a153a06",
+    "text": "<a id=\"Immunity\"></a>\n### 免疫 Immunity\n\n如果你拥有某项伤害类型或是某项状态的免疫，该类型伤害/状态以任何方式都无法影响你。\n\n",
+    "text_sha256": "a0e897909dcae49bac022c325ec28fdd5c8579e1546bc6eb81ed837f32cd79cb"
+  },
+  "raw_fragment_id": "urn:uuid:ddb774de-514e-58f9-81d3-40c80ee27e77",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

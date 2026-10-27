@@ -1,0 +1,45 @@
+{
+  "expression_revision": 1,
+  "id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+  "inputs": [
+    "raw_damage_from_selected_amount",
+    "save_outcome_if_rule_requires",
+    "confirmed_target_defenses",
+    "confirmed_eligibility",
+    "other_adjustment_coverage"
+  ],
+  "name": "dnd2024.single_damage",
+  "not_equivalent_to": [
+    "hit_point_loss",
+    "action_legality",
+    "condition_application",
+    "full_action_completion"
+  ],
+  "ordered_operations": [
+    {
+      "op": "ability_success_branch",
+      "rounding": "floor_if_halved"
+    },
+    {
+      "op": "matching_resistance_once",
+      "rounding": "floor"
+    },
+    {
+      "multiplier": 2,
+      "op": "matching_vulnerability_once"
+    },
+    {
+      "op": "matching_immunity_numeric_gate",
+      "value": 0
+    }
+  ],
+  "outputs": [
+    "damage_taken",
+    "linked_reduction_if_declared"
+  ],
+  "source_evidence_ids": [
+    "urn:uuid:8d9ed635-0e59-547b-afd7-0a10224ca485",
+    "urn:uuid:402203e6-571b-54e7-a3d8-505244256f62",
+    "urn:uuid:346fad27-fc71-5fea-a36a-e27cd726a6f9"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+  "candidate_key": "sha256:1b6f43aafb376688e5c74a0473acccd83f14d6a7859cd64b67d2ff70a3b503a1",
+  "decision": {
+    "reason": "Audit envelope only; per-subject derived ranges remain separate.",
+    "review_status": "pending",
+    "reviewer_id": null
+  },
+  "entry_id": "urn:uuid:57a08374-1e20-5c97-a1f3-00447e3b05d9",
+  "id": "urn:uuid:aef79765-79fd-5baf-807b-61c6ec28161c",
+  "lifecycle": {
+    "revision": 1,
+    "status": "draft"
+  },
+  "locator": {
+    "end": 4195,
+    "kind": "byte-range",
+    "start": 0
+  },
+  "node_id": null,
+  "proposed_title": "土元素",
+  "schema": "core.boundary-record@0.1.0",
+  "status": "proposed"
+}

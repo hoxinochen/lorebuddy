@@ -1,0 +1,20 @@
+{
+  "binding": {
+    "adopted_decision_ids": [
+      "urn:uuid:1607dde9-3615-5501-8660-838d00e4e588"
+    ],
+    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+    "source_note_utf8_range": {
+      "end": 3841,
+      "start": 3544
+    }
+  },
+  "id": "urn:uuid:f8920966-f8bd-5733-a0eb-df369fa039c0",
+  "json_pointer": "/critical_fields/each_once_per_day/1",
+  "review_status": "candidate",
+  "revision": 1,
+  "subject_id": "urn:uuid:242f80c2-a7ea-5199-9088-8d5a12a6c5c5",
+  "value": "P.HYPNOTIC"
+}

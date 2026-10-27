@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:c9c56baacc1df4a575d8284d4e82ccb606aec1e45fe35185e1fd15932d851fb8",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/元素/四元素/火元素.md",
+  "id": "urn:uuid:108e2b08-f639-5598-813b-97c3d9e40ec1",
+  "original_record": {
+    "alias": "F.ABILITY.6",
+    "id": "urn:uuid:108e2b08-f639-5598-813b-97c3d9e40ec1",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 4158,
+      "interval": "[start,end)",
+      "start": 4002
+    },
+    "source_entry_id": "urn:uuid:048a1238-9915-5f2e-8619-c8ccbc580529",
+    "text": " **燃烧Burn。***近战攻击检定：*+6，触及5尺。*命中：*10（2d6+3）火焰伤害。若目标为生物或易燃物件，则其开始燃烧。\n",
+    "text_sha256": "36af48d1aa8c27a8d9e1ae8bfd83ec4e5f6fdc27640945bbabaa30171ac33855"
+  },
+  "raw_fragment_id": "urn:uuid:d6125d3b-9532-5ccd-8263-8e76bb248835",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

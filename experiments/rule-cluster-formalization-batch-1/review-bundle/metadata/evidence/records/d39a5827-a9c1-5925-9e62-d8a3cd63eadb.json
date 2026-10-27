@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:02efbe8a953929558945da2ede1fe2c71cb8fdb15819e95e9510d88bc662e9b9",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/构装/盾卫.md",
+  "id": "urn:uuid:d39a5827-a9c1-5925-9e62-d8a3cd63eadb",
+  "original_record": {
+    "alias": "G.ABILITY.4",
+    "id": "urn:uuid:d39a5827-a9c1-5925-9e62-d8a3cd63eadb",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 3930,
+      "interval": "[start,end)",
+      "start": 3865
+    },
+    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+    "text": "\n**多重攻击Multiattack。**盾卫发动两次拳击攻击。\n",
+    "text_sha256": "c99091fd760bde803dc1c03aa4731a0e6907182ee09adac3ce8a97135c4a4e51"
+  },
+  "raw_fragment_id": "urn:uuid:9636c175-25b3-5946-bf3d-d27bd737b4ec",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

@@ -1,0 +1,272 @@
+{
+  "body": {
+    "digest": "sha256:f9e742f39f16f9a0a0fc299583bb151eeecf2442f2f83ceab29e9a1c3a825550",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/c00679f8-148d-5365-a724-6c73858b5e0b.md"
+  },
+  "candidate_snapshot": {
+    "alias": "P.HAND",
+    "candidate_revision": 2,
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "casting_contract": {
+          "activation": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+              "source_entry_id": "urn:uuid:aeefb9c1-aff9-5982-98ab-0643f145eba5",
+              "source_evidence_id": "urn:uuid:095055a1-4344-5223-80d0-cc8c68dda67b",
+              "source_note_utf8_range": {
+                "end": 8349,
+                "start": 8324
+              }
+            },
+            "state": "known",
+            "value": "动作"
+          },
+          "base_level": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+              "source_entry_id": "urn:uuid:aeefb9c1-aff9-5982-98ab-0643f145eba5",
+              "source_evidence_id": "urn:uuid:095055a1-4344-5223-80d0-cc8c68dda67b",
+              "source_note_utf8_range": {
+                "end": 9192,
+                "start": 8194
+              }
+            },
+            "state": "known",
+            "value": 0
+          },
+          "components": {
+            "material": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:e7d2d510-5802-5350-a6c7-391b020fa902",
+                "source_entry_id": "urn:uuid:aeefb9c1-aff9-5982-98ab-0643f145eba5",
+                "source_evidence_id": "urn:uuid:095055a1-4344-5223-80d0-cc8c68dda67b",
+                "source_note_utf8_range": {
+                  "end": 8399,
+                  "start": 8375
+                }
+              },
+              "state": "known",
+              "value": false
+            },
+            "material_consumption": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+                "source_entry_id": "urn:uuid:aeefb9c1-aff9-5982-98ab-0643f145eba5",
+                "source_evidence_id": "urn:uuid:095055a1-4344-5223-80d0-cc8c68dda67b",
+                "source_note_utf8_range": {
+                  "end": 8399,
+                  "start": 8375
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "material_detail": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+                "source_entry_id": "urn:uuid:aeefb9c1-aff9-5982-98ab-0643f145eba5",
+                "source_evidence_id": "urn:uuid:095055a1-4344-5223-80d0-cc8c68dda67b",
+                "source_note_utf8_range": {
+                  "end": 8399,
+                  "start": 8375
+                }
+              },
+              "state": "not_applicable",
+              "value": null
+            },
+            "material_value": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+                "source_entry_id": "urn:uuid:aeefb9c1-aff9-5982-98ab-0643f145eba5",
+                "source_evidence_id": "urn:uuid:095055a1-4344-5223-80d0-cc8c68dda67b",
+                "source_note_utf8_range": {
+                  "end": 8399,
+                  "start": 8375
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "somatic": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:e7d2d510-5802-5350-a6c7-391b020fa902",
+                "source_entry_id": "urn:uuid:aeefb9c1-aff9-5982-98ab-0643f145eba5",
+                "source_evidence_id": "urn:uuid:095055a1-4344-5223-80d0-cc8c68dda67b",
+                "source_note_utf8_range": {
+                  "end": 8399,
+                  "start": 8375
+                }
+              },
+              "state": "known",
+              "value": true
+            },
+            "verbal": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:e7d2d510-5802-5350-a6c7-391b020fa902",
+                "source_entry_id": "urn:uuid:aeefb9c1-aff9-5982-98ab-0643f145eba5",
+                "source_evidence_id": "urn:uuid:095055a1-4344-5223-80d0-cc8c68dda67b",
+                "source_note_utf8_range": {
+                  "end": 8399,
+                  "start": 8375
+                }
+              },
+              "state": "known",
+              "value": true
+            }
+          },
+          "concentration": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:49dace82-f73e-5fff-8f21-b5bef68a7a74",
+              "source_entry_id": "urn:uuid:aeefb9c1-aff9-5982-98ab-0643f145eba5",
+              "source_evidence_id": "urn:uuid:095055a1-4344-5223-80d0-cc8c68dda67b",
+              "source_note_utf8_range": {
+                "end": 8426,
+                "start": 8400
+              }
+            },
+            "state": "known",
+            "value": false
+          },
+          "coverage": "headers_targets_saves_and_calls_structured; remaining_effect_prose_retained_uncompiled; not_full_casting_legality",
+          "duration": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+              "source_entry_id": "urn:uuid:aeefb9c1-aff9-5982-98ab-0643f145eba5",
+              "source_evidence_id": "urn:uuid:095055a1-4344-5223-80d0-cc8c68dda67b",
+              "source_note_utf8_range": {
+                "end": 8426,
+                "start": 8400
+              }
+            },
+            "state": "known",
+            "value": "1分钟"
+          },
+          "effects": [
+            {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+                "source_entry_id": "urn:uuid:aeefb9c1-aff9-5982-98ab-0643f145eba5",
+                "source_evidence_id": "urn:uuid:095055a1-4344-5223-80d0-cc8c68dda67b",
+                "source_note_utf8_range": {
+                  "end": 9192,
+                  "start": 8194
+                }
+              },
+              "state": "verbatim_only",
+              "value": {
+                "numeric_facet_pointer": null,
+                "read_from_evidence_id": "urn:uuid:095055a1-4344-5223-80d0-cc8c68dda67b"
+              }
+            }
+          ],
+          "range": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+              "source_entry_id": "urn:uuid:aeefb9c1-aff9-5982-98ab-0643f145eba5",
+              "source_evidence_id": "urn:uuid:095055a1-4344-5223-80d0-cc8c68dda67b",
+              "source_note_utf8_range": {
+                "end": 8374,
+                "start": 8350
+              }
+            },
+            "state": "known",
+            "value": "30尺"
+          },
+          "save_attack": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+              "source_entry_id": "urn:uuid:aeefb9c1-aff9-5982-98ab-0643f145eba5",
+              "source_evidence_id": "urn:uuid:095055a1-4344-5223-80d0-cc8c68dda67b",
+              "source_note_utf8_range": {
+                "end": 9192,
+                "start": 8194
+              }
+            },
+            "state": "known",
+            "value": {
+              "kind": "no_save_or_attack_stated"
+            }
+          },
+          "targeting": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+              "source_entry_id": "urn:uuid:aeefb9c1-aff9-5982-98ab-0643f145eba5",
+              "source_evidence_id": "urn:uuid:095055a1-4344-5223-80d0-cc8c68dda67b",
+              "source_note_utf8_range": {
+                "end": 9192,
+                "start": 8194
+              }
+            },
+            "state": "known",
+            "value": {
+              "cannot_attack": true,
+              "kind": "point_within_range",
+              "max_carried_weight_lb": 10
+            }
+          },
+          "upcast": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+              "source_entry_id": "urn:uuid:aeefb9c1-aff9-5982-98ab-0643f145eba5",
+              "source_evidence_id": "urn:uuid:095055a1-4344-5223-80d0-cc8c68dda67b",
+              "source_note_utf8_range": {
+                "end": 9192,
+                "start": 8194
+              }
+            },
+            "state": "not_stated",
+            "value": null
+          }
+        }
+      }
+    },
+    "id": "urn:uuid:c00679f8-148d-5365-a724-6c73858b5e0b",
+    "kind": "spell",
+    "review_status": "candidate",
+    "rule_context": "PHB2024",
+    "source_evidence_id": "urn:uuid:095055a1-4344-5223-80d0-cc8c68dda67b",
+    "structured_mechanics_status": "verbatim_complete_structured_facets_below_are_partial_not_silent_defaults",
+    "title": "法师之手｜Mage Hand",
+    "verbatim_text": "<a id=\"Mage_Hand\"></a>\n#### 法师之手｜Mage Hand\n\n*咒法 戏法（吟游诗人、术士、魔契师、法师、奇械师）*\n**施法时间：**动作\n**施法距离：**30尺\n**法术成分：**V、S\n**持续时间：**1分钟\n一只漂浮的幽灵手出现在施法距离内你指定的一点。幽灵手持续存在至法术终止。如果幽灵手与你之间的距离超过30尺，则幽灵手将消失不见。若你再次施展了此法术，现存的幽灵手也将提前消失。\n你可以在施展该法术时使用幽灵手实施一个行为：你可以操控一个物件、打开一扇未上锁的门或容器、将一件物品放入或取出一个打开的容器、或是将小瓶中的内容物倾倒出来。\n在后续的回合中，你可以用魔法 动作控制幽灵手再次实施上述行为之一。而作为那次动作的一部分，你还可以令幽灵手移动至多30尺。\n该幽灵手不能攻击，也不能激活魔法物品或承载超过10磅重的物质。\n\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:c00679f8-148d-5365-a724-6c73858b5e0b",
+  "language": "zh-Hans",
+  "module": "spells",
+  "review_record_id": "urn:uuid:a4f55f61-3d61-59a9-8413-d13e361a9d43",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:095055a1-4344-5223-80d0-cc8c68dda67b",
+    "derived_note_utf8_range": {
+      "end": 9192,
+      "start": 8194
+    },
+    "entry_id": "urn:uuid:aeefb9c1-aff9-5982-98ab-0643f145eba5",
+    "fragment_id": "urn:uuid:f65bce35-3a5b-5e88-9f10-09feb1abc685",
+    "mapping_id": "urn:uuid:da9de360-8abe-593c-9f4e-7c814411ead5"
+  },
+  "subject_kind": "spell",
+  "title": "法师之手｜Mage Hand",
+  "uncompiled_semantics_retained": true
+}

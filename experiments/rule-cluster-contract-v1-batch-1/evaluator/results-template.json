@@ -1,0 +1,392 @@
+{
+  "status": "Not Run",
+  "consumer_acceptance": "Pending",
+  "regression_count": 24,
+  "new_count": 24,
+  "cases": [
+    {
+      "id": "C01",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "C02",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "C03",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "C04",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "C05",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "C06",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "C07",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "C08",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "C09",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "C10",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "C11",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "C12",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "C13",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "C14",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "C15",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "C16",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "C17",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "C18",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "C19",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "C20",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "C21",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "C22",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "C23",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "C24",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "N01",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "N02",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "N03",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "N04",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "N05",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "N06",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "N07",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "N08",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "N09",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "N10",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "N11",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "N12",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "N13",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "N14",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "N15",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "N16",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "N17",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "N18",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "N19",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "N20",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "N21",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "N22",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "N23",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    },
+    {
+      "id": "N24",
+      "actual": null,
+      "read_binding_score": null,
+      "numeric_score": null,
+      "scope_score": null,
+      "elapsed_ms": null
+    }
+  ]
+}

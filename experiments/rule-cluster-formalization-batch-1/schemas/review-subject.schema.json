@@ -1,0 +1,163 @@
+{
+  "$defs": {
+    "digest": {
+      "pattern": "^sha256:[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "id": {
+      "pattern": "^urn:uuid:[0-9a-f-]{36}$",
+      "type": "string"
+    }
+  },
+  "$id": "m2.rule-review-subject@0.1.0",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "body": {
+      "additionalProperties": false,
+      "properties": {
+        "digest": {
+          "$ref": "#/$defs/digest"
+        },
+        "encoding": {
+          "const": "utf-8"
+        },
+        "path": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "path",
+        "digest",
+        "encoding"
+      ],
+      "type": "object"
+    },
+    "candidate_snapshot": {
+      "type": "object"
+    },
+    "dependency_ids": {
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "full_fidelity": {
+      "const": "not_claimed"
+    },
+    "id": {
+      "$ref": "#/$defs/id"
+    },
+    "language": {
+      "const": "zh-Hans"
+    },
+    "module": {
+      "enum": [
+        "creatures",
+        "spells",
+        "common"
+      ]
+    },
+    "review_record_id": {
+      "$ref": "#/$defs/id"
+    },
+    "review_status": {
+      "const": "in_review"
+    },
+    "rules_context_id": {
+      "$ref": "#/$defs/id"
+    },
+    "schema": {
+      "const": "m2.rule-review-subject@0.1.0"
+    },
+    "source_binding": {
+      "additionalProperties": false,
+      "properties": {
+        "artifact_id": {
+          "$ref": "#/$defs/id"
+        },
+        "derived_evidence_id": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "derived_note_utf8_range": {
+          "additionalProperties": false,
+          "properties": {
+            "end": {
+              "minimum": 1,
+              "type": "integer"
+            },
+            "start": {
+              "minimum": 0,
+              "type": "integer"
+            }
+          },
+          "required": [
+            "start",
+            "end"
+          ],
+          "type": "object"
+        },
+        "entry_id": {
+          "$ref": "#/$defs/id"
+        },
+        "fragment_id": {
+          "$ref": "#/$defs/id"
+        },
+        "mapping_id": {
+          "$ref": "#/$defs/id"
+        }
+      },
+      "required": [
+        "entry_id",
+        "artifact_id",
+        "fragment_id",
+        "mapping_id",
+        "derived_evidence_id",
+        "derived_note_utf8_range"
+      ],
+      "type": "object"
+    },
+    "subject_kind": {
+      "enum": [
+        "creature",
+        "ability",
+        "spell",
+        "shared_reference"
+      ]
+    },
+    "title": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "uncompiled_semantics_retained": {
+      "const": true
+    }
+  },
+  "required": [
+    "schema",
+    "id",
+    "subject_kind",
+    "title",
+    "language",
+    "module",
+    "rules_context_id",
+    "review_status",
+    "body",
+    "source_binding",
+    "full_fidelity",
+    "candidate_snapshot",
+    "review_record_id",
+    "dependency_ids",
+    "uncompiled_semantics_retained"
+  ],
+  "type": "object"
+}

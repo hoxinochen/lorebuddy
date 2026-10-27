@@ -1,0 +1,13 @@
+{
+  "basis": "local Chinese expression claim; not an official Chinese edition assertion",
+  "id": "urn:uuid:72d3a3b5-fbaa-5966-90b3-3a667cf60b62",
+  "identity_status": "claimed",
+  "kind": "edition",
+  "language": "zh-Hans",
+  "review_status": "in_review",
+  "rights": "unknown",
+  "schema": "m2.publication-claim@0.1.0",
+  "title_claim": "玩家手册2024",
+  "translation_authority": "unknown",
+  "work_id": "urn:uuid:6654ea59-075b-5f6c-a0b9-23bd7229c397"
+}

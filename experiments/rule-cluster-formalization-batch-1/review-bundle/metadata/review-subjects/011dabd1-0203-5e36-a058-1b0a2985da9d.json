@@ -1,0 +1,137 @@
+{
+  "body": {
+    "digest": "sha256:53828fa8cd11ebb1260169aee4f55e1c1750bbb523b8afe98835e5370ace787b",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/011dabd1-0203-5e36-a058-1b0a2985da9d.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "damage": 5,
+      "damage_dice": "1d10",
+      "emanation_ft": 10,
+      "ignites": [
+        "creatures",
+        "flammable_objects"
+      ],
+      "timing": "source_turn_end",
+      "type": "fire"
+    },
+    "editorial_explanation": "灵光伤害是来源火元素回合结束；点燃后另依赖公共燃烧危害，不把该危害改成每回合5点。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:9643dccd-de39-591c-a699-12dc37d85db1",
+            "json_pointer": "/critical_fields/timing"
+          },
+          {
+            "extraction_id": "urn:uuid:174e2a03-9ebd-53c7-8c36-031a028d0a42",
+            "json_pointer": "/critical_fields/emanation_ft"
+          },
+          {
+            "extraction_id": "urn:uuid:a77279db-fe93-583a-b17a-720f85100a56",
+            "json_pointer": "/critical_fields/damage"
+          },
+          {
+            "extraction_id": "urn:uuid:0d0cfcf4-ae8d-5ba9-abeb-e2458b7e8bf0",
+            "json_pointer": "/critical_fields/damage_dice"
+          },
+          {
+            "extraction_id": "urn:uuid:9e8c4e75-c3ee-56e5-b1f4-91979f75e7cd",
+            "json_pointer": "/critical_fields/type"
+          },
+          {
+            "extraction_id": "urn:uuid:9e12eaca-cece-506b-879d-1b9cd2dbbcc2",
+            "json_pointer": "/critical_fields/ignites/0"
+          },
+          {
+            "extraction_id": "urn:uuid:e519885f-61cf-5f17-9b8d-4022ed8d1ceb",
+            "json_pointer": "/critical_fields/ignites/1"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "local_evidence": "F.ABILITY.1",
+      "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+      "pointer": "/critical_fields"
+    },
+    "id": "urn:uuid:011dabd1-0203-5e36-a058-1b0a2985da9d",
+    "kind": "特质Traits",
+    "mechanics": {
+      "clauses": {
+        "damage": 5,
+        "damage_dice": "1d10",
+        "emanation_ft": 10,
+        "ignites": [
+          "creatures",
+          "flammable_objects"
+        ],
+        "timing": "source_turn_end",
+        "type": "fire"
+      },
+      "damage": {
+        "amount": {
+          "dice": "1d10",
+          "printed_fixed": 5,
+          "selection": "use_scene_amount_mode; recorded_dice_must_not_be_rerolled"
+        },
+        "damage_type": "fire",
+        "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+        "linked_reduction_from_damage_taken": false,
+        "other_effects": [
+          {
+            "dependency": "urn:uuid:7e7508f9-6982-5247-8301-85b530a5665c",
+            "kind": "ignite",
+            "targets": [
+              "creatures",
+              "flammable_objects"
+            ]
+          }
+        ],
+        "save_success": null,
+        "trigger": "source_turn_end"
+      },
+      "dependencies": [
+        "urn:uuid:7e7508f9-6982-5247-8301-85b530a5665c"
+      ],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+    },
+    "owner_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+    "required_evidence": [
+      "P.BURNING"
+    ],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:2f5fd21c-6876-552d-87e9-6b7681ccf69d",
+    "title": "火焰灵光",
+    "verbatim_evidence": "F.ABILITY.1",
+    "verbatim_text": "\n**火焰灵光Fire Aura。**火元素回合结束时位于源自火元素的10尺光环区域内的每名生物受到5（1d10）点火焰伤害。光环内的生物和易燃物件开始燃烧。\n"
+  },
+  "dependency_ids": [
+    "urn:uuid:7e7508f9-6982-5247-8301-85b530a5665c"
+  ],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:011dabd1-0203-5e36-a058-1b0a2985da9d",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:053680ff-850e-5287-b3e1-c5d3ad37e12d",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:2f5fd21c-6876-552d-87e9-6b7681ccf69d",
+    "derived_note_utf8_range": {
+      "end": 3393,
+      "start": 3197
+    },
+    "entry_id": "urn:uuid:048a1238-9915-5f2e-8619-c8ccbc580529",
+    "fragment_id": "urn:uuid:d6125d3b-9532-5ccd-8263-8e76bb248835",
+    "mapping_id": "urn:uuid:c0530d90-6451-5541-896f-ae1f13107880"
+  },
+  "subject_kind": "ability",
+  "title": "火焰灵光",
+  "uncompiled_semantics_retained": true
+}

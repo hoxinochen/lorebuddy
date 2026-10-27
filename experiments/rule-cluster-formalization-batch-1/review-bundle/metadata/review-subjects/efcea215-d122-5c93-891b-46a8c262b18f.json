@@ -1,0 +1,130 @@
+{
+  "body": {
+    "digest": "sha256:358a0f5a65fa600249e99c53d8177d4c2129c13b69ce387d22420f14b73ea924",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/efcea215-d122-5c93-891b-46a8c262b18f.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "attack_bonus": 7,
+      "curse_early_end": "this_incubus_dies",
+      "curse_effect": "cannot_benefit_from_short_rest",
+      "curse_hours": 24,
+      "damage": 15,
+      "dice": "3d6+5",
+      "reach_ft": 5,
+      "type": "psychic"
+    },
+    "editorial_explanation": "此诅咒不自动禁止长休，也不按别的梦魔死亡结束。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:08d70ccf-2868-5f5b-87b6-0e7ea0de41df",
+            "json_pointer": "/critical_fields/attack_bonus"
+          },
+          {
+            "extraction_id": "urn:uuid:77e1f7ba-990b-5bda-b9d0-2def79cb2ed0",
+            "json_pointer": "/critical_fields/reach_ft"
+          },
+          {
+            "extraction_id": "urn:uuid:1cb09a81-c6e9-5c42-9fbe-148e9c36f549",
+            "json_pointer": "/critical_fields/damage"
+          },
+          {
+            "extraction_id": "urn:uuid:707c529a-7d4f-5dce-be19-a1fe0cfa59f4",
+            "json_pointer": "/critical_fields/dice"
+          },
+          {
+            "extraction_id": "urn:uuid:6948d52f-4d77-5c7b-ae66-a7e3fd27064d",
+            "json_pointer": "/critical_fields/type"
+          },
+          {
+            "extraction_id": "urn:uuid:3fca9091-dc2e-5f26-930c-e67ea638c63b",
+            "json_pointer": "/critical_fields/curse_hours"
+          },
+          {
+            "extraction_id": "urn:uuid:d4c15404-ae1d-5f29-aebd-89c3a3d65207",
+            "json_pointer": "/critical_fields/curse_early_end"
+          },
+          {
+            "extraction_id": "urn:uuid:70ee9ba1-20ae-5a44-b666-4e3042615d88",
+            "json_pointer": "/critical_fields/curse_effect"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "pointer": "/critical_fields",
+      "source_evidence": "IN.ABILITY.3"
+    },
+    "id": "urn:uuid:efcea215-d122-5c93-891b-46a8c262b18f",
+    "kind": "动作Actions",
+    "mechanics": {
+      "clauses": {
+        "attack_bonus": 7,
+        "curse_early_end": "this_incubus_dies",
+        "curse_effect": "cannot_benefit_from_short_rest",
+        "curse_hours": 24,
+        "damage": 15,
+        "dice": "3d6+5",
+        "reach_ft": 5,
+        "type": "psychic"
+      },
+      "damage": {
+        "amount": {
+          "dice": "3d6+5",
+          "printed_fixed": 15,
+          "selection": "use_scene_amount_mode; recorded_dice_must_not_be_rerolled"
+        },
+        "damage_type": "psychic",
+        "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+        "linked_reduction_from_damage_taken": false,
+        "other_effects": [
+          {
+            "duration_hours": 24,
+            "ends_early": "this_source_dies",
+            "kind": "sourced_curse",
+            "prevents": "benefit_from_short_rest"
+          }
+        ],
+        "save_success": null,
+        "trigger": "hit"
+      },
+      "dependencies": [],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+    },
+    "owner_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+    "required_evidence": [],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:a488f87b-85b2-5435-9a8e-0d529f330cf3",
+    "title": "毁梦之触",
+    "verbatim_evidence": "IN.ABILITY.3",
+    "verbatim_text": " **毁梦之触Restless Touch。**近战攻击：+7，触及5尺。*命中：*15（3d6+5）心灵伤害，且目标被诅咒，持续24小时或在梦魔死亡时提前结束。受诅咒期间，目标无法从完成短休中获益。\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:efcea215-d122-5c93-891b-46a8c262b18f",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:53acf401-6751-5cdd-b867-66695f9a3a2f",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:a488f87b-85b2-5435-9a8e-0d529f330cf3",
+    "derived_note_utf8_range": {
+      "end": 3544,
+      "start": 3309
+    },
+    "entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+    "fragment_id": "urn:uuid:3da4dc0e-0945-5ef1-8d58-92662fc6ea04",
+    "mapping_id": "urn:uuid:63ace06a-e3e6-5b0c-b9bb-590596d6589b"
+  },
+  "subject_kind": "ability",
+  "title": "毁梦之触",
+  "uncompiled_semantics_retained": true
+}

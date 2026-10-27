@@ -1,0 +1,52 @@
+{
+  "$defs": {
+    "digest": {
+      "pattern": "^sha256:[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "id": {
+      "pattern": "^urn:uuid:[0-9a-f-]{36}$",
+      "type": "string"
+    }
+  },
+  "$id": "m2.derived-text-evidence@0.1.0",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "coordinate_basis": {
+      "const": "derived_note_utf8_not_raw_entry"
+    },
+    "derived_artifact_digest": {
+      "$ref": "#/$defs/digest"
+    },
+    "derived_artifact_path": {
+      "type": "string"
+    },
+    "id": {
+      "$ref": "#/$defs/id"
+    },
+    "original_record": {
+      "type": "object"
+    },
+    "raw_fragment_id": {
+      "$ref": "#/$defs/id"
+    },
+    "raw_to_derived_fidelity": {
+      "const": "not_proven_by_this_record"
+    },
+    "schema": {
+      "const": "m2.derived-text-evidence@0.1.0"
+    }
+  },
+  "required": [
+    "schema",
+    "id",
+    "original_record",
+    "raw_fragment_id",
+    "derived_artifact_path",
+    "derived_artifact_digest",
+    "coordinate_basis",
+    "raw_to_derived_fidelity"
+  ],
+  "type": "object"
+}

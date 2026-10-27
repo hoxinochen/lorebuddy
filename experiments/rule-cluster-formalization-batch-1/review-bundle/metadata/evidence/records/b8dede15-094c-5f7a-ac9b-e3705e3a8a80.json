@@ -1,0 +1,26 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:40d6b4ba5aec75b37f3ec3ac1c5dda84a869111b8ae82cf196a683a4ecff44f5",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/附录C：术语汇编/状态.md",
+  "id": "urn:uuid:b8dede15-094c-5f7a-ac9b-e3705e3a8a80",
+  "original_record": {
+    "alias": "P.POISONED",
+    "id": "urn:uuid:b8dede15-094c-5f7a-ac9b-e3705e3a8a80",
+    "line_range": [
+      112,
+      117
+    ],
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 6332,
+      "interval": "[start,end)",
+      "start": 6097
+    },
+    "source_entry_id": "urn:uuid:89505d38-cbaf-5747-9798-96f1a0bf6718",
+    "text": "<a id=\"Poisoned\"></a>\n### 中毒 Poisoned【状态】\n\n中毒状态期间，你将遭受以下这个效应。\n**属性检定与攻击影响Ability Checks and Attacks Affected。**你进行的攻击检定与属性检定具有劣势。\n\n",
+    "text_sha256": "9a22d2e047fbb9af6fe1eb127c234a3b86e5e868bc18ba08f8b0c2edc83d8cc6"
+  },
+  "raw_fragment_id": "urn:uuid:8971179e-39ce-5b76-812d-ab574f55a9c7",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

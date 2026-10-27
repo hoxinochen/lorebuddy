@@ -1,0 +1,26 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:d823339e2eca6cc5d203709d83f2b6e5c69a0dee88f5c7dcc7018814ba64b01a",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/附录C：术语汇编/其他术语.md",
+  "id": "urn:uuid:c246c588-0cf7-5ab4-ac5e-e03aa086ed9c",
+  "original_record": {
+    "alias": "P.CONCENTRATION",
+    "id": "urn:uuid:c246c588-0cf7-5ab4-ac5e-e03aa086ed9c",
+    "line_range": [
+      167,
+      174
+    ],
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 10690,
+      "interval": "[start,end)",
+      "start": 9649
+    },
+    "source_entry_id": "urn:uuid:110fe3cc-449c-5d30-9bc5-47198a153a06",
+    "text": "<a id=\"Concentration\"></a>\n### 专注 Concentration\n\n部分法术及其他的效应会在它们的描述中注明其需要维持专注来保持效应激活。如果上述效应的创造者失去了专注，该效应将终止。如果该效应具有最大持续时间，该效应的描述中会写明其创造者最多能维持多久的专注：至多1分钟、1小时乃至其他各种持续时间。创造者可以在任何时间终止它的专注（无需动作）。以下这些情况可以打断你的专注。\n**另一个专注效应Another Concentration。** 若你开始施展另一道需要专注的法术，或是开始激活另一个需要专注的效应，你将失去你原本的专注。\n**伤害Damage。**当你受到伤害时，必须成功通过一次体质豁免检定才能维持专注。该次体质豁免的DC等于10，或者等于你所受伤害的一半（向下取整），两者取高者，DC至高为30。\n**失能与死亡Incapacitated or Dead。**如果你陷入失能状态或死亡，你的专注将终止。\n\n",
+    "text_sha256": "5e9a6554bb73018be9fd5e28cf98081c2c291b355a64d7f55eab45a11bfb7193"
+  },
+  "raw_fragment_id": "urn:uuid:ddb774de-514e-58f9-81d3-40c80ee27e77",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

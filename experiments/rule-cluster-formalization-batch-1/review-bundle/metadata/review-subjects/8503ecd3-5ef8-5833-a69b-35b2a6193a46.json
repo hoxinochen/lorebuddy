@@ -1,0 +1,912 @@
+{
+  "body": {
+    "digest": "sha256:2a3439509ed8525335b9b38f51f334fa23766f2e18c591e3d4d0ead57ffea683",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/8503ecd3-5ef8-5833-a69b-35b2a6193a46.md"
+  },
+  "candidate_snapshot": {
+    "abilities": [
+      {
+        "critical_fields": {
+          "bound_entity": "own_command_amulet",
+          "damage_transfer_range_ft": 60,
+          "knows_distance_and_position": true,
+          "telepathic_call": "wearer_when_same_plane",
+          "transfer_fraction": "half_round_up"
+        },
+        "editorial_explanation": "区分特定护符身份、佩戴者和其他携带者；给定同位面/距离下，11伤害转移6给盾卫，佩戴者剩5。未知抗性先后、多个盾卫不在本批。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:e70d2964-f92e-513e-baab-9685e07c95e0",
+                "json_pointer": "/critical_fields/bound_entity"
+              },
+              {
+                "extraction_id": "urn:uuid:bfd02290-a9f5-5962-9631-1e06041c607c",
+                "json_pointer": "/critical_fields/telepathic_call"
+              },
+              {
+                "extraction_id": "urn:uuid:91e83e63-7519-5922-9f4c-8f082d23bed5",
+                "json_pointer": "/critical_fields/knows_distance_and_position"
+              },
+              {
+                "extraction_id": "urn:uuid:76515c85-66c4-5751-9de0-4581082e550b",
+                "json_pointer": "/critical_fields/damage_transfer_range_ft"
+              },
+              {
+                "extraction_id": "urn:uuid:e05a0d90-9423-5bbc-8e4d-2941adb28bbd",
+                "json_pointer": "/critical_fields/transfer_fraction"
+              }
+            ],
+            "transfer_contract": {
+              "execution_requirement": "damage_transfer",
+              "fraction": {
+                "denominator": 2,
+                "numerator": 1,
+                "rounding": "ceil"
+              },
+              "max_distance_ft": 60,
+              "source_amulet": "this_guardian_bound_amulet",
+              "source_evidence_id": "urn:uuid:04df87b6-47fd-569e-af71-73135755b38d"
+            }
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "local_evidence": "G.ABILITY.1",
+          "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+          "pointer": "/critical_fields"
+        },
+        "id": "urn:uuid:db3d0168-e5dd-59ee-a1d2-96c33f32a57d",
+        "kind": "特质Traits",
+        "mechanics": {
+          "clauses": {
+            "bound_entity": "own_command_amulet",
+            "damage_transfer_range_ft": 60,
+            "knows_distance_and_position": true,
+            "telepathic_call": "wearer_when_same_plane",
+            "transfer_fraction": "half_round_up"
+          },
+          "dependencies": [
+            "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b"
+          ],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_and_complete_verbatim; remaining_semantics_uncompiled"
+        },
+        "owner_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+        "required_evidence": [
+          "P.ROUND"
+        ],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:04df87b6-47fd-569e-af71-73135755b38d",
+        "title": "连接",
+        "verbatim_evidence": "G.ABILITY.1",
+        "verbatim_text": "\n**连接Bound。**盾卫与一个命令护符魔法性地相连。在盾卫和其命令护符位于同一存在位面期间，命令护符的佩戴者可以心灵感应般的呼唤盾卫来到自己的位置，并且盾卫知晓自己与命令护符的距离及其位置。如果盾卫位于命令护符佩戴者60尺范围内，佩戴者所承受到的任何伤害的一半（向上取整）都会转移给盾卫。\n"
+      },
+      {
+        "critical_fields": {
+          "hp_regained": 10,
+          "requires_hp_at_least": 1,
+          "timing": "own_turn_start"
+        },
+        "editorial_explanation": "盾卫0HP不触发此再生；不继承巨魔酸火抑制与特殊死亡规则。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:54bc1287-0299-5bd4-901e-2347dc68f0eb",
+                "json_pointer": "/critical_fields/hp_regained"
+              },
+              {
+                "extraction_id": "urn:uuid:ee423bab-f816-58d0-af70-f5e6163bc547",
+                "json_pointer": "/critical_fields/timing"
+              },
+              {
+                "extraction_id": "urn:uuid:e642d1a9-ef61-5f07-9892-da81d1e103b3",
+                "json_pointer": "/critical_fields/requires_hp_at_least"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "local_evidence": "G.ABILITY.2",
+          "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+          "pointer": "/critical_fields"
+        },
+        "id": "urn:uuid:99675cbc-559c-5011-b249-93839e92b6d3",
+        "kind": "特质Traits",
+        "mechanics": {
+          "clauses": {
+            "hp_regained": 10,
+            "requires_hp_at_least": 1,
+            "timing": "own_turn_start"
+          },
+          "dependencies": [
+            "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b"
+          ],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_and_complete_verbatim; remaining_semantics_uncompiled"
+        },
+        "owner_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+        "required_evidence": [
+          "P.HP"
+        ],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:0eeb15f9-7d51-5ffd-a9c2-67589f16bfda",
+        "title": "再生",
+        "verbatim_evidence": "G.ABILITY.2",
+        "verbatim_text": " **再生Regeneration。**若盾卫至少拥有1生命值，则其在自己回合开始时回复10生命值。\n"
+      },
+      {
+        "critical_fields": {
+          "capacity": 1,
+          "cast_distance_ft": 5,
+          "cast_on_guardian": true,
+          "max_spell_level": 4,
+          "on_new_store": "previous_spell_lost",
+          "on_release": "stored_spell_lost",
+          "on_store": "no_immediate_spell_effect",
+          "release_ability_from": "original_storing_caster",
+          "release_components": "none",
+          "release_parameters_from": "original_storing_caster",
+          "storage_requires": "spellcaster_wearing_this_guardian_amulet",
+          "tested_spells": [
+            "P.FIREBALL",
+            "P.RAYS"
+          ]
+        },
+        "editorial_explanation": "本批采用官方交叉核对：储存需佩戴而非仅携带；原施法者设置法术参数。不能把本地“条件”译法当自动触发/免动作引擎。法术攻击DC完整算法未展开，题目需提供；不擅自继承后任持有人属性。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "casting_calls": [
+              {
+                "availability": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                    "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                    "source_note_utf8_range": {
+                      "end": 3865,
+                      "start": 3340
+                    }
+                  },
+                  "state": "requires_runtime",
+                  "value": {
+                    "capacity": 1,
+                    "kind": "stored_instance"
+                  }
+                },
+                "cast_level": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                    "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                    "source_note_utf8_range": {
+                      "end": 3865,
+                      "start": 3340
+                    }
+                  },
+                  "state": "requires_runtime",
+                  "value": null
+                },
+                "casting_ability": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                    "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                    "source_note_utf8_range": {
+                      "end": 3865,
+                      "start": 3340
+                    }
+                  },
+                  "state": "known",
+                  "value": "original_storing_caster"
+                },
+                "components_waived": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                    "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                    "source_note_utf8_range": {
+                      "end": 3865,
+                      "start": 3340
+                    }
+                  },
+                  "state": "known",
+                  "value": [
+                    "V",
+                    "S",
+                    "M"
+                  ]
+                },
+                "concentration_override": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                    "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                    "source_note_utf8_range": {
+                      "end": 3865,
+                      "start": 3340
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "mapping_adoption_ids": [
+                  "urn:uuid:f4cfbd9c-34cf-5c56-a94f-3878efce8dba"
+                ],
+                "mode": "stored_spell_instance",
+                "parameter_owner": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                    "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                    "source_note_utf8_range": {
+                      "end": 3865,
+                      "start": 3340
+                    }
+                  },
+                  "state": "known",
+                  "value": "original_storing_caster"
+                },
+                "save_dc": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                    "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                    "source_note_utf8_range": {
+                      "end": 3865,
+                      "start": 3340
+                    }
+                  },
+                  "state": "requires_runtime",
+                  "value": null
+                },
+                "spell_attack_bonus": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                    "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                    "source_note_utf8_range": {
+                      "end": 3865,
+                      "start": 3340
+                    }
+                  },
+                  "state": "requires_runtime",
+                  "value": null
+                },
+                "spell_id": "urn:uuid:99a9d4c8-57a7-55d5-8d55-d9ff42749632",
+                "target_override": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                    "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                    "source_note_utf8_range": {
+                      "end": 3865,
+                      "start": 3340
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "uncompiled_qualifications": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                    "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                    "source_note_utf8_range": {
+                      "end": 3865,
+                      "start": 3340
+                    }
+                  },
+                  "state": "known",
+                  "value": {
+                    "cast_distance_ft": 5,
+                    "cast_on_guardian": true,
+                    "max_spell_level": 4,
+                    "on_new_store": "previous_spell_lost",
+                    "on_release": "stored_spell_lost",
+                    "on_store": "no_immediate_spell_effect",
+                    "storage_requires": "spellcaster_wearing_this_guardian_amulet"
+                  }
+                }
+              },
+              {
+                "availability": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                    "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                    "source_note_utf8_range": {
+                      "end": 3865,
+                      "start": 3340
+                    }
+                  },
+                  "state": "requires_runtime",
+                  "value": {
+                    "capacity": 1,
+                    "kind": "stored_instance"
+                  }
+                },
+                "cast_level": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                    "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                    "source_note_utf8_range": {
+                      "end": 3865,
+                      "start": 3340
+                    }
+                  },
+                  "state": "requires_runtime",
+                  "value": null
+                },
+                "casting_ability": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                    "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                    "source_note_utf8_range": {
+                      "end": 3865,
+                      "start": 3340
+                    }
+                  },
+                  "state": "known",
+                  "value": "original_storing_caster"
+                },
+                "components_waived": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                    "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                    "source_note_utf8_range": {
+                      "end": 3865,
+                      "start": 3340
+                    }
+                  },
+                  "state": "known",
+                  "value": [
+                    "V",
+                    "S",
+                    "M"
+                  ]
+                },
+                "concentration_override": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                    "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                    "source_note_utf8_range": {
+                      "end": 3865,
+                      "start": 3340
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "mapping_adoption_ids": [
+                  "urn:uuid:f4cfbd9c-34cf-5c56-a94f-3878efce8dba"
+                ],
+                "mode": "stored_spell_instance",
+                "parameter_owner": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                    "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                    "source_note_utf8_range": {
+                      "end": 3865,
+                      "start": 3340
+                    }
+                  },
+                  "state": "known",
+                  "value": "original_storing_caster"
+                },
+                "save_dc": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                    "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                    "source_note_utf8_range": {
+                      "end": 3865,
+                      "start": 3340
+                    }
+                  },
+                  "state": "requires_runtime",
+                  "value": null
+                },
+                "spell_attack_bonus": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                    "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                    "source_note_utf8_range": {
+                      "end": 3865,
+                      "start": 3340
+                    }
+                  },
+                  "state": "requires_runtime",
+                  "value": null
+                },
+                "spell_id": "urn:uuid:b0c16e81-f5e8-5e73-96e1-72735aaec1e9",
+                "target_override": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                    "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                    "source_note_utf8_range": {
+                      "end": 3865,
+                      "start": 3340
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "uncompiled_qualifications": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                    "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                    "source_note_utf8_range": {
+                      "end": 3865,
+                      "start": 3340
+                    }
+                  },
+                  "state": "known",
+                  "value": {
+                    "cast_distance_ft": 5,
+                    "cast_on_guardian": true,
+                    "max_spell_level": 4,
+                    "on_new_store": "previous_spell_lost",
+                    "on_release": "stored_spell_lost",
+                    "on_store": "no_immediate_spell_effect",
+                    "storage_requires": "spellcaster_wearing_this_guardian_amulet"
+                  }
+                }
+              }
+            ],
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:2d49c62b-42a3-5cf4-bdae-7cc1f72f163d",
+                "json_pointer": "/critical_fields/capacity"
+              },
+              {
+                "extraction_id": "urn:uuid:8cedca4e-0040-57e6-a8d8-2365f2d11078",
+                "json_pointer": "/critical_fields/max_spell_level"
+              },
+              {
+                "extraction_id": "urn:uuid:6e4daae9-e825-5dd6-ae28-4493fbeb1311",
+                "json_pointer": "/critical_fields/storage_requires"
+              },
+              {
+                "extraction_id": "urn:uuid:bcb9aa97-f247-523d-b59c-019f0ccf1b89",
+                "json_pointer": "/critical_fields/cast_distance_ft"
+              },
+              {
+                "extraction_id": "urn:uuid:5a75b2c8-dba6-5908-89a3-c846b383d388",
+                "json_pointer": "/critical_fields/cast_on_guardian"
+              },
+              {
+                "extraction_id": "urn:uuid:b6adae73-da69-506b-93e1-5182c027ba61",
+                "json_pointer": "/critical_fields/on_store"
+              },
+              {
+                "extraction_id": "urn:uuid:de841622-b3dd-5e93-853d-1bb5c326fa3b",
+                "json_pointer": "/critical_fields/on_new_store"
+              },
+              {
+                "extraction_id": "urn:uuid:9594fbc4-0cb7-5ff7-8e31-411d33d65502",
+                "json_pointer": "/critical_fields/release_components"
+              },
+              {
+                "extraction_id": "urn:uuid:d4f6850b-c69b-503e-a036-0130ac80f4a5",
+                "json_pointer": "/critical_fields/release_ability_from"
+              },
+              {
+                "extraction_id": "urn:uuid:15258c5d-717b-5b1a-b6a8-8ec4b9448e8c",
+                "json_pointer": "/critical_fields/release_parameters_from"
+              },
+              {
+                "extraction_id": "urn:uuid:a7bc3766-26a0-5f94-b5e0-216cd7aba54e",
+                "json_pointer": "/critical_fields/on_release"
+              },
+              {
+                "extraction_id": "urn:uuid:75edc2fe-965f-52f7-9278-a2dcd158e549",
+                "json_pointer": "/critical_fields/tested_spells/0"
+              },
+              {
+                "extraction_id": "urn:uuid:22b9af5f-28af-5390-9b0a-f0ab07ad8cd0",
+                "json_pointer": "/critical_fields/tested_spells/1"
+              }
+            ],
+            "stored_spell_contract": {
+              "capacity": 1,
+              "execution_requirement": "stored_spell_call",
+              "max_spell_level": 4,
+              "on_release": "stored_spell_lost",
+              "parameter_owner": "original_storing_caster",
+              "selected_spell_and_parameters_from": "runtime_stored_spell_instance",
+              "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50"
+            }
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [
+            "ED.STORE"
+          ],
+          "local_evidence": "G.ABILITY.3",
+          "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+          "pointer": "/critical_fields"
+        },
+        "id": "urn:uuid:0f3a3c66-5250-5b13-9185-ce71b070f7c3",
+        "kind": "特质Traits",
+        "mechanics": {
+          "clauses": {
+            "capacity": 1,
+            "cast_distance_ft": 5,
+            "cast_on_guardian": true,
+            "max_spell_level": 4,
+            "on_new_store": "previous_spell_lost",
+            "on_release": "stored_spell_lost",
+            "on_store": "no_immediate_spell_effect",
+            "release_ability_from": "original_storing_caster",
+            "release_components": "none",
+            "release_parameters_from": "original_storing_caster",
+            "storage_requires": "spellcaster_wearing_this_guardian_amulet",
+            "tested_spells": [
+              "P.FIREBALL",
+              "P.RAYS"
+            ]
+          },
+          "dependencies": [
+            "urn:uuid:99a9d4c8-57a7-55d5-8d55-d9ff42749632",
+            "urn:uuid:b0c16e81-f5e8-5e73-96e1-72735aaec1e9",
+            "urn:uuid:54fb4631-fd48-5d41-84fd-2c41fbf2f5d5",
+            "urn:uuid:9b807124-e59e-5ea1-8ad0-05dc5451847e"
+          ],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_and_complete_verbatim; remaining_semantics_uncompiled"
+        },
+        "owner_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+        "required_evidence": [
+          "P.FIREBALL",
+          "P.RAYS",
+          "P.COMPONENTS",
+          "M.ACTIONS"
+        ],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+        "title": "法术储存",
+        "verbatim_evidence": "G.ABILITY.3",
+        "verbatim_text": " **法术储存Spell Storing。**一名携带着盾卫命令护符的施法者可以让盾卫储存一道四环及以下的法术。为此，护符携带者必须在盾卫5尺内施展那道法术。此时该法术不会产生任何效应，而是被储存在盾卫之中。新法术储存时先前储存的旧法术将会消失。盾卫可以在法术储存者预先设定的条件满足时将其施展，无需法术成分并使用法术储存者的施法属性。储存其内的法术随后消失。\n\n###### 动作Actions\n"
+      },
+      {
+        "critical_fields": {
+          "allowed": [
+            "G.Fist"
+          ],
+          "attacks": 2
+        },
+        "editorial_explanation": "两次拳击，不因此有两次法术储存或两次反应。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:dd264b80-0c65-5cfd-91a3-0a263cbfeef5",
+                "json_pointer": "/critical_fields/attacks"
+              },
+              {
+                "extraction_id": "urn:uuid:ee6319cf-0a66-5efd-92f5-37c43ce8c05d",
+                "json_pointer": "/critical_fields/allowed/0"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "local_evidence": "G.ABILITY.4",
+          "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+          "pointer": "/critical_fields"
+        },
+        "id": "urn:uuid:897df4fc-37bb-5a66-ada7-e30bb7b6d25b",
+        "kind": "动作Actions",
+        "mechanics": {
+          "clauses": {
+            "allowed": [
+              "G.Fist"
+            ],
+            "attacks": 2
+          },
+          "dependencies": [],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_and_complete_verbatim; remaining_semantics_uncompiled"
+        },
+        "owner_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+        "required_evidence": [],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:d39a5827-a9c1-5925-9e62-d8a3cd63eadb",
+        "title": "多重攻击",
+        "verbatim_evidence": "G.ABILITY.4",
+        "verbatim_text": "\n**多重攻击Multiattack。**盾卫发动两次拳击攻击。\n"
+      },
+      {
+        "critical_fields": {
+          "attack_bonus": 7,
+          "damage_bludgeoning": 11,
+          "damage_force": 7,
+          "dice": [
+            "2d6+4",
+            "2d6"
+          ],
+          "reach_ft": 10
+        },
+        "editorial_explanation": "分别保留钝击和力场伤害，不将总18当单类型。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "damage_components": {
+              "components": [
+                {
+                  "damage_type": "bludgeoning",
+                  "dice": "2d6+4",
+                  "printed_fixed": 11
+                },
+                {
+                  "damage_type": "force",
+                  "dice": "2d6",
+                  "printed_fixed": 7
+                }
+              ],
+              "execution_requirement": "mixed_damage",
+              "same_hit": true,
+              "source_evidence_id": "urn:uuid:6c696103-aa06-5b86-847e-286e087d4a92"
+            },
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:94d5b267-8219-500f-8960-304efcd84175",
+                "json_pointer": "/critical_fields/attack_bonus"
+              },
+              {
+                "extraction_id": "urn:uuid:27e2ef06-5862-5024-94e0-3459631d027f",
+                "json_pointer": "/critical_fields/reach_ft"
+              },
+              {
+                "extraction_id": "urn:uuid:e4640a4a-2615-585b-ba81-a4119b6d722b",
+                "json_pointer": "/critical_fields/damage_bludgeoning"
+              },
+              {
+                "extraction_id": "urn:uuid:35cec260-ff64-517b-9c63-bfee9d14d7c2",
+                "json_pointer": "/critical_fields/damage_force"
+              },
+              {
+                "extraction_id": "urn:uuid:454afca8-0990-5056-8b6e-6ca05e1aa821",
+                "json_pointer": "/critical_fields/dice/0"
+              },
+              {
+                "extraction_id": "urn:uuid:ae02e883-a796-57f9-ae5b-6ec69177033d",
+                "json_pointer": "/critical_fields/dice/1"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "local_evidence": "G.ABILITY.5",
+          "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+          "pointer": "/critical_fields"
+        },
+        "id": "urn:uuid:eaa87b64-17bd-5a2d-b350-966ec1dadf4f",
+        "kind": "动作Actions",
+        "mechanics": {
+          "clauses": {
+            "attack_bonus": 7,
+            "damage_bludgeoning": 11,
+            "damage_force": 7,
+            "dice": [
+              "2d6+4",
+              "2d6"
+            ],
+            "reach_ft": 10
+          },
+          "dependencies": [],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_and_complete_verbatim; remaining_semantics_uncompiled"
+        },
+        "owner_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+        "required_evidence": [],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:6c696103-aa06-5b86-847e-286e087d4a92",
+        "title": "拳击",
+        "verbatim_evidence": "G.ABILITY.5",
+        "verbatim_text": " **拳击Fist。***近战攻击检定：*+7，触及10尺。*命中：*11（2d6+4）钝击伤害外加7（2d6）力场伤害。\n\n###### 反应Reactions\n"
+      },
+      {
+        "critical_fields": {
+          "ac_bonus": 5,
+          "activation": "reaction",
+          "end": "source_next_turn_start",
+          "includes_triggering_attack": true,
+          "trigger": "amulet_wearer_hit_by_attack_roll",
+          "wearer_distance_ft": 5
+        },
+        "editorial_explanation": "盾卫的反应给予佩戴者AC+5，不是只加盾卫。可以逆转触发命中；持续到来源盾卫下回合开始，反应次数另受公共限制。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:cdd5218a-9435-56ea-9ef3-82631d85e29e",
+                "json_pointer": "/critical_fields/activation"
+              },
+              {
+                "extraction_id": "urn:uuid:9fd1c2f9-359a-532e-bc2f-f45a176f20a8",
+                "json_pointer": "/critical_fields/trigger"
+              },
+              {
+                "extraction_id": "urn:uuid:cd2bb943-6a3a-5ed0-ab00-85cb69356d85",
+                "json_pointer": "/critical_fields/wearer_distance_ft"
+              },
+              {
+                "extraction_id": "urn:uuid:33ca6d8f-b342-5c7e-aee1-b5c86810cdf8",
+                "json_pointer": "/critical_fields/ac_bonus"
+              },
+              {
+                "extraction_id": "urn:uuid:0dcbefdd-bb6e-5d64-a425-ff1225cdcfa7",
+                "json_pointer": "/critical_fields/includes_triggering_attack"
+              },
+              {
+                "extraction_id": "urn:uuid:6dacd6fc-4abc-5158-ae06-424b94f24036",
+                "json_pointer": "/critical_fields/end"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "local_evidence": "G.ABILITY.6",
+          "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+          "pointer": "/critical_fields"
+        },
+        "id": "urn:uuid:b3e35f52-b6c0-5599-aedf-235e3d6f95ea",
+        "kind": "反应Reactions",
+        "mechanics": {
+          "clauses": {
+            "ac_bonus": 5,
+            "activation": "reaction",
+            "end": "source_next_turn_start",
+            "includes_triggering_attack": true,
+            "trigger": "amulet_wearer_hit_by_attack_roll",
+            "wearer_distance_ft": 5
+          },
+          "dependencies": [
+            "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b"
+          ],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_and_complete_verbatim; remaining_semantics_uncompiled"
+        },
+        "owner_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+        "required_evidence": [
+          "P.REACTION"
+        ],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:b9926eaf-f9a4-5a0c-8487-54a0f8c979f1",
+        "title": "守护",
+        "verbatim_evidence": "G.ABILITY.6",
+        "verbatim_text": "\n**守护Protection。***触发：*盾卫的护符携带者在盾卫的5尺内被一次攻击检定命中。*响应：*携带者的AC获得+5的加值，持续至盾卫的下个回合开始，这包括了对抗触发攻击的AC，并可能令那次攻击改为失手。\n"
+      }
+    ],
+    "ability_evidence": [
+      "G.ABILITY.1",
+      "G.ABILITY.2",
+      "G.ABILITY.3",
+      "G.ABILITY.4",
+      "G.ABILITY.5",
+      "G.ABILITY.6"
+    ],
+    "all_abilities_present": true,
+    "all_card_text_present": true,
+    "candidate_revision": 3,
+    "card_evidence": "G.CARD",
+    "every_numeric_field_atomized": false,
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "content_coverage": {
+          "all_abilities": "complete",
+          "card_text": "complete",
+          "formal_rule_approval": false,
+          "structured_semantics": "partial_explicit"
+        },
+        "identity_traits": {
+          "creature_type": "construct",
+          "entity_kind": "creature",
+          "size": "large",
+          "source_evidence_id": "urn:uuid:f69bdaab-5eaa-5c7a-bd3d-fe711a81cd9a"
+        }
+      }
+    },
+    "group": "G",
+    "header": {
+      "ac": 17,
+      "defense_binding": {
+        "enumeration_complete_for_selected_card": true,
+        "evidence": "G.HEADER",
+        "scope": "intrinsic enumerated defense of this selected source card, not every possible runtime defense"
+      },
+      "defenses": {
+        "condition_immunity": [
+          "charmed",
+          "exhaustion",
+          "frightened",
+          "paralyzed",
+          "petrified",
+          "poisoned"
+        ],
+        "damage_immunity": [
+          "poison"
+        ],
+        "resistance": [],
+        "vulnerability": []
+      },
+      "hp": 142,
+      "hp_role": "printed_default_maximum_hp; never runtime_current_hp",
+      "runtime_hp_rule": "题目明确给出当前/最大HP时使用该实例输入；印刷HP不覆盖题目给定的最大HP。缺当前HP不推定满血。",
+      "source_evidence": "G.HEADER"
+    },
+    "id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+    "language": "zh-Hans",
+    "previous_candidate_revision": 2,
+    "prototype_role": "printed_template_not_live_instance",
+    "publication_identity": "claimed",
+    "review_status": "candidate",
+    "rights": "unknown",
+    "rule_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+    "rule_edition": "2024",
+    "rules_context": "MM2025 + selected PHB2024 trial",
+    "source_evidence_id": "urn:uuid:f4c2225f-f7dd-59d7-a94e-0519d1412865",
+    "title": "盾卫",
+    "translation_authority": "unknown",
+    "verbatim_text": "<a id=\"Shield_Guardian\"></a>\n##### 盾卫Shield Guardian\n\n大型构装，无阵营\n\n<table><tr><td><strong>AC </strong>17</td><td><strong>先攻 </strong>-1（9）</td></tr> <tr><td colspan=\"2\"><strong>HP </strong>142（15d10+60）</td></tr> <tr><td colspan=\"2\"><strong>速度 </strong>30尺</td></tr></table>\n\n<table><tr><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th></tr> <tr><td><strong>力量</strong></td><td>18</td><td>+4</td><td>+4</td> <td></td> <td><strong>敏捷</strong></td><td>8</td><td>-1</td><td>-1</td> <td></td> <td><strong>体质</strong></td><td>18</td><td>+4</td><td>+4</td></tr> <tr><td><strong>智力</strong></td><td>7</td><td>-2</td><td>-2</td> <td></td> <td><strong>感知</strong></td><td>10</td><td>+0</td><td>+0</td> <td></td> <td><strong>魅力</strong></td><td>3</td><td>-4</td><td>-4</td></tr> </table>\n\n| **免疫**毒素；魅惑，力竭，恐慌，麻痹，石化，中毒 |\n| --- |\n| **感官**盲视10尺，黑暗视觉60尺；被动察觉10 |\n| **语言**理解用任何语言下达的命令，但不会说 |\n| **CR**7（XP2,900；PB+3） |\n\n###### 特质Traits\n\n**连接Bound。**盾卫与一个命令护符魔法性地相连。在盾卫和其命令护符位于同一存在位面期间，命令护符的佩戴者可以心灵感应般的呼唤盾卫来到自己的位置，并且盾卫知晓自己与命令护符的距离及其位置。如果盾卫位于命令护符佩戴者60尺范围内，佩戴者所承受到的任何伤害的一半（向上取整）都会转移给盾卫。\n **再生Regeneration。**若盾卫至少拥有1生命值，则其在自己回合开始时回复10生命值。\n **法术储存Spell Storing。**一名携带着盾卫命令护符的施法者可以让盾卫储存一道四环及以下的法术。为此，护符携带者必须在盾卫5尺内施展那道法术。此时该法术不会产生任何效应，而是被储存在盾卫之中。新法术储存时先前储存的旧法术将会消失。盾卫可以在法术储存者预先设定的条件满足时将其施展，无需法术成分并使用法术储存者的施法属性。储存其内的法术随后消失。\n\n###### 动作Actions\n\n**多重攻击Multiattack。**盾卫发动两次拳击攻击。\n **拳击Fist。***近战攻击检定：*+7，触及10尺。*命中：*11（2d6+4）钝击伤害外加7（2d6）力场伤害。\n\n###### 反应Reactions\n\n**守护Protection。***触发：*盾卫的护符携带者在盾卫的5尺内被一次攻击检定命中。*响应：*携带者的AC获得+5的加值，持续至盾卫的下个回合开始，这包括了对抗触发攻击的AC，并可能令那次攻击改为失手。\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:04a5a686-26f9-511a-8fea-271ed8b194b7",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:f4c2225f-f7dd-59d7-a94e-0519d1412865",
+    "derived_note_utf8_range": {
+      "end": 4352,
+      "start": 1595
+    },
+    "entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+    "fragment_id": "urn:uuid:9636c175-25b3-5946-bf3d-d27bd737b4ec",
+    "mapping_id": "urn:uuid:bb03d887-d3a3-5a05-9c90-b385a184dee9"
+  },
+  "subject_kind": "creature",
+  "title": "盾卫",
+  "uncompiled_semantics_retained": true
+}

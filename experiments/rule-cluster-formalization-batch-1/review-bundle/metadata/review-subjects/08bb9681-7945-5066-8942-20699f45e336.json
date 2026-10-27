@@ -1,0 +1,476 @@
+{
+  "body": {
+    "digest": "sha256:d200aec6ef9cee68ce8ed30ac630adcd0cee063d5906cc7fc5e45c0ba315d246",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/08bb9681-7945-5066-8942-20699f45e336.md"
+  },
+  "candidate_snapshot": {
+    "abilities": [
+      {
+        "critical_fields": {
+          "burrow_material": [
+            "nonmagical_unworked_earth",
+            "nonmagical_unworked_stone"
+          ],
+          "does_damage_material": false
+        },
+        "editorial_explanation": "非魔法与未经加工需同时满足；不能直接穿加工砖墙或魔法岩石。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:29cae193-bf26-5f34-a83c-f1d9ab66c8b6",
+                "json_pointer": "/critical_fields/burrow_material/0"
+              },
+              {
+                "extraction_id": "urn:uuid:f4cc12e4-0d53-53b1-8607-4303f9a45915",
+                "json_pointer": "/critical_fields/burrow_material/1"
+              },
+              {
+                "extraction_id": "urn:uuid:ff5533be-5abe-5b47-8fbf-1632bdf1ee7e",
+                "json_pointer": "/critical_fields/does_damage_material"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "local_evidence": "E.ABILITY.1",
+          "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+          "pointer": "/critical_fields"
+        },
+        "id": "urn:uuid:69e2b783-7061-54a2-9cae-7b61e4f4898e",
+        "kind": "特质Traits",
+        "mechanics": {
+          "clauses": {
+            "burrow_material": [
+              "nonmagical_unworked_earth",
+              "nonmagical_unworked_stone"
+            ],
+            "does_damage_material": false
+          },
+          "dependencies": [],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_and_complete_verbatim; remaining_semantics_uncompiled"
+        },
+        "owner_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+        "required_evidence": [],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:f7bddd35-351d-570f-8011-c1d3777d3bb5",
+        "title": "遁地",
+        "verbatim_evidence": "E.ABILITY.1",
+        "verbatim_text": "\n**遁地Earth Glide。**土元素可以掘穴穿过非魔法且未经加工的泥土及岩石。遁地期间，土元素不会破坏其穿过的任何材质。\n"
+      },
+      {
+        "critical_fields": {
+          "damage_multiplier": 2,
+          "targets": [
+            "objects",
+            "structures"
+          ]
+        },
+        "editorial_explanation": "构装生物并不因材质而自动成为物件或建筑，不套双倍。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:ede0d7bb-a4e7-5719-b075-739e6797b359",
+                "json_pointer": "/critical_fields/damage_multiplier"
+              },
+              {
+                "extraction_id": "urn:uuid:e7993233-2cb3-5ba4-9289-4e2af4996c61",
+                "json_pointer": "/critical_fields/targets/0"
+              },
+              {
+                "extraction_id": "urn:uuid:915f4070-cdad-598a-ab3e-053a763ff87b",
+                "json_pointer": "/critical_fields/targets/1"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "local_evidence": "E.ABILITY.2",
+          "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+          "pointer": "/critical_fields"
+        },
+        "id": "urn:uuid:541f7286-f44c-5233-8977-71ff2ca74f3c",
+        "kind": "特质Traits",
+        "mechanics": {
+          "clauses": {
+            "damage_multiplier": 2,
+            "targets": [
+              "objects",
+              "structures"
+            ]
+          },
+          "dependencies": [],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_and_complete_verbatim; remaining_semantics_uncompiled"
+        },
+        "owner_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+        "required_evidence": [],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:291b8ff2-a587-5d1b-95d8-aae4b83f9935",
+        "title": "攻城怪物",
+        "verbatim_evidence": "E.ABILITY.2",
+        "verbatim_text": " **攻城怪物Siege Monster。**土元素对物件和建筑造成双倍伤害。\n\n###### 动作Actions\n"
+      },
+      {
+        "critical_fields": {
+          "allowed": [
+            "E.Slam",
+            "E.RockLaunch"
+          ],
+          "attacks": 2,
+          "mixed_allowed": true
+        },
+        "editorial_explanation": "共两次，可猛击/岩石射击混合；不是两次各再加两次。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:d6f3186b-2574-5190-ae00-e5091f98d6ba",
+                "json_pointer": "/critical_fields/attacks"
+              },
+              {
+                "extraction_id": "urn:uuid:484fafa5-c42f-5a45-a828-a5bf2fbcb2fa",
+                "json_pointer": "/critical_fields/allowed/0"
+              },
+              {
+                "extraction_id": "urn:uuid:ee2b99b6-04f8-5ec9-9294-6219843b8b10",
+                "json_pointer": "/critical_fields/allowed/1"
+              },
+              {
+                "extraction_id": "urn:uuid:888c9e17-0702-5914-af4c-316a4484e638",
+                "json_pointer": "/critical_fields/mixed_allowed"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "local_evidence": "E.ABILITY.3",
+          "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+          "pointer": "/critical_fields"
+        },
+        "id": "urn:uuid:a331fd1c-bfff-5716-a435-5638be1ea8fe",
+        "kind": "动作Actions",
+        "mechanics": {
+          "clauses": {
+            "allowed": [
+              "E.Slam",
+              "E.RockLaunch"
+            ],
+            "attacks": 2,
+            "mixed_allowed": true
+          },
+          "dependencies": [],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_and_complete_verbatim; remaining_semantics_uncompiled"
+        },
+        "owner_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+        "required_evidence": [],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:48e46a8b-601f-5116-ade2-9d3c3df42a62",
+        "title": "多重攻击",
+        "verbatim_evidence": "E.ABILITY.3",
+        "verbatim_text": "\n**多重攻击Multiattack。**土元素使用猛击或岩石射击发动共计两次攻击。\n"
+      },
+      {
+        "critical_fields": {
+          "attack_bonus": 8,
+          "damage": 14,
+          "damage_dice": "2d8+5",
+          "reach_ft": 10,
+          "type": "bludgeoning"
+        },
+        "editorial_explanation": "命中伤害按对象身份决定是否适用攻城，不自动给生物加倍。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "owner_modifier_dependencies": [
+              "urn:uuid:541f7286-f44c-5233-8977-71ff2ca74f3c"
+            ],
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:ef276ee4-bc69-5a7c-a17f-63382c139e9d",
+                "json_pointer": "/critical_fields/attack_bonus"
+              },
+              {
+                "extraction_id": "urn:uuid:a6b326e7-15f0-57df-abf9-d3e6d39715f9",
+                "json_pointer": "/critical_fields/reach_ft"
+              },
+              {
+                "extraction_id": "urn:uuid:abdafc96-21ef-567f-83ba-9faaf674996a",
+                "json_pointer": "/critical_fields/damage"
+              },
+              {
+                "extraction_id": "urn:uuid:7cb9b526-6aa0-5863-96c5-d88a173829eb",
+                "json_pointer": "/critical_fields/damage_dice"
+              },
+              {
+                "extraction_id": "urn:uuid:ac064654-1341-5202-864b-fe0770fabc52",
+                "json_pointer": "/critical_fields/type"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "local_evidence": "E.ABILITY.4",
+          "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+          "pointer": "/critical_fields"
+        },
+        "id": "urn:uuid:390c81ae-0dd2-543d-961e-bb6366c4de31",
+        "kind": "动作Actions",
+        "mechanics": {
+          "clauses": {
+            "attack_bonus": 8,
+            "damage": 14,
+            "damage_dice": "2d8+5",
+            "reach_ft": 10,
+            "type": "bludgeoning"
+          },
+          "damage": {
+            "amount": {
+              "dice": "2d8+5",
+              "printed_fixed": 14,
+              "selection": "use_scene_amount_mode; recorded_dice_must_not_be_rerolled"
+            },
+            "damage_type": "bludgeoning",
+            "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+            "linked_reduction_from_damage_taken": false,
+            "other_effects": [],
+            "save_success": null,
+            "trigger": "hit"
+          },
+          "dependencies": [],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_and_complete_verbatim; remaining_semantics_uncompiled"
+        },
+        "owner_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+        "required_evidence": [],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:be76a957-66ac-5bdb-9232-5239317f0fb6",
+        "title": "猛击",
+        "verbatim_evidence": "E.ABILITY.4",
+        "verbatim_text": " **猛击Slam。***近战攻击检定：*+8，触及10尺。*命中：*14（2d8+5）钝击伤害。\n"
+      },
+      {
+        "critical_fields": {
+          "attack_bonus": 8,
+          "condition_max_size": "large",
+          "damage": 8,
+          "damage_dice": "1d6+5",
+          "hit_condition": "prone",
+          "range_ft": 60,
+          "type": "bludgeoning"
+        },
+        "editorial_explanation": "大型或更小生物命中后倒地，无额外豁免；超过大型仍可被攻击但不因这条倒地。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "owner_modifier_dependencies": [
+              "urn:uuid:541f7286-f44c-5233-8977-71ff2ca74f3c"
+            ],
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:b2288bf5-3fdc-5c5d-84db-f29598b5382c",
+                "json_pointer": "/critical_fields/attack_bonus"
+              },
+              {
+                "extraction_id": "urn:uuid:3403f08a-ae5d-5899-9722-fd56d2429978",
+                "json_pointer": "/critical_fields/range_ft"
+              },
+              {
+                "extraction_id": "urn:uuid:b16b3640-00bf-5cb7-a250-7bb3c69f687a",
+                "json_pointer": "/critical_fields/damage"
+              },
+              {
+                "extraction_id": "urn:uuid:908cecf8-1f0a-5528-9340-958c160f788a",
+                "json_pointer": "/critical_fields/damage_dice"
+              },
+              {
+                "extraction_id": "urn:uuid:9b411be3-a978-5625-b38d-9016d9c40431",
+                "json_pointer": "/critical_fields/type"
+              },
+              {
+                "extraction_id": "urn:uuid:41aaef1e-d431-5a11-a20e-1fdcd8c6b809",
+                "json_pointer": "/critical_fields/hit_condition"
+              },
+              {
+                "extraction_id": "urn:uuid:3e92a803-5632-55dc-8425-1214471e1086",
+                "json_pointer": "/critical_fields/condition_max_size"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "local_evidence": "E.ABILITY.5",
+          "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+          "pointer": "/critical_fields"
+        },
+        "id": "urn:uuid:910bccc5-9095-5d63-a254-25bd9bcaeb38",
+        "kind": "动作Actions",
+        "mechanics": {
+          "clauses": {
+            "attack_bonus": 8,
+            "condition_max_size": "large",
+            "damage": 8,
+            "damage_dice": "1d6+5",
+            "hit_condition": "prone",
+            "range_ft": 60,
+            "type": "bludgeoning"
+          },
+          "damage": {
+            "amount": {
+              "dice": "1d6+5",
+              "printed_fixed": 8,
+              "selection": "use_scene_amount_mode; recorded_dice_must_not_be_rerolled"
+            },
+            "damage_type": "bludgeoning",
+            "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+            "linked_reduction_from_damage_taken": false,
+            "other_effects": [
+              {
+                "kind": "condition",
+                "name": "prone",
+                "when": {
+                  "target_max_size": "large"
+                }
+              }
+            ],
+            "save_success": null,
+            "trigger": "hit"
+          },
+          "dependencies": [
+            "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb"
+          ],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_and_complete_verbatim; remaining_semantics_uncompiled"
+        },
+        "owner_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+        "required_evidence": [
+          "P.PRONE"
+        ],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:52f2cdba-6c53-5e4d-b4d7-cf662e8966f9",
+        "title": "岩石射击",
+        "verbatim_evidence": "E.ABILITY.5",
+        "verbatim_text": " **岩石射击Rock Launch。***远程攻击检定：*+8，射程60尺。*命中：*8（1d6+5）钝击伤害。若目标生物体型不超过大型，则其陷入倒地状态。\n"
+      }
+    ],
+    "ability_evidence": [
+      "E.ABILITY.1",
+      "E.ABILITY.2",
+      "E.ABILITY.3",
+      "E.ABILITY.4",
+      "E.ABILITY.5"
+    ],
+    "all_abilities_present": true,
+    "all_card_text_present": true,
+    "candidate_revision": 3,
+    "card_evidence": "E.CARD",
+    "every_numeric_field_atomized": false,
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "content_coverage": {
+          "all_abilities": "complete",
+          "card_text": "complete",
+          "formal_rule_approval": false,
+          "structured_semantics": "partial_explicit"
+        },
+        "identity_traits": {
+          "creature_type": "elemental",
+          "entity_kind": "creature",
+          "size": "large",
+          "source_evidence_id": "urn:uuid:2bbdca1d-71c7-515b-b483-28da7860ecf3"
+        },
+        "passive_numeric_rules": [
+          {
+            "execution_requirement": "conditional_damage_modifier",
+            "operation": {
+              "factor": 2,
+              "kind": "multiply_damage",
+              "phase": "before_resistance"
+            },
+            "owner_ability_id": "urn:uuid:541f7286-f44c-5233-8977-71ff2ca74f3c",
+            "source_evidence_id": "urn:uuid:291b8ff2-a587-5d1b-95d8-aae4b83f9935",
+            "when": {
+              "target_entity_kind_in": [
+                "object",
+                "structure"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "group": "E",
+    "header": {
+      "ac": 17,
+      "defense_binding": {
+        "enumeration_complete_for_selected_card": true,
+        "evidence": "E.HEADER",
+        "scope": "intrinsic enumerated defense of this selected source card, not every possible runtime defense"
+      },
+      "defenses": {
+        "condition_immunity": [
+          "exhaustion",
+          "paralyzed",
+          "petrified",
+          "poisoned",
+          "unconscious"
+        ],
+        "damage_immunity": [
+          "poison"
+        ],
+        "resistance": [],
+        "vulnerability": [
+          "thunder"
+        ]
+      },
+      "hp": 147,
+      "hp_role": "printed_default_maximum_hp; never runtime_current_hp",
+      "runtime_hp_rule": "题目明确给出当前/最大HP时使用该实例输入；印刷HP不覆盖题目给定的最大HP。缺当前HP不推定满血。",
+      "source_evidence": "E.HEADER"
+    },
+    "id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+    "language": "zh-Hans",
+    "previous_candidate_revision": 2,
+    "prototype_role": "printed_template_not_live_instance",
+    "publication_identity": "claimed",
+    "review_status": "candidate",
+    "rights": "unknown",
+    "rule_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+    "rule_edition": "2024",
+    "rules_context": "MM2025 + selected PHB2024 trial",
+    "source_evidence_id": "urn:uuid:e74fc3cc-7f9e-5086-a28e-917370606c53",
+    "title": "土元素",
+    "translation_authority": "unknown",
+    "verbatim_text": "<a id=\"Earth_Elemental\"></a>\n##### 土元素Earth Elemental\n\n大型元素，中立\n\n<table><tr><td><strong>AC </strong>17</td><td><strong>先攻 </strong>-1（9）</td></tr> <tr><td colspan=\"2\"><strong>HP </strong>147（14d10+70）</td></tr> <tr><td colspan=\"2\"><strong>速度 </strong>30尺，掘穴30尺</td></tr></table>\n\n<table><tr><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th></tr> <tr><td><strong>力量</strong></td><td>20</td><td>+5</td><td>+5</td> <td></td> <td><strong>敏捷</strong></td><td>8</td><td>-1</td><td>-1</td> <td></td> <td><strong>体质</strong></td><td>20</td><td>+5</td><td>+5</td></tr> <tr><td><strong>智力</strong></td><td>5</td><td>-3</td><td>-3</td> <td></td> <td><strong>感知</strong></td><td>10</td><td>+0</td><td>+0</td> <td></td> <td><strong>魅力</strong></td><td>5</td><td>-3</td><td>-3</td></tr> </table>\n\n| **易伤**雷鸣。 |\n| --- |\n| **免疫**毒素；力竭，麻痹，石化，中毒，昏迷。 |\n| **感官**黑暗视觉60尺，震颤感知60尺；被动察觉10 |\n| **语言**原初语（土族语） |\n| **CR**5（XP1,800；PB+3） |\n\n###### 特质Traits\n\n**遁地Earth Glide。**土元素可以掘穴穿过非魔法且未经加工的泥土及岩石。遁地期间，土元素不会破坏其穿过的任何材质。\n **攻城怪物Siege Monster。**土元素对物件和建筑造成双倍伤害。\n\n###### 动作Actions\n\n**多重攻击Multiattack。**土元素使用猛击或岩石射击发动共计两次攻击。\n **猛击Slam。***近战攻击检定：*+8，触及10尺。*命中：*14（2d8+5）钝击伤害。\n **岩石射击Rock Launch。***远程攻击检定：*+8，射程60尺。*命中：*8（1d6+5）钝击伤害。若目标生物体型不超过大型，则其陷入倒地状态。\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:3d4a6b25-bbdb-5302-9a67-9683b1e60d7d",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:e74fc3cc-7f9e-5086-a28e-917370606c53",
+    "derived_note_utf8_range": {
+      "end": 3891,
+      "start": 2026
+    },
+    "entry_id": "urn:uuid:57a08374-1e20-5c97-a1f3-00447e3b05d9",
+    "fragment_id": "urn:uuid:8144d427-b3e6-53aa-bddc-c78ae18e3a0d",
+    "mapping_id": "urn:uuid:8851fe03-a492-5d23-8860-5d95ed2e5acf"
+  },
+  "subject_kind": "creature",
+  "title": "土元素",
+  "uncompiled_semantics_retained": true
+}

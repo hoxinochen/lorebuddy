@@ -1,0 +1,26 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:67c33dee5e3a765c9f97630a869d55ec8d1b862650c3891946b94ffba92d59d8",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/第一章：进行游戏/伤害与治疗/抗性和易伤.md",
+  "id": "urn:uuid:402203e6-571b-54e7-a3d8-505244256f62",
+  "original_record": {
+    "alias": "P.RESISTANCE",
+    "id": "urn:uuid:402203e6-571b-54e7-a3d8-505244256f62",
+    "line_range": [
+      12,
+      23
+    ],
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 1879,
+      "interval": "[start,end)",
+      "start": 593
+    },
+    "source_entry_id": "urn:uuid:46f52d9f-45ec-5c25-b3b1-9c432c68caa0",
+    "text": "\n# 抗性和易伤\n\n### 抗性和易伤Resistance and Vulnerability\n\n一些生物和物件具有特定伤害类型的抗性或易伤。如果你对某个伤害类型具有抗性，则你承受的该类型伤害减半（向下取整）。如果你对某个伤害类型具有易伤，则你承受的该类型伤害翻倍。举例来说，如果你对**寒冷**伤害具有抗性，则你承受的**寒冷**伤害减半，如果你对**火焰**伤害具有易伤，则你承受的**火焰**伤害翻倍。\n\n**抗性/易伤不叠加 No Stacking** 多个同伤害类型的抗性同时存在时，只需计算其中一个，易伤也是如此。举例来说，如果你同时有**暗蚀**伤害抗性和全伤害抗性，对你造成的**暗蚀**伤害仍然只会减少一半。\n\n**生效顺序 Order of Application**\n伤害的调整按照以下顺序生效：首先计算数值修正，比如加值、减值或者乘数；然后计算抗性；接着计算易伤。\n举例来说，假设有一名具有全伤害抗性，具有**火焰**伤害易伤，位于某个全伤害减5的魔法灵光内的生物。如果他受到28**火焰**伤害，结算伤害时应先将该伤害减5（变为23），再因其抗性减半（并向下取整变为11），然后因其易伤翻倍（变为22）。\n",
+    "text_sha256": "d1bfb33f6cc5fcb596c1461b91f30ae0c0108383529137ad42f0019bfb750773"
+  },
+  "raw_fragment_id": "urn:uuid:c6712587-f75e-5615-8849-35f3cdd810f4",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

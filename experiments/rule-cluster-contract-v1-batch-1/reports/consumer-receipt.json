@@ -1,0 +1,51 @@
+{
+  "recorded_on": "2026-10-26",
+  "status": "P5_verified",
+  "delivery_id": "urn:uuid:eacf87e2-d7f4-554a-8669-d5587daa56d3",
+  "knowledge_sha256": "a09d46a43e4b01f68a45edc1a870279c06a313af466be298970fec43d2625c92",
+  "upstream_evidence": "/Users/chenzehao/Vaults/obsidian/obisidian/理工学习相关/DND Terminal/version-work/c0.1.0/evidence/contract-v1-batch-1-consumer-2026-10-26",
+  "method": "verify_consumer_receipt.py; existing output rechecked, no consumer rerun",
+  "phases": {
+    "first": {
+      "raw_sha256": "dca4bb8fa848fe56c6d441558fb0f54d3002de9cf720304edbcdcdac83a2bb37",
+      "counts": {
+        "numeric": 36,
+        "calculated": 36,
+        "boundary": 12,
+        "unsupported": 9,
+        "needs_input": 2,
+        "invalid": 1
+      },
+      "checks": "passed"
+    },
+    "verified": {
+      "raw_sha256": "6f711b80bb4e551f6d298e8cdf57a7d5f3ebb97eeec192602a8f10e4ade2eefc",
+      "counts": {
+        "numeric": 36,
+        "calculated": 36,
+        "boundary": 12,
+        "unsupported": 9,
+        "needs_input": 2,
+        "invalid": 1
+      },
+      "checks": "passed"
+    }
+  },
+  "source_snapshot_and_current_files_match": 14,
+  "checked": [
+    "exact case sets and fixed input/Gold digests",
+    "36 numeric results and all stages",
+    "12 boundary statuses and reason codes",
+    "full scene snapshots and direct request scopes",
+    "ability ownership, source evidence records, numeric input snapshots",
+    "all applied=false",
+    "Gold required pending effects retained"
+  ],
+  "p6": {
+    "recommendation": "accept_internal_candidate_batch",
+    "user_decision": "pending"
+  },
+  "resolves_preparation_issue": "urn:uuid:f1dc4170-db2d-5bb5-8d01-0659ee9153d9",
+  "remaining_boundary": "Full casting legality/effects, mixed damage, structure multiplier, transfer, HP/state/resource writes and migration remain unsupported.",
+  "authority": "AI recheck of supplied evidence; not independent human source approval or formal Package release"
+}

@@ -1,0 +1,262 @@
+{
+  "body": {
+    "digest": "sha256:c1b9975d5f69b50ceb4a65aaaa152d872245fc854fb05b4c540ad904fcc974a7",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/270f495a-1ccd-5b7e-8634-8606fa44c401.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "casting_ability": "charisma",
+      "components_override": "none",
+      "cross_plane_interaction": false,
+      "spell": "P.ETHEREAL",
+      "visible_across_planes": true
+    },
+    "editorial_explanation": "调用2024法术，幽魂局部可见例外不等于跨位面可攻击。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "casting_calls": [
+          {
+            "availability": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+                "source_evidence_id": "urn:uuid:5f5874fc-1602-57bd-a357-cf9331ced32a",
+                "source_note_utf8_range": {
+                  "end": 3252,
+                  "start": 2963
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "cast_level": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+                "source_evidence_id": "urn:uuid:5f5874fc-1602-57bd-a357-cf9331ced32a",
+                "source_note_utf8_range": {
+                  "end": 3252,
+                  "start": 2963
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "casting_ability": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+                "source_evidence_id": "urn:uuid:5f5874fc-1602-57bd-a357-cf9331ced32a",
+                "source_note_utf8_range": {
+                  "end": 3252,
+                  "start": 2963
+                }
+              },
+              "state": "known",
+              "value": "charisma"
+            },
+            "components_waived": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+                "source_evidence_id": "urn:uuid:5f5874fc-1602-57bd-a357-cf9331ced32a",
+                "source_note_utf8_range": {
+                  "end": 3252,
+                  "start": 2963
+                }
+              },
+              "state": "known",
+              "value": [
+                "V",
+                "S",
+                "M"
+              ]
+            },
+            "concentration_override": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+                "source_evidence_id": "urn:uuid:5f5874fc-1602-57bd-a357-cf9331ced32a",
+                "source_note_utf8_range": {
+                  "end": 3252,
+                  "start": 2963
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "mapping_adoption_ids": [],
+            "mode": "intrinsic_spell_call",
+            "parameter_owner": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+                "source_evidence_id": "urn:uuid:5f5874fc-1602-57bd-a357-cf9331ced32a",
+                "source_note_utf8_range": {
+                  "end": 3252,
+                  "start": 2963
+                }
+              },
+              "state": "known",
+              "value": "this_actor_instance"
+            },
+            "save_dc": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+                "source_evidence_id": "urn:uuid:5f5874fc-1602-57bd-a357-cf9331ced32a",
+                "source_note_utf8_range": {
+                  "end": 3252,
+                  "start": 2963
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "spell_attack_bonus": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+                "source_evidence_id": "urn:uuid:5f5874fc-1602-57bd-a357-cf9331ced32a",
+                "source_note_utf8_range": {
+                  "end": 3252,
+                  "start": 2963
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "spell_id": "urn:uuid:e3995331-da2b-5e63-a16d-118e40c00303",
+            "target_override": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+                "source_evidence_id": "urn:uuid:5f5874fc-1602-57bd-a357-cf9331ced32a",
+                "source_note_utf8_range": {
+                  "end": 3252,
+                  "start": 2963
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "uncompiled_qualifications": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+                "source_evidence_id": "urn:uuid:5f5874fc-1602-57bd-a357-cf9331ced32a",
+                "source_note_utf8_range": {
+                  "end": 3252,
+                  "start": 2963
+                }
+              },
+              "state": "known",
+              "value": {
+                "cross_plane_interaction": false,
+                "visible_across_planes": true
+              }
+            }
+          }
+        ],
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:911de157-f350-5323-a17a-e265b3e09445",
+            "json_pointer": "/critical_fields/spell"
+          },
+          {
+            "extraction_id": "urn:uuid:78871a56-ed8d-58dc-9f59-171a4f01c50a",
+            "json_pointer": "/critical_fields/casting_ability"
+          },
+          {
+            "extraction_id": "urn:uuid:9420428f-80d7-5f3e-ae6d-8082bd139751",
+            "json_pointer": "/critical_fields/components_override"
+          },
+          {
+            "extraction_id": "urn:uuid:0d1d7742-afa7-50b4-ac49-bdca4c04818f",
+            "json_pointer": "/critical_fields/visible_across_planes"
+          },
+          {
+            "extraction_id": "urn:uuid:66b6956c-3317-51d6-8a47-a1e82bedd85b",
+            "json_pointer": "/critical_fields/cross_plane_interaction"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "pointer": "/critical_fields",
+      "source_evidence": "G25.ABILITY.5"
+    },
+    "id": "urn:uuid:270f495a-1ccd-5b7e-8634-8606fa44c401",
+    "kind": "动作Actions",
+    "mechanics": {
+      "clauses": {
+        "casting_ability": "charisma",
+        "components_override": "none",
+        "cross_plane_interaction": false,
+        "spell": "P.ETHEREAL",
+        "visible_across_planes": true
+      },
+      "dependencies": [
+        "urn:uuid:e3995331-da2b-5e63-a16d-118e40c00303",
+        "urn:uuid:54fb4631-fd48-5d41-84fd-2c41fbf2f5d5"
+      ],
+      "kind": "source_bound_candidate",
+      "spell_calls": [
+        {
+          "caller_overrides_from": "/critical_fields",
+          "source_evidence_id": "urn:uuid:5f5874fc-1602-57bd-a357-cf9331ced32a",
+          "target_id": "urn:uuid:e3995331-da2b-5e63-a16d-118e40c00303"
+        }
+      ],
+      "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+    },
+    "owner_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+    "required_evidence": [
+      "P.ETHEREAL",
+      "P.COMPONENTS"
+    ],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:5f5874fc-1602-57bd-a357-cf9331ced32a",
+    "title": "以太化",
+    "verbatim_evidence": "G25.ABILITY.5",
+    "verbatim_text": " **以太化Etherealness。**幽魂施展法术*以太化Etheralness*，无需法术成分，并使用魅力作为施法属性。当幽魂处于边界以太时，仍可以在物质位面被观测到，反之亦然。但另一位面的任何事物不能对其施加影响或被其影响。\n"
+  },
+  "dependency_ids": [
+    "urn:uuid:54fb4631-fd48-5d41-84fd-2c41fbf2f5d5",
+    "urn:uuid:e3995331-da2b-5e63-a16d-118e40c00303"
+  ],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:270f495a-1ccd-5b7e-8634-8606fa44c401",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:e14d61d5-fa73-5b27-9555-56a721082e34",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:5f5874fc-1602-57bd-a357-cf9331ced32a",
+    "derived_note_utf8_range": {
+      "end": 3252,
+      "start": 2963
+    },
+    "entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+    "fragment_id": "urn:uuid:b32518f2-acd4-5874-acf6-2482d95a72d4",
+    "mapping_id": "urn:uuid:d142700e-702e-5bff-9bcd-1020553eb86e"
+  },
+  "subject_kind": "ability",
+  "title": "以太化",
+  "uncompiled_semantics_retained": true
+}

@@ -1,0 +1,18 @@
+{
+  "binding": {
+    "adopted_decision_ids": [],
+    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+    "source_evidence_id": "urn:uuid:6c696103-aa06-5b86-847e-286e087d4a92",
+    "source_note_utf8_range": {
+      "end": 4082,
+      "start": 3930
+    }
+  },
+  "id": "urn:uuid:e4640a4a-2615-585b-ba81-a4119b6d722b",
+  "json_pointer": "/critical_fields/damage_bludgeoning",
+  "review_status": "candidate",
+  "revision": 1,
+  "subject_id": "urn:uuid:eaa87b64-17bd-5a2d-b350-966ec1dadf4f",
+  "value": 11
+}

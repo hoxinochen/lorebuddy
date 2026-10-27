@@ -1,0 +1,83 @@
+{
+  "production_status": "material_validated_candidate_not_formal_rule_approval",
+  "contract_revision": "v1-r1",
+  "schema_validator": "4.26.0",
+  "counts": {
+    "cards": 8,
+    "abilities": 45,
+    "spells": 11,
+    "shared_entries": 6,
+    "evidence": 94,
+    "source_entries": 20,
+    "field_extractions": 254,
+    "regression_cases": 24,
+    "new_cases": 24
+  },
+  "old_id_text_and_scene_semantics_preserved": true,
+  "source_bytes_ranges_and_parameter_bindings_checked": true,
+  "fault_injections": [
+    {
+      "fault": "drop_unused_ability",
+      "blocked": true,
+      "error": "AssertionError",
+      "detail": "full ability set"
+    },
+    {
+      "fault": "remove_shared_spell",
+      "blocked": true,
+      "error": "AssertionError",
+      "detail": "missing direct dependency"
+    },
+    {
+      "fault": "wrong_owner",
+      "blocked": true,
+      "error": "AssertionError",
+      "detail": "wrong owner"
+    },
+    {
+      "fault": "duplicate_id",
+      "blocked": true,
+      "error": "AssertionError",
+      "detail": "duplicate identities"
+    },
+    {
+      "fault": "mixed_edition",
+      "blocked": true,
+      "error": "AssertionError",
+      "detail": "rule edition"
+    },
+    {
+      "fault": "caller_component_conflict",
+      "blocked": true,
+      "error": "AssertionError",
+      "detail": "component override conflict"
+    },
+    {
+      "fault": "unknown_expression",
+      "blocked": true,
+      "error": "AssertionError",
+      "detail": "unknown execution expression"
+    },
+    {
+      "fault": "extraction_value_conflict",
+      "blocked": true,
+      "error": "AssertionError",
+      "detail": "field extraction mismatch"
+    },
+    {
+      "fault": "missing_request_scope",
+      "blocked": true
+    },
+    {
+      "fault": "invalid_recorded_die",
+      "blocked": true
+    },
+    {
+      "fault": "missing_scene_actor",
+      "blocked": true
+    }
+  ],
+  "consumer_acceptance": "Pending",
+  "llm_calls": false,
+  "terminal_changes": false
+}

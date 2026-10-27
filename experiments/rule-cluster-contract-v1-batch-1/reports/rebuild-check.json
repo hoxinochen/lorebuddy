@@ -1,0 +1,7 @@
+{
+  "status": "Passed",
+  "canonical_files_compared": 12,
+  "byte_identical": true,
+  "source_fidelity_is_separately_checked": true,
+  "model_or_consumer_calls": false
+}

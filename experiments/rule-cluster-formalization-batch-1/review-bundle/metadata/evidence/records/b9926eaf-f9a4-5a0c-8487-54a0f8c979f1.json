@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:02efbe8a953929558945da2ede1fe2c71cb8fdb15819e95e9510d88bc662e9b9",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/构装/盾卫.md",
+  "id": "urn:uuid:b9926eaf-f9a4-5a0c-8487-54a0f8c979f1",
+  "original_record": {
+    "alias": "G.ABILITY.6",
+    "id": "urn:uuid:b9926eaf-f9a4-5a0c-8487-54a0f8c979f1",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 4352,
+      "interval": "[start,end)",
+      "start": 4082
+    },
+    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+    "text": "\n**守护Protection。***触发：*盾卫的护符携带者在盾卫的5尺内被一次攻击检定命中。*响应：*携带者的AC获得+5的加值，持续至盾卫的下个回合开始，这包括了对抗触发攻击的AC，并可能令那次攻击改为失手。\n",
+    "text_sha256": "c5cefdb94ec73bcb16b825444de60ddc8bafb99ff402e8a40502fb222b1a1b7a"
+  },
+  "raw_fragment_id": "urn:uuid:9636c175-25b3-5946-bf3d-d27bd737b4ec",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

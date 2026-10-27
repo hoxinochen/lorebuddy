@@ -1,0 +1,110 @@
+{
+  "body": {
+    "digest": "sha256:4adc5f74261d13b9aaef8bad5b34de5037e8f02e10c4a1b9745db59c698231c7",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/db3d0168-e5dd-59ee-a1d2-96c33f32a57d.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "bound_entity": "own_command_amulet",
+      "damage_transfer_range_ft": 60,
+      "knows_distance_and_position": true,
+      "telepathic_call": "wearer_when_same_plane",
+      "transfer_fraction": "half_round_up"
+    },
+    "editorial_explanation": "区分特定护符身份、佩戴者和其他携带者；给定同位面/距离下，11伤害转移6给盾卫，佩戴者剩5。未知抗性先后、多个盾卫不在本批。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:e70d2964-f92e-513e-baab-9685e07c95e0",
+            "json_pointer": "/critical_fields/bound_entity"
+          },
+          {
+            "extraction_id": "urn:uuid:bfd02290-a9f5-5962-9631-1e06041c607c",
+            "json_pointer": "/critical_fields/telepathic_call"
+          },
+          {
+            "extraction_id": "urn:uuid:91e83e63-7519-5922-9f4c-8f082d23bed5",
+            "json_pointer": "/critical_fields/knows_distance_and_position"
+          },
+          {
+            "extraction_id": "urn:uuid:76515c85-66c4-5751-9de0-4581082e550b",
+            "json_pointer": "/critical_fields/damage_transfer_range_ft"
+          },
+          {
+            "extraction_id": "urn:uuid:e05a0d90-9423-5bbc-8e4d-2941adb28bbd",
+            "json_pointer": "/critical_fields/transfer_fraction"
+          }
+        ],
+        "transfer_contract": {
+          "execution_requirement": "damage_transfer",
+          "fraction": {
+            "denominator": 2,
+            "numerator": 1,
+            "rounding": "ceil"
+          },
+          "max_distance_ft": 60,
+          "source_amulet": "this_guardian_bound_amulet",
+          "source_evidence_id": "urn:uuid:04df87b6-47fd-569e-af71-73135755b38d"
+        }
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "local_evidence": "G.ABILITY.1",
+      "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+      "pointer": "/critical_fields"
+    },
+    "id": "urn:uuid:db3d0168-e5dd-59ee-a1d2-96c33f32a57d",
+    "kind": "特质Traits",
+    "mechanics": {
+      "clauses": {
+        "bound_entity": "own_command_amulet",
+        "damage_transfer_range_ft": 60,
+        "knows_distance_and_position": true,
+        "telepathic_call": "wearer_when_same_plane",
+        "transfer_fraction": "half_round_up"
+      },
+      "dependencies": [
+        "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b"
+      ],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_and_complete_verbatim; remaining_semantics_uncompiled"
+    },
+    "owner_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+    "required_evidence": [
+      "P.ROUND"
+    ],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:04df87b6-47fd-569e-af71-73135755b38d",
+    "title": "连接",
+    "verbatim_evidence": "G.ABILITY.1",
+    "verbatim_text": "\n**连接Bound。**盾卫与一个命令护符魔法性地相连。在盾卫和其命令护符位于同一存在位面期间，命令护符的佩戴者可以心灵感应般的呼唤盾卫来到自己的位置，并且盾卫知晓自己与命令护符的距离及其位置。如果盾卫位于命令护符佩戴者60尺范围内，佩戴者所承受到的任何伤害的一半（向上取整）都会转移给盾卫。\n"
+  },
+  "dependency_ids": [
+    "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b"
+  ],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:db3d0168-e5dd-59ee-a1d2-96c33f32a57d",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:da027efd-9642-54e3-9ccf-4c9e54b3aec4",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:04df87b6-47fd-569e-af71-73135755b38d",
+    "derived_note_utf8_range": {
+      "end": 3229,
+      "start": 2811
+    },
+    "entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+    "fragment_id": "urn:uuid:9636c175-25b3-5946-bf3d-d27bd737b4ec",
+    "mapping_id": "urn:uuid:bb03d887-d3a3-5a05-9c90-b385a184dee9"
+  },
+  "subject_kind": "ability",
+  "title": "连接",
+  "uncompiled_semantics_retained": true
+}

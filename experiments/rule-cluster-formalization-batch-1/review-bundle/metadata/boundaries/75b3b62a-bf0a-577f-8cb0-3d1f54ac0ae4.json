@@ -1,0 +1,24 @@
+{
+  "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+  "candidate_key": "sha256:089fdd843d2def5123cc0ed8f8238641bcc4fc31bc3a39049c5d0a322775d999",
+  "decision": {
+    "reason": "Audit envelope only; per-subject derived ranges remain separate.",
+    "review_status": "pending",
+    "reviewer_id": null
+  },
+  "entry_id": "urn:uuid:46f52d9f-45ec-5c25-b3b1-9c432c68caa0",
+  "id": "urn:uuid:75b3b62a-bf0a-577f-8cb0-3d1f54ac0ae4",
+  "lifecycle": {
+    "revision": 1,
+    "status": "draft"
+  },
+  "locator": {
+    "end": 1259,
+    "kind": "byte-range",
+    "start": 0
+  },
+  "node_id": null,
+  "proposed_title": "抗性和易伤",
+  "schema": "core.boundary-record@0.1.0",
+  "status": "proposed"
+}

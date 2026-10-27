@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:69dabf6858e76ecb02ba591a9b454e46aeb6a2746f02753b1a6e515586c35bdd",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/亡灵/幽魂.md",
+  "id": "urn:uuid:5f5874fc-1602-57bd-a357-cf9331ced32a",
+  "original_record": {
+    "alias": "G25.ABILITY.5",
+    "id": "urn:uuid:5f5874fc-1602-57bd-a357-cf9331ced32a",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 3252,
+      "interval": "[start,end)",
+      "start": 2963
+    },
+    "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+    "text": " **以太化Etherealness。**幽魂施展法术*以太化Etheralness*，无需法术成分，并使用魅力作为施法属性。当幽魂处于边界以太时，仍可以在物质位面被观测到，反之亦然。但另一位面的任何事物不能对其施加影响或被其影响。\n",
+    "text_sha256": "c1b9975d5f69b50ceb4a65aaaa152d872245fc854fb05b4c540ad904fcc974a7"
+  },
+  "raw_fragment_id": "urn:uuid:b32518f2-acd4-5874-acf6-2482d95a72d4",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

@@ -1,0 +1,105 @@
+{
+  "body": {
+    "digest": "sha256:c5cefdb94ec73bcb16b825444de60ddc8bafb99ff402e8a40502fb222b1a1b7a",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/b3e35f52-b6c0-5599-aedf-235e3d6f95ea.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "ac_bonus": 5,
+      "activation": "reaction",
+      "end": "source_next_turn_start",
+      "includes_triggering_attack": true,
+      "trigger": "amulet_wearer_hit_by_attack_roll",
+      "wearer_distance_ft": 5
+    },
+    "editorial_explanation": "盾卫的反应给予佩戴者AC+5，不是只加盾卫。可以逆转触发命中；持续到来源盾卫下回合开始，反应次数另受公共限制。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:cdd5218a-9435-56ea-9ef3-82631d85e29e",
+            "json_pointer": "/critical_fields/activation"
+          },
+          {
+            "extraction_id": "urn:uuid:9fd1c2f9-359a-532e-bc2f-f45a176f20a8",
+            "json_pointer": "/critical_fields/trigger"
+          },
+          {
+            "extraction_id": "urn:uuid:cd2bb943-6a3a-5ed0-ab00-85cb69356d85",
+            "json_pointer": "/critical_fields/wearer_distance_ft"
+          },
+          {
+            "extraction_id": "urn:uuid:33ca6d8f-b342-5c7e-aee1-b5c86810cdf8",
+            "json_pointer": "/critical_fields/ac_bonus"
+          },
+          {
+            "extraction_id": "urn:uuid:0dcbefdd-bb6e-5d64-a425-ff1225cdcfa7",
+            "json_pointer": "/critical_fields/includes_triggering_attack"
+          },
+          {
+            "extraction_id": "urn:uuid:6dacd6fc-4abc-5158-ae06-424b94f24036",
+            "json_pointer": "/critical_fields/end"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "local_evidence": "G.ABILITY.6",
+      "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+      "pointer": "/critical_fields"
+    },
+    "id": "urn:uuid:b3e35f52-b6c0-5599-aedf-235e3d6f95ea",
+    "kind": "反应Reactions",
+    "mechanics": {
+      "clauses": {
+        "ac_bonus": 5,
+        "activation": "reaction",
+        "end": "source_next_turn_start",
+        "includes_triggering_attack": true,
+        "trigger": "amulet_wearer_hit_by_attack_roll",
+        "wearer_distance_ft": 5
+      },
+      "dependencies": [
+        "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b"
+      ],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_and_complete_verbatim; remaining_semantics_uncompiled"
+    },
+    "owner_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+    "required_evidence": [
+      "P.REACTION"
+    ],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:b9926eaf-f9a4-5a0c-8487-54a0f8c979f1",
+    "title": "守护",
+    "verbatim_evidence": "G.ABILITY.6",
+    "verbatim_text": "\n**守护Protection。***触发：*盾卫的护符携带者在盾卫的5尺内被一次攻击检定命中。*响应：*携带者的AC获得+5的加值，持续至盾卫的下个回合开始，这包括了对抗触发攻击的AC，并可能令那次攻击改为失手。\n"
+  },
+  "dependency_ids": [
+    "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b"
+  ],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:b3e35f52-b6c0-5599-aedf-235e3d6f95ea",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:9d09d662-d474-5e26-9e73-49a140977bc2",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:b9926eaf-f9a4-5a0c-8487-54a0f8c979f1",
+    "derived_note_utf8_range": {
+      "end": 4352,
+      "start": 4082
+    },
+    "entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+    "fragment_id": "urn:uuid:9636c175-25b3-5946-bf3d-d27bd737b4ec",
+    "mapping_id": "urn:uuid:bb03d887-d3a3-5a05-9c90-b385a184dee9"
+  },
+  "subject_kind": "ability",
+  "title": "守护",
+  "uncompiled_semantics_retained": true
+}

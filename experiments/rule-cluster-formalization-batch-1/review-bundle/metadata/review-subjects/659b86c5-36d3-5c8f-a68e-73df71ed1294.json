@@ -1,0 +1,79 @@
+{
+  "body": {
+    "digest": "sha256:99f3150466551171be8fe64c59711b1b1650593fb1c70d134322a1a1a0595c73",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/659b86c5-36d3-5c8f-a68e-73df71ed1294.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "allowed": [
+        "F.Burn"
+      ],
+      "attacks": 2
+    },
+    "editorial_explanation": "两次燃烧攻击，不能混入气/土元素攻击。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:48448309-902f-5870-89a8-acab7490b46b",
+            "json_pointer": "/critical_fields/attacks"
+          },
+          {
+            "extraction_id": "urn:uuid:e533cd06-a8ac-5990-8d23-7e5505bff036",
+            "json_pointer": "/critical_fields/allowed/0"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "local_evidence": "F.ABILITY.5",
+      "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+      "pointer": "/critical_fields"
+    },
+    "id": "urn:uuid:659b86c5-36d3-5c8f-a68e-73df71ed1294",
+    "kind": "动作Actions",
+    "mechanics": {
+      "clauses": {
+        "allowed": [
+          "F.Burn"
+        ],
+        "attacks": 2
+      },
+      "dependencies": [],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+    },
+    "owner_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+    "required_evidence": [],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:a0e8fe70-841f-56f1-afe3-bd8a352a848c",
+    "title": "多重攻击",
+    "verbatim_evidence": "F.ABILITY.5",
+    "verbatim_text": "\n**多重攻击Multiattack。**火元素发动两次燃烧攻击。\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:659b86c5-36d3-5c8f-a68e-73df71ed1294",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:80d603a5-9296-5213-b19e-9a9327a4058f",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:a0e8fe70-841f-56f1-afe3-bd8a352a848c",
+    "derived_note_utf8_range": {
+      "end": 4002,
+      "start": 3934
+    },
+    "entry_id": "urn:uuid:048a1238-9915-5f2e-8619-c8ccbc580529",
+    "fragment_id": "urn:uuid:d6125d3b-9532-5ccd-8263-8e76bb248835",
+    "mapping_id": "urn:uuid:c0530d90-6451-5541-896f-ae1f13107880"
+  },
+  "subject_kind": "ability",
+  "title": "多重攻击",
+  "uncompiled_semantics_retained": true
+}

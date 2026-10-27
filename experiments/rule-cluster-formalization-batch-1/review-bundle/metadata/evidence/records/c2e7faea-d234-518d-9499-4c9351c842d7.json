@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:a9059840540c273cb7c63b35c46986bf767426fbe7584892306d9493892382ee",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/异怪/史拉蟾/史拉绿蟾.md",
+  "id": "urn:uuid:c2e7faea-d234-518d-9499-4c9351c842d7",
+  "original_record": {
+    "alias": "S.ABILITY.3",
+    "id": "urn:uuid:c2e7faea-d234-518d-9499-4c9351c842d7",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 2456,
+      "interval": "[start,end)",
+      "start": 2382
+    },
+    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+    "text": "\n**多重攻击Multiattack。**史拉蟾发动三次混沌法杖攻击。\n",
+    "text_sha256": "a56677c61b93687c3dd2bb080c54214d08f0332974462b7889edd21177cd57ff"
+  },
+  "raw_fragment_id": "urn:uuid:2f037a82-6e86-5b22-b290-e00cb0335153",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

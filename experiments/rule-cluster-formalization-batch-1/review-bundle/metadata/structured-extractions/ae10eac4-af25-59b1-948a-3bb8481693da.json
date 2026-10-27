@@ -1,0 +1,18 @@
+{
+  "binding": {
+    "adopted_decision_ids": [],
+    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+    "source_entry_id": "urn:uuid:048a1238-9915-5f2e-8619-c8ccbc580529",
+    "source_evidence_id": "urn:uuid:108e2b08-f639-5598-813b-97c3d9e40ec1",
+    "source_note_utf8_range": {
+      "end": 4158,
+      "start": 4002
+    }
+  },
+  "id": "urn:uuid:ae10eac4-af25-59b1-948a-3bb8481693da",
+  "json_pointer": "/critical_fields/ignites/0",
+  "review_status": "candidate",
+  "revision": 1,
+  "subject_id": "urn:uuid:fa4c4929-2977-5b82-816c-ca8214a9afe6",
+  "value": "creatures"
+}

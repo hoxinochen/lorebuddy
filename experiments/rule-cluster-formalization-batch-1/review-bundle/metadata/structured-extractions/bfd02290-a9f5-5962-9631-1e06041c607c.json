@@ -1,0 +1,18 @@
+{
+  "binding": {
+    "adopted_decision_ids": [],
+    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+    "source_evidence_id": "urn:uuid:04df87b6-47fd-569e-af71-73135755b38d",
+    "source_note_utf8_range": {
+      "end": 3229,
+      "start": 2811
+    }
+  },
+  "id": "urn:uuid:bfd02290-a9f5-5962-9631-1e06041c607c",
+  "json_pointer": "/critical_fields/telepathic_call",
+  "review_status": "candidate",
+  "revision": 1,
+  "subject_id": "urn:uuid:db3d0168-e5dd-59ee-a1d2-96c33f32a57d",
+  "value": "wearer_when_same_plane"
+}

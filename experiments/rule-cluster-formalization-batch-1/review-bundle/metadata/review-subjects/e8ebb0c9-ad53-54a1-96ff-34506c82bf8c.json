@@ -1,0 +1,93 @@
+{
+  "body": {
+    "digest": "sha256:e807cf9ba855be09ffe68d92884606a78c00bc29ddb98c66003eaaaced307ced",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/e8ebb0c9-ad53-54a1-96ff-34506c82bf8c.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "own_turn_end_in_object_damage": 5,
+      "through_creatures_objects": "difficult_terrain",
+      "type": "force"
+    },
+    "editorial_explanation": "回合末与穿越过程分开。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:8e513784-66ec-559b-9fab-a72236d9a1da",
+            "json_pointer": "/critical_fields/through_creatures_objects"
+          },
+          {
+            "extraction_id": "urn:uuid:0a936590-764f-5819-9e67-abea58c28393",
+            "json_pointer": "/critical_fields/own_turn_end_in_object_damage"
+          },
+          {
+            "extraction_id": "urn:uuid:67c6b5c3-65f6-55de-a08c-4f59da4c9e11",
+            "json_pointer": "/critical_fields/type"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "pointer": "/critical_fields",
+      "source_evidence": "G25.ABILITY.2"
+    },
+    "id": "urn:uuid:e8ebb0c9-ad53-54a1-96ff-34506c82bf8c",
+    "kind": "特质Traits",
+    "mechanics": {
+      "clauses": {
+        "own_turn_end_in_object_damage": 5,
+        "through_creatures_objects": "difficult_terrain",
+        "type": "force"
+      },
+      "damage": {
+        "amount": {
+          "dice": null,
+          "printed_fixed": 5,
+          "selection": "use_scene_amount_mode; recorded_dice_must_not_be_rerolled"
+        },
+        "damage_type": "force",
+        "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+        "linked_reduction_from_damage_taken": false,
+        "other_effects": [],
+        "save_success": null,
+        "trigger": "own_turn_end_inside_object"
+      },
+      "dependencies": [],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+    },
+    "owner_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+    "required_evidence": [],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:7a7fb0eb-da38-51c4-99e4-09e87ba8cdeb",
+    "title": "虚体移动",
+    "verbatim_evidence": "G25.ABILITY.2",
+    "verbatim_text": " **虚体移动Incorporeal Movement。**幽魂可以移动穿过其他生物或物件，如同穿过困难地形一般。在其回合结束时，若幽魂还处于物件内，其受到5（1d10）力场伤害\n\n###### 动作Actions\n\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:e8ebb0c9-ad53-54a1-96ff-34506c82bf8c",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:988cfdbb-1119-53f2-9efa-4d888ce6faf6",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:7a7fb0eb-da38-51c4-99e4-09e87ba8cdeb",
+    "derived_note_utf8_range": {
+      "end": 2776,
+      "start": 2545
+    },
+    "entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+    "fragment_id": "urn:uuid:b32518f2-acd4-5874-acf6-2482d95a72d4",
+    "mapping_id": "urn:uuid:d142700e-702e-5bff-9bcd-1020553eb86e"
+  },
+  "subject_kind": "ability",
+  "title": "虚体移动",
+  "uncompiled_semantics_retained": true
+}

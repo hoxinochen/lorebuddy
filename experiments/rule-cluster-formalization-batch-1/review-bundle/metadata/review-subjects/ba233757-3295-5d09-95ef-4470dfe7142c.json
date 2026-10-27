@@ -1,0 +1,78 @@
+{
+  "body": {
+    "digest": "sha256:a1b11c367b062ac061b1c865646a5e7a1b8854b3bb29d7b7e7786d6e2442ea60",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/ba233757-3295-5d09-95ef-4470dfe7142c.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "allowed": [
+        "RestlessTouch"
+      ],
+      "attacks": 2
+    },
+    "editorial_explanation": "不是沿用魅魔的触碰加魅惑/吻组合。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:5e21470c-3c84-541d-8ce8-1c1141e78bfa",
+            "json_pointer": "/critical_fields/attacks"
+          },
+          {
+            "extraction_id": "urn:uuid:1975ba55-180b-5a83-853c-eb81e8963450",
+            "json_pointer": "/critical_fields/allowed/0"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "pointer": "/critical_fields",
+      "source_evidence": "IN.ABILITY.2"
+    },
+    "id": "urn:uuid:ba233757-3295-5d09-95ef-4470dfe7142c",
+    "kind": "动作Actions",
+    "mechanics": {
+      "clauses": {
+        "allowed": [
+          "RestlessTouch"
+        ],
+        "attacks": 2
+      },
+      "dependencies": [],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+    },
+    "owner_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+    "required_evidence": [],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:73ea8ad6-ba19-5686-abf5-1647fd6f1a3e",
+    "title": "多重攻击",
+    "verbatim_evidence": "IN.ABILITY.2",
+    "verbatim_text": "**多重攻击Multiattack。**梦魔发动两次毁梦之触攻击。\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:ba233757-3295-5d09-95ef-4470dfe7142c",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:42c8f94f-177d-5dd9-ba86-78b1535dcaff",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:73ea8ad6-ba19-5686-abf5-1647fd6f1a3e",
+    "derived_note_utf8_range": {
+      "end": 3309,
+      "start": 3239
+    },
+    "entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+    "fragment_id": "urn:uuid:3da4dc0e-0945-5ef1-8d58-92662fc6ea04",
+    "mapping_id": "urn:uuid:63ace06a-e3e6-5b0c-b9bb-590596d6589b"
+  },
+  "subject_kind": "ability",
+  "title": "多重攻击",
+  "uncompiled_semantics_retained": true
+}

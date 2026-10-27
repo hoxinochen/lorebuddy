@@ -1,0 +1,49 @@
+{
+  "body": {
+    "digest": "sha256:67c33dee5e3a765c9f97630a869d55ec8d1b862650c3891946b94ffba92d59d8",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/4dfe39fd-0141-5e50-ae95-ebeaa474aab9.md"
+  },
+  "candidate_snapshot": {
+    "content": {
+      "format": "m1_published_markdown_utf8",
+      "text": "---\nartifact_id: \"urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408\"\nentry_id: \"urn:uuid:46f52d9f-45ec-5c25-b3b1-9c432c68caa0\"\nsource_path: \"玩家手册2024/进行游戏/抗性和易伤.htm\"\nnavigation_paths:\n  - \"玩家手册2024/第一章：进行游戏/伤害与治疗/抗性和易伤\"\nsource_sha256: \"sha256:c429da8fe5d132fc83c134107fc6ab51fed10ef49017c6798afc3a9c6cb1e28f\"\ndetected_encoding: \"gb18030\"\npublisher_profile: \"m1c3.obsidian-baseline@0.1.0\"\npublisher_release: \"baseline\"\npublisher_note_path: \"Notes/玩家手册2024/第一章：进行游戏/伤害与治疗/抗性和易伤.md\"\n---\n# 抗性和易伤\n\n### 抗性和易伤Resistance and Vulnerability\n\n一些生物和物件具有特定伤害类型的抗性或易伤。如果你对某个伤害类型具有抗性，则你承受的该类型伤害减半（向下取整）。如果你对某个伤害类型具有易伤，则你承受的该类型伤害翻倍。举例来说，如果你对**寒冷**伤害具有抗性，则你承受的**寒冷**伤害减半，如果你对**火焰**伤害具有易伤，则你承受的**火焰**伤害翻倍。\n\n**抗性/易伤不叠加 No Stacking** 多个同伤害类型的抗性同时存在时，只需计算其中一个，易伤也是如此。举例来说，如果你同时有**暗蚀**伤害抗性和全伤害抗性，对你造成的**暗蚀**伤害仍然只会减少一半。\n\n**生效顺序 Order of Application**\n伤害的调整按照以下顺序生效：首先计算数值修正，比如加值、减值或者乘数；然后计算抗性；接着计算易伤。\n举例来说，假设有一名具有全伤害抗性，具有**火焰**伤害易伤，位于某个全伤害减5的魔法灵光内的生物。如果他受到28**火焰**伤害，结算伤害时应先将该伤害减5（变为23），再因其抗性减半（并向下取整变为11），然后因其易伤翻倍（变为22）。\n"
+    },
+    "coverage": {
+      "basis": "whole_note_utf8",
+      "complete_entry": true,
+      "end": 1879,
+      "start": 0
+    },
+    "evidence_ids": [
+      "urn:uuid:402203e6-571b-54e7-a3d8-505244256f62"
+    ],
+    "id": "urn:uuid:4dfe39fd-0141-5e50-ae95-ebeaa474aab9",
+    "kind": "shared_rule_entry",
+    "source_entry_id": "urn:uuid:46f52d9f-45ec-5c25-b3b1-9c432c68caa0",
+    "title": "抗性和易伤"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:4dfe39fd-0141-5e50-ae95-ebeaa474aab9",
+  "language": "zh-Hans",
+  "module": "common",
+  "review_record_id": "urn:uuid:e840aa7d-5557-5486-b80a-e592cfd66d7a",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": null,
+    "derived_note_utf8_range": {
+      "end": 1879,
+      "start": 0
+    },
+    "entry_id": "urn:uuid:46f52d9f-45ec-5c25-b3b1-9c432c68caa0",
+    "fragment_id": "urn:uuid:c6712587-f75e-5615-8849-35f3cdd810f4",
+    "mapping_id": "urn:uuid:978cd294-1fe8-5acf-8be2-d1ccb10fe6bc"
+  },
+  "subject_kind": "shared_reference",
+  "title": "抗性和易伤",
+  "uncompiled_semantics_retained": true
+}

@@ -1,0 +1,87 @@
+{
+  "body": {
+    "digest": "sha256:1abb9c187bddc2b478d37554ec5be87578d02b34afa37f3d4b57cc8dd55c7fdc",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/99675cbc-559c-5011-b249-93839e92b6d3.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "hp_regained": 10,
+      "requires_hp_at_least": 1,
+      "timing": "own_turn_start"
+    },
+    "editorial_explanation": "盾卫0HP不触发此再生；不继承巨魔酸火抑制与特殊死亡规则。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:54bc1287-0299-5bd4-901e-2347dc68f0eb",
+            "json_pointer": "/critical_fields/hp_regained"
+          },
+          {
+            "extraction_id": "urn:uuid:ee423bab-f816-58d0-af70-f5e6163bc547",
+            "json_pointer": "/critical_fields/timing"
+          },
+          {
+            "extraction_id": "urn:uuid:e642d1a9-ef61-5f07-9892-da81d1e103b3",
+            "json_pointer": "/critical_fields/requires_hp_at_least"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "local_evidence": "G.ABILITY.2",
+      "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+      "pointer": "/critical_fields"
+    },
+    "id": "urn:uuid:99675cbc-559c-5011-b249-93839e92b6d3",
+    "kind": "特质Traits",
+    "mechanics": {
+      "clauses": {
+        "hp_regained": 10,
+        "requires_hp_at_least": 1,
+        "timing": "own_turn_start"
+      },
+      "dependencies": [
+        "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b"
+      ],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_and_complete_verbatim; remaining_semantics_uncompiled"
+    },
+    "owner_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+    "required_evidence": [
+      "P.HP"
+    ],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:0eeb15f9-7d51-5ffd-a9c2-67589f16bfda",
+    "title": "再生",
+    "verbatim_evidence": "G.ABILITY.2",
+    "verbatim_text": " **再生Regeneration。**若盾卫至少拥有1生命值，则其在自己回合开始时回复10生命值。\n"
+  },
+  "dependency_ids": [
+    "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b"
+  ],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:99675cbc-559c-5011-b249-93839e92b6d3",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:324c14d3-b879-54ab-8edd-d79d86c0b802",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:0eeb15f9-7d51-5ffd-a9c2-67589f16bfda",
+    "derived_note_utf8_range": {
+      "end": 3340,
+      "start": 3229
+    },
+    "entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+    "fragment_id": "urn:uuid:9636c175-25b3-5946-bf3d-d27bd737b4ec",
+    "mapping_id": "urn:uuid:bb03d887-d3a3-5a05-9c90-b385a184dee9"
+  },
+  "subject_kind": "ability",
+  "title": "再生",
+  "uncompiled_semantics_retained": true
+}

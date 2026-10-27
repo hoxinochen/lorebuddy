@@ -1,0 +1,7 @@
+{
+  "call_mode": "stored_spell_instance_not_intrinsic_spellcasting",
+  "from_id": "urn:uuid:0f3a3c66-5250-5b13-9185-ce71b070f7c3",
+  "id": "urn:uuid:360273db-8696-5212-b15f-90e8481bd187",
+  "kind": "stores_selected_spell",
+  "to_id": "urn:uuid:99a9d4c8-57a7-55d5-8d55-d9ff42749632"
+}

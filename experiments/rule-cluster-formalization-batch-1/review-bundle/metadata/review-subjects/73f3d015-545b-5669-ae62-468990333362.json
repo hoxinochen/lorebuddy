@@ -1,0 +1,106 @@
+{
+  "body": {
+    "digest": "sha256:b85c21286cfefd1a04f4a7ecf4cc620e2e47d6ea3c9d2f7735f4ed159b7d746d",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/73f3d015-545b-5669-ae62-468990333362.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "damage_dice": "1d6",
+      "damage_each": 3,
+      "splashed_per_gallon": 1,
+      "type": "cold",
+      "water_move_per_ft": 5
+    },
+    "editorial_explanation": "水中每移动5尺或每被泼一加仑水各按条文受伤；不是水元素冻结，也不自动等于寒冷易伤。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:5f7477a7-743c-57c4-904c-5f6d3d672712",
+            "json_pointer": "/critical_fields/water_move_per_ft"
+          },
+          {
+            "extraction_id": "urn:uuid:d3c96c9c-553c-5e99-b30a-15e78d16fea8",
+            "json_pointer": "/critical_fields/splashed_per_gallon"
+          },
+          {
+            "extraction_id": "urn:uuid:86f9301c-b095-59a1-9639-ce70ea0693b7",
+            "json_pointer": "/critical_fields/damage_each"
+          },
+          {
+            "extraction_id": "urn:uuid:18fbd6ee-e37d-5bda-bb6b-e59f0d80eda4",
+            "json_pointer": "/critical_fields/damage_dice"
+          },
+          {
+            "extraction_id": "urn:uuid:53b3082b-912f-5261-9c2b-ec7663068d80",
+            "json_pointer": "/critical_fields/type"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "local_evidence": "F.ABILITY.4",
+      "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+      "pointer": "/critical_fields"
+    },
+    "id": "urn:uuid:73f3d015-545b-5669-ae62-468990333362",
+    "kind": "特质Traits",
+    "mechanics": {
+      "clauses": {
+        "damage_dice": "1d6",
+        "damage_each": 3,
+        "splashed_per_gallon": 1,
+        "type": "cold",
+        "water_move_per_ft": 5
+      },
+      "damage": {
+        "amount": {
+          "dice": "1d6",
+          "printed_fixed": 3,
+          "selection": "use_scene_amount_mode; recorded_dice_must_not_be_rerolled"
+        },
+        "damage_type": "cold",
+        "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+        "linked_reduction_from_damage_taken": false,
+        "other_effects": [],
+        "save_success": null,
+        "trigger": "water_exposure_each_unit"
+      },
+      "dependencies": [],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+    },
+    "owner_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+    "required_evidence": [],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:1db31c05-1484-5763-af03-d34be52b39ac",
+    "title": "水体易感",
+    "verbatim_evidence": "F.ABILITY.4",
+    "verbatim_text": "**水体易感 Water Susceptibility。**每在水中移动5尺或每被泼一加仑水，火元素受到3（1d6）寒冷伤害。\n\n###### 动作Actions\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:73f3d015-545b-5669-ae62-468990333362",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:03ce76e7-1284-516f-bf58-50f714fb2c09",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:1db31c05-1484-5763-af03-d34be52b39ac",
+    "derived_note_utf8_range": {
+      "end": 3934,
+      "start": 3782
+    },
+    "entry_id": "urn:uuid:048a1238-9915-5f2e-8619-c8ccbc580529",
+    "fragment_id": "urn:uuid:d6125d3b-9532-5ccd-8263-8e76bb248835",
+    "mapping_id": "urn:uuid:c0530d90-6451-5541-896f-ae1f13107880"
+  },
+  "subject_kind": "ability",
+  "title": "水体易感",
+  "uncompiled_semantics_retained": true
+}

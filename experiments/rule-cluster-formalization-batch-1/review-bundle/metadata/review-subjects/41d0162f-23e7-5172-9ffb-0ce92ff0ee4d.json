@@ -1,0 +1,177 @@
+{
+  "body": {
+    "digest": "sha256:228a7094a6614def26831096228f4e95dd6e016f6ae68b4e89e737e56a3a8cd7",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/41d0162f-23e7-5172-9ffb-0ce92ff0ee4d.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "attack_bonus": 7,
+      "condition_roll": "1d4",
+      "conditions": {
+        "1": "charmed",
+        "2": "frightened",
+        "3": "poisoned",
+        "4": "incapacitated"
+      },
+      "damage": 8,
+      "damage_dice": "1d8+4",
+      "ends": "source_next_turn_start",
+      "range_ft": 60,
+      "reach_ft": 10,
+      "type": "force"
+    },
+    "editorial_explanation": "直接能力附带随机状态，不调用魅惑类人；源生物/能力/实例分别关联，到来源下回合开始仅结束该实例，不清其他来源。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:1febb5b9-cc90-5174-b5f3-f4c5594c4a4e",
+            "json_pointer": "/critical_fields/attack_bonus"
+          },
+          {
+            "extraction_id": "urn:uuid:77c0f83c-92e1-5e2f-8272-c99fe63a925f",
+            "json_pointer": "/critical_fields/reach_ft"
+          },
+          {
+            "extraction_id": "urn:uuid:40cb981e-a11b-5005-9134-909ff06f0768",
+            "json_pointer": "/critical_fields/range_ft"
+          },
+          {
+            "extraction_id": "urn:uuid:c0cab5c1-c5ce-5f58-bbc8-2fdc1871ac62",
+            "json_pointer": "/critical_fields/damage"
+          },
+          {
+            "extraction_id": "urn:uuid:1c556801-6ae4-5068-932b-2a23f1fb68e9",
+            "json_pointer": "/critical_fields/damage_dice"
+          },
+          {
+            "extraction_id": "urn:uuid:4665fbae-0b43-552c-879e-1151a6a20d86",
+            "json_pointer": "/critical_fields/type"
+          },
+          {
+            "extraction_id": "urn:uuid:79f5a3ea-c234-54a3-abe7-26bc714aa8b2",
+            "json_pointer": "/critical_fields/condition_roll"
+          },
+          {
+            "extraction_id": "urn:uuid:50ae3450-fe1f-5e79-93d3-6c99811a5ebd",
+            "json_pointer": "/critical_fields/conditions/1"
+          },
+          {
+            "extraction_id": "urn:uuid:56850df1-2e20-522b-ae5e-985f3006f641",
+            "json_pointer": "/critical_fields/conditions/2"
+          },
+          {
+            "extraction_id": "urn:uuid:12a87ef6-96ca-59ef-9905-01327e916e8d",
+            "json_pointer": "/critical_fields/conditions/3"
+          },
+          {
+            "extraction_id": "urn:uuid:d502dfa2-0524-5685-be57-c7b4bad2b73c",
+            "json_pointer": "/critical_fields/conditions/4"
+          },
+          {
+            "extraction_id": "urn:uuid:1c2cb0f4-95ab-5c21-a4ff-1bbf2271ed7c",
+            "json_pointer": "/critical_fields/ends"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "local_evidence": "S.ABILITY.4",
+      "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+      "pointer": "/critical_fields"
+    },
+    "id": "urn:uuid:41d0162f-23e7-5172-9ffb-0ce92ff0ee4d",
+    "kind": "动作Actions",
+    "mechanics": {
+      "clauses": {
+        "attack_bonus": 7,
+        "condition_roll": "1d4",
+        "conditions": {
+          "1": "charmed",
+          "2": "frightened",
+          "3": "poisoned",
+          "4": "incapacitated"
+        },
+        "damage": 8,
+        "damage_dice": "1d8+4",
+        "ends": "source_next_turn_start",
+        "range_ft": 60,
+        "reach_ft": 10,
+        "type": "force"
+      },
+      "damage": {
+        "amount": {
+          "dice": "1d8+4",
+          "printed_fixed": 8,
+          "selection": "use_scene_amount_mode; recorded_dice_must_not_be_rerolled"
+        },
+        "damage_type": "force",
+        "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+        "linked_reduction_from_damage_taken": false,
+        "other_effects": [
+          {
+            "choose_by_d4": {
+              "1": "charmed",
+              "2": "frightened",
+              "3": "poisoned",
+              "4": "incapacitated"
+            },
+            "ends": "this_source_next_turn_start",
+            "kind": "sourced_condition"
+          }
+        ],
+        "save_success": null,
+        "trigger": "hit"
+      },
+      "dependencies": [
+        "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+        "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+        "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+        "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+        "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb"
+      ],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+    },
+    "owner_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+    "required_evidence": [
+      "P.CHARMED",
+      "P.FRIGHTENED",
+      "P.POISONED",
+      "P.INCAP",
+      "P.CONDITION"
+    ],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:05d04086-d13a-53b2-866c-02f8ccf6774b",
+    "title": "混沌法杖",
+    "verbatim_evidence": "S.ABILITY.4",
+    "verbatim_text": " **混沌法杖Chaos Staff。***近战或远程攻击检定：*+7，触及10尺或射程60尺。*命中：*8（1d8+4）力场伤害。目标陷入某种状态直至史拉蟾的下个回合开始，掷1d4决定：1，魅惑；2，恐慌；3，中毒；4，失能。\n"
+  },
+  "dependency_ids": [
+    "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb"
+  ],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:41d0162f-23e7-5172-9ffb-0ce92ff0ee4d",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:a1a69c89-6220-5c3e-8996-d8f2ddb62597",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:05d04086-d13a-53b2-866c-02f8ccf6774b",
+    "derived_note_utf8_range": {
+      "end": 2721,
+      "start": 2456
+    },
+    "entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+    "fragment_id": "urn:uuid:2f037a82-6e86-5b22-b290-e00cb0335153",
+    "mapping_id": "urn:uuid:d69b0a1f-7a80-5cc0-ad1c-f9a647e5d626"
+  },
+  "subject_kind": "ability",
+  "title": "混沌法杖",
+  "uncompiled_semantics_retained": true
+}

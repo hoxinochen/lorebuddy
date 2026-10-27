@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:4177ed87a23d32638d852102f82464663b41655e52540f7a2e648f0d0a045c8f",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/元素/四元素/气元素.md",
+  "id": "urn:uuid:e840fcbd-5da3-5084-be20-b6d912d79f78",
+  "original_record": {
+    "alias": "A.ABILITY.4",
+    "id": "urn:uuid:e840fcbd-5da3-5084-be20-b6d912d79f78",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 3710,
+      "interval": "[start,end)",
+      "start": 3450
+    },
+    "source_entry_id": "urn:uuid:2cc417f9-b3ff-5e61-b655-2653f61642d2",
+    "text": " **旋风Whirlwind（充能4~6）。***力量豁免检定：*DC13，单一位于气元素空间的不超过中型的生物。*失败：*24（4d10+2）雷鸣伤害，且目标被气元素直线推离至多20尺，并陷入倒地状态。*成功：*仅半伤。\n",
+    "text_sha256": "b0f9350fa405f3fceaebc9319d1e65fcd3adbc58a0d4c2f0c02776b048ae4326"
+  },
+  "raw_fragment_id": "urn:uuid:8327c556-e357-5aa1-8db1-9daa6cb59898",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

@@ -1,0 +1,26 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:2ff27c19b24b1023b6d4b922f5c8fb98f5022f89bb03c31332a70835b3974491",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/前言/数据卡的组成部分.md",
+  "id": "urn:uuid:325369fb-509c-57dc-9c14-7f5c093407d0",
+  "original_record": {
+    "alias": "M.USAGE",
+    "id": "urn:uuid:325369fb-509c-57dc-9c14-7f5c093407d0",
+    "line_range": [
+      208,
+      213
+    ],
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 16396,
+      "interval": "[start,end)",
+      "start": 15260
+    },
+    "source_entry_id": "urn:uuid:54ebd374-23f2-5912-9d12-9bd95add858e",
+    "text": "### 使用限制 Limited Usage\n\n数据卡的某些部分对其使用次数具有限制。以下是最常见的使用限制方式：\n**X/日 X/Day。**此标识表示该数据卡部分可以使用一定次数（用X指代），并且怪物必须完成一次长休后才能重获已消耗的使用次数。例如，包含“1/日”的反应表示可以执行一次该反应，随后该怪物必须完成一次长休才能再次使用该反应。\n**充能X~Y Recharge X~Y。**此标识表示怪物可以使用该数据卡部分一次。在怪物的回合开始时，掷1d6。如果掷出的点数在标识中给出的数字范围内（用X~Y指代），则怪物重置该部分的使用权，当怪物完成一次短休或长休时，该部分也会再充能。例如，动作中的“充能5~6”表示怪物可以执行一次该动作。然后，在怪物的回合开始时，如果它在1d6中掷出5或6，它就能重新使用该动作。\n**短休或长休后充能 Recharge after a Short or Long Rest。**这个标识表示怪物可以使用该数据卡部分一次，随后必须完成一次短休或长休才能再次使用它。\n",
+    "text_sha256": "b0fe15c697e3aede5a8382377eed0f63d87040d4320360dcad37d45f895cace3"
+  },
+  "raw_fragment_id": "urn:uuid:a85917e3-ebf5-56b8-9e78-fa7eb76a6710",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

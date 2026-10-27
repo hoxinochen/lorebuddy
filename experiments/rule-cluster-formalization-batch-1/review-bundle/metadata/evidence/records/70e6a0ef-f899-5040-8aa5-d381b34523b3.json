@@ -1,0 +1,26 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:c1c336ece29a8e70c283191e98da06ec717fc664d9af74881a22534f0b2d1367",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/第七章：法术/法术详述/三环.md",
+  "id": "urn:uuid:70e6a0ef-f899-5040-8aa5-d381b34523b3",
+  "original_record": {
+    "alias": "P.HYPNOTIC",
+    "id": "urn:uuid:70e6a0ef-f899-5040-8aa5-d381b34523b3",
+    "line_range": [
+      303,
+      313
+    ],
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 22736,
+      "interval": "[start,end)",
+      "start": 21940
+    },
+    "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+    "text": "<a id=\"Hypnotic_Pattern\"></a>\n#### 催眠图纹｜Hypnotic Pattern\n\n*三环 幻术（吟游诗人、术士、魔契师、法师）*\n**施法时间：**动作\n**施法距离：**120尺\n**法术成分：**S、M（一撮五彩纸屑）\n**持续时间：**专注，至多1分钟\n你在施法距离内一处边长 30 尺的立方区域内创造出一个在空中舞动旋转的彩色图纹。图纹在出现片刻后消失，然后迫使区域内每个看到它的生物进行一次感知豁免，豁免失败者将在法术持续时间内陷入魅惑状态。在被该法术魅惑期间，被该法术魅惑的生物陷入失能状态，且速度降为0。\n如果受术生物受到任何伤害，或有其他生物用一个动作将其从恍惚中摇醒，则其身上的此效应将提前终止。\n\n",
+    "text_sha256": "5546bdcb3e6c1fdfb05118256c24812d2758397aaaf620b29d505e0126b3d9cb"
+  },
+  "raw_fragment_id": "urn:uuid:38138731-29ce-562c-96ae-d5f4882f905f",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

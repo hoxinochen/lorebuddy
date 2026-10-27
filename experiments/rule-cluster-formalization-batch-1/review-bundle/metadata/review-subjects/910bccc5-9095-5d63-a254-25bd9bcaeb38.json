@@ -1,0 +1,135 @@
+{
+  "body": {
+    "digest": "sha256:cfff1e68c156cdc900331ec27033a66047487a7555249c9dfef6cd1f5727b442",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/910bccc5-9095-5d63-a254-25bd9bcaeb38.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "attack_bonus": 8,
+      "condition_max_size": "large",
+      "damage": 8,
+      "damage_dice": "1d6+5",
+      "hit_condition": "prone",
+      "range_ft": 60,
+      "type": "bludgeoning"
+    },
+    "editorial_explanation": "大型或更小生物命中后倒地，无额外豁免；超过大型仍可被攻击但不因这条倒地。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "owner_modifier_dependencies": [
+          "urn:uuid:541f7286-f44c-5233-8977-71ff2ca74f3c"
+        ],
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:b2288bf5-3fdc-5c5d-84db-f29598b5382c",
+            "json_pointer": "/critical_fields/attack_bonus"
+          },
+          {
+            "extraction_id": "urn:uuid:3403f08a-ae5d-5899-9722-fd56d2429978",
+            "json_pointer": "/critical_fields/range_ft"
+          },
+          {
+            "extraction_id": "urn:uuid:b16b3640-00bf-5cb7-a250-7bb3c69f687a",
+            "json_pointer": "/critical_fields/damage"
+          },
+          {
+            "extraction_id": "urn:uuid:908cecf8-1f0a-5528-9340-958c160f788a",
+            "json_pointer": "/critical_fields/damage_dice"
+          },
+          {
+            "extraction_id": "urn:uuid:9b411be3-a978-5625-b38d-9016d9c40431",
+            "json_pointer": "/critical_fields/type"
+          },
+          {
+            "extraction_id": "urn:uuid:41aaef1e-d431-5a11-a20e-1fdcd8c6b809",
+            "json_pointer": "/critical_fields/hit_condition"
+          },
+          {
+            "extraction_id": "urn:uuid:3e92a803-5632-55dc-8425-1214471e1086",
+            "json_pointer": "/critical_fields/condition_max_size"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "local_evidence": "E.ABILITY.5",
+      "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+      "pointer": "/critical_fields"
+    },
+    "id": "urn:uuid:910bccc5-9095-5d63-a254-25bd9bcaeb38",
+    "kind": "动作Actions",
+    "mechanics": {
+      "clauses": {
+        "attack_bonus": 8,
+        "condition_max_size": "large",
+        "damage": 8,
+        "damage_dice": "1d6+5",
+        "hit_condition": "prone",
+        "range_ft": 60,
+        "type": "bludgeoning"
+      },
+      "damage": {
+        "amount": {
+          "dice": "1d6+5",
+          "printed_fixed": 8,
+          "selection": "use_scene_amount_mode; recorded_dice_must_not_be_rerolled"
+        },
+        "damage_type": "bludgeoning",
+        "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+        "linked_reduction_from_damage_taken": false,
+        "other_effects": [
+          {
+            "kind": "condition",
+            "name": "prone",
+            "when": {
+              "target_max_size": "large"
+            }
+          }
+        ],
+        "save_success": null,
+        "trigger": "hit"
+      },
+      "dependencies": [
+        "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb"
+      ],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_and_complete_verbatim; remaining_semantics_uncompiled"
+    },
+    "owner_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+    "required_evidence": [
+      "P.PRONE"
+    ],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:52f2cdba-6c53-5e4d-b4d7-cf662e8966f9",
+    "title": "岩石射击",
+    "verbatim_evidence": "E.ABILITY.5",
+    "verbatim_text": " **岩石射击Rock Launch。***远程攻击检定：*+8，射程60尺。*命中：*8（1d6+5）钝击伤害。若目标生物体型不超过大型，则其陷入倒地状态。\n"
+  },
+  "dependency_ids": [
+    "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb"
+  ],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:910bccc5-9095-5d63-a254-25bd9bcaeb38",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:c46818ea-08bd-54a5-8e38-da45b36fb931",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:52f2cdba-6c53-5e4d-b4d7-cf662e8966f9",
+    "derived_note_utf8_range": {
+      "end": 3891,
+      "start": 3713
+    },
+    "entry_id": "urn:uuid:57a08374-1e20-5c97-a1f3-00447e3b05d9",
+    "fragment_id": "urn:uuid:8144d427-b3e6-53aa-bddc-c78ae18e3a0d",
+    "mapping_id": "urn:uuid:8851fe03-a492-5d23-8860-5d95ed2e5acf"
+  },
+  "subject_kind": "ability",
+  "title": "岩石射击",
+  "uncompiled_semantics_retained": true
+}

@@ -1,0 +1,11 @@
+{
+  "corpus_prevalidated_before_questions": true,
+  "new_questions": 24,
+  "new_numeric_compatible": 18,
+  "new_boundary": 6,
+  "regression_questions": 24,
+  "old_gold_sha256": "f8f3a71796194c8e45589cee2e7f60445166f2f8297b7cef9075c27f8dc1d705",
+  "calculator_called_to_prepare_gold": false,
+  "llm_calls": false,
+  "consumer_execution": "Not Run"
+}

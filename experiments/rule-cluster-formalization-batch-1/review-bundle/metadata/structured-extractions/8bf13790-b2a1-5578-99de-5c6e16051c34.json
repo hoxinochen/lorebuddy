@@ -1,0 +1,18 @@
+{
+  "binding": {
+    "adopted_decision_ids": [],
+    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+    "source_entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+    "source_evidence_id": "urn:uuid:83f96905-64df-5ea4-a524-f50d2ca33596",
+    "source_note_utf8_range": {
+      "end": 4040,
+      "start": 3793
+    }
+  },
+  "id": "urn:uuid:8bf13790-b2a1-5578-99de-5c6e16051c34",
+  "json_pointer": "/critical_fields/stats",
+  "review_status": "candidate",
+  "revision": 1,
+  "subject_id": "urn:uuid:2965fca5-70ac-5730-bdfe-71e87a89038a",
+  "value": "unchanged_except_flying"
+}

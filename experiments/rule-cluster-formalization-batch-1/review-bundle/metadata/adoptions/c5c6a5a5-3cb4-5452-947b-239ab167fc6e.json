@@ -1,0 +1,25 @@
+{
+  "adopted": {
+    "dc": 14,
+    "spell_attack_bonus": 6
+  },
+  "alias": "ED.SLAAD",
+  "basis": [
+    "S.CARD",
+    "R.ERRATA"
+  ],
+  "fields": [
+    "spell_dc",
+    "spell_attack_bonus"
+  ],
+  "historical_correctness": "unknown",
+  "id": "urn:uuid:c5c6a5a5-3cb4-5452-947b-239ab167fc6e",
+  "object": "S",
+  "reason": "明确使用卡载值；公式不自动推翻明示条文，未获得官方DC改动依据。译注是建议，不是官方勘误结论。",
+  "revision": 1,
+  "status": "adopted_for_this_candidate_batch",
+  "translator_proposal": {
+    "dc": 15,
+    "spell_attack_bonus": 7
+  }
+}

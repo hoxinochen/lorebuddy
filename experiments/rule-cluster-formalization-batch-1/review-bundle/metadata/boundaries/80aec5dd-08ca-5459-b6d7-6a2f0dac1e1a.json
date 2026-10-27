@@ -1,0 +1,24 @@
+{
+  "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+  "candidate_key": "sha256:f950711657d6235c2e3a4fa5ac34d87a416efce80876b944f56b0b917d94df89",
+  "decision": {
+    "reason": "Audit envelope only; per-subject derived ranges remain separate.",
+    "review_status": "pending",
+    "reviewer_id": null
+  },
+  "entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+  "id": "urn:uuid:80aec5dd-08ca-5459-b6d7-6a2f0dac1e1a",
+  "lifecycle": {
+    "revision": 1,
+    "status": "draft"
+  },
+  "locator": {
+    "end": 3441,
+    "kind": "byte-range",
+    "start": 0
+  },
+  "node_id": null,
+  "proposed_title": "史拉绿蟾",
+  "schema": "core.boundary-record@0.1.0",
+  "status": "proposed"
+}

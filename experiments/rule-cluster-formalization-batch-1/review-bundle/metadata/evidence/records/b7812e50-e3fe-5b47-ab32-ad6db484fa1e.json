@@ -1,0 +1,26 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:40d6b4ba5aec75b37f3ec3ac1c5dda84a869111b8ae82cf196a683a4ecff44f5",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/附录C：术语汇编/状态.md",
+  "id": "urn:uuid:b7812e50-e3fe-5b47-ab32-ad6db484fa1e",
+  "original_record": {
+    "alias": "P.FRIGHTENED",
+    "id": "urn:uuid:b7812e50-e3fe-5b47-ab32-ad6db484fa1e",
+    "line_range": [
+      58,
+      64
+    ],
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 3113,
+      "interval": "[start,end)",
+      "start": 2741
+    },
+    "source_entry_id": "urn:uuid:89505d38-cbaf-5747-9798-96f1a0bf6718",
+    "text": "<a id=\"Frightened\"></a>\n### 恐慌 Frightened【状态】\n\n恐慌状态期间，你将遭受以下这些效应。\n**属性检定与攻击影响Ability Checks and Attacks Affected。**只要恐惧源在你的视线范围内，你进行的属性检定与攻击检定就具有劣势。\n**无法靠近Can't Approach。**你无法自愿地向靠近恐惧源的方向移动。\n\n",
+    "text_sha256": "3303f234b55b9d05854be54f9b84b32f0d0ba6f4faa4b377d927b457a7b086da"
+  },
+  "raw_fragment_id": "urn:uuid:8971179e-39ce-5b76-812d-ab574f55a9c7",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

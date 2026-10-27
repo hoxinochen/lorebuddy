@@ -1,0 +1,24 @@
+{
+  "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+  "candidate_key": "sha256:2c89648172d7d9c6c11da8f483452c1a2228916c3467e273fa1f5252d8b0d407",
+  "decision": {
+    "reason": "Audit envelope only; per-subject derived ranges remain separate.",
+    "review_status": "pending",
+    "reviewer_id": null
+  },
+  "entry_id": "urn:uuid:54ebd374-23f2-5912-9d12-9bd95add858e",
+  "id": "urn:uuid:3808f958-3a0e-55e6-a899-032240f28e0a",
+  "lifecycle": {
+    "revision": 1,
+    "status": "draft"
+  },
+  "locator": {
+    "end": 17367,
+    "kind": "byte-range",
+    "start": 0
+  },
+  "node_id": null,
+  "proposed_title": "数据卡的组成部分",
+  "schema": "core.boundary-record@0.1.0",
+  "status": "proposed"
+}

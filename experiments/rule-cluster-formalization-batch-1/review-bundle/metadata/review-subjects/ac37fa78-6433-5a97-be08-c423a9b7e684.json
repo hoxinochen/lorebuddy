@@ -1,0 +1,68 @@
+{
+  "body": {
+    "digest": "sha256:431f3e92a1ef394f94753e78d978c0997b2f301240a3476bec903e63df143f38",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/ac37fa78-6433-5a97-be08-c423a9b7e684.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "from_material_sees_ethereal_ft": 60
+    },
+    "editorial_explanation": "本条明示物质位面看以太；不按另一个版本复制全部视界文字。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:b8140271-0eaf-5fc6-945f-1db09e933cd2",
+            "json_pointer": "/critical_fields/from_material_sees_ethereal_ft"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "pointer": "/critical_fields",
+      "source_evidence": "G25.ABILITY.1"
+    },
+    "id": "urn:uuid:ac37fa78-6433-5a97-be08-c423a9b7e684",
+    "kind": "特质Traits",
+    "mechanics": {
+      "clauses": {
+        "from_material_sees_ethereal_ft": 60
+      },
+      "dependencies": [],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+    },
+    "owner_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+    "required_evidence": [],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:8908edab-2864-5b76-81fb-0bf9cf6c9a48",
+    "title": "以太视界",
+    "verbatim_evidence": "G25.ABILITY.1",
+    "verbatim_text": "**以太视界Ethereal Sight。**若幽魂身处物质位面，其能够看见60尺内的以太位面。\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:ac37fa78-6433-5a97-be08-c423a9b7e684",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:abdabfb6-d5c2-5e16-8b08-1f8994d091e7",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:8908edab-2864-5b76-81fb-0bf9cf6c9a48",
+    "derived_note_utf8_range": {
+      "end": 2545,
+      "start": 2440
+    },
+    "entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+    "fragment_id": "urn:uuid:b32518f2-acd4-5874-acf6-2482d95a72d4",
+    "mapping_id": "urn:uuid:d142700e-702e-5bff-9bcd-1020553eb86e"
+  },
+  "subject_kind": "ability",
+  "title": "以太视界",
+  "uncompiled_semantics_retained": true
+}

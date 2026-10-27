@@ -1,0 +1,20 @@
+{
+  "binding": {
+    "adopted_decision_ids": [
+      "urn:uuid:c5c6a5a5-3cb4-5452-947b-239ab167fc6e"
+    ],
+    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+    "source_note_utf8_range": {
+      "end": 3149,
+      "start": 2721
+    }
+  },
+  "id": "urn:uuid:5edfa5ea-cb77-5564-9b29-2e272290f3a0",
+  "json_pointer": "/critical_fields/spell_attack_bonus",
+  "review_status": "candidate",
+  "revision": 1,
+  "subject_id": "urn:uuid:cdd0d432-35be-5863-b45e-28a63353d464",
+  "value": 6
+}

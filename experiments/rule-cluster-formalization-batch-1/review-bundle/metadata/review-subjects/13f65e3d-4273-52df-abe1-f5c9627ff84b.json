@@ -1,0 +1,105 @@
+{
+  "body": {
+    "digest": "sha256:11a68c8a6857b8e0e2c98b564a9344b193d9bfa6bc103444e504927084af21cc",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/13f65e3d-4273-52df-abe1-f5c9627ff84b.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "attack_bonus": 5,
+      "damage": 19,
+      "dice": "3d10+3",
+      "reach_ft": 5,
+      "type": "necrotic"
+    },
+    "editorial_explanation": "该版固定19，与2014版17分开。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:ea89b2f3-50be-5468-8b50-8f7636f46bc4",
+            "json_pointer": "/critical_fields/attack_bonus"
+          },
+          {
+            "extraction_id": "urn:uuid:00dafaf6-5c09-53ad-9a6b-8116ddc1868c",
+            "json_pointer": "/critical_fields/reach_ft"
+          },
+          {
+            "extraction_id": "urn:uuid:f79c1302-a520-5fc6-9a98-5a341b762e21",
+            "json_pointer": "/critical_fields/damage"
+          },
+          {
+            "extraction_id": "urn:uuid:ec4a765a-7911-55e2-b4ce-467c5b5d6379",
+            "json_pointer": "/critical_fields/dice"
+          },
+          {
+            "extraction_id": "urn:uuid:946e662d-ba53-5f1b-9110-31ab97f2a71a",
+            "json_pointer": "/critical_fields/type"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "pointer": "/critical_fields",
+      "source_evidence": "G25.ABILITY.4"
+    },
+    "id": "urn:uuid:13f65e3d-4273-52df-abe1-f5c9627ff84b",
+    "kind": "动作Actions",
+    "mechanics": {
+      "clauses": {
+        "attack_bonus": 5,
+        "damage": 19,
+        "dice": "3d10+3",
+        "reach_ft": 5,
+        "type": "necrotic"
+      },
+      "damage": {
+        "amount": {
+          "dice": "3d10+3",
+          "printed_fixed": 19,
+          "selection": "use_scene_amount_mode; recorded_dice_must_not_be_rerolled"
+        },
+        "damage_type": "necrotic",
+        "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+        "linked_reduction_from_damage_taken": false,
+        "other_effects": [],
+        "save_success": null,
+        "trigger": "hit"
+      },
+      "dependencies": [],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+    },
+    "owner_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+    "required_evidence": [],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:15020034-ce70-5e65-80aa-a42210b7ae51",
+    "title": "凋零之触",
+    "verbatim_evidence": "G25.ABILITY.4",
+    "verbatim_text": " **凋零之触Withering Touch。***近战攻击检定：*+5，触及5尺。*命中：*19（3d10+3）暗蚀伤害。\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:13f65e3d-4273-52df-abe1-f5c9627ff84b",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:d99489d3-264a-55c1-913b-7c06fbb4f7ad",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:15020034-ce70-5e65-80aa-a42210b7ae51",
+    "derived_note_utf8_range": {
+      "end": 2963,
+      "start": 2846
+    },
+    "entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+    "fragment_id": "urn:uuid:b32518f2-acd4-5874-acf6-2482d95a72d4",
+    "mapping_id": "urn:uuid:d142700e-702e-5bff-9bcd-1020553eb86e"
+  },
+  "subject_kind": "ability",
+  "title": "凋零之触",
+  "uncompiled_semantics_retained": true
+}

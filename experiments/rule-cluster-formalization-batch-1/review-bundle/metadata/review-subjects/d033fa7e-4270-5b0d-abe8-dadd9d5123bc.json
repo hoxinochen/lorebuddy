@@ -1,0 +1,847 @@
+{
+  "body": {
+    "digest": "sha256:10f5f65c0ecf9b77793cb16f318ffc29a5dee9ba3fa75f2af342ae22f9ea9c29",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/d033fa7e-4270-5b0d-abe8-dadd9d5123bc.md"
+  },
+  "candidate_snapshot": {
+    "abilities": [
+      {
+        "critical_fields": {
+          "from_material_sees_ethereal_ft": 60
+        },
+        "editorial_explanation": "本条明示物质位面看以太；不按另一个版本复制全部视界文字。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:b8140271-0eaf-5fc6-945f-1db09e933cd2",
+                "json_pointer": "/critical_fields/from_material_sees_ethereal_ft"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "pointer": "/critical_fields",
+          "source_evidence": "G25.ABILITY.1"
+        },
+        "id": "urn:uuid:ac37fa78-6433-5a97-be08-c423a9b7e684",
+        "kind": "特质Traits",
+        "mechanics": {
+          "clauses": {
+            "from_material_sees_ethereal_ft": 60
+          },
+          "dependencies": [],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+        "required_evidence": [],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:8908edab-2864-5b76-81fb-0bf9cf6c9a48",
+        "title": "以太视界",
+        "verbatim_evidence": "G25.ABILITY.1",
+        "verbatim_text": "**以太视界Ethereal Sight。**若幽魂身处物质位面，其能够看见60尺内的以太位面。\n"
+      },
+      {
+        "critical_fields": {
+          "own_turn_end_in_object_damage": 5,
+          "through_creatures_objects": "difficult_terrain",
+          "type": "force"
+        },
+        "editorial_explanation": "回合末与穿越过程分开。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:8e513784-66ec-559b-9fab-a72236d9a1da",
+                "json_pointer": "/critical_fields/through_creatures_objects"
+              },
+              {
+                "extraction_id": "urn:uuid:0a936590-764f-5819-9e67-abea58c28393",
+                "json_pointer": "/critical_fields/own_turn_end_in_object_damage"
+              },
+              {
+                "extraction_id": "urn:uuid:67c6b5c3-65f6-55de-a08c-4f59da4c9e11",
+                "json_pointer": "/critical_fields/type"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "pointer": "/critical_fields",
+          "source_evidence": "G25.ABILITY.2"
+        },
+        "id": "urn:uuid:e8ebb0c9-ad53-54a1-96ff-34506c82bf8c",
+        "kind": "特质Traits",
+        "mechanics": {
+          "clauses": {
+            "own_turn_end_in_object_damage": 5,
+            "through_creatures_objects": "difficult_terrain",
+            "type": "force"
+          },
+          "damage": {
+            "amount": {
+              "dice": null,
+              "printed_fixed": 5,
+              "selection": "use_scene_amount_mode; recorded_dice_must_not_be_rerolled"
+            },
+            "damage_type": "force",
+            "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+            "linked_reduction_from_damage_taken": false,
+            "other_effects": [],
+            "save_success": null,
+            "trigger": "own_turn_end_inside_object"
+          },
+          "dependencies": [],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+        "required_evidence": [],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:7a7fb0eb-da38-51c4-99e4-09e87ba8cdeb",
+        "title": "虚体移动",
+        "verbatim_evidence": "G25.ABILITY.2",
+        "verbatim_text": " **虚体移动Incorporeal Movement。**幽魂可以移动穿过其他生物或物件，如同穿过困难地形一般。在其回合结束时，若幽魂还处于物件内，其受到5（1d10）力场伤害\n\n###### 动作Actions\n\n"
+      },
+      {
+        "critical_fields": {
+          "allowed": [
+            "G25.WitheringTouch"
+          ],
+          "attacks": 2
+        },
+        "editorial_explanation": "限定两次凋零之触，不自动替换为恐惧或附身。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:4675c0d3-8589-526b-a816-f47023c32c6d",
+                "json_pointer": "/critical_fields/attacks"
+              },
+              {
+                "extraction_id": "urn:uuid:12d15dba-09e7-5223-bbb9-5201c3b72bc4",
+                "json_pointer": "/critical_fields/allowed/0"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "pointer": "/critical_fields",
+          "source_evidence": "G25.ABILITY.3"
+        },
+        "id": "urn:uuid:59b4fa34-491b-5341-8e69-e8f8090577d0",
+        "kind": "动作Actions",
+        "mechanics": {
+          "clauses": {
+            "allowed": [
+              "G25.WitheringTouch"
+            ],
+            "attacks": 2
+          },
+          "dependencies": [],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+        "required_evidence": [],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:30cc265a-0cd7-5372-8f52-e0ce16db380f",
+        "title": "多重攻击",
+        "verbatim_evidence": "G25.ABILITY.3",
+        "verbatim_text": "**多重攻击Multiattack。**幽魂发动两次凋零之触攻击。\n"
+      },
+      {
+        "critical_fields": {
+          "attack_bonus": 5,
+          "damage": 19,
+          "dice": "3d10+3",
+          "reach_ft": 5,
+          "type": "necrotic"
+        },
+        "editorial_explanation": "该版固定19，与2014版17分开。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:ea89b2f3-50be-5468-8b50-8f7636f46bc4",
+                "json_pointer": "/critical_fields/attack_bonus"
+              },
+              {
+                "extraction_id": "urn:uuid:00dafaf6-5c09-53ad-9a6b-8116ddc1868c",
+                "json_pointer": "/critical_fields/reach_ft"
+              },
+              {
+                "extraction_id": "urn:uuid:f79c1302-a520-5fc6-9a98-5a341b762e21",
+                "json_pointer": "/critical_fields/damage"
+              },
+              {
+                "extraction_id": "urn:uuid:ec4a765a-7911-55e2-b4ce-467c5b5d6379",
+                "json_pointer": "/critical_fields/dice"
+              },
+              {
+                "extraction_id": "urn:uuid:946e662d-ba53-5f1b-9110-31ab97f2a71a",
+                "json_pointer": "/critical_fields/type"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "pointer": "/critical_fields",
+          "source_evidence": "G25.ABILITY.4"
+        },
+        "id": "urn:uuid:13f65e3d-4273-52df-abe1-f5c9627ff84b",
+        "kind": "动作Actions",
+        "mechanics": {
+          "clauses": {
+            "attack_bonus": 5,
+            "damage": 19,
+            "dice": "3d10+3",
+            "reach_ft": 5,
+            "type": "necrotic"
+          },
+          "damage": {
+            "amount": {
+              "dice": "3d10+3",
+              "printed_fixed": 19,
+              "selection": "use_scene_amount_mode; recorded_dice_must_not_be_rerolled"
+            },
+            "damage_type": "necrotic",
+            "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+            "linked_reduction_from_damage_taken": false,
+            "other_effects": [],
+            "save_success": null,
+            "trigger": "hit"
+          },
+          "dependencies": [],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+        "required_evidence": [],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:15020034-ce70-5e65-80aa-a42210b7ae51",
+        "title": "凋零之触",
+        "verbatim_evidence": "G25.ABILITY.4",
+        "verbatim_text": " **凋零之触Withering Touch。***近战攻击检定：*+5，触及5尺。*命中：*19（3d10+3）暗蚀伤害。\n"
+      },
+      {
+        "critical_fields": {
+          "casting_ability": "charisma",
+          "components_override": "none",
+          "cross_plane_interaction": false,
+          "spell": "P.ETHEREAL",
+          "visible_across_planes": true
+        },
+        "editorial_explanation": "调用2024法术，幽魂局部可见例外不等于跨位面可攻击。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "casting_calls": [
+              {
+                "availability": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+                    "source_evidence_id": "urn:uuid:5f5874fc-1602-57bd-a357-cf9331ced32a",
+                    "source_note_utf8_range": {
+                      "end": 3252,
+                      "start": 2963
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "cast_level": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+                    "source_evidence_id": "urn:uuid:5f5874fc-1602-57bd-a357-cf9331ced32a",
+                    "source_note_utf8_range": {
+                      "end": 3252,
+                      "start": 2963
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "casting_ability": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+                    "source_evidence_id": "urn:uuid:5f5874fc-1602-57bd-a357-cf9331ced32a",
+                    "source_note_utf8_range": {
+                      "end": 3252,
+                      "start": 2963
+                    }
+                  },
+                  "state": "known",
+                  "value": "charisma"
+                },
+                "components_waived": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+                    "source_evidence_id": "urn:uuid:5f5874fc-1602-57bd-a357-cf9331ced32a",
+                    "source_note_utf8_range": {
+                      "end": 3252,
+                      "start": 2963
+                    }
+                  },
+                  "state": "known",
+                  "value": [
+                    "V",
+                    "S",
+                    "M"
+                  ]
+                },
+                "concentration_override": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+                    "source_evidence_id": "urn:uuid:5f5874fc-1602-57bd-a357-cf9331ced32a",
+                    "source_note_utf8_range": {
+                      "end": 3252,
+                      "start": 2963
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "mapping_adoption_ids": [],
+                "mode": "intrinsic_spell_call",
+                "parameter_owner": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+                    "source_evidence_id": "urn:uuid:5f5874fc-1602-57bd-a357-cf9331ced32a",
+                    "source_note_utf8_range": {
+                      "end": 3252,
+                      "start": 2963
+                    }
+                  },
+                  "state": "known",
+                  "value": "this_actor_instance"
+                },
+                "save_dc": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+                    "source_evidence_id": "urn:uuid:5f5874fc-1602-57bd-a357-cf9331ced32a",
+                    "source_note_utf8_range": {
+                      "end": 3252,
+                      "start": 2963
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "spell_attack_bonus": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+                    "source_evidence_id": "urn:uuid:5f5874fc-1602-57bd-a357-cf9331ced32a",
+                    "source_note_utf8_range": {
+                      "end": 3252,
+                      "start": 2963
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "spell_id": "urn:uuid:e3995331-da2b-5e63-a16d-118e40c00303",
+                "target_override": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+                    "source_evidence_id": "urn:uuid:5f5874fc-1602-57bd-a357-cf9331ced32a",
+                    "source_note_utf8_range": {
+                      "end": 3252,
+                      "start": 2963
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "uncompiled_qualifications": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+                    "source_evidence_id": "urn:uuid:5f5874fc-1602-57bd-a357-cf9331ced32a",
+                    "source_note_utf8_range": {
+                      "end": 3252,
+                      "start": 2963
+                    }
+                  },
+                  "state": "known",
+                  "value": {
+                    "cross_plane_interaction": false,
+                    "visible_across_planes": true
+                  }
+                }
+              }
+            ],
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:911de157-f350-5323-a17a-e265b3e09445",
+                "json_pointer": "/critical_fields/spell"
+              },
+              {
+                "extraction_id": "urn:uuid:78871a56-ed8d-58dc-9f59-171a4f01c50a",
+                "json_pointer": "/critical_fields/casting_ability"
+              },
+              {
+                "extraction_id": "urn:uuid:9420428f-80d7-5f3e-ae6d-8082bd139751",
+                "json_pointer": "/critical_fields/components_override"
+              },
+              {
+                "extraction_id": "urn:uuid:0d1d7742-afa7-50b4-ac49-bdca4c04818f",
+                "json_pointer": "/critical_fields/visible_across_planes"
+              },
+              {
+                "extraction_id": "urn:uuid:66b6956c-3317-51d6-8a47-a1e82bedd85b",
+                "json_pointer": "/critical_fields/cross_plane_interaction"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "pointer": "/critical_fields",
+          "source_evidence": "G25.ABILITY.5"
+        },
+        "id": "urn:uuid:270f495a-1ccd-5b7e-8634-8606fa44c401",
+        "kind": "动作Actions",
+        "mechanics": {
+          "clauses": {
+            "casting_ability": "charisma",
+            "components_override": "none",
+            "cross_plane_interaction": false,
+            "spell": "P.ETHEREAL",
+            "visible_across_planes": true
+          },
+          "dependencies": [
+            "urn:uuid:e3995331-da2b-5e63-a16d-118e40c00303",
+            "urn:uuid:54fb4631-fd48-5d41-84fd-2c41fbf2f5d5"
+          ],
+          "kind": "source_bound_candidate",
+          "spell_calls": [
+            {
+              "caller_overrides_from": "/critical_fields",
+              "source_evidence_id": "urn:uuid:5f5874fc-1602-57bd-a357-cf9331ced32a",
+              "target_id": "urn:uuid:e3995331-da2b-5e63-a16d-118e40c00303"
+            }
+          ],
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+        "required_evidence": [
+          "P.ETHEREAL",
+          "P.COMPONENTS"
+        ],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:5f5874fc-1602-57bd-a357-cf9331ced32a",
+        "title": "以太化",
+        "verbatim_evidence": "G25.ABILITY.5",
+        "verbatim_text": " **以太化Etherealness。**幽魂施展法术*以太化Etheralness*，无需法术成分，并使用魅力作为施法属性。当幽魂处于边界以太时，仍可以在物质位面被观测到，反之亦然。但另一位面的任何事物不能对其施加影响或被其影响。\n"
+      },
+      {
+        "critical_fields": {
+          "aging_clause": false,
+          "area": "60_ft_cone",
+          "dc": 13,
+          "dice": "2d6+3",
+          "exclude_type": "undead",
+          "failure_damage": 10,
+          "failure_frightened_until": "source_next_turn_start",
+          "immunity_scope": "this_ghost",
+          "requires_target_sees_source": true,
+          "save": "wisdom",
+          "success_immunity_hours": 24,
+          "type": "psychic"
+        },
+        "editorial_explanation": "不是2014的1分钟重复豁免与衰老；结束时点绑定具体幽魂。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:5ef1f12f-d78e-554d-a756-2bbd50155da0",
+                "json_pointer": "/critical_fields/save"
+              },
+              {
+                "extraction_id": "urn:uuid:269d1538-a88d-51a2-9a99-c195a356ed9d",
+                "json_pointer": "/critical_fields/dc"
+              },
+              {
+                "extraction_id": "urn:uuid:2dc9faba-c82d-5c99-9a29-222789cd769d",
+                "json_pointer": "/critical_fields/area"
+              },
+              {
+                "extraction_id": "urn:uuid:2a1dd808-f9cb-56cf-942c-9de7e797184c",
+                "json_pointer": "/critical_fields/requires_target_sees_source"
+              },
+              {
+                "extraction_id": "urn:uuid:4d7a6b24-8126-59b3-afa8-f6db4fbf2732",
+                "json_pointer": "/critical_fields/exclude_type"
+              },
+              {
+                "extraction_id": "urn:uuid:f83ea37d-1433-5a44-ae2c-ab4a76b4b917",
+                "json_pointer": "/critical_fields/failure_damage"
+              },
+              {
+                "extraction_id": "urn:uuid:0f0c9fc1-6569-5c70-a59e-327bf7b87f81",
+                "json_pointer": "/critical_fields/dice"
+              },
+              {
+                "extraction_id": "urn:uuid:a2aa5869-9ae7-5096-a9bb-391279430b21",
+                "json_pointer": "/critical_fields/type"
+              },
+              {
+                "extraction_id": "urn:uuid:4556f3f5-a549-58e9-9ed1-ee75b72cbf16",
+                "json_pointer": "/critical_fields/failure_frightened_until"
+              },
+              {
+                "extraction_id": "urn:uuid:b82f9197-347f-5a9c-ba08-f6255c6db0f1",
+                "json_pointer": "/critical_fields/success_immunity_hours"
+              },
+              {
+                "extraction_id": "urn:uuid:922394c8-4144-5c45-b04c-c5714d1c175f",
+                "json_pointer": "/critical_fields/immunity_scope"
+              },
+              {
+                "extraction_id": "urn:uuid:0009e60b-baae-5b12-bcfb-453967538c19",
+                "json_pointer": "/critical_fields/aging_clause"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "pointer": "/critical_fields",
+          "source_evidence": "G25.ABILITY.6"
+        },
+        "id": "urn:uuid:bac4fda5-087e-55fe-bd5d-4f4c425a6609",
+        "kind": "动作Actions",
+        "mechanics": {
+          "clauses": {
+            "aging_clause": false,
+            "area": "60_ft_cone",
+            "dc": 13,
+            "dice": "2d6+3",
+            "exclude_type": "undead",
+            "failure_damage": 10,
+            "failure_frightened_until": "source_next_turn_start",
+            "immunity_scope": "this_ghost",
+            "requires_target_sees_source": true,
+            "save": "wisdom",
+            "success_immunity_hours": 24,
+            "type": "psychic"
+          },
+          "damage": {
+            "amount": {
+              "dice": "2d6+3",
+              "printed_fixed": 10,
+              "selection": "use_scene_amount_mode; recorded_dice_must_not_be_rerolled"
+            },
+            "damage_type": "psychic",
+            "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+            "linked_reduction_from_damage_taken": false,
+            "other_effects": [
+              {
+                "ends": "this_source_next_turn_start",
+                "kind": "condition",
+                "name": "frightened",
+                "when": "failed_save"
+              },
+              {
+                "duration_hours": 24,
+                "kind": "source_specific_immunity",
+                "when": "successful_save"
+              }
+            ],
+            "save_success": "zero",
+            "trigger": "wisdom_save"
+          },
+          "dependencies": [
+            "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+            "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb"
+          ],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+        "required_evidence": [
+          "P.FRIGHTENED",
+          "P.CONDITION"
+        ],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:0e53e7e9-91bf-5f69-8d04-0fefd7eab093",
+        "title": "恐惧面容",
+        "verbatim_evidence": "G25.ABILITY.6",
+        "verbatim_text": " **恐惧面容Horrifying Visage。***感知豁免检定：*DC13，60尺锥状区域内能看见幽魂的每名非亡灵生物。*失败：*10（2d6+3）心灵伤害，目标陷入恐慌状态，直至幽魂的下个回合的开始。*成功：*目标在24小时内免疫此幽魂的恐惧面容。\n"
+      },
+      {
+        "critical_fields": {
+          "dc": 13,
+          "emerge_ft": 5,
+          "ends": [
+            "body_hp_zero",
+            "source_bonus_action"
+          ],
+          "immunity_scope": "this_ghost",
+          "post_end_or_success_immunity_hours": 24,
+          "range_ft": 5,
+          "recharge": [
+            6
+          ],
+          "retain": "own_game_statistics",
+          "save": "charisma",
+          "take_from_target": [
+            "speed",
+            "strength_modifier",
+            "dexterity_modifier",
+            "constitution_modifier"
+          ],
+          "target": "visible_humanoid",
+          "target_incapacitated": true,
+          "targeting_exception": "effects_specifically_targeting_undead"
+        },
+        "editorial_explanation": "不继承目标整卡或职业；宿主归0是结束条件，不推出幽魂自身同时死亡。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:6b33f3f6-6ab4-5713-9d14-912725bfc5dc",
+                "json_pointer": "/critical_fields/save"
+              },
+              {
+                "extraction_id": "urn:uuid:4a1b3f3f-7a29-56b5-8620-7b8c8ae858bd",
+                "json_pointer": "/critical_fields/dc"
+              },
+              {
+                "extraction_id": "urn:uuid:188bb67c-deb4-5a15-9c47-797379f290b3",
+                "json_pointer": "/critical_fields/recharge/0"
+              },
+              {
+                "extraction_id": "urn:uuid:87c3ce22-3f11-51f7-9942-ed5947ff5acf",
+                "json_pointer": "/critical_fields/range_ft"
+              },
+              {
+                "extraction_id": "urn:uuid:3b4af610-8f9f-5c2d-9dec-a5b9f8339d83",
+                "json_pointer": "/critical_fields/target"
+              },
+              {
+                "extraction_id": "urn:uuid:61a0d3bc-4482-5abb-972b-e4166097d507",
+                "json_pointer": "/critical_fields/target_incapacitated"
+              },
+              {
+                "extraction_id": "urn:uuid:bb0cce24-2a90-532c-a8c4-dfd5ff7815ac",
+                "json_pointer": "/critical_fields/retain"
+              },
+              {
+                "extraction_id": "urn:uuid:a12b11c5-7736-5cb0-88f6-2b1d91260cfd",
+                "json_pointer": "/critical_fields/take_from_target/0"
+              },
+              {
+                "extraction_id": "urn:uuid:88c7db00-94d2-53d9-8db0-7e2188346b79",
+                "json_pointer": "/critical_fields/take_from_target/1"
+              },
+              {
+                "extraction_id": "urn:uuid:3d756247-3461-50dd-8dea-37dac723e7a2",
+                "json_pointer": "/critical_fields/take_from_target/2"
+              },
+              {
+                "extraction_id": "urn:uuid:854eb05e-b540-5763-a947-4f14e673fabd",
+                "json_pointer": "/critical_fields/take_from_target/3"
+              },
+              {
+                "extraction_id": "urn:uuid:8bfd29b1-f25b-54a8-b43f-dd821bed7c79",
+                "json_pointer": "/critical_fields/targeting_exception"
+              },
+              {
+                "extraction_id": "urn:uuid:4f41ea84-f75e-5643-9ac5-81b691fa4f65",
+                "json_pointer": "/critical_fields/ends/0"
+              },
+              {
+                "extraction_id": "urn:uuid:80f32326-1c40-53e1-89f7-b599050e909d",
+                "json_pointer": "/critical_fields/ends/1"
+              },
+              {
+                "extraction_id": "urn:uuid:f8f7f33e-7648-51f3-9c30-6ffab0465a79",
+                "json_pointer": "/critical_fields/emerge_ft"
+              },
+              {
+                "extraction_id": "urn:uuid:7bfdee85-67a3-5798-8d26-54fc5a07970c",
+                "json_pointer": "/critical_fields/post_end_or_success_immunity_hours"
+              },
+              {
+                "extraction_id": "urn:uuid:6c4cf69e-d32b-5cf0-b0ec-791a2e67af08",
+                "json_pointer": "/critical_fields/immunity_scope"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "pointer": "/critical_fields",
+          "source_evidence": "G25.ABILITY.7"
+        },
+        "id": "urn:uuid:ee7559b0-7859-56d2-abcf-a0d14993bcfc",
+        "kind": "动作Actions",
+        "mechanics": {
+          "clauses": {
+            "dc": 13,
+            "emerge_ft": 5,
+            "ends": [
+              "body_hp_zero",
+              "source_bonus_action"
+            ],
+            "immunity_scope": "this_ghost",
+            "post_end_or_success_immunity_hours": 24,
+            "range_ft": 5,
+            "recharge": [
+              6
+            ],
+            "retain": "own_game_statistics",
+            "save": "charisma",
+            "take_from_target": [
+              "speed",
+              "strength_modifier",
+              "dexterity_modifier",
+              "constitution_modifier"
+            ],
+            "target": "visible_humanoid",
+            "target_incapacitated": true,
+            "targeting_exception": "effects_specifically_targeting_undead"
+          },
+          "dependencies": [
+            "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+            "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb"
+          ],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+        "required_evidence": [
+          "P.INCAP",
+          "P.CONDITION"
+        ],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:e823d2f7-ff17-59a1-bc25-3c0ff7233817",
+        "title": "附身",
+        "verbatim_evidence": "G25.ABILITY.7",
+        "verbatim_text": " **附身Possession（充能6）。***魅力豁免检定：*DC13，单一5尺内幽魂可见的类人生物。 *失败：*目标被幽魂附身。幽魂消失，目标陷入失能 状态并失去对身体的控制。现在由幽魂控制身体，但目标仍然保留自我意识。幽魂不能成为任意攻击、法术或其他效应的目标，针对亡灵的效应除外。幽魂仍然保留自己的游戏数据，但是使用附身目标的速度，以及力量、敏捷与体质调整值。\n附身持续至身体的生命值降至0，或在幽魂以附赠动作解除附身时结束。附身结束时，幽魂会出现在目标5尺内一处未占据空间，且目标在24小时内免疫此幽魂的附身。\n *成功：*目标在接下来24小时内免疫幽魂的附身。\n"
+      }
+    ],
+    "all_abilities_present": true,
+    "all_card_text_present": true,
+    "candidate_revision": 3,
+    "card_evidence": "G25.CARD",
+    "every_numeric_field_atomized": false,
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "content_coverage": {
+          "all_abilities": "complete",
+          "card_text": "complete",
+          "formal_rule_approval": false,
+          "structured_semantics": "partial_explicit"
+        },
+        "identity_traits": {
+          "creature_type": "undead",
+          "entity_kind": "creature",
+          "size": "medium",
+          "source_evidence_id": "urn:uuid:3031d998-0f82-5bf9-bdb3-778355f019bc"
+        }
+      }
+    },
+    "group": "V",
+    "header": {
+      "ac": 11,
+      "defense_binding": {
+        "enumeration_complete_for_selected_card": true,
+        "evidence": "G25.HEADER"
+      },
+      "defenses": {
+        "condition_immunity": [
+          "charmed",
+          "exhaustion",
+          "frightened",
+          "grappled",
+          "paralyzed",
+          "petrified",
+          "poisoned",
+          "prone",
+          "restrained"
+        ],
+        "damage_immunity": [
+          "necrotic",
+          "poison"
+        ],
+        "resistance": [
+          "acid",
+          "bludgeoning",
+          "cold",
+          "fire",
+          "lightning",
+          "piercing",
+          "slashing",
+          "thunder"
+        ]
+      },
+      "hp": 45,
+      "hp_role": "printed_default_maximum_hp; never runtime_current_hp",
+      "source_evidence": "G25.HEADER"
+    },
+    "id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+    "language": "zh-Hans",
+    "previous_candidate_revision": 2,
+    "prototype_role": "printed_template_not_live_instance",
+    "publication_identity": "claimed",
+    "review_status": "candidate",
+    "rights": "unknown",
+    "rule_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+    "rule_edition": "2024",
+    "rules_context": "MM2025+PHB2024",
+    "source_evidence_id": "urn:uuid:fa67b8e9-654a-5d65-901c-94403cdeaa15",
+    "title": "幽魂（2025）",
+    "translation_authority": "unknown",
+    "verbatim_text": "<a id=\"Ghost\"></a>\n##### 幽魂Ghost\n\n中型亡灵，中立\n\n<table><tr><td><strong>AC </strong>11</td><td><strong>先攻 </strong>+1（11）</td></tr> <tr><td colspan=\"2\"><strong>HP </strong>45（10d8）</td></tr> <tr><td colspan=\"2\"><strong>速度 </strong>5尺，飞行40尺（悬浮）</td></tr></table>\n\n<table><tr><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th></tr> <tr><td><strong>力量</strong></td><td>7</td><td>-2</td><td>-2</td> <td></td> <td><strong>敏捷</strong></td><td>13</td><td>+1</td><td>+1</td> <td></td> <td><strong>体质</strong></td><td>10</td><td>+0</td><td>+0</td></tr> <tr><td><strong>智力</strong></td><td>10</td><td>+0</td><td>+0</td> <td></td> <td><strong>感知</strong></td><td>12</td><td>+1</td><td>+1</td> <td></td> <td><strong>魅力</strong></td><td>17</td><td>+3</td><td>+3</td></tr> </table>\n\n| **抗性**强酸，钝击，寒冷，火焰，闪电，穿刺，挥砍，雷鸣 |\n| --- |\n| **免疫**暗蚀，毒素；魅惑，力竭，恐慌，受擒，麻痹，石化，中毒，倒地，束缚 |\n| **感官**黑暗视觉60尺；被动察觉11 |\n| **语言**通用语，以及一门其他语言 |\n| **CR**4（XP1,100；PB+2） |\n\n###### 特质Traits\n\n**以太视界Ethereal Sight。**若幽魂身处物质位面，其能够看见60尺内的以太位面。\n **虚体移动Incorporeal Movement。**幽魂可以移动穿过其他生物或物件，如同穿过困难地形一般。在其回合结束时，若幽魂还处于物件内，其受到5（1d10）力场伤害\n\n###### 动作Actions\n\n**多重攻击Multiattack。**幽魂发动两次凋零之触攻击。\n **凋零之触Withering Touch。***近战攻击检定：*+5，触及5尺。*命中：*19（3d10+3）暗蚀伤害。\n **以太化Etherealness。**幽魂施展法术*以太化Etheralness*，无需法术成分，并使用魅力作为施法属性。当幽魂处于边界以太时，仍可以在物质位面被观测到，反之亦然。但另一位面的任何事物不能对其施加影响或被其影响。\n **恐惧面容Horrifying Visage。***感知豁免检定：*DC13，60尺锥状区域内能看见幽魂的每名非亡灵生物。*失败：*10（2d6+3）心灵伤害，目标陷入恐慌状态，直至幽魂的下个回合的开始。*成功：*目标在24小时内免疫此幽魂的恐惧面容。\n **附身Possession（充能6）。***魅力豁免检定：*DC13，单一5尺内幽魂可见的类人生物。 *失败：*目标被幽魂附身。幽魂消失，目标陷入失能 状态并失去对身体的控制。现在由幽魂控制身体，但目标仍然保留自我意识。幽魂不能成为任意攻击、法术或其他效应的目标，针对亡灵的效应除外。幽魂仍然保留自己的游戏数据，但是使用附身目标的速度，以及力量、敏捷与体质调整值。\n附身持续至身体的生命值降至0，或在幽魂以附赠动作解除附身时结束。附身结束时，幽魂会出现在目标5尺内一处未占据空间，且目标在24小时内免疫此幽魂的附身。\n *成功：*目标在接下来24小时内免疫幽魂的附身。\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:94611e0a-c267-559f-8ccd-36f643d83475",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:fa67b8e9-654a-5d65-901c-94403cdeaa15",
+    "derived_note_utf8_range": {
+      "end": 4334,
+      "start": 1132
+    },
+    "entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+    "fragment_id": "urn:uuid:b32518f2-acd4-5874-acf6-2482d95a72d4",
+    "mapping_id": "urn:uuid:d142700e-702e-5bff-9bcd-1020553eb86e"
+  },
+  "subject_kind": "creature",
+  "title": "幽魂（2025）",
+  "uncompiled_semantics_retained": true
+}

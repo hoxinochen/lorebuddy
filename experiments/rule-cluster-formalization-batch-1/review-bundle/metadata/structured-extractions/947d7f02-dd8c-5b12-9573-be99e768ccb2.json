@@ -1,0 +1,18 @@
+{
+  "binding": {
+    "adopted_decision_ids": [],
+    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+    "source_entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+    "source_evidence_id": "urn:uuid:bc254e09-b0a2-55d4-92e5-9c0d78697f07",
+    "source_note_utf8_range": {
+      "end": 3150,
+      "start": 2973
+    }
+  },
+  "id": "urn:uuid:947d7f02-dd8c-5b12-9573-be99e768ccb2",
+  "json_pointer": "/critical_fields/replace_game_statistics_with",
+  "review_status": "candidate",
+  "revision": 1,
+  "subject_id": "urn:uuid:5479a7d8-99df-5791-9013-dd434cfa2908",
+  "value": "IN"
+}

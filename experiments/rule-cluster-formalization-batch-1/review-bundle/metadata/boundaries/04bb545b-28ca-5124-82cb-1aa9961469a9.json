@@ -1,0 +1,24 @@
+{
+  "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+  "candidate_key": "sha256:16032f8119deeed98167986f713a3416699ec0819fd71e64134cc90bced8e383",
+  "decision": {
+    "reason": "Audit envelope only; per-subject derived ranges remain separate.",
+    "review_status": "pending",
+    "reviewer_id": null
+  },
+  "entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+  "id": "urn:uuid:04bb545b-28ca-5124-82cb-1aa9961469a9",
+  "lifecycle": {
+    "revision": 1,
+    "status": "draft"
+  },
+  "locator": {
+    "end": 43507,
+    "kind": "byte-range",
+    "start": 0
+  },
+  "node_id": null,
+  "proposed_title": "三环",
+  "schema": "core.boundary-record@0.1.0",
+  "status": "proposed"
+}

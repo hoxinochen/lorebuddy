@@ -1,0 +1,82 @@
+{
+  "body": {
+    "digest": "sha256:1b1c9bd9e11472be886190095db5e6b1d8c7d17bda40b6d389dc748361e39e49",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/5152af52-fc82-58ab-b223-f9d1f9842f2e.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "equipment": "unchanged",
+      "replace_game_statistics_with": "SU",
+      "when": "on_finishing_long_rest"
+    },
+    "editorial_explanation": "内容可双向引用而不必拆成互相依赖的两个发布包。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:dc84d8f5-b9ae-522f-a3f5-34861797e882",
+            "json_pointer": "/critical_fields/when"
+          },
+          {
+            "extraction_id": "urn:uuid:82b358db-8c26-52a6-b4e5-78efba2a58b4",
+            "json_pointer": "/critical_fields/replace_game_statistics_with"
+          },
+          {
+            "extraction_id": "urn:uuid:63f3ccb5-5629-5c49-a964-2e24a29d58f0",
+            "json_pointer": "/critical_fields/equipment"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "pointer": "/critical_fields",
+      "source_evidence": "IN.ABILITY.1"
+    },
+    "id": "urn:uuid:5152af52-fc82-58ab-b223-f9d1f9842f2e",
+    "kind": "特质Traits",
+    "mechanics": {
+      "clauses": {
+        "equipment": "unchanged",
+        "replace_game_statistics_with": "SU",
+        "when": "on_finishing_long_rest"
+      },
+      "dependencies": [],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+    },
+    "owner_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+    "required_evidence": [],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:02cc884f-2c90-5ac4-9504-3f6574f16a1e",
+    "title": "化身魅魔",
+    "verbatim_evidence": "IN.ABILITY.1",
+    "verbatim_text": "**化身魅魔Succubus Form。**梦魔在完成一次长休时可以变形为**魅魔Succubus**，并使用魅魔的游戏数据替代其原来的数据。梦魔着装或携带的任何装备都不会随之变化。\n\n###### 动作Actions\n\n"
+  },
+  "dependency_ids": [
+    "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115"
+  ],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:5152af52-fc82-58ab-b223-f9d1f9842f2e",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:745a5f16-14e6-510a-ad6e-0ceeaee9df9d",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:02cc884f-2c90-5ac4-9504-3f6574f16a1e",
+    "derived_note_utf8_range": {
+      "end": 3239,
+      "start": 3000
+    },
+    "entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+    "fragment_id": "urn:uuid:3da4dc0e-0945-5ef1-8d58-92662fc6ea04",
+    "mapping_id": "urn:uuid:63ace06a-e3e6-5b0c-b9bb-590596d6589b"
+  },
+  "subject_kind": "ability",
+  "title": "化身魅魔",
+  "uncompiled_semantics_retained": true
+}

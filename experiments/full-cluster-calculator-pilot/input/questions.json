@@ -1,0 +1,2843 @@
+{
+  "corpus_delivery_id": "urn:uuid:146190a0-3359-57f7-a401-eba0811d0986",
+  "instructions": "先读取完整knowledge.json，不读evaluator，不按题裁剪材料。解析现场与能力引用；缺读取能力、机制或输入须分别报告。不得把本题转交LLM或临时实现读取器后冒充现有能力。",
+  "questions": [
+    {
+      "id": "C01",
+      "question": "魅魔A对已被它魅惑的冒险者使用汲命之吻。目标体质豁免成功，另有已确认心灵抗性。采用卡载固定伤害，只问本次伤害及对应上限减损数值。",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [
+              {
+                "effect_instance_id": "grant-0",
+                "source_instance_id": "confirmed-source-0",
+                "kind": "damage_resistance",
+                "damage_type": "psychic",
+                "applicability": "confirmed_for_this_event"
+              },
+              {
+                "effect_instance_id": "charm-by-A",
+                "source_instance_id": "succubus-A",
+                "kind": "charmed",
+                "active": true
+              }
+            ],
+            "defense_inventory_complete": true
+          }
+        ],
+        "event": {
+          "actor_instance_id": "succubus-A",
+          "declared_action_name": "汲命之吻",
+          "target_instance_ids": [
+            "adventurer-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": null,
+          "save_outcome": "success",
+          "distance_ft": 5,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "same_plane": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown"
+        }
+      },
+      "delivery": "input/knowledge.json in full; no per-case retrieval subset"
+    },
+    {
+      "id": "C02",
+      "question": "同样合法的汲命之吻，目标体质豁免失败且有心灵抗性。采用卡载固定值，求本次伤害和对应上限减损。",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [
+              {
+                "effect_instance_id": "grant-0",
+                "source_instance_id": "confirmed-source-0",
+                "kind": "damage_resistance",
+                "damage_type": "psychic",
+                "applicability": "confirmed_for_this_event"
+              },
+              {
+                "effect_instance_id": "charm-by-A",
+                "source_instance_id": "succubus-A",
+                "kind": "charmed",
+                "active": true
+              }
+            ],
+            "defense_inventory_complete": true
+          }
+        ],
+        "event": {
+          "actor_instance_id": "succubus-A",
+          "declared_action_name": "汲命之吻",
+          "target_instance_ids": [
+            "adventurer-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": null,
+          "save_outcome": "failure",
+          "distance_ft": 5,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "same_plane": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown"
+        }
+      },
+      "delivery": "input/knowledge.json in full; no per-case retrieval subset"
+    },
+    {
+      "id": "C03",
+      "question": "汲命之吻体质豁免成功，目标有心灵抗性。本次3d8已记录为8、8、1，求伤害和对应上限减损，不重新掷骰。",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [
+              {
+                "effect_instance_id": "grant-0",
+                "source_instance_id": "confirmed-source-0",
+                "kind": "damage_resistance",
+                "damage_type": "psychic",
+                "applicability": "confirmed_for_this_event"
+              },
+              {
+                "effect_instance_id": "charm-by-A",
+                "source_instance_id": "succubus-A",
+                "kind": "charmed",
+                "active": true
+              }
+            ],
+            "defense_inventory_complete": true
+          }
+        ],
+        "event": {
+          "actor_instance_id": "succubus-A",
+          "declared_action_name": "汲命之吻",
+          "target_instance_ids": [
+            "adventurer-A"
+          ],
+          "amount_mode": "recorded_roll",
+          "attack_outcome": null,
+          "save_outcome": "success",
+          "distance_ft": 5,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "same_plane": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown",
+          "recorded_dice": [
+            8,
+            8,
+            1
+          ]
+        }
+      },
+      "delivery": "input/knowledge.json in full; no per-case retrieval subset"
+    },
+    {
+      "id": "C04",
+      "question": "汲命之吻体质豁免成功且目标有心灵抗性。3d8已记录为1、1、1，求本次数值，不把0伤害当作缺结果。",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [
+              {
+                "effect_instance_id": "grant-0",
+                "source_instance_id": "confirmed-source-0",
+                "kind": "damage_resistance",
+                "damage_type": "psychic",
+                "applicability": "confirmed_for_this_event"
+              },
+              {
+                "effect_instance_id": "charm-by-A",
+                "source_instance_id": "succubus-A",
+                "kind": "charmed",
+                "active": true
+              }
+            ],
+            "defense_inventory_complete": true
+          }
+        ],
+        "event": {
+          "actor_instance_id": "succubus-A",
+          "declared_action_name": "汲命之吻",
+          "target_instance_ids": [
+            "adventurer-A"
+          ],
+          "amount_mode": "recorded_roll",
+          "attack_outcome": null,
+          "save_outcome": "success",
+          "distance_ft": 5,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "same_plane": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown",
+          "recorded_dice": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "delivery": "input/knowledge.json in full; no per-case retrieval subset"
+    },
+    {
+      "id": "C05",
+      "question": "合法汲命之吻，冒险者豁免成功，没有心灵抗性、易伤或免疫。采用卡载固定值，求本次伤害及对应上限减损。",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [
+              {
+                "effect_instance_id": "charm-by-A",
+                "source_instance_id": "succubus-A",
+                "kind": "charmed",
+                "active": true
+              }
+            ],
+            "defense_inventory_complete": true
+          }
+        ],
+        "event": {
+          "actor_instance_id": "succubus-A",
+          "declared_action_name": "汲命之吻",
+          "target_instance_ids": [
+            "adventurer-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": null,
+          "save_outcome": "success",
+          "distance_ft": 5,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "same_plane": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown"
+        }
+      },
+      "delivery": "input/knowledge.json in full; no per-case retrieval subset"
+    },
+    {
+      "id": "C06",
+      "question": "合法汲命之吻，豁免成功；目标仅获已确认的心灵易伤。采用卡载固定值，求伤害及对应上限减损。",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [
+              {
+                "effect_instance_id": "grant-0",
+                "source_instance_id": "confirmed-source-0",
+                "kind": "damage_vulnerability",
+                "damage_type": "psychic",
+                "applicability": "confirmed_for_this_event"
+              },
+              {
+                "effect_instance_id": "charm-by-A",
+                "source_instance_id": "succubus-A",
+                "kind": "charmed",
+                "active": true
+              }
+            ],
+            "defense_inventory_complete": true
+          }
+        ],
+        "event": {
+          "actor_instance_id": "succubus-A",
+          "declared_action_name": "汲命之吻",
+          "target_instance_ids": [
+            "adventurer-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": null,
+          "save_outcome": "success",
+          "distance_ft": 5,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "same_plane": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown"
+        }
+      },
+      "delivery": "input/knowledge.json in full; no per-case retrieval subset"
+    },
+    {
+      "id": "C07",
+      "question": "合法汲命之吻，豁免成功。目标有两个独立来源的心灵抗性及一项心灵易伤，均确认适用。采用卡载固定值，求伤害及减损。",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [
+              {
+                "effect_instance_id": "grant-0",
+                "source_instance_id": "confirmed-source-0",
+                "kind": "damage_resistance",
+                "damage_type": "psychic",
+                "applicability": "confirmed_for_this_event"
+              },
+              {
+                "effect_instance_id": "grant-1",
+                "source_instance_id": "confirmed-source-1",
+                "kind": "damage_resistance",
+                "damage_type": "psychic",
+                "applicability": "confirmed_for_this_event"
+              },
+              {
+                "effect_instance_id": "grant-2",
+                "source_instance_id": "confirmed-source-2",
+                "kind": "damage_vulnerability",
+                "damage_type": "psychic",
+                "applicability": "confirmed_for_this_event"
+              },
+              {
+                "effect_instance_id": "charm-by-A",
+                "source_instance_id": "succubus-A",
+                "kind": "charmed",
+                "active": true
+              }
+            ],
+            "defense_inventory_complete": true
+          }
+        ],
+        "event": {
+          "actor_instance_id": "succubus-A",
+          "declared_action_name": "汲命之吻",
+          "target_instance_ids": [
+            "adventurer-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": null,
+          "save_outcome": "success",
+          "distance_ft": 5,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "same_plane": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown"
+        }
+      },
+      "delivery": "input/knowledge.json in full; no per-case retrieval subset"
+    },
+    {
+      "id": "C08",
+      "question": "合法汲命之吻，豁免成功。目标同时有心灵抗性和心灵伤害免疫，采用卡载固定值，求伤害及对应上限减损。",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [
+              {
+                "effect_instance_id": "grant-0",
+                "source_instance_id": "confirmed-source-0",
+                "kind": "damage_resistance",
+                "damage_type": "psychic",
+                "applicability": "confirmed_for_this_event"
+              },
+              {
+                "effect_instance_id": "grant-1",
+                "source_instance_id": "confirmed-source-1",
+                "kind": "damage_immunity",
+                "damage_type": "psychic",
+                "applicability": "confirmed_for_this_event"
+              },
+              {
+                "effect_instance_id": "charm-by-A",
+                "source_instance_id": "succubus-A",
+                "kind": "charmed",
+                "active": true
+              }
+            ],
+            "defense_inventory_complete": true
+          }
+        ],
+        "event": {
+          "actor_instance_id": "succubus-A",
+          "declared_action_name": "汲命之吻",
+          "target_instance_ids": [
+            "adventurer-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": null,
+          "save_outcome": "success",
+          "distance_ft": 5,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "same_plane": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown"
+        }
+      },
+      "delivery": "input/knowledge.json in full; no per-case retrieval subset"
+    },
+    {
+      "id": "C09",
+      "question": "魅魔A以魔性之触命中梦魔A。双方均使用本批卡，采用固定伤害，无额外修正。只求本次伤害。",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true
+          }
+        ],
+        "event": {
+          "actor_instance_id": "succubus-A",
+          "declared_action_name": "魔性之触",
+          "target_instance_ids": [
+            "incubus-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": "hit",
+          "save_outcome": null,
+          "distance_ft": 5,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "same_plane": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown"
+        }
+      },
+      "delivery": "input/knowledge.json in full; no per-case retrieval subset"
+    },
+    {
+      "id": "C10",
+      "question": "梦魔A以毁梦之触命中魅魔A，采用固定伤害，无额外修正。只求伤害；不要求计算器写入或删除诅咒。",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true
+          }
+        ],
+        "event": {
+          "actor_instance_id": "incubus-A",
+          "declared_action_name": "毁梦之触",
+          "target_instance_ids": [
+            "succubus-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": "hit",
+          "save_outcome": null,
+          "distance_ft": 5,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "same_plane": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown"
+        }
+      },
+      "delivery": "input/knowledge.json in full; no per-case retrieval subset"
+    },
+    {
+      "id": "C11",
+      "question": "幽魂A以凋零之触命中幽魂B；两者都是本批2025卡。采用固定伤害，只求伤害。",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true
+          }
+        ],
+        "event": {
+          "actor_instance_id": "ghost-A",
+          "declared_action_name": "凋零之触",
+          "target_instance_ids": [
+            "ghost-B"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": "hit",
+          "save_outcome": null,
+          "distance_ft": 5,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "same_plane": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown"
+        }
+      },
+      "delivery": "input/knowledge.json in full; no per-case retrieval subset"
+    },
+    {
+      "id": "C12",
+      "question": "幽魂A以凋零之触命中无额外防御的冒险者。3d10已记录4、8、9，按能力自己的固定加值计算最终伤害。",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true
+          }
+        ],
+        "event": {
+          "actor_instance_id": "ghost-A",
+          "declared_action_name": "凋零之触",
+          "target_instance_ids": [
+            "adventurer-A"
+          ],
+          "amount_mode": "recorded_roll",
+          "attack_outcome": "hit",
+          "save_outcome": null,
+          "distance_ft": 5,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "same_plane": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown",
+          "recorded_dice": [
+            4,
+            8,
+            9
+          ]
+        }
+      },
+      "delivery": "input/knowledge.json in full; no per-case retrieval subset"
+    },
+    {
+      "id": "C13",
+      "question": "火元素的燃烧攻击命中史拉绿蟾，采用卡载固定值，无额外修正。只求这次命中的伤害，不推进后续回合。",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true
+          }
+        ],
+        "event": {
+          "actor_instance_id": "fire-A",
+          "declared_action_name": "燃烧",
+          "target_instance_ids": [
+            "slaad-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": "hit",
+          "save_outcome": null,
+          "distance_ft": 5,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "same_plane": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown"
+        }
+      },
+      "delivery": "input/knowledge.json in full; no per-case retrieval subset"
+    },
+    {
+      "id": "C14",
+      "question": "火元素回合结束，史拉绿蟾处于其8尺处，确认在灵光内。只结算该目标当时的固定伤害，不推进燃烧危害。",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true
+          }
+        ],
+        "event": {
+          "actor_instance_id": "fire-A",
+          "declared_action_name": "火焰灵光",
+          "target_instance_ids": [
+            "slaad-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": null,
+          "save_outcome": null,
+          "distance_ft": 8,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "same_plane": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown",
+          "timing": "source_turn_end"
+        }
+      },
+      "delivery": "input/knowledge.json in full; no per-case retrieval subset"
+    },
+    {
+      "id": "C15",
+      "question": "火元素本回合首次进入史拉绿蟾的空间，触发已确认。采用固定值，只求这一次火焰形态伤害。",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true
+          }
+        ],
+        "event": {
+          "actor_instance_id": "fire-A",
+          "declared_action_name": "火焰形态",
+          "target_instance_ids": [
+            "slaad-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": null,
+          "save_outcome": null,
+          "distance_ft": 5,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "same_plane": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown",
+          "first_entry_into_this_target_space_this_turn": true
+        }
+      },
+      "delivery": "input/knowledge.json in full; no per-case retrieval subset"
+    },
+    {
+      "id": "C16",
+      "question": "幽魂A在自己的回合结束时仍位于物件内部，无额外修正。按虚体移动条款求它本次受到的固定伤害。",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true
+          }
+        ],
+        "event": {
+          "actor_instance_id": "ghost-A",
+          "declared_action_name": "虚体移动",
+          "target_instance_ids": [
+            "ghost-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": null,
+          "save_outcome": null,
+          "distance_ft": 5,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "same_plane": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown",
+          "timing": "own_turn_end",
+          "inside_object": true
+        }
+      },
+      "delivery": "input/knowledge.json in full; no per-case retrieval subset"
+    },
+    {
+      "id": "C17",
+      "question": "史拉绿蟾合法使用本卡火球术，目标冒险者敏捷豁免成功且具有已确认火焰抗性。8d6已记录6、5、4、4、4、3、3、2。仅结算这名目标的伤害。",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [
+              {
+                "effect_instance_id": "fire-resistance-A",
+                "source_instance_id": "confirmed-source-0",
+                "kind": "damage_resistance",
+                "damage_type": "fire",
+                "applicability": "confirmed_for_this_event"
+              }
+            ],
+            "defense_inventory_complete": true
+          }
+        ],
+        "event": {
+          "actor_instance_id": "slaad-A",
+          "declared_action_name": "火球术",
+          "target_instance_ids": [
+            "adventurer-A"
+          ],
+          "amount_mode": "recorded_roll",
+          "attack_outcome": null,
+          "save_outcome": "success",
+          "distance_ft": 5,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "same_plane": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown",
+          "recorded_dice": [
+            6,
+            5,
+            4,
+            4,
+            4,
+            3,
+            3,
+            2
+          ],
+          "spell_level": 3,
+          "spell_target_in_area": true,
+          "verbal_somatic_available": true,
+          "daily_use_available": true
+        }
+      },
+      "delivery": "input/knowledge.json in full; no per-case retrieval subset"
+    },
+    {
+      "id": "C18",
+      "question": "史拉绿蟾的混沌法杖命中幽魂A，采用卡载固定值，只求伤害。附带状态骰已经记录为4；不要把它当伤害骰或把状态写入也说成已完成。",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true
+          }
+        ],
+        "event": {
+          "actor_instance_id": "slaad-A",
+          "declared_action_name": "混沌法杖",
+          "target_instance_ids": [
+            "ghost-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": "hit",
+          "save_outcome": null,
+          "distance_ft": 5,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "same_plane": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown",
+          "condition_die_d4": 4
+        }
+      },
+      "delivery": "input/knowledge.json in full; no per-case retrieval subset"
+    },
+    {
+      "id": "C19",
+      "question": "梦魔A对当前HP21的冒险者使用噩梦，目标感知豁免失败且有心灵抗性。要求完整选择HP分支，给出伤害及是否昏迷。",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 21,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [
+              {
+                "effect_instance_id": "grant-0",
+                "source_instance_id": "confirmed-source-0",
+                "kind": "damage_resistance",
+                "damage_type": "psychic",
+                "applicability": "confirmed_for_this_event"
+              }
+            ],
+            "defense_inventory_complete": true
+          }
+        ],
+        "event": {
+          "actor_instance_id": "incubus-A",
+          "declared_action_name": "噩梦",
+          "target_instance_ids": [
+            "adventurer-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": null,
+          "save_outcome": "failure",
+          "distance_ft": 5,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "same_plane": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown",
+          "target_current_hp_before_effect": 21
+        }
+      },
+      "delivery": "input/knowledge.json in full; no per-case retrieval subset"
+    },
+    {
+      "id": "C20",
+      "question": "汲命之吻豁免成功，目标有心灵抗性、当前HP40、临时HP10。要求计算最终HP、剩余临时HP及对应上限减损。",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [
+              {
+                "effect_instance_id": "grant-0",
+                "source_instance_id": "confirmed-source-0",
+                "kind": "damage_resistance",
+                "damage_type": "psychic",
+                "applicability": "confirmed_for_this_event"
+              },
+              {
+                "effect_instance_id": "charm-by-A",
+                "source_instance_id": "succubus-A",
+                "kind": "charmed",
+                "active": true
+              }
+            ],
+            "defense_inventory_complete": true,
+            "temporary_hp": 10
+          }
+        ],
+        "event": {
+          "actor_instance_id": "succubus-A",
+          "declared_action_name": "汲命之吻",
+          "target_instance_ids": [
+            "adventurer-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": null,
+          "save_outcome": "success",
+          "distance_ft": 5,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "same_plane": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown",
+          "target_temporary_hp": 10
+        }
+      },
+      "delivery": "input/knowledge.json in full; no per-case retrieval subset"
+    },
+    {
+      "id": "C21",
+      "question": "火元素回合结束，魅魔、史拉绿蟾、冒险者均确认在灵光内，冒险者没有额外防御。要求一次性结算三名目标的固定伤害并应用燃烧。",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true
+          }
+        ],
+        "event": {
+          "actor_instance_id": "fire-A",
+          "declared_action_name": "火焰灵光",
+          "target_instance_ids": [
+            "succubus-A",
+            "slaad-A",
+            "adventurer-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": null,
+          "save_outcome": null,
+          "distance_ft": 5,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "same_plane": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown",
+          "timing": "source_turn_end",
+          "all_listed_targets_in_aura": true
+        }
+      },
+      "delivery": "input/knowledge.json in full; no per-case retrieval subset"
+    },
+    {
+      "id": "C22",
+      "question": "冒险者同时有梦魔A毁梦之触的诅咒和另一独立X造成的同类短休受限。梦魔A死亡。要求删除该结束的效果，同时保留仍有效的效果。",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 0,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "dead": true
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true
+          }
+        ],
+        "event": {
+          "actor_instance_id": "incubus-A",
+          "declared_action_name": "毁梦之触",
+          "target_instance_ids": [
+            "adventurer-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": "hit",
+          "save_outcome": null,
+          "distance_ft": 5,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "same_plane": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown",
+          "source_has_died": true,
+          "sourced_curses": [
+            {
+              "id": "curse-A",
+              "source": "incubus-A"
+            },
+            {
+              "id": "curse-X",
+              "source": "other-X",
+              "independent_effect_confirmed_active": true
+            }
+          ]
+        }
+      },
+      "delivery": "input/knowledge.json in full; no per-case retrieval subset"
+    },
+    {
+      "id": "C23",
+      "question": "梦魔A完成长休并选择化身魅魔；变形前当前HP23、最大HP66，托梦术已用一次、催眠图纹未用。要求给出休息及替换后的当前HP和各资源剩余值，而不是只给印刷默认卡。",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 23,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": {
+              "托梦术": {
+                "used": 1
+              },
+              "催眠图纹": {
+                "used": 0
+              }
+            },
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true
+          }
+        ],
+        "event": {
+          "actor_instance_id": "incubus-A",
+          "declared_action_name": "化身魅魔",
+          "target_instance_ids": [
+            "incubus-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": null,
+          "save_outcome": null,
+          "distance_ft": 5,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "same_plane": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown",
+          "current_hp_before_change": 23,
+          "max_hp_before_change": 66,
+          "spent_resource_record": {
+            "托梦术": 1,
+            "催眠图纹": 0
+          },
+          "other_hp_recovery_blockers": "none"
+        }
+      },
+      "delivery": "input/knowledge.json in full; no per-case retrieval subset"
+    },
+    {
+      "id": "C24",
+      "question": "合法汲命之吻，目标有心灵抗性及心灵免疫，但体质豁免结果没有提供。要求完整核验并结算；不能自行补成成功或失败。",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": []
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [
+              {
+                "effect_instance_id": "grant-0",
+                "source_instance_id": "confirmed-source-0",
+                "kind": "damage_resistance",
+                "damage_type": "psychic",
+                "applicability": "confirmed_for_this_event"
+              },
+              {
+                "effect_instance_id": "grant-1",
+                "source_instance_id": "confirmed-source-1",
+                "kind": "damage_immunity",
+                "damage_type": "psychic",
+                "applicability": "confirmed_for_this_event"
+              },
+              {
+                "effect_instance_id": "charm-by-A",
+                "source_instance_id": "succubus-A",
+                "kind": "charmed",
+                "active": true
+              }
+            ],
+            "defense_inventory_complete": true
+          }
+        ],
+        "event": {
+          "actor_instance_id": "succubus-A",
+          "declared_action_name": "汲命之吻",
+          "target_instance_ids": [
+            "adventurer-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": null,
+          "save_outcome": null,
+          "distance_ft": 5,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "same_plane": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown"
+        }
+      },
+      "delivery": "input/knowledge.json in full; no per-case retrieval subset"
+    }
+  ]
+}

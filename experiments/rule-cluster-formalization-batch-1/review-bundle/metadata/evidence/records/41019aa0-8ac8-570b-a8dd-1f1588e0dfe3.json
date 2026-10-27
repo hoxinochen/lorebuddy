@@ -1,0 +1,26 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:40d6b4ba5aec75b37f3ec3ac1c5dda84a869111b8ae82cf196a683a4ecff44f5",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/附录C：术语汇编/状态.md",
+  "id": "urn:uuid:41019aa0-8ac8-570b-a8dd-1f1588e0dfe3",
+  "original_record": {
+    "alias": "P.INVISIBLE",
+    "id": "urn:uuid:41019aa0-8ac8-570b-a8dd-1f1588e0dfe3",
+    "line_range": [
+      82,
+      89
+    ],
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 4771,
+      "interval": "[start,end)",
+      "start": 4111
+    },
+    "source_entry_id": "urn:uuid:89505d38-cbaf-5747-9798-96f1a0bf6718",
+    "text": "<a id=\"Invisible\"></a>\n### 隐形 Invisible【状态】\n\n隐形状态期间，你将获得以下这些效应。\n **出其不意Surprise。**如果你在投掷先攻时处于隐形状态，你的先攻检定将具有优势。\n**隐蔽Concealed。**任何需要能够看见目标的效应都不会影响到你，除非效应的源头能通过某种方式看到你。你所着装或携带的一切装备也同样会被隐蔽起来。\n**攻击影响Attacks Affected。**以你为目标的攻击检定具有劣势，而你进行的攻击检定具有优势。如果一个生物能以某种方式看见你，那么你在面对该生物时不会获得这一增益。\n\n",
+    "text_sha256": "83fcaa08c29b52f1a8c1787c1f25a99305864289014d1ce46c3d7022caa16656"
+  },
+  "raw_fragment_id": "urn:uuid:8971179e-39ce-5b76-812d-ab574f55a9c7",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

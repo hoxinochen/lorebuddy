@@ -1,0 +1,26 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:c9c56baacc1df4a575d8284d4e82ccb606aec1e45fe35185e1fd15932d851fb8",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/元素/四元素/火元素.md",
+  "id": "urn:uuid:aff196a7-e17a-5fe4-befd-4e0eb99e6ccc",
+  "original_record": {
+    "alias": "F.CARD",
+    "id": "urn:uuid:aff196a7-e17a-5fe4-befd-4e0eb99e6ccc",
+    "line_range": [
+      41,
+      67
+    ],
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 4158,
+      "interval": "[start,end)",
+      "start": 1955
+    },
+    "source_entry_id": "urn:uuid:048a1238-9915-5f2e-8619-c8ccbc580529",
+    "text": "<a id=\"Fire_Elemental\"></a>\n##### 火元素Fire Elemental\n\n大型元素，中立\n\n<table><tr><td><strong>AC </strong>13</td><td><strong>先攻 </strong>+3（13）</td></tr> <tr><td colspan=\"2\"><strong>HP </strong>93（11d10 + 33）</td></tr> <tr><td colspan=\"2\"><strong>速度 </strong>50尺</td></tr></table>\n\n<table><tr><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th></tr> <tr><td><strong>力量</strong></td><td>10</td><td>+0</td><td>+0</td> <td></td> <td><strong>敏捷</strong></td><td>17</td><td>+3</td><td>+3</td> <td></td> <td><strong>体质</strong></td><td>16</td><td>+3</td><td>+3</td></tr> <tr><td><strong>智力</strong></td><td>6</td><td>-2</td><td>-2</td> <td></td> <td><strong>感知</strong></td><td>10</td><td>+0</td><td>+0</td> <td></td> <td><strong>魅力</strong></td><td>7</td><td>-2</td><td>-2</td></tr> </table>\n\n| **抗性**钝击，穿刺，挥砍 |\n| --- |\n| **免疫**火焰，毒素；力竭，受擒，麻痹，石化，中毒，倒地，束缚，昏迷 |\n| **感官**黑暗视觉60尺；被动察觉10 |\n| **语言**原初语（火族语） |\n| **CR**5（XP1,800；PB+3） |\n\n###### 特质Traits\n\n**火焰灵光Fire Aura。**火元素回合结束时位于源自火元素的10尺光环区域内的每名生物受到5（1d10）点火焰伤害。光环内的生物和易燃物件开始燃烧。\n **火焰形态Fire Form。**火元素可以移动穿过最窄1寸宽的空间而无需消耗额外的移动力，且其可以进入并停留在生物所处的空间。当火元素在一个回合中首次进入某生物所处的空间时，该生物受到5（1d10）火焰伤害。\n **照明 Illumination。**火元素散发出半径30尺的明亮光照以及额外30尺的微光光照。\n**水体易感 Water Susceptibility。**每在水中移动5尺或每被泼一加仑水，火元素受到3（1d6）寒冷伤害。\n\n###### 动作Actions\n\n**多重攻击Multiattack。**火元素发动两次燃烧攻击。\n **燃烧Burn。***近战攻击检定：*+6，触及5尺。*命中：*10（2d6+3）火焰伤害。若目标为生物或易燃物件，则其开始燃烧。\n",
+    "text_sha256": "ec3325aae3d15342f23b9f49ab6b0b02b9c720ae8b6ff9bbdc4753e8222f5343"
+  },
+  "raw_fragment_id": "urn:uuid:d6125d3b-9532-5ccd-8263-8e76bb248835",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

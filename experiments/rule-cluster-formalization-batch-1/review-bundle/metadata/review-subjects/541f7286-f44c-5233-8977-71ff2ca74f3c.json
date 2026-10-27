@@ -1,0 +1,85 @@
+{
+  "body": {
+    "digest": "sha256:bbf07f68717a9a996991916189630a971bd2a0459eef5a4710bce8d3e3329503",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/541f7286-f44c-5233-8977-71ff2ca74f3c.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "damage_multiplier": 2,
+      "targets": [
+        "objects",
+        "structures"
+      ]
+    },
+    "editorial_explanation": "构装生物并不因材质而自动成为物件或建筑，不套双倍。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:ede0d7bb-a4e7-5719-b075-739e6797b359",
+            "json_pointer": "/critical_fields/damage_multiplier"
+          },
+          {
+            "extraction_id": "urn:uuid:e7993233-2cb3-5ba4-9289-4e2af4996c61",
+            "json_pointer": "/critical_fields/targets/0"
+          },
+          {
+            "extraction_id": "urn:uuid:915f4070-cdad-598a-ab3e-053a763ff87b",
+            "json_pointer": "/critical_fields/targets/1"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "local_evidence": "E.ABILITY.2",
+      "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+      "pointer": "/critical_fields"
+    },
+    "id": "urn:uuid:541f7286-f44c-5233-8977-71ff2ca74f3c",
+    "kind": "特质Traits",
+    "mechanics": {
+      "clauses": {
+        "damage_multiplier": 2,
+        "targets": [
+          "objects",
+          "structures"
+        ]
+      },
+      "dependencies": [],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_and_complete_verbatim; remaining_semantics_uncompiled"
+    },
+    "owner_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+    "required_evidence": [],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:291b8ff2-a587-5d1b-95d8-aae4b83f9935",
+    "title": "攻城怪物",
+    "verbatim_evidence": "E.ABILITY.2",
+    "verbatim_text": " **攻城怪物Siege Monster。**土元素对物件和建筑造成双倍伤害。\n\n###### 动作Actions\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:541f7286-f44c-5233-8977-71ff2ca74f3c",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:b945a080-5dfc-5d2d-9885-b1325cb2b79a",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:291b8ff2-a587-5d1b-95d8-aae4b83f9935",
+    "derived_note_utf8_range": {
+      "end": 3518,
+      "start": 3414
+    },
+    "entry_id": "urn:uuid:57a08374-1e20-5c97-a1f3-00447e3b05d9",
+    "fragment_id": "urn:uuid:8144d427-b3e6-53aa-bddc-c78ae18e3a0d",
+    "mapping_id": "urn:uuid:8851fe03-a492-5d23-8860-5d95ed2e5acf"
+  },
+  "subject_kind": "ability",
+  "title": "攻城怪物",
+  "uncompiled_semantics_retained": true
+}

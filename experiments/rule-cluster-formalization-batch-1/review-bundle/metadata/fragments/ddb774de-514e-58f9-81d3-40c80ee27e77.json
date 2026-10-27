@@ -1,0 +1,28 @@
+{
+  "boundary_record_id": "urn:uuid:a84bfd4c-b39f-5866-92a7-e0614b64a994",
+  "entry_digest": "sha256:1a048d7f168ab8c81f1c4e73180a77b49e73b5e6aa54029c0cdc272a17c38c2c",
+  "entry_id": "urn:uuid:110fe3cc-449c-5d30-9bc5-47198a153a06",
+  "extensions": {
+    "lorebuddy-dnd2024-review": {
+      "digest_semantics": "raw selected bytes under executable core.source-fragment@0.1.0 schema; not source-fragment-events protocol",
+      "full_fidelity_claim": false,
+      "selection": "whole raw entry audit envelope; not a fine-grained rule boundary"
+    }
+  },
+  "fragment_digest": "sha256:1a048d7f168ab8c81f1c4e73180a77b49e73b5e6aa54029c0cdc272a17c38c2c",
+  "id": "urn:uuid:ddb774de-514e-58f9-81d3-40c80ee27e77",
+  "lifecycle": {
+    "revision": 1,
+    "status": "draft"
+  },
+  "locator": {
+    "end": 41516,
+    "kind": "byte-range",
+    "parser": "raw-bytes-no-parser@1",
+    "start": 0
+  },
+  "schema": "core.source-fragment@0.1.0",
+  "source_mapping_ids": [
+    "urn:uuid:31e241ac-aa4f-52ea-b634-54d839d30379"
+  ]
+}

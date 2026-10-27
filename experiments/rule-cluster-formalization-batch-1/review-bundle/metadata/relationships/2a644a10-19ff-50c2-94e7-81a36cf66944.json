@@ -1,0 +1,7 @@
+{
+  "from_id": "urn:uuid:5479a7d8-99df-5791-9013-dd434cfa2908",
+  "id": "urn:uuid:2a644a10-19ff-50c2-94e7-81a36cf66944",
+  "kind": "replaces_game_statistics_on_long_rest",
+  "runtime_migration_algorithm": "unknown_not_defined",
+  "to_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce"
+}

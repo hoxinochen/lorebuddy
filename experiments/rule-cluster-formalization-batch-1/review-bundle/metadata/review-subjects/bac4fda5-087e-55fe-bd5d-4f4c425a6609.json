@@ -1,0 +1,167 @@
+{
+  "body": {
+    "digest": "sha256:ab283c0bf6c2c677a47ac1fec2d9554bc9bda5c941aac63f5f7be1da786b1727",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/bac4fda5-087e-55fe-bd5d-4f4c425a6609.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "aging_clause": false,
+      "area": "60_ft_cone",
+      "dc": 13,
+      "dice": "2d6+3",
+      "exclude_type": "undead",
+      "failure_damage": 10,
+      "failure_frightened_until": "source_next_turn_start",
+      "immunity_scope": "this_ghost",
+      "requires_target_sees_source": true,
+      "save": "wisdom",
+      "success_immunity_hours": 24,
+      "type": "psychic"
+    },
+    "editorial_explanation": "不是2014的1分钟重复豁免与衰老；结束时点绑定具体幽魂。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:5ef1f12f-d78e-554d-a756-2bbd50155da0",
+            "json_pointer": "/critical_fields/save"
+          },
+          {
+            "extraction_id": "urn:uuid:269d1538-a88d-51a2-9a99-c195a356ed9d",
+            "json_pointer": "/critical_fields/dc"
+          },
+          {
+            "extraction_id": "urn:uuid:2dc9faba-c82d-5c99-9a29-222789cd769d",
+            "json_pointer": "/critical_fields/area"
+          },
+          {
+            "extraction_id": "urn:uuid:2a1dd808-f9cb-56cf-942c-9de7e797184c",
+            "json_pointer": "/critical_fields/requires_target_sees_source"
+          },
+          {
+            "extraction_id": "urn:uuid:4d7a6b24-8126-59b3-afa8-f6db4fbf2732",
+            "json_pointer": "/critical_fields/exclude_type"
+          },
+          {
+            "extraction_id": "urn:uuid:f83ea37d-1433-5a44-ae2c-ab4a76b4b917",
+            "json_pointer": "/critical_fields/failure_damage"
+          },
+          {
+            "extraction_id": "urn:uuid:0f0c9fc1-6569-5c70-a59e-327bf7b87f81",
+            "json_pointer": "/critical_fields/dice"
+          },
+          {
+            "extraction_id": "urn:uuid:a2aa5869-9ae7-5096-a9bb-391279430b21",
+            "json_pointer": "/critical_fields/type"
+          },
+          {
+            "extraction_id": "urn:uuid:4556f3f5-a549-58e9-9ed1-ee75b72cbf16",
+            "json_pointer": "/critical_fields/failure_frightened_until"
+          },
+          {
+            "extraction_id": "urn:uuid:b82f9197-347f-5a9c-ba08-f6255c6db0f1",
+            "json_pointer": "/critical_fields/success_immunity_hours"
+          },
+          {
+            "extraction_id": "urn:uuid:922394c8-4144-5c45-b04c-c5714d1c175f",
+            "json_pointer": "/critical_fields/immunity_scope"
+          },
+          {
+            "extraction_id": "urn:uuid:0009e60b-baae-5b12-bcfb-453967538c19",
+            "json_pointer": "/critical_fields/aging_clause"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "pointer": "/critical_fields",
+      "source_evidence": "G25.ABILITY.6"
+    },
+    "id": "urn:uuid:bac4fda5-087e-55fe-bd5d-4f4c425a6609",
+    "kind": "动作Actions",
+    "mechanics": {
+      "clauses": {
+        "aging_clause": false,
+        "area": "60_ft_cone",
+        "dc": 13,
+        "dice": "2d6+3",
+        "exclude_type": "undead",
+        "failure_damage": 10,
+        "failure_frightened_until": "source_next_turn_start",
+        "immunity_scope": "this_ghost",
+        "requires_target_sees_source": true,
+        "save": "wisdom",
+        "success_immunity_hours": 24,
+        "type": "psychic"
+      },
+      "damage": {
+        "amount": {
+          "dice": "2d6+3",
+          "printed_fixed": 10,
+          "selection": "use_scene_amount_mode; recorded_dice_must_not_be_rerolled"
+        },
+        "damage_type": "psychic",
+        "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+        "linked_reduction_from_damage_taken": false,
+        "other_effects": [
+          {
+            "ends": "this_source_next_turn_start",
+            "kind": "condition",
+            "name": "frightened",
+            "when": "failed_save"
+          },
+          {
+            "duration_hours": 24,
+            "kind": "source_specific_immunity",
+            "when": "successful_save"
+          }
+        ],
+        "save_success": "zero",
+        "trigger": "wisdom_save"
+      },
+      "dependencies": [
+        "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+        "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb"
+      ],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+    },
+    "owner_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+    "required_evidence": [
+      "P.FRIGHTENED",
+      "P.CONDITION"
+    ],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:0e53e7e9-91bf-5f69-8d04-0fefd7eab093",
+    "title": "恐惧面容",
+    "verbatim_evidence": "G25.ABILITY.6",
+    "verbatim_text": " **恐惧面容Horrifying Visage。***感知豁免检定：*DC13，60尺锥状区域内能看见幽魂的每名非亡灵生物。*失败：*10（2d6+3）心灵伤害，目标陷入恐慌状态，直至幽魂的下个回合的开始。*成功：*目标在24小时内免疫此幽魂的恐惧面容。\n"
+  },
+  "dependency_ids": [
+    "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb"
+  ],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:bac4fda5-087e-55fe-bd5d-4f4c425a6609",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:edcf06b9-98f8-512a-9e2e-aff7861240c6",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:0e53e7e9-91bf-5f69-8d04-0fefd7eab093",
+    "derived_note_utf8_range": {
+      "end": 3551,
+      "start": 3252
+    },
+    "entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+    "fragment_id": "urn:uuid:b32518f2-acd4-5874-acf6-2482d95a72d4",
+    "mapping_id": "urn:uuid:d142700e-702e-5bff-9bcd-1020553eb86e"
+  },
+  "subject_kind": "ability",
+  "title": "恐惧面容",
+  "uncompiled_semantics_retained": true
+}

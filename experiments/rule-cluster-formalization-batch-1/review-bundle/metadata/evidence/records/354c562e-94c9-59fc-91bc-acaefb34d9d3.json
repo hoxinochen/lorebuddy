@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:677e4dd189f174951d627ef1bdd24f616a2e71cd1a92a262a9b005d8027643c4",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/邪魔/梦魔.md",
+  "id": "urn:uuid:354c562e-94c9-59fc-91bc-acaefb34d9d3",
+  "original_record": {
+    "alias": "IN.HEADER",
+    "id": "urn:uuid:354c562e-94c9-59fc-91bc-acaefb34d9d3",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 3000,
+      "interval": "[start,end)",
+      "start": 1753
+    },
+    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+    "text": "<a id=\"Incubus\"></a>\n##### 梦魔Incubus\n\n中型邪魔，中立邪恶\n\n<table><tr><td><strong>AC </strong>15</td><td><strong>先攻 </strong>+3（13）</td></tr> <tr><td colspan=\"2\"><strong>HP </strong>66（12d8+12）</td></tr> <tr><td colspan=\"2\"><strong>速度 </strong>30尺，飞行60尺</td></tr></table>\n\n<table><tr><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th></tr> <tr><td><strong>力量</strong></td><td>8</td><td>-1</td><td>-1</td> <td></td> <td><strong>敏捷</strong></td><td>17</td><td>+3</td><td>+3</td> <td></td> <td><strong>体质</strong></td><td>13</td><td>+1</td><td>+1</td></tr> <tr><td><strong>智力</strong></td><td>15</td><td>+2</td><td>+2</td> <td></td> <td><strong>感知</strong></td><td>12</td><td>+1</td><td>+1</td> <td></td> <td><strong>魅力</strong></td><td>20</td><td>+5</td><td>+5</td></tr> </table>\n\n| **技能**欺瞒+9，洞悉+5，察觉+5，游说+9，隐匿+7 |\n| --- |\n| **抗性**寒冷，火焰，毒素，心灵 |\n| **感官**黑暗视觉60尺；被动察觉15 |\n| **语言**深渊语，通用语，炼狱语；心灵感应60尺 |\n| **CR**4（XP1,100；PB+2） |\n\n###### 特质Traits\n\n",
+    "text_sha256": "b093b47e745c15bb59420ec64ef7225485973434d7f77f49bc6b86dd1f204c3e"
+  },
+  "raw_fragment_id": "urn:uuid:3da4dc0e-0945-5ef1-8d58-92662fc6ea04",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

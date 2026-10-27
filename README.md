@@ -36,3 +36,7 @@ Terminal 工作流中证明下一阶段需求。
 首个来源工件是包含多个版本、出版物、第三方资料和模组内容的聚合资料；它不得被
 建模为单一规则书。M1 已对其执行受控摄取和只读 Markdown / 发布视图构建，但来源
 身份、版权与再分发范围仍保持 `unknown` 或 `claimed`，不因构建通过而升级为权威结论。
+
+## 相关生产工作区
+
+D&D规则生产工具已独立到[DNDRulePipeline](docs/projects/DNDRulePipeline.md)。入口记录本机路径、Obsidian镜像与GitHub配置状态；平台规范和正式知识接纳仍属于LoreBuddy。

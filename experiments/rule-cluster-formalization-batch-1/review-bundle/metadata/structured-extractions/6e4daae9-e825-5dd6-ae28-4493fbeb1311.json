@@ -1,0 +1,20 @@
+{
+  "binding": {
+    "adopted_decision_ids": [
+      "urn:uuid:f4cfbd9c-34cf-5c56-a94f-3878efce8dba"
+    ],
+    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+    "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+    "source_note_utf8_range": {
+      "end": 3865,
+      "start": 3340
+    }
+  },
+  "id": "urn:uuid:6e4daae9-e825-5dd6-ae28-4493fbeb1311",
+  "json_pointer": "/critical_fields/storage_requires",
+  "review_status": "candidate",
+  "revision": 1,
+  "subject_id": "urn:uuid:0f3a3c66-5250-5b13-9185-ce71b070f7c3",
+  "value": "spellcaster_wearing_this_guardian_amulet"
+}

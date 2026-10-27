@@ -1,0 +1,18 @@
+{
+  "binding": {
+    "adopted_decision_ids": [],
+    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+    "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+    "source_evidence_id": "urn:uuid:8908edab-2864-5b76-81fb-0bf9cf6c9a48",
+    "source_note_utf8_range": {
+      "end": 2545,
+      "start": 2440
+    }
+  },
+  "id": "urn:uuid:b8140271-0eaf-5fc6-945f-1db09e933cd2",
+  "json_pointer": "/critical_fields/from_material_sees_ethereal_ft",
+  "review_status": "candidate",
+  "revision": 1,
+  "subject_id": "urn:uuid:ac37fa78-6433-5a97-be08-c423a9b7e684",
+  "value": 60
+}

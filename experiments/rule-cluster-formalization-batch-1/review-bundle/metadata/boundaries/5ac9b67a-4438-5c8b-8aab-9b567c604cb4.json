@@ -1,0 +1,24 @@
+{
+  "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+  "candidate_key": "sha256:112622b70bda20ddcf1788333435ab331e388b7656ff545fcac06b2debd740e3",
+  "decision": {
+    "reason": "Audit envelope only; per-subject derived ranges remain separate.",
+    "review_status": "pending",
+    "reviewer_id": null
+  },
+  "entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+  "id": "urn:uuid:5ac9b67a-4438-5c8b-8aab-9b567c604cb4",
+  "lifecycle": {
+    "revision": 1,
+    "status": "draft"
+  },
+  "locator": {
+    "end": 48881,
+    "kind": "byte-range",
+    "start": 0
+  },
+  "node_id": null,
+  "proposed_title": "二环",
+  "schema": "core.boundary-record@0.1.0",
+  "status": "proposed"
+}

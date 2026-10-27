@@ -1,0 +1,79 @@
+{
+  "body": {
+    "digest": "sha256:ce8d9650d2c0757dd2fafaa98eb23aea8d4ab79d69980ddd577b364e4f730bc4",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/8ef9ad7f-fe87-57f5-a6d7-8724ffc8546d.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "allowed": [
+        "A.ThunderousSlam"
+      ],
+      "attacks": 2
+    },
+    "editorial_explanation": "两次雷鸣猛击，不包含旋风替换许可。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:d36d2582-89b1-516f-8623-796c7e007dbb",
+            "json_pointer": "/critical_fields/attacks"
+          },
+          {
+            "extraction_id": "urn:uuid:04f50de7-4fcf-5542-9662-89184c475635",
+            "json_pointer": "/critical_fields/allowed/0"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "local_evidence": "A.ABILITY.2",
+      "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+      "pointer": "/critical_fields"
+    },
+    "id": "urn:uuid:8ef9ad7f-fe87-57f5-a6d7-8724ffc8546d",
+    "kind": "动作Actions",
+    "mechanics": {
+      "clauses": {
+        "allowed": [
+          "A.ThunderousSlam"
+        ],
+        "attacks": 2
+      },
+      "dependencies": [],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_and_complete_verbatim; remaining_semantics_uncompiled"
+    },
+    "owner_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+    "required_evidence": [],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:b2508f14-6e32-59aa-aa94-851da2c4ecce",
+    "title": "多重攻击",
+    "verbatim_evidence": "A.ABILITY.2",
+    "verbatim_text": "\n**多重攻击Multiattack。**气元素发动两次雷鸣猛击攻击。\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:8ef9ad7f-fe87-57f5-a6d7-8724ffc8546d",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:e556576a-41ee-50ad-b397-eca601ae9c3c",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:b2508f14-6e32-59aa-aa94-851da2c4ecce",
+    "derived_note_utf8_range": {
+      "end": 3333,
+      "start": 3259
+    },
+    "entry_id": "urn:uuid:2cc417f9-b3ff-5e61-b655-2653f61642d2",
+    "fragment_id": "urn:uuid:8327c556-e357-5aa1-8db1-9daa6cb59898",
+    "mapping_id": "urn:uuid:c8be1321-c4c1-5f9e-aa78-4411f9718000"
+  },
+  "subject_kind": "ability",
+  "title": "多重攻击",
+  "uncompiled_semantics_retained": true
+}

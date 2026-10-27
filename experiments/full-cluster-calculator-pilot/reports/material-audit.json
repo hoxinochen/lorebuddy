@@ -1,0 +1,46 @@
+{
+  "status": "material_checks_passed_not_calculator_execution",
+  "cards": 5,
+  "abilities": 30,
+  "spells": 11,
+  "full_shared_entries": 6,
+  "evidence": 73,
+  "source_entries": 17,
+  "questions": 24,
+  "numeric_mechanism_within_core": 18,
+  "outside_or_missing": 6,
+  "same_full_corpus_for_all_questions": true,
+  "per_case_request_context_or_expected_values": false,
+  "original_card_ability_fields_preserved": true,
+  "source_raw_and_note_bytes_match": true,
+  "fault_injections": [
+    {
+      "fault": "drop_unused_ability",
+      "blocked": true,
+      "reason": "card/ability coverage"
+    },
+    {
+      "fault": "truncate_verbatim_card",
+      "blocked": true,
+      "reason": "full card text"
+    },
+    {
+      "fault": "remove_shared_spell",
+      "blocked": true,
+      "reason": "semantic dependency closure"
+    },
+    {
+      "fault": "wrong_ability_owner",
+      "blocked": true,
+      "reason": "ability owner"
+    },
+    {
+      "fault": "truncate_unused_public_rule",
+      "blocked": true,
+      "reason": "complete public entry"
+    }
+  ],
+  "calculator_execution": "Not Run",
+  "llm_execution": "Not Run",
+  "human_final_approval": "Pending"
+}

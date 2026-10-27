@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:c9c56baacc1df4a575d8284d4e82ccb606aec1e45fe35185e1fd15932d851fb8",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/元素/四元素/火元素.md",
+  "id": "urn:uuid:a0e8fe70-841f-56f1-afe3-bd8a352a848c",
+  "original_record": {
+    "alias": "F.ABILITY.5",
+    "id": "urn:uuid:a0e8fe70-841f-56f1-afe3-bd8a352a848c",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 4002,
+      "interval": "[start,end)",
+      "start": 3934
+    },
+    "source_entry_id": "urn:uuid:048a1238-9915-5f2e-8619-c8ccbc580529",
+    "text": "\n**多重攻击Multiattack。**火元素发动两次燃烧攻击。\n",
+    "text_sha256": "99f3150466551171be8fe64c59711b1b1650593fb1c70d134322a1a1a0595c73"
+  },
+  "raw_fragment_id": "urn:uuid:d6125d3b-9532-5ccd-8263-8e76bb248835",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

@@ -1,0 +1,18 @@
+{
+  "binding": {
+    "adopted_decision_ids": [],
+    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+    "source_evidence_id": "urn:uuid:d39a5827-a9c1-5925-9e62-d8a3cd63eadb",
+    "source_note_utf8_range": {
+      "end": 3930,
+      "start": 3865
+    }
+  },
+  "id": "urn:uuid:ee6319cf-0a66-5efd-92f5-37c43ce8c05d",
+  "json_pointer": "/critical_fields/allowed/0",
+  "review_status": "candidate",
+  "revision": 1,
+  "subject_id": "urn:uuid:897df4fc-37bb-5a66-ada7-e30bb7b6d25b",
+  "value": "G.Fist"
+}

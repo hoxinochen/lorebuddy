@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:c9c56baacc1df4a575d8284d4e82ccb606aec1e45fe35185e1fd15932d851fb8",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/元素/四元素/火元素.md",
+  "id": "urn:uuid:e19ebfe2-f2ab-57ab-85bd-f805e9c4a2e8",
+  "original_record": {
+    "alias": "F.ABILITY.3",
+    "id": "urn:uuid:e19ebfe2-f2ab-57ab-85bd-f805e9c4a2e8",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 3782,
+      "interval": "[start,end)",
+      "start": 3675
+    },
+    "source_entry_id": "urn:uuid:048a1238-9915-5f2e-8619-c8ccbc580529",
+    "text": " **照明 Illumination。**火元素散发出半径30尺的明亮光照以及额外30尺的微光光照。\n",
+    "text_sha256": "55da054070b9688cc8a732308d25f34ae8d24e339231214da28771fb111aab17"
+  },
+  "raw_fragment_id": "urn:uuid:d6125d3b-9532-5ccd-8263-8e76bb248835",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

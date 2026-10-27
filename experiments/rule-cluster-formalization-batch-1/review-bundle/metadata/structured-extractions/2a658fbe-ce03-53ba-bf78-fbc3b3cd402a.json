@@ -1,0 +1,18 @@
+{
+  "binding": {
+    "adopted_decision_ids": [],
+    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+    "source_entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+    "source_evidence_id": "urn:uuid:6133ef26-06fb-5d38-a549-eb5019909a05",
+    "source_note_utf8_range": {
+      "end": 3250,
+      "start": 3150
+    }
+  },
+  "id": "urn:uuid:2a658fbe-ce03-53ba-bf78-fbc3b3cd402a",
+  "json_pointer": "/critical_fields/sequence/0",
+  "review_status": "candidate",
+  "revision": 1,
+  "subject_id": "urn:uuid:8fa93858-68e2-5693-b484-a73f5a97c7bc",
+  "value": "FiendishTouch"
+}

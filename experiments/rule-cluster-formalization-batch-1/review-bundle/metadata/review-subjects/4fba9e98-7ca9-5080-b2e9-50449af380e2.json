@@ -1,0 +1,81 @@
+{
+  "body": {
+    "digest": "sha256:bae0838dc4ce1baa90af577f999cff5e2a0eebd587f2a9df63b3ed49120d59c5",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/4fba9e98-7ca9-5080-b2e9-50449af380e2.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "extra_movement_cost": 0,
+      "minimum_gap_inch": 1,
+      "occupy_creature_space": true
+    },
+    "editorial_explanation": "穿隙与进入空间不自动附加火元素的首次进入伤害。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:e968e2bf-91be-5724-8b87-4d32756b7f04",
+            "json_pointer": "/critical_fields/minimum_gap_inch"
+          },
+          {
+            "extraction_id": "urn:uuid:a0e6f952-ff44-5131-afb1-2d3930c7b07a",
+            "json_pointer": "/critical_fields/extra_movement_cost"
+          },
+          {
+            "extraction_id": "urn:uuid:715c8f07-000e-56fb-8196-34be7a134d99",
+            "json_pointer": "/critical_fields/occupy_creature_space"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "local_evidence": "A.ABILITY.1",
+      "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+      "pointer": "/critical_fields"
+    },
+    "id": "urn:uuid:4fba9e98-7ca9-5080-b2e9-50449af380e2",
+    "kind": "特质Traits",
+    "mechanics": {
+      "clauses": {
+        "extra_movement_cost": 0,
+        "minimum_gap_inch": 1,
+        "occupy_creature_space": true
+      },
+      "dependencies": [],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_and_complete_verbatim; remaining_semantics_uncompiled"
+    },
+    "owner_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+    "required_evidence": [],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:7f4e3f9f-dc79-5323-9ef3-dbdd5e617214",
+    "title": "空气形态",
+    "verbatim_evidence": "A.ABILITY.1",
+    "verbatim_text": "\n**空气形态Air Form。**气元素可以进入并停留在生物所处的空间。其可以移动穿过最窄1寸宽的空间而无需消耗额外的移动力。\n\n###### 动作Actions\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:4fba9e98-7ca9-5080-b2e9-50449af380e2",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:0d7a0fa5-8e24-5204-80e8-d4d106a77779",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:7f4e3f9f-dc79-5323-9ef3-dbdd5e617214",
+    "derived_note_utf8_range": {
+      "end": 3259,
+      "start": 3072
+    },
+    "entry_id": "urn:uuid:2cc417f9-b3ff-5e61-b655-2653f61642d2",
+    "fragment_id": "urn:uuid:8327c556-e357-5aa1-8db1-9daa6cb59898",
+    "mapping_id": "urn:uuid:c8be1321-c4c1-5f9e-aa78-4411f9718000"
+  },
+  "subject_kind": "ability",
+  "title": "空气形态",
+  "uncompiled_semantics_retained": true
+}

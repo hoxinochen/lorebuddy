@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:002c984c128b987a5a6f2ae9dfb3c99824e59a96d1df993b89ce2f1158c531a3",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/元素/四元素/土元素.md",
+  "id": "urn:uuid:52f2cdba-6c53-5e4d-b4d7-cf662e8966f9",
+  "original_record": {
+    "alias": "E.ABILITY.5",
+    "id": "urn:uuid:52f2cdba-6c53-5e4d-b4d7-cf662e8966f9",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 3891,
+      "interval": "[start,end)",
+      "start": 3713
+    },
+    "source_entry_id": "urn:uuid:57a08374-1e20-5c97-a1f3-00447e3b05d9",
+    "text": " **岩石射击Rock Launch。***远程攻击检定：*+8，射程60尺。*命中：*8（1d6+5）钝击伤害。若目标生物体型不超过大型，则其陷入倒地状态。\n",
+    "text_sha256": "cfff1e68c156cdc900331ec27033a66047487a7555249c9dfef6cd1f5727b442"
+  },
+  "raw_fragment_id": "urn:uuid:8144d427-b3e6-53aa-bddc-c78ae18e3a0d",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

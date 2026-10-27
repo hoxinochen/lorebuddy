@@ -1,0 +1,26 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:2ff27c19b24b1023b6d4b922f5c8fb98f5022f89bb03c31332a70835b3974491",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/前言/数据卡的组成部分.md",
+  "id": "urn:uuid:f3cf3576-ace5-569d-930d-c2c83a8c6f10",
+  "original_record": {
+    "alias": "M.ACTIONS",
+    "id": "urn:uuid:f3cf3576-ace5-569d-930d-c2c83a8c6f10",
+    "line_range": [
+      171,
+      194
+    ],
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 14289,
+      "interval": "[start,end)",
+      "start": 11102
+    },
+    "source_entry_id": "urn:uuid:54ebd374-23f2-5912-9d12-9bd95add858e",
+    "text": "### 动作 Actions\n\n怪物可以执行本段中列出的动作，或者执行所有生物都可使用的动作之一，详见《**玩家手册** 》。\n\n**攻击的格式 Attack Notation**怪物攻击的条目会标明攻击是近战攻击还是远程攻击，然后给出该攻击检定的加值，其触及范围或射程，以及命中时会发生什么。除非条目另有说明，否则攻击只针对一个目标。有关不同类型攻击的详细信息，见《**玩家手册**》。\n**命中Hit。**攻击命中目标后造成的任何伤害或其他影响均会在“命中：”标识后描述。\n**失手Miss。**如果攻击在未命中时会产生影响，则该信息位于“失手：”标识后。\n**命中或失手Hit or Miss。** 如果攻击无论命中还是未命中目标都会产生影响，则该信息位于“命中或失手：”标识后。\n\n**豁免检定的格式 Saving Throw Effect Notation**\n如果某个效应强制进行豁免检定，则该效应会标明所需的豁免检定类型，然后提供豁免的DC、关于哪些生物需要进行豁免的描述以及对豁免失败或成功时会发生什么的说明。\n 豁免成功的“仅半伤”意味着目标受到的伤害是豁免失败目标的一半（向下取整），同时忽略效应的所有其他部分。\n\n**伤害的格式 Damage Notation** 数据卡通常为每个伤害实例提供一个固定值与一个掷骰表达式。例如，一次攻击可能造成4(1d4+2)伤害。你可以决定是使用固定值还是括号内的掷骰表达式，但不要同时使用两者。\n\n**多重攻击 Multiattack**\n 有些生物在执行攻击动作时可以进行超过一次的攻击。此类生物在其数据卡的“动作”部分有多重攻击栏。该栏详细说明了生物可以发动的攻击，以及它可以作为攻击动作的一部分使用的任何其他能力。\n\n**施法 Spellcasting**\n如果怪物可以施展任何法术，其数据卡会列出这些法术并提供怪物的施法属性、法术豁免DC（如果任何法术需要豁免检定）和法术攻击加值（如果任何法术需要攻击检定）。除非另有说明，否则一环或更高环阶的法术始终以可能的最低环阶施展，不能以更高环阶施展。怪物的法术可以有特殊规则或限制。\n例如，**史拉绿蟾Green Slaad**可以施展法术*隐形术Invisibility*，但该法术有“仅自身”的限制，这意味着该法术只能影响该史拉蟾自身。\n**法术成分Spell Components。** 施法特质会表明怪物的施法是否忽略了对某些法术成分的需求。如果需要任何法术成分，应描述怪物如何使用言语（V）、姿势（S）或材料（M）成分，以向角色表明它正在施法。需要材料成分的怪物会带着相应的材料。\n**施法时间超过1分钟Casting Times of 1+ Minutes。** 如果一个法术的施法时间为1分钟或更长时间，那么即使在施法动作中列出，怪物也不会只用一个动作就施展该法术，除非动作描述另有说明；怪物必须在其回合中执行魔法动作并在此期间维持专注来施展法术，如《**玩家手册** 》中所述。\n\n",
+    "text_sha256": "ad20f6aeb5075f96d8da2f0ebb6f7c6c7b728acfa112c4d75ed130476e6c9ef3"
+  },
+  "raw_fragment_id": "urn:uuid:a85917e3-ebf5-56b8-9e78-fa7eb76a6710",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

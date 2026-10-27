@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:c9c56baacc1df4a575d8284d4e82ccb606aec1e45fe35185e1fd15932d851fb8",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/元素/四元素/火元素.md",
+  "id": "urn:uuid:390a8706-7814-5127-9940-41751ddca948",
+  "original_record": {
+    "alias": "F.ABILITY.2",
+    "id": "urn:uuid:390a8706-7814-5127-9940-41751ddca948",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 3675,
+      "interval": "[start,end)",
+      "start": 3393
+    },
+    "source_entry_id": "urn:uuid:048a1238-9915-5f2e-8619-c8ccbc580529",
+    "text": " **火焰形态Fire Form。**火元素可以移动穿过最窄1寸宽的空间而无需消耗额外的移动力，且其可以进入并停留在生物所处的空间。当火元素在一个回合中首次进入某生物所处的空间时，该生物受到5（1d10）火焰伤害。\n",
+    "text_sha256": "894b54856d574ca1d093f8146912423b7076103027a496c56d46834913baecfb"
+  },
+  "raw_fragment_id": "urn:uuid:d6125d3b-9532-5ccd-8263-8e76bb248835",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

@@ -1,0 +1,75 @@
+{
+  "body": {
+    "digest": "sha256:55da054070b9688cc8a732308d25f34ae8d24e339231214da28771fb111aab17",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/5b2835c9-fca3-5dbc-8d7c-54f37ad92fe2.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "additional_dim_ft": 30,
+      "bright_ft": 30
+    },
+    "editorial_explanation": "亮光30尺，再向外30尺微光，不合并为60尺亮光。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:bf603233-0c08-5549-b03e-9f9d50a19bf3",
+            "json_pointer": "/critical_fields/bright_ft"
+          },
+          {
+            "extraction_id": "urn:uuid:bf69c71b-ec8a-5f9f-a891-70494b84c0be",
+            "json_pointer": "/critical_fields/additional_dim_ft"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "local_evidence": "F.ABILITY.3",
+      "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+      "pointer": "/critical_fields"
+    },
+    "id": "urn:uuid:5b2835c9-fca3-5dbc-8d7c-54f37ad92fe2",
+    "kind": "特质Traits",
+    "mechanics": {
+      "clauses": {
+        "additional_dim_ft": 30,
+        "bright_ft": 30
+      },
+      "dependencies": [],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+    },
+    "owner_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+    "required_evidence": [],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:e19ebfe2-f2ab-57ab-85bd-f805e9c4a2e8",
+    "title": "照明",
+    "verbatim_evidence": "F.ABILITY.3",
+    "verbatim_text": " **照明 Illumination。**火元素散发出半径30尺的明亮光照以及额外30尺的微光光照。\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:5b2835c9-fca3-5dbc-8d7c-54f37ad92fe2",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:7902ee94-2aed-58d0-9492-521664163536",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:e19ebfe2-f2ab-57ab-85bd-f805e9c4a2e8",
+    "derived_note_utf8_range": {
+      "end": 3782,
+      "start": 3675
+    },
+    "entry_id": "urn:uuid:048a1238-9915-5f2e-8619-c8ccbc580529",
+    "fragment_id": "urn:uuid:d6125d3b-9532-5ccd-8263-8e76bb248835",
+    "mapping_id": "urn:uuid:c0530d90-6451-5541-896f-ae1f13107880"
+  },
+  "subject_kind": "ability",
+  "title": "照明",
+  "uncompiled_semantics_retained": true
+}

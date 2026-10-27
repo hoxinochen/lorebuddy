@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:02efbe8a953929558945da2ede1fe2c71cb8fdb15819e95e9510d88bc662e9b9",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/构装/盾卫.md",
+  "id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+  "original_record": {
+    "alias": "G.ABILITY.3",
+    "id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 3865,
+      "interval": "[start,end)",
+      "start": 3340
+    },
+    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+    "text": " **法术储存Spell Storing。**一名携带着盾卫命令护符的施法者可以让盾卫储存一道四环及以下的法术。为此，护符携带者必须在盾卫5尺内施展那道法术。此时该法术不会产生任何效应，而是被储存在盾卫之中。新法术储存时先前储存的旧法术将会消失。盾卫可以在法术储存者预先设定的条件满足时将其施展，无需法术成分并使用法术储存者的施法属性。储存其内的法术随后消失。\n\n###### 动作Actions\n",
+    "text_sha256": "d67524ba0e5527dadb61fa94306df6208f6be3aca29d6d26d0e9fd4bc3aafdd7"
+  },
+  "raw_fragment_id": "urn:uuid:9636c175-25b3-5946-bf3d-d27bd737b4ec",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

@@ -1,0 +1,80 @@
+{
+  "phase": "corpus_produced_before_questions",
+  "card_count": 5,
+  "ability_count": 30,
+  "spell_count": 11,
+  "shared_complete_entries": 6,
+  "evidence_count": 73,
+  "source_count": 17,
+  "source_checks": [
+    {
+      "entry_id": "urn:uuid:89505d38-cbaf-5747-9798-96f1a0bf6718",
+      "note_and_raw_match_existing_receipt": true
+    },
+    {
+      "entry_id": "urn:uuid:110fe3cc-449c-5d30-9bc5-47198a153a06",
+      "note_and_raw_match_existing_receipt": true
+    },
+    {
+      "entry_id": "urn:uuid:2d46b742-37e3-5734-b0a8-afe4a0b85704",
+      "note_and_raw_match_existing_receipt": true
+    },
+    {
+      "entry_id": "urn:uuid:46f52d9f-45ec-5c25-b3b1-9c432c68caa0",
+      "note_and_raw_match_existing_receipt": true
+    },
+    {
+      "entry_id": "urn:uuid:54ebd374-23f2-5912-9d12-9bd95add858e",
+      "note_and_raw_match_existing_receipt": true
+    },
+    {
+      "entry_id": "urn:uuid:e2f3f7c0-0fd2-569c-b264-08db06c4c19d",
+      "note_and_raw_match_existing_receipt": true
+    },
+    {
+      "entry_id": "urn:uuid:23faa68f-588b-5b14-a6fb-7e0df89dcf8a",
+      "note_and_raw_match_existing_receipt": true
+    },
+    {
+      "entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+      "note_and_raw_match_existing_receipt": true
+    },
+    {
+      "entry_id": "urn:uuid:90d6a63f-2461-57ee-b524-9b59fdca9edd",
+      "note_and_raw_match_existing_receipt": true
+    },
+    {
+      "entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+      "note_and_raw_match_existing_receipt": true
+    },
+    {
+      "entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+      "note_and_raw_match_existing_receipt": true
+    },
+    {
+      "entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+      "note_and_raw_match_existing_receipt": true
+    },
+    {
+      "entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+      "note_and_raw_match_existing_receipt": true
+    },
+    {
+      "entry_id": "urn:uuid:fc4b66c5-886f-5388-a98b-261d1162e454",
+      "note_and_raw_match_existing_receipt": true
+    },
+    {
+      "entry_id": "urn:uuid:aeefb9c1-aff9-5982-98ab-0643f145eba5",
+      "note_and_raw_match_existing_receipt": true
+    },
+    {
+      "entry_id": "urn:uuid:048a1238-9915-5f2e-8619-c8ccbc580529",
+      "note_and_raw_match_existing_receipt": true
+    },
+    {
+      "entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+      "note_and_raw_match_existing_receipt": true
+    }
+  ],
+  "calculation_run": false
+}

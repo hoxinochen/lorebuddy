@@ -1,0 +1,18 @@
+{
+  "binding": {
+    "adopted_decision_ids": [],
+    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+    "source_note_utf8_range": {
+      "end": 3841,
+      "start": 3544
+    }
+  },
+  "id": "urn:uuid:e2ae41b3-7450-5f55-804d-29e66b90cf40",
+  "json_pointer": "/critical_fields/casting_ability",
+  "review_status": "candidate",
+  "revision": 1,
+  "subject_id": "urn:uuid:242f80c2-a7ea-5199-9088-8d5a12a6c5c5",
+  "value": "charisma"
+}

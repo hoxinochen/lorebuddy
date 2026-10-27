@@ -1,0 +1,18 @@
+{
+  "binding": {
+    "adopted_decision_ids": [],
+    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+    "source_entry_id": "urn:uuid:048a1238-9915-5f2e-8619-c8ccbc580529",
+    "source_evidence_id": "urn:uuid:1db31c05-1484-5763-af03-d34be52b39ac",
+    "source_note_utf8_range": {
+      "end": 3934,
+      "start": 3782
+    }
+  },
+  "id": "urn:uuid:d3c96c9c-553c-5e99-b30a-15e78d16fea8",
+  "json_pointer": "/critical_fields/splashed_per_gallon",
+  "review_status": "candidate",
+  "revision": 1,
+  "subject_id": "urn:uuid:73f3d015-545b-5669-ae62-468990333362",
+  "value": 1
+}

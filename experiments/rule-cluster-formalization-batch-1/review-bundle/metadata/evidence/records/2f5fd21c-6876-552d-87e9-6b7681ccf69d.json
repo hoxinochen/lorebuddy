@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:c9c56baacc1df4a575d8284d4e82ccb606aec1e45fe35185e1fd15932d851fb8",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/元素/四元素/火元素.md",
+  "id": "urn:uuid:2f5fd21c-6876-552d-87e9-6b7681ccf69d",
+  "original_record": {
+    "alias": "F.ABILITY.1",
+    "id": "urn:uuid:2f5fd21c-6876-552d-87e9-6b7681ccf69d",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 3393,
+      "interval": "[start,end)",
+      "start": 3197
+    },
+    "source_entry_id": "urn:uuid:048a1238-9915-5f2e-8619-c8ccbc580529",
+    "text": "\n**火焰灵光Fire Aura。**火元素回合结束时位于源自火元素的10尺光环区域内的每名生物受到5（1d10）点火焰伤害。光环内的生物和易燃物件开始燃烧。\n",
+    "text_sha256": "53828fa8cd11ebb1260169aee4f55e1c1750bbb523b8afe98835e5370ace787b"
+  },
+  "raw_fragment_id": "urn:uuid:d6125d3b-9532-5ccd-8263-8e76bb248835",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

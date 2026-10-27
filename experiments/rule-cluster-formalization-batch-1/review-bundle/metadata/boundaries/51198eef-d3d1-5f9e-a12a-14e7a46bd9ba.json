@@ -1,0 +1,24 @@
+{
+  "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+  "candidate_key": "sha256:69e78bef9a0f421928d115af029bc72e61b13ae9820964e89b1a53312a8bd4de",
+  "decision": {
+    "reason": "Audit envelope only; per-subject derived ranges remain separate.",
+    "review_status": "pending",
+    "reviewer_id": null
+  },
+  "entry_id": "urn:uuid:23faa68f-588b-5b14-a6fb-7e0df89dcf8a",
+  "id": "urn:uuid:51198eef-d3d1-5f9e-a12a-14e7a46bd9ba",
+  "lifecycle": {
+    "revision": 1,
+    "status": "draft"
+  },
+  "locator": {
+    "end": 38691,
+    "kind": "byte-range",
+    "start": 0
+  },
+  "node_id": null,
+  "proposed_title": "一环",
+  "schema": "core.boundary-record@0.1.0",
+  "status": "proposed"
+}

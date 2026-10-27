@@ -1,0 +1,18 @@
+{
+  "binding": {
+    "adopted_decision_ids": [],
+    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+    "source_evidence_id": "urn:uuid:73ea8ad6-ba19-5686-abf5-1647fd6f1a3e",
+    "source_note_utf8_range": {
+      "end": 3309,
+      "start": 3239
+    }
+  },
+  "id": "urn:uuid:5e21470c-3c84-541d-8ce8-1c1141e78bfa",
+  "json_pointer": "/critical_fields/attacks",
+  "review_status": "candidate",
+  "revision": 1,
+  "subject_id": "urn:uuid:ba233757-3295-5d09-95ef-4470dfe7142c",
+  "value": 2
+}

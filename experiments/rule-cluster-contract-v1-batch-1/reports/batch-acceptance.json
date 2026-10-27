@@ -1,0 +1,24 @@
+{
+  "decision_id": "m2-rule-cluster-contract-v1-batch-1-p6-2026-10-26",
+  "recorded_on": "2026-10-26",
+  "gate": "P6",
+  "status": "accepted_internal_candidate_batch",
+  "authority": "user",
+  "user_statement": "p6确认通过.接下来是否进入正式规则的批准阶段",
+  "contract_id": "m2-rule-cluster-production-consumption-v1",
+  "contract_revision": "v1-r1",
+  "delivery_id": "urn:uuid:eacf87e2-d7f4-554a-8669-d5587daa56d3",
+  "knowledge_sha256": "a09d46a43e4b01f68a45edc1a870279c06a313af466be298970fec43d2625c92",
+  "scope": "八对象完整内部候选交付及其P1-P5证据；保留全部已记录未支持机制",
+  "evidence": [
+    "reports/consumer-receipt.json",
+    "../../docs/milestone-2/rule-cluster-contract-v1-batch-1-report-2026-10-26.md"
+  ],
+  "does_not_grant": [
+    "formal_rule_object_approval",
+    "next_batch_production",
+    "public_release",
+    "M2_exit"
+  ],
+  "relationship": "Later user acceptance decision; supersedes pending user_decision in the earlier P5 verification receipt without rewriting it."
+}

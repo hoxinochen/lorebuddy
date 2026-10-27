@@ -1,0 +1,17 @@
+[
+  {
+    "id": "urn:uuid:f1dc4170-db2d-5bb5-8d01-0659ee9153d9",
+    "status": "pending_consumer_action",
+    "owner": "Terminal",
+    "kind": "format_compatibility",
+    "object_id": "urn:uuid:eacf87e2-d7f4-554a-8669-d5587daa56d3",
+    "finding": "New explicit format, canonical casting fields, owner modifiers and mixed components need consumer adaptation; no 48-case pass is claimed."
+  },
+  {
+    "id": "urn:uuid:873f80b6-e497-5194-86b4-b2b9457bffb7",
+    "status": "explicitly_uncompiled",
+    "owner": "Buddy/consumer_contract",
+    "kind": "coverage",
+    "finding": "Spell headers, targets, saves and caller overrides are structured. Remaining effect prose is retained explicitly uncompiled; no full casting legality claim."
+  }
+]

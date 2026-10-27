@@ -1,0 +1,397 @@
+{
+  "review": "root_AI_against_source_and_declared_contract; not independent human approval",
+  "cases": [
+    {
+      "id": "C01",
+      "category": "within_numeric_core_if_data_binding_succeeds",
+      "expected": {
+        "semantic_status": "numeric_result",
+        "stages": {
+          "after_ability": 6,
+          "after_resistance": 3,
+          "after_vulnerability": 3
+        },
+        "damage_taken": 3,
+        "linked_reduction": 3
+      },
+      "pending_non_numeric_effects": [],
+      "scoring": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "C02",
+      "category": "within_numeric_core_if_data_binding_succeeds",
+      "expected": {
+        "semantic_status": "numeric_result",
+        "stages": {
+          "after_ability": 13,
+          "after_resistance": 6,
+          "after_vulnerability": 6
+        },
+        "damage_taken": 6,
+        "linked_reduction": 6
+      },
+      "pending_non_numeric_effects": [],
+      "scoring": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "C03",
+      "category": "within_numeric_core_if_data_binding_succeeds",
+      "expected": {
+        "semantic_status": "numeric_result",
+        "stages": {
+          "after_ability": 8,
+          "after_resistance": 4,
+          "after_vulnerability": 4
+        },
+        "damage_taken": 4,
+        "linked_reduction": 4
+      },
+      "pending_non_numeric_effects": [],
+      "scoring": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "C04",
+      "category": "within_numeric_core_if_data_binding_succeeds",
+      "expected": {
+        "semantic_status": "numeric_result",
+        "stages": {
+          "after_ability": 1,
+          "after_resistance": 0,
+          "after_vulnerability": 0
+        },
+        "damage_taken": 0,
+        "linked_reduction": 0
+      },
+      "pending_non_numeric_effects": [],
+      "scoring": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "C05",
+      "category": "within_numeric_core_if_data_binding_succeeds",
+      "expected": {
+        "semantic_status": "numeric_result",
+        "stages": {
+          "after_ability": 6,
+          "after_resistance": 6,
+          "after_vulnerability": 6
+        },
+        "damage_taken": 6,
+        "linked_reduction": 6
+      },
+      "pending_non_numeric_effects": [],
+      "scoring": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "C06",
+      "category": "within_numeric_core_if_data_binding_succeeds",
+      "expected": {
+        "semantic_status": "numeric_result",
+        "stages": {
+          "after_ability": 6,
+          "after_resistance": 6,
+          "after_vulnerability": 12
+        },
+        "damage_taken": 12,
+        "linked_reduction": 12
+      },
+      "pending_non_numeric_effects": [],
+      "scoring": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "C07",
+      "category": "within_numeric_core_if_data_binding_succeeds",
+      "expected": {
+        "semantic_status": "numeric_result",
+        "stages": {
+          "after_ability": 6,
+          "after_resistance": 3,
+          "after_vulnerability": 6
+        },
+        "damage_taken": 6,
+        "linked_reduction": 6
+      },
+      "pending_non_numeric_effects": [],
+      "scoring": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "C08",
+      "category": "within_numeric_core_if_data_binding_succeeds",
+      "expected": {
+        "semantic_status": "numeric_result",
+        "stages": {
+          "after_ability": 6,
+          "after_resistance": 3,
+          "after_vulnerability": 3
+        },
+        "damage_taken": 0,
+        "linked_reduction": 0
+      },
+      "pending_non_numeric_effects": [],
+      "scoring": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "C09",
+      "category": "within_numeric_core_if_data_binding_succeeds",
+      "expected": {
+        "semantic_status": "numeric_result",
+        "stages": {
+          "after_ability": 16,
+          "after_resistance": 8,
+          "after_vulnerability": 8
+        },
+        "damage_taken": 8,
+        "linked_reduction": null
+      },
+      "pending_non_numeric_effects": [],
+      "scoring": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "C10",
+      "category": "within_numeric_core_if_data_binding_succeeds",
+      "expected": {
+        "semantic_status": "numeric_result",
+        "stages": {
+          "after_ability": 15,
+          "after_resistance": 7,
+          "after_vulnerability": 7
+        },
+        "damage_taken": 7,
+        "linked_reduction": null
+      },
+      "pending_non_numeric_effects": [
+        "来源诅咒仍是能力的一部分，不得声称已完成诅咒状态处理"
+      ],
+      "scoring": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "C11",
+      "category": "within_numeric_core_if_data_binding_succeeds",
+      "expected": {
+        "semantic_status": "numeric_result",
+        "stages": {
+          "after_ability": 19,
+          "after_resistance": 19,
+          "after_vulnerability": 19
+        },
+        "damage_taken": 0,
+        "linked_reduction": null
+      },
+      "pending_non_numeric_effects": [],
+      "scoring": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "C12",
+      "category": "within_numeric_core_if_data_binding_succeeds",
+      "expected": {
+        "semantic_status": "numeric_result",
+        "stages": {
+          "after_ability": 24,
+          "after_resistance": 24,
+          "after_vulnerability": 24
+        },
+        "damage_taken": 24,
+        "linked_reduction": null
+      },
+      "pending_non_numeric_effects": [],
+      "scoring": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "C13",
+      "category": "within_numeric_core_if_data_binding_succeeds",
+      "expected": {
+        "semantic_status": "numeric_result",
+        "stages": {
+          "after_ability": 10,
+          "after_resistance": 5,
+          "after_vulnerability": 5
+        },
+        "damage_taken": 5,
+        "linked_reduction": null
+      },
+      "pending_non_numeric_effects": [
+        "点燃及其后续每回合危害未应用"
+      ],
+      "scoring": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "C14",
+      "category": "within_numeric_core_if_data_binding_succeeds",
+      "expected": {
+        "semantic_status": "numeric_result",
+        "stages": {
+          "after_ability": 5,
+          "after_resistance": 2,
+          "after_vulnerability": 2
+        },
+        "damage_taken": 2,
+        "linked_reduction": null
+      },
+      "pending_non_numeric_effects": [
+        "点燃及后续危害未应用；不能宣称已结算区域内所有对象"
+      ],
+      "scoring": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "C15",
+      "category": "within_numeric_core_if_data_binding_succeeds",
+      "expected": {
+        "semantic_status": "numeric_result",
+        "stages": {
+          "after_ability": 5,
+          "after_resistance": 2,
+          "after_vulnerability": 2
+        },
+        "damage_taken": 2,
+        "linked_reduction": null
+      },
+      "pending_non_numeric_effects": [],
+      "scoring": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "C16",
+      "category": "within_numeric_core_if_data_binding_succeeds",
+      "expected": {
+        "semantic_status": "numeric_result",
+        "stages": {
+          "after_ability": 5,
+          "after_resistance": 5,
+          "after_vulnerability": 5
+        },
+        "damage_taken": 5,
+        "linked_reduction": null
+      },
+      "pending_non_numeric_effects": [],
+      "scoring": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "C17",
+      "category": "within_numeric_core_if_data_binding_succeeds",
+      "expected": {
+        "semantic_status": "numeric_result",
+        "stages": {
+          "after_ability": 15,
+          "after_resistance": 7,
+          "after_vulnerability": 7
+        },
+        "damage_taken": 7,
+        "linked_reduction": null
+      },
+      "pending_non_numeric_effects": [
+        "未结算区域内其他对象及可燃物件"
+      ],
+      "scoring": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "C18",
+      "category": "within_numeric_core_if_data_binding_succeeds",
+      "expected": {
+        "semantic_status": "numeric_result",
+        "stages": {
+          "after_ability": 8,
+          "after_resistance": 8,
+          "after_vulnerability": 8
+        },
+        "damage_taken": 8,
+        "linked_reduction": null
+      },
+      "pending_non_numeric_effects": [
+        "失能效果需独立状态处理；本次数值成功不代表整个能力已执行"
+      ],
+      "scoring": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "C19",
+      "category": "outside_core_or_missing_input",
+      "expected": {
+        "semantic_status": "outside_core",
+        "reason": "conditional_hp_branch_and_condition",
+        "rule_answer": {
+          "damage_taken": 9,
+          "unconscious": false
+        },
+        "acceptable_consumer_response": "明确说明不支持分支/状态处理；不得给出自称完整核验的单纯伤害成功"
+      },
+      "pending_non_numeric_effects": [],
+      "scoring": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "C20",
+      "category": "outside_core_or_missing_input",
+      "expected": {
+        "semantic_status": "outside_core",
+        "reason": "temporary_hp_and_hp_mutation",
+        "rule_answer": {
+          "damage_taken": 3,
+          "hp_lost": 0,
+          "hp_after": 40,
+          "temporary_hp_after": 7,
+          "linked_reduction": 3
+        },
+        "acceptable_consumer_response": "可分离显示伤害3，但须声明未完成所求HP结算，整体不能记完成"
+      },
+      "pending_non_numeric_effects": [],
+      "scoring": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "C21",
+      "category": "outside_core_or_missing_input",
+      "expected": {
+        "semantic_status": "outside_core",
+        "reason": "multi_target_and_ignite_state",
+        "rule_answer": {
+          "succubus-A": 2,
+          "slaad-A": 2,
+          "adventurer-A": 5
+        },
+        "acceptable_consumer_response": "声明多目标/状态未支持，不把某一目标数值冒充完整结果"
+      },
+      "pending_non_numeric_effects": [],
+      "scoring": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "C22",
+      "category": "outside_core_or_missing_input",
+      "expected": {
+        "semantic_status": "outside_core",
+        "reason": "source_specific_state_removal",
+        "rule_answer": {
+          "remove": [
+            "curse-A"
+          ],
+          "retain": [
+            "curse-X"
+          ]
+        },
+        "acceptable_consumer_response": "明确不支持状态写入；不得清除所有同名状态"
+      },
+      "pending_non_numeric_effects": [],
+      "scoring": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "C23",
+      "category": "outside_core_or_missing_input",
+      "expected": {
+        "semantic_status": "outside_core",
+        "reason": "runtime_statistics_migration_undefined",
+        "rule_answer": null,
+        "acceptable_consumer_response": "可以指出改用魅魔卡及长休通则；跨数据卡实例HP/资源迁移没有已制定算法，不能直接把默认71当结果"
+      },
+      "pending_non_numeric_effects": [],
+      "scoring": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "C24",
+      "category": "outside_core_or_missing_input",
+      "expected": {
+        "semantic_status": "needs_input",
+        "missing": [
+          "save_outcome"
+        ],
+        "forbid_completed_numeric_result": true,
+        "note": "沿用本批完整输入契约；免疫不能绕过必需输入校验"
+      },
+      "pending_non_numeric_effects": [],
+      "scoring": "root_AI_source_checked_not_independent_human_approval"
+    }
+  ]
+}

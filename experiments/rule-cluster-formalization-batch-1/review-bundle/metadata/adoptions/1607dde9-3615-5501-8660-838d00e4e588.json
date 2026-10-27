@@ -1,0 +1,15 @@
+{
+  "adopted": "明确映射至本批PHB2024 Hypnotic Pattern，不创建Hypnotic新法术",
+  "alias": "ED.HYPNOTIC",
+  "basis": [
+    "IN.CARD",
+    "P.HYPNOTIC",
+    "R.SRD521"
+  ],
+  "field": "/abilities/施法/critical_fields/each_once_per_day",
+  "id": "urn:uuid:1607dde9-3615-5501-8660-838d00e4e588",
+  "limits": "保留截短英文；不是本地原文已修正。",
+  "object": "IN",
+  "original": "催眠图纹Hypnotic",
+  "status": "adopted_for_this_candidate_batch"
+}

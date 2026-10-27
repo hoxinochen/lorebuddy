@@ -1,0 +1,574 @@
+{
+  "body": {
+    "digest": "sha256:ec3325aae3d15342f23b9f49ab6b0b02b9c720ae8b6ff9bbdc4753e8222f5343",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/2fc755dc-0248-542f-b265-9a5290be8982.md"
+  },
+  "candidate_snapshot": {
+    "abilities": [
+      {
+        "critical_fields": {
+          "damage": 5,
+          "damage_dice": "1d10",
+          "emanation_ft": 10,
+          "ignites": [
+            "creatures",
+            "flammable_objects"
+          ],
+          "timing": "source_turn_end",
+          "type": "fire"
+        },
+        "editorial_explanation": "灵光伤害是来源火元素回合结束；点燃后另依赖公共燃烧危害，不把该危害改成每回合5点。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:9643dccd-de39-591c-a699-12dc37d85db1",
+                "json_pointer": "/critical_fields/timing"
+              },
+              {
+                "extraction_id": "urn:uuid:174e2a03-9ebd-53c7-8c36-031a028d0a42",
+                "json_pointer": "/critical_fields/emanation_ft"
+              },
+              {
+                "extraction_id": "urn:uuid:a77279db-fe93-583a-b17a-720f85100a56",
+                "json_pointer": "/critical_fields/damage"
+              },
+              {
+                "extraction_id": "urn:uuid:0d0cfcf4-ae8d-5ba9-abeb-e2458b7e8bf0",
+                "json_pointer": "/critical_fields/damage_dice"
+              },
+              {
+                "extraction_id": "urn:uuid:9e8c4e75-c3ee-56e5-b1f4-91979f75e7cd",
+                "json_pointer": "/critical_fields/type"
+              },
+              {
+                "extraction_id": "urn:uuid:9e12eaca-cece-506b-879d-1b9cd2dbbcc2",
+                "json_pointer": "/critical_fields/ignites/0"
+              },
+              {
+                "extraction_id": "urn:uuid:e519885f-61cf-5f17-9b8d-4022ed8d1ceb",
+                "json_pointer": "/critical_fields/ignites/1"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "local_evidence": "F.ABILITY.1",
+          "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+          "pointer": "/critical_fields"
+        },
+        "id": "urn:uuid:011dabd1-0203-5e36-a058-1b0a2985da9d",
+        "kind": "特质Traits",
+        "mechanics": {
+          "clauses": {
+            "damage": 5,
+            "damage_dice": "1d10",
+            "emanation_ft": 10,
+            "ignites": [
+              "creatures",
+              "flammable_objects"
+            ],
+            "timing": "source_turn_end",
+            "type": "fire"
+          },
+          "damage": {
+            "amount": {
+              "dice": "1d10",
+              "printed_fixed": 5,
+              "selection": "use_scene_amount_mode; recorded_dice_must_not_be_rerolled"
+            },
+            "damage_type": "fire",
+            "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+            "linked_reduction_from_damage_taken": false,
+            "other_effects": [
+              {
+                "dependency": "urn:uuid:7e7508f9-6982-5247-8301-85b530a5665c",
+                "kind": "ignite",
+                "targets": [
+                  "creatures",
+                  "flammable_objects"
+                ]
+              }
+            ],
+            "save_success": null,
+            "trigger": "source_turn_end"
+          },
+          "dependencies": [
+            "urn:uuid:7e7508f9-6982-5247-8301-85b530a5665c"
+          ],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+        "required_evidence": [
+          "P.BURNING"
+        ],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:2f5fd21c-6876-552d-87e9-6b7681ccf69d",
+        "title": "火焰灵光",
+        "verbatim_evidence": "F.ABILITY.1",
+        "verbatim_text": "\n**火焰灵光Fire Aura。**火元素回合结束时位于源自火元素的10尺光环区域内的每名生物受到5（1d10）点火焰伤害。光环内的生物和易燃物件开始燃烧。\n"
+      },
+      {
+        "critical_fields": {
+          "damage": 5,
+          "damage_dice": "1d10",
+          "extra_movement_cost": 0,
+          "minimum_gap_inch": 1,
+          "occupy_creature_space": true,
+          "trigger": "first_entry_into_each_creature_space_per_turn"
+        },
+        "editorial_explanation": "每个回合对同一生物首次进入空间触发，不是每进出一次都触发，也不是每轮仅一次。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:e82a1348-7196-50b6-913e-0f7f511951d4",
+                "json_pointer": "/critical_fields/minimum_gap_inch"
+              },
+              {
+                "extraction_id": "urn:uuid:ec490b01-697a-5ef2-a932-6efe065ab499",
+                "json_pointer": "/critical_fields/extra_movement_cost"
+              },
+              {
+                "extraction_id": "urn:uuid:960b85bb-1a41-57f3-b74c-5bf44d94270c",
+                "json_pointer": "/critical_fields/occupy_creature_space"
+              },
+              {
+                "extraction_id": "urn:uuid:9927c00f-736d-554f-ba46-12ffba3f222e",
+                "json_pointer": "/critical_fields/damage"
+              },
+              {
+                "extraction_id": "urn:uuid:9afce477-5e52-5c6a-b570-5e07f8c1e2c7",
+                "json_pointer": "/critical_fields/damage_dice"
+              },
+              {
+                "extraction_id": "urn:uuid:6ee3ec9d-1d41-568a-86fa-ceab1af2401c",
+                "json_pointer": "/critical_fields/trigger"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "local_evidence": "F.ABILITY.2",
+          "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+          "pointer": "/critical_fields"
+        },
+        "id": "urn:uuid:40be48e3-57a4-504b-9d90-a2815bc4a264",
+        "kind": "特质Traits",
+        "mechanics": {
+          "clauses": {
+            "damage": 5,
+            "damage_dice": "1d10",
+            "extra_movement_cost": 0,
+            "minimum_gap_inch": 1,
+            "occupy_creature_space": true,
+            "trigger": "first_entry_into_each_creature_space_per_turn"
+          },
+          "damage": {
+            "amount": {
+              "dice": "1d10",
+              "printed_fixed": 5,
+              "selection": "use_scene_amount_mode; recorded_dice_must_not_be_rerolled"
+            },
+            "damage_type": "fire",
+            "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+            "linked_reduction_from_damage_taken": false,
+            "other_effects": [],
+            "save_success": null,
+            "trigger": "first_entry_per_target_per_turn"
+          },
+          "dependencies": [],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+        "required_evidence": [],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:390a8706-7814-5127-9940-41751ddca948",
+        "title": "火焰形态",
+        "verbatim_evidence": "F.ABILITY.2",
+        "verbatim_text": " **火焰形态Fire Form。**火元素可以移动穿过最窄1寸宽的空间而无需消耗额外的移动力，且其可以进入并停留在生物所处的空间。当火元素在一个回合中首次进入某生物所处的空间时，该生物受到5（1d10）火焰伤害。\n"
+      },
+      {
+        "critical_fields": {
+          "additional_dim_ft": 30,
+          "bright_ft": 30
+        },
+        "editorial_explanation": "亮光30尺，再向外30尺微光，不合并为60尺亮光。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:bf603233-0c08-5549-b03e-9f9d50a19bf3",
+                "json_pointer": "/critical_fields/bright_ft"
+              },
+              {
+                "extraction_id": "urn:uuid:bf69c71b-ec8a-5f9f-a891-70494b84c0be",
+                "json_pointer": "/critical_fields/additional_dim_ft"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "local_evidence": "F.ABILITY.3",
+          "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+          "pointer": "/critical_fields"
+        },
+        "id": "urn:uuid:5b2835c9-fca3-5dbc-8d7c-54f37ad92fe2",
+        "kind": "特质Traits",
+        "mechanics": {
+          "clauses": {
+            "additional_dim_ft": 30,
+            "bright_ft": 30
+          },
+          "dependencies": [],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+        "required_evidence": [],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:e19ebfe2-f2ab-57ab-85bd-f805e9c4a2e8",
+        "title": "照明",
+        "verbatim_evidence": "F.ABILITY.3",
+        "verbatim_text": " **照明 Illumination。**火元素散发出半径30尺的明亮光照以及额外30尺的微光光照。\n"
+      },
+      {
+        "critical_fields": {
+          "damage_dice": "1d6",
+          "damage_each": 3,
+          "splashed_per_gallon": 1,
+          "type": "cold",
+          "water_move_per_ft": 5
+        },
+        "editorial_explanation": "水中每移动5尺或每被泼一加仑水各按条文受伤；不是水元素冻结，也不自动等于寒冷易伤。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:5f7477a7-743c-57c4-904c-5f6d3d672712",
+                "json_pointer": "/critical_fields/water_move_per_ft"
+              },
+              {
+                "extraction_id": "urn:uuid:d3c96c9c-553c-5e99-b30a-15e78d16fea8",
+                "json_pointer": "/critical_fields/splashed_per_gallon"
+              },
+              {
+                "extraction_id": "urn:uuid:86f9301c-b095-59a1-9639-ce70ea0693b7",
+                "json_pointer": "/critical_fields/damage_each"
+              },
+              {
+                "extraction_id": "urn:uuid:18fbd6ee-e37d-5bda-bb6b-e59f0d80eda4",
+                "json_pointer": "/critical_fields/damage_dice"
+              },
+              {
+                "extraction_id": "urn:uuid:53b3082b-912f-5261-9c2b-ec7663068d80",
+                "json_pointer": "/critical_fields/type"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "local_evidence": "F.ABILITY.4",
+          "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+          "pointer": "/critical_fields"
+        },
+        "id": "urn:uuid:73f3d015-545b-5669-ae62-468990333362",
+        "kind": "特质Traits",
+        "mechanics": {
+          "clauses": {
+            "damage_dice": "1d6",
+            "damage_each": 3,
+            "splashed_per_gallon": 1,
+            "type": "cold",
+            "water_move_per_ft": 5
+          },
+          "damage": {
+            "amount": {
+              "dice": "1d6",
+              "printed_fixed": 3,
+              "selection": "use_scene_amount_mode; recorded_dice_must_not_be_rerolled"
+            },
+            "damage_type": "cold",
+            "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+            "linked_reduction_from_damage_taken": false,
+            "other_effects": [],
+            "save_success": null,
+            "trigger": "water_exposure_each_unit"
+          },
+          "dependencies": [],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+        "required_evidence": [],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:1db31c05-1484-5763-af03-d34be52b39ac",
+        "title": "水体易感",
+        "verbatim_evidence": "F.ABILITY.4",
+        "verbatim_text": "**水体易感 Water Susceptibility。**每在水中移动5尺或每被泼一加仑水，火元素受到3（1d6）寒冷伤害。\n\n###### 动作Actions\n"
+      },
+      {
+        "critical_fields": {
+          "allowed": [
+            "F.Burn"
+          ],
+          "attacks": 2
+        },
+        "editorial_explanation": "两次燃烧攻击，不能混入气/土元素攻击。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:48448309-902f-5870-89a8-acab7490b46b",
+                "json_pointer": "/critical_fields/attacks"
+              },
+              {
+                "extraction_id": "urn:uuid:e533cd06-a8ac-5990-8d23-7e5505bff036",
+                "json_pointer": "/critical_fields/allowed/0"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "local_evidence": "F.ABILITY.5",
+          "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+          "pointer": "/critical_fields"
+        },
+        "id": "urn:uuid:659b86c5-36d3-5c8f-a68e-73df71ed1294",
+        "kind": "动作Actions",
+        "mechanics": {
+          "clauses": {
+            "allowed": [
+              "F.Burn"
+            ],
+            "attacks": 2
+          },
+          "dependencies": [],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+        "required_evidence": [],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:a0e8fe70-841f-56f1-afe3-bd8a352a848c",
+        "title": "多重攻击",
+        "verbatim_evidence": "F.ABILITY.5",
+        "verbatim_text": "\n**多重攻击Multiattack。**火元素发动两次燃烧攻击。\n"
+      },
+      {
+        "critical_fields": {
+          "attack_bonus": 6,
+          "damage": 10,
+          "damage_dice": "2d6+3",
+          "ignites": [
+            "creatures",
+            "flammable_objects"
+          ],
+          "reach_ft": 5,
+          "type": "fire"
+        },
+        "editorial_explanation": "Burn是此怪物攻击名；Burning是公共危害。不能因同中文词混成同一个事实对象。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:74895e10-33b1-5401-9c62-2a58ce3205ec",
+                "json_pointer": "/critical_fields/attack_bonus"
+              },
+              {
+                "extraction_id": "urn:uuid:6f3d2069-32d6-5f4c-bb64-2fb7a8ab8832",
+                "json_pointer": "/critical_fields/reach_ft"
+              },
+              {
+                "extraction_id": "urn:uuid:8d4013bd-67a4-55a9-8521-bb93f6007c0c",
+                "json_pointer": "/critical_fields/damage"
+              },
+              {
+                "extraction_id": "urn:uuid:c86a5d9c-9f70-5a65-a4d2-4b2dc7e4b379",
+                "json_pointer": "/critical_fields/damage_dice"
+              },
+              {
+                "extraction_id": "urn:uuid:dca6c046-7176-5d72-9e27-f578c09725b9",
+                "json_pointer": "/critical_fields/type"
+              },
+              {
+                "extraction_id": "urn:uuid:ae10eac4-af25-59b1-948a-3bb8481693da",
+                "json_pointer": "/critical_fields/ignites/0"
+              },
+              {
+                "extraction_id": "urn:uuid:3f428576-ead4-5781-a071-56f98c2a1086",
+                "json_pointer": "/critical_fields/ignites/1"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "local_evidence": "F.ABILITY.6",
+          "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+          "pointer": "/critical_fields"
+        },
+        "id": "urn:uuid:fa4c4929-2977-5b82-816c-ca8214a9afe6",
+        "kind": "动作Actions",
+        "mechanics": {
+          "clauses": {
+            "attack_bonus": 6,
+            "damage": 10,
+            "damage_dice": "2d6+3",
+            "ignites": [
+              "creatures",
+              "flammable_objects"
+            ],
+            "reach_ft": 5,
+            "type": "fire"
+          },
+          "damage": {
+            "amount": {
+              "dice": "2d6+3",
+              "printed_fixed": 10,
+              "selection": "use_scene_amount_mode; recorded_dice_must_not_be_rerolled"
+            },
+            "damage_type": "fire",
+            "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+            "linked_reduction_from_damage_taken": false,
+            "other_effects": [
+              {
+                "dependency": "urn:uuid:7e7508f9-6982-5247-8301-85b530a5665c",
+                "kind": "ignite",
+                "targets": [
+                  "creatures",
+                  "flammable_objects"
+                ]
+              }
+            ],
+            "save_success": null,
+            "trigger": "hit"
+          },
+          "dependencies": [
+            "urn:uuid:7e7508f9-6982-5247-8301-85b530a5665c"
+          ],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+        "required_evidence": [
+          "P.BURNING"
+        ],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:108e2b08-f639-5598-813b-97c3d9e40ec1",
+        "title": "燃烧",
+        "verbatim_evidence": "F.ABILITY.6",
+        "verbatim_text": " **燃烧Burn。***近战攻击检定：*+6，触及5尺。*命中：*10（2d6+3）火焰伤害。若目标为生物或易燃物件，则其开始燃烧。\n"
+      }
+    ],
+    "ability_evidence": [
+      "F.ABILITY.1",
+      "F.ABILITY.2",
+      "F.ABILITY.3",
+      "F.ABILITY.4",
+      "F.ABILITY.5",
+      "F.ABILITY.6"
+    ],
+    "all_abilities_present": true,
+    "all_card_text_present": true,
+    "candidate_revision": 4,
+    "card_evidence": "F.CARD",
+    "every_numeric_field_atomized": false,
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "content_coverage": {
+          "all_abilities": "complete",
+          "card_text": "complete",
+          "formal_rule_approval": false,
+          "structured_semantics": "partial_explicit"
+        },
+        "identity_traits": {
+          "creature_type": "elemental",
+          "entity_kind": "creature",
+          "size": "large",
+          "source_evidence_id": "urn:uuid:1e0a47c0-6466-5551-bf80-28f8702c6edb"
+        }
+      }
+    },
+    "group": "E",
+    "header": {
+      "ac": 13,
+      "defense_binding": {
+        "enumeration_complete_for_selected_card": true,
+        "evidence": "F.HEADER",
+        "scope": "intrinsic enumerated defense of this selected source card, not every possible runtime defense"
+      },
+      "defenses": {
+        "condition_immunity": [
+          "exhaustion",
+          "grappled",
+          "paralyzed",
+          "petrified",
+          "poisoned",
+          "prone",
+          "restrained",
+          "unconscious"
+        ],
+        "damage_immunity": [
+          "fire",
+          "poison"
+        ],
+        "resistance": [
+          "bludgeoning",
+          "piercing",
+          "slashing"
+        ],
+        "vulnerability": []
+      },
+      "hp": 93,
+      "hp_role": "printed_default_maximum_hp; never runtime_current_hp",
+      "runtime_hp_rule": "题目明确给出当前/最大HP时使用该实例输入；印刷HP不覆盖题目给定的最大HP。缺当前HP不推定满血。",
+      "source_evidence": "F.HEADER"
+    },
+    "id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+    "language": "zh-Hans",
+    "previous_candidate_revision": 3,
+    "prototype_role": "printed_template_not_live_instance",
+    "publication_identity": "claimed",
+    "review_status": "candidate",
+    "rights": "unknown",
+    "rule_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+    "rule_edition": "2024",
+    "rules_context": "MM2025 + selected PHB2024 trial",
+    "source_evidence_id": "urn:uuid:aff196a7-e17a-5fe4-befd-4e0eb99e6ccc",
+    "title": "火元素",
+    "translation_authority": "unknown",
+    "verbatim_text": "<a id=\"Fire_Elemental\"></a>\n##### 火元素Fire Elemental\n\n大型元素，中立\n\n<table><tr><td><strong>AC </strong>13</td><td><strong>先攻 </strong>+3（13）</td></tr> <tr><td colspan=\"2\"><strong>HP </strong>93（11d10 + 33）</td></tr> <tr><td colspan=\"2\"><strong>速度 </strong>50尺</td></tr></table>\n\n<table><tr><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th></tr> <tr><td><strong>力量</strong></td><td>10</td><td>+0</td><td>+0</td> <td></td> <td><strong>敏捷</strong></td><td>17</td><td>+3</td><td>+3</td> <td></td> <td><strong>体质</strong></td><td>16</td><td>+3</td><td>+3</td></tr> <tr><td><strong>智力</strong></td><td>6</td><td>-2</td><td>-2</td> <td></td> <td><strong>感知</strong></td><td>10</td><td>+0</td><td>+0</td> <td></td> <td><strong>魅力</strong></td><td>7</td><td>-2</td><td>-2</td></tr> </table>\n\n| **抗性**钝击，穿刺，挥砍 |\n| --- |\n| **免疫**火焰，毒素；力竭，受擒，麻痹，石化，中毒，倒地，束缚，昏迷 |\n| **感官**黑暗视觉60尺；被动察觉10 |\n| **语言**原初语（火族语） |\n| **CR**5（XP1,800；PB+3） |\n\n###### 特质Traits\n\n**火焰灵光Fire Aura。**火元素回合结束时位于源自火元素的10尺光环区域内的每名生物受到5（1d10）点火焰伤害。光环内的生物和易燃物件开始燃烧。\n **火焰形态Fire Form。**火元素可以移动穿过最窄1寸宽的空间而无需消耗额外的移动力，且其可以进入并停留在生物所处的空间。当火元素在一个回合中首次进入某生物所处的空间时，该生物受到5（1d10）火焰伤害。\n **照明 Illumination。**火元素散发出半径30尺的明亮光照以及额外30尺的微光光照。\n**水体易感 Water Susceptibility。**每在水中移动5尺或每被泼一加仑水，火元素受到3（1d6）寒冷伤害。\n\n###### 动作Actions\n\n**多重攻击Multiattack。**火元素发动两次燃烧攻击。\n **燃烧Burn。***近战攻击检定：*+6，触及5尺。*命中：*10（2d6+3）火焰伤害。若目标为生物或易燃物件，则其开始燃烧。\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:614e12dc-1812-50a6-bb3b-cd2e6cd3f9d1",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:aff196a7-e17a-5fe4-befd-4e0eb99e6ccc",
+    "derived_note_utf8_range": {
+      "end": 4158,
+      "start": 1955
+    },
+    "entry_id": "urn:uuid:048a1238-9915-5f2e-8619-c8ccbc580529",
+    "fragment_id": "urn:uuid:d6125d3b-9532-5ccd-8263-8e76bb248835",
+    "mapping_id": "urn:uuid:c0530d90-6451-5541-896f-ae1f13107880"
+  },
+  "subject_kind": "creature",
+  "title": "火元素",
+  "uncompiled_semantics_retained": true
+}

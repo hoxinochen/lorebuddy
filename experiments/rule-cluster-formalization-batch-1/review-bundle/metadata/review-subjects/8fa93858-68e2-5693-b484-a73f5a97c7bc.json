@@ -1,0 +1,78 @@
+{
+  "body": {
+    "digest": "sha256:3d1f6461921cf05229888ddec09aa8dfa9ee5334c4d0745e022fbea64ee55eee",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/8fa93858-68e2-5693-b484-a73f5a97c7bc.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "sequence": [
+        "FiendishTouch",
+        "Charm_or_DrainingKiss"
+      ]
+    },
+    "editorial_explanation": "一次触碰加魅惑或吻，不是两次触碰或三项全部用。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:2a658fbe-ce03-53ba-bf78-fbc3b3cd402a",
+            "json_pointer": "/critical_fields/sequence/0"
+          },
+          {
+            "extraction_id": "urn:uuid:5682060c-c459-5cf0-b7f3-1772b9f7c1bf",
+            "json_pointer": "/critical_fields/sequence/1"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "pointer": "/critical_fields",
+      "source_evidence": "SU.ABILITY.2"
+    },
+    "id": "urn:uuid:8fa93858-68e2-5693-b484-a73f5a97c7bc",
+    "kind": "动作Actions",
+    "mechanics": {
+      "clauses": {
+        "sequence": [
+          "FiendishTouch",
+          "Charm_or_DrainingKiss"
+        ]
+      },
+      "dependencies": [],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+    },
+    "owner_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+    "required_evidence": [],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:6133ef26-06fb-5d38-a549-eb5019909a05",
+    "title": "多重攻击",
+    "verbatim_evidence": "SU.ABILITY.2",
+    "verbatim_text": "**多重攻击Multiattack。**魅魔发动一次魔性之触攻击并使用魅惑或汲命之吻。\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:8fa93858-68e2-5693-b484-a73f5a97c7bc",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:d57a8355-c964-5825-873f-d6e119f34085",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:6133ef26-06fb-5d38-a549-eb5019909a05",
+    "derived_note_utf8_range": {
+      "end": 3250,
+      "start": 3150
+    },
+    "entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+    "fragment_id": "urn:uuid:ab664971-31bb-5827-81c4-9d5f7275a56e",
+    "mapping_id": "urn:uuid:4a7721ec-278a-529c-b1a5-258cb61423d1"
+  },
+  "subject_kind": "ability",
+  "title": "多重攻击",
+  "uncompiled_semantics_retained": true
+}

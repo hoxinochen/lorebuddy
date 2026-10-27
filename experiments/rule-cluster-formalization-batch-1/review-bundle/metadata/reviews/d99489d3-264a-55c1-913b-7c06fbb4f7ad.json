@@ -1,0 +1,17 @@
+{
+  "ai_precheck": "source_note_bytes_and_input_identity_verified; not_human_approval",
+  "checks": [
+    "content_and_exceptions",
+    "applicability_and_claimed_source",
+    "structured_fields_and_call_overrides",
+    "dependencies_and_uncompiled_scope"
+  ],
+  "human_decision": null,
+  "id": "urn:uuid:d99489d3-264a-55c1-913b-7c06fbb4f7ad",
+  "reviewer": null,
+  "schema": "m2.rule-review-record@0.1.0",
+  "source_fidelity_gate": "pending_normative_raw_to_library_coverage",
+  "status": "awaiting_review",
+  "subject_digest": "sha256:5b5eaa31dc8e29ef95e3f14ea6c1683352ac1ff6e88cab2ca63ea9ee2d4957f3",
+  "subject_id": "urn:uuid:13f65e3d-4273-52df-abe1-f5c9627ff84b"
+}

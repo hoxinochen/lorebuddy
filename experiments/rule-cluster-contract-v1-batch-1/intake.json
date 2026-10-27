@@ -1,0 +1,342 @@
+{
+  "contract_id": "m2-rule-cluster-production-consumption-v1",
+  "contract_revision": "v1-r1",
+  "delivery_id": "urn:uuid:eacf87e2-d7f4-554a-8669-d5587daa56d3",
+  "format_revision": "lorebuddy.dnd2024.rule-cluster-contract-1",
+  "objects": [
+    {
+      "alias": "SU",
+      "id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+      "title": "魅魔",
+      "ability_ids": [
+        "urn:uuid:5479a7d8-99df-5791-9013-dd434cfa2908",
+        "urn:uuid:8fa93858-68e2-5693-b484-a73f5a97c7bc",
+        "urn:uuid:fdfa5780-6cdb-5d32-ab27-39c1adee1f8e",
+        "urn:uuid:c4f2e545-e477-52a2-902c-a5046d32ed32",
+        "urn:uuid:4c9d16ed-3500-55fa-af4a-dc06f78702ae",
+        "urn:uuid:2965fca5-70ac-5730-bdfe-71e87a89038a"
+      ],
+      "source_evidence_id": "urn:uuid:3ecd24ee-74da-5830-885f-4400e6e923a2"
+    },
+    {
+      "alias": "IN",
+      "id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+      "title": "梦魔",
+      "ability_ids": [
+        "urn:uuid:5152af52-fc82-58ab-b223-f9d1f9842f2e",
+        "urn:uuid:ba233757-3295-5d09-95ef-4470dfe7142c",
+        "urn:uuid:efcea215-d122-5c93-891b-46a8c262b18f",
+        "urn:uuid:242f80c2-a7ea-5199-9088-8d5a12a6c5c5",
+        "urn:uuid:c428c860-1e7b-5a39-8eff-54cbc6726dca"
+      ],
+      "source_evidence_id": "urn:uuid:a614a20b-4e06-5886-a7da-3c26515f2dcb"
+    },
+    {
+      "alias": "G25",
+      "id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+      "title": "幽魂（2025）",
+      "ability_ids": [
+        "urn:uuid:ac37fa78-6433-5a97-be08-c423a9b7e684",
+        "urn:uuid:e8ebb0c9-ad53-54a1-96ff-34506c82bf8c",
+        "urn:uuid:59b4fa34-491b-5341-8e69-e8f8090577d0",
+        "urn:uuid:13f65e3d-4273-52df-abe1-f5c9627ff84b",
+        "urn:uuid:270f495a-1ccd-5b7e-8634-8606fa44c401",
+        "urn:uuid:bac4fda5-087e-55fe-bd5d-4f4c425a6609",
+        "urn:uuid:ee7559b0-7859-56d2-abcf-a0d14993bcfc"
+      ],
+      "source_evidence_id": "urn:uuid:fa67b8e9-654a-5d65-901c-94403cdeaa15"
+    },
+    {
+      "alias": "F",
+      "id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+      "title": "火元素",
+      "ability_ids": [
+        "urn:uuid:011dabd1-0203-5e36-a058-1b0a2985da9d",
+        "urn:uuid:40be48e3-57a4-504b-9d90-a2815bc4a264",
+        "urn:uuid:5b2835c9-fca3-5dbc-8d7c-54f37ad92fe2",
+        "urn:uuid:73f3d015-545b-5669-ae62-468990333362",
+        "urn:uuid:659b86c5-36d3-5c8f-a68e-73df71ed1294",
+        "urn:uuid:fa4c4929-2977-5b82-816c-ca8214a9afe6"
+      ],
+      "source_evidence_id": "urn:uuid:aff196a7-e17a-5fe4-befd-4e0eb99e6ccc"
+    },
+    {
+      "alias": "S",
+      "id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+      "title": "史拉绿蟾",
+      "ability_ids": [
+        "urn:uuid:d2dd764c-14ed-527c-8886-f5766f3a1452",
+        "urn:uuid:6f37153d-8e5e-58b4-80b9-7cd3b445122d",
+        "urn:uuid:eb31f875-0047-53b6-a275-f029cfb2a215",
+        "urn:uuid:41d0162f-23e7-5172-9ffb-0ce92ff0ee4d",
+        "urn:uuid:cdd0d432-35be-5863-b45e-28a63353d464",
+        "urn:uuid:ee363df5-5a9c-5063-b2a6-e0e13d6717c6"
+      ],
+      "source_evidence_id": "urn:uuid:f621096f-4f2e-5f51-8a98-3330d1b33807"
+    },
+    {
+      "alias": "A",
+      "id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+      "title": "气元素",
+      "ability_ids": [
+        "urn:uuid:4fba9e98-7ca9-5080-b2e9-50449af380e2",
+        "urn:uuid:8ef9ad7f-fe87-57f5-a6d7-8724ffc8546d",
+        "urn:uuid:2e1f2c9a-26b2-563b-b713-4ffca1e85a67",
+        "urn:uuid:58621492-1fe9-5697-9d87-a77703fcebfa"
+      ],
+      "source_evidence_id": "urn:uuid:c1d0eeff-17e9-58be-aa39-fdc5142070ee"
+    },
+    {
+      "alias": "E",
+      "id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+      "title": "土元素",
+      "ability_ids": [
+        "urn:uuid:69e2b783-7061-54a2-9cae-7b61e4f4898e",
+        "urn:uuid:541f7286-f44c-5233-8977-71ff2ca74f3c",
+        "urn:uuid:a331fd1c-bfff-5716-a435-5638be1ea8fe",
+        "urn:uuid:390c81ae-0dd2-543d-961e-bb6366c4de31",
+        "urn:uuid:910bccc5-9095-5d63-a254-25bd9bcaeb38"
+      ],
+      "source_evidence_id": "urn:uuid:e74fc3cc-7f9e-5086-a28e-917370606c53"
+    },
+    {
+      "alias": "G",
+      "id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+      "title": "盾卫",
+      "ability_ids": [
+        "urn:uuid:db3d0168-e5dd-59ee-a1d2-96c33f32a57d",
+        "urn:uuid:99675cbc-559c-5011-b249-93839e92b6d3",
+        "urn:uuid:0f3a3c66-5250-5b13-9185-ce71b070f7c3",
+        "urn:uuid:897df4fc-37bb-5a66-ada7-e30bb7b6d25b",
+        "urn:uuid:eaa87b64-17bd-5a2d-b350-966ec1dadf4f",
+        "urn:uuid:b3e35f52-b6c0-5599-aedf-235e3d6f95ea"
+      ],
+      "source_evidence_id": "urn:uuid:f4c2225f-f7dd-59d7-a94e-0519d1412865"
+    }
+  ],
+  "sources": [
+    {
+      "entry_id": "urn:uuid:89505d38-cbaf-5747-9798-96f1a0bf6718",
+      "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/玩家手册2024/术语汇编/状态.htm",
+      "raw_sha256": "1bc46897074e0b83e39ee430cee92127952e0eb9428f34a8cdee2827336bcfb2",
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/附录C：术语汇编/状态.md",
+      "note_sha256": "40d6b4ba5aec75b37f3ec3ac1c5dda84a869111b8ae82cf196a683a4ecff44f5"
+    },
+    {
+      "entry_id": "urn:uuid:110fe3cc-449c-5d30-9bc5-47198a153a06",
+      "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/玩家手册2024/术语汇编/其他术语.htm",
+      "raw_sha256": "1a048d7f168ab8c81f1c4e73180a77b49e73b5e6aa54029c0cdc272a17c38c2c",
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/附录C：术语汇编/其他术语.md",
+      "note_sha256": "d823339e2eca6cc5d203709d83f2b6e5c69a0dee88f5c7dcc7018814ba64b01a"
+    },
+    {
+      "entry_id": "urn:uuid:2d46b742-37e3-5734-b0a8-afe4a0b85704",
+      "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/玩家手册2024/法术/法术成分.htm",
+      "raw_sha256": "d917b0bb1a669deecb8732578b6b25452873c17f64f222303d4b49247ab4204d",
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/第七章：法术/施展法术/法术成分.md",
+      "note_sha256": "fa8a7853561053b6857a018feca16be400392b30c7e0308da79a72462f67256b"
+    },
+    {
+      "entry_id": "urn:uuid:46f52d9f-45ec-5c25-b3b1-9c432c68caa0",
+      "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/玩家手册2024/进行游戏/抗性和易伤.htm",
+      "raw_sha256": "c429da8fe5d132fc83c134107fc6ab51fed10ef49017c6798afc3a9c6cb1e28f",
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/第一章：进行游戏/伤害与治疗/抗性和易伤.md",
+      "note_sha256": "67c33dee5e3a765c9f97630a869d55ec8d1b862650c3891946b94ffba92d59d8"
+    },
+    {
+      "entry_id": "urn:uuid:54ebd374-23f2-5912-9d12-9bd95add858e",
+      "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/怪物图鉴2025/前言/数据卡的组成部分.htm",
+      "raw_sha256": "072f7cd2ade122313a958fbae8a3fd68ddeb09b9f82bb4ae9895682d503cda9a",
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/前言/数据卡的组成部分.md",
+      "note_sha256": "2ff27c19b24b1023b6d4b922f5c8fb98f5022f89bb03c31332a70835b3974491"
+    },
+    {
+      "entry_id": "urn:uuid:e2f3f7c0-0fd2-569c-b264-08db06c4c19d",
+      "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/玩家手册2024/法术详述/5环.htm",
+      "raw_sha256": "8450df055efb10a4bed0a02dcfecc132cbd45dadbbcacc06f603a58e505e1604",
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/第七章：法术/法术详述/五环.md",
+      "note_sha256": "f34caa83be805ca8662bbcdd2a60766332a6f07a77cc9affbf3fbfd8a3573402"
+    },
+    {
+      "entry_id": "urn:uuid:23faa68f-588b-5b14-a6fb-7e0df89dcf8a",
+      "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/玩家手册2024/法术详述/1环.htm",
+      "raw_sha256": "9522f9178efa536d1eeab5984865afa648af745739dc4b5d5633fd1e5b74422c",
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/第七章：法术/法术详述/一环.md",
+      "note_sha256": "f160fab6ad4c958b829000b33c775f97b861ae6c688ad20919b798d0a7a67bde"
+    },
+    {
+      "entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+      "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/玩家手册2024/法术详述/3环.htm",
+      "raw_sha256": "27b964c5d027569800726693e91e01b4aa8ac63bedffa1cfeeb4c3f0f95327f7",
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/第七章：法术/法术详述/三环.md",
+      "note_sha256": "c1c336ece29a8e70c283191e98da06ec717fc664d9af74881a22534f0b2d1367"
+    },
+    {
+      "entry_id": "urn:uuid:90d6a63f-2461-57ee-b524-9b59fdca9edd",
+      "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/玩家手册2024/法术详述/7环.htm",
+      "raw_sha256": "6b1e0440708e52393887021b44bc4744fd54c509fea0566579ac561e0a0816c6",
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/第七章：法术/法术详述/七环.md",
+      "note_sha256": "54354171ebc8b60c1ebb0575582e87d51dac54d0bc743661e255c20aae277ed3"
+    },
+    {
+      "entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+      "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/怪物图鉴2025/亡灵/幽魂.htm",
+      "raw_sha256": "f075d6f278edda4f7514b0342f9f67b7ed5e509ac8783887756049717c442e79",
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/亡灵/幽魂.md",
+      "note_sha256": "69dabf6858e76ecb02ba591a9b454e46aeb6a2746f02753b1a6e515586c35bdd"
+    },
+    {
+      "entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+      "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/怪物图鉴2025/邪魔/魅魔.htm",
+      "raw_sha256": "4593d81c5ab24ff78d8e513e1a1b0f74c717a1010989290f675c5d9ca96bf3d8",
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/邪魔/魅魔.md",
+      "note_sha256": "a0502b76c55e4004a72020f2279593ae99a9c21d32da825e34b24b893afa7104"
+    },
+    {
+      "entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+      "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/怪物图鉴2025/邪魔/梦魔.htm",
+      "raw_sha256": "bdb3a7cd94dd24b1fe7124b34cf7b9c8bd7b05a08a90b2787198a0298a3d4911",
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/邪魔/梦魔.md",
+      "note_sha256": "677e4dd189f174951d627ef1bdd24f616a2e71cd1a92a262a9b005d8027643c4"
+    },
+    {
+      "entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+      "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/玩家手册2024/法术详述/2环.htm",
+      "raw_sha256": "3a91b1caab0d5a2205b522ba841da12e588df65dd4b4e5e647da7e9f12723362",
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/第七章：法术/法术详述/二环.md",
+      "note_sha256": "f73f8240683f4920f2b46a72484965e056e78259006db1b326307194d44dbfa3"
+    },
+    {
+      "entry_id": "urn:uuid:fc4b66c5-886f-5388-a98b-261d1162e454",
+      "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/玩家手册2024/术语汇编/危害.htm",
+      "raw_sha256": "bffc4b34af8e03e0fc9a3b98e1df04d0cdff833d26b9815181e8e4d13f7db128",
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/附录C：术语汇编/危害.md",
+      "note_sha256": "36d50665160e988ae77aa43d8feea79dad1efc477c4546a445d6bf5b0f1267e8"
+    },
+    {
+      "entry_id": "urn:uuid:aeefb9c1-aff9-5982-98ab-0643f145eba5",
+      "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/玩家手册2024/法术详述/0环.htm",
+      "raw_sha256": "bf6bad14227eff5ef7e369e8b63b641de14dfa45a2645659988822a10140fc25",
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/第七章：法术/法术详述/戏法（零环）.md",
+      "note_sha256": "bf318d178cb2915a36d5820016af305bff54a270a6228dfc89b51ae9a1d5a7f3"
+    },
+    {
+      "entry_id": "urn:uuid:048a1238-9915-5f2e-8619-c8ccbc580529",
+      "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/怪物图鉴2025/元素/四元素/火元素.htm",
+      "raw_sha256": "4506e95f7f2fc8fc4e92d63d66f31da29d897162c540ab0b48b1d3eb5549b688",
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/元素/四元素/火元素.md",
+      "note_sha256": "c9c56baacc1df4a575d8284d4e82ccb606aec1e45fe35185e1fd15932d851fb8"
+    },
+    {
+      "entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+      "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/怪物图鉴2025/异怪/史拉蟾/史拉绿蟾.htm",
+      "raw_sha256": "7ca0be5211acf340470329824240850f49e5d7669074a6079bc6e7e1f1d73e37",
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/异怪/史拉蟾/史拉绿蟾.md",
+      "note_sha256": "a9059840540c273cb7c63b35c46986bf767426fbe7584892306d9493892382ee"
+    },
+    {
+      "entry_id": "urn:uuid:2cc417f9-b3ff-5e61-b655-2653f61642d2",
+      "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/怪物图鉴2025/元素/四元素/气元素.htm",
+      "raw_sha256": "3f11bf28977f7dfdc784dc82c0bd4c2d526e118742892ce9887b38c9732b8911",
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/元素/四元素/气元素.md",
+      "note_sha256": "4177ed87a23d32638d852102f82464663b41655e52540f7a2e648f0d0a045c8f"
+    },
+    {
+      "entry_id": "urn:uuid:57a08374-1e20-5c97-a1f3-00447e3b05d9",
+      "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/怪物图鉴2025/元素/四元素/土元素.htm",
+      "raw_sha256": "ddf6c96dff3f59dc72b3a8749b242ac372212cfaa10d2c9df1389880553c4d07",
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/元素/四元素/土元素.md",
+      "note_sha256": "002c984c128b987a5a6f2ae9dfb3c99824e59a96d1df993b89ce2f1158c531a3"
+    },
+    {
+      "entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+      "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/怪物图鉴2025/构装/盾卫.htm",
+      "raw_sha256": "7c1ead222cdc81cd31ef4d3ef7bdf1783914be90f8078d013393a6063dad10c3",
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/构装/盾卫.md",
+      "note_sha256": "02efbe8a953929558945da2ede1fe2c71cb8fdb15819e95e9510d88bc662e9b9"
+    }
+  ],
+  "source_counts": {
+    "cards": 8,
+    "abilities": 45,
+    "spells": 11,
+    "shared_entries": 6,
+    "evidence": 94,
+    "source_entries": 20
+  },
+  "inputs": [
+    {
+      "path": "experiments/full-cluster-calculator-pilot/input/knowledge.json",
+      "sha256": "042b21ee955c2f1bf95941dfb4a64bf65caec37f5ec621a7f69f914ec5e2f588"
+    },
+    {
+      "path": "experiments/full-cluster-calculator-pilot/input/questions.json",
+      "sha256": "5c8ccfb855238e25950b00dbc471c40d985d0b0d074319feee2418ca2d6a95c5"
+    },
+    {
+      "path": "build/m2-seven-card-optimization-2026-10-22/current/cards.json",
+      "sha256": "cd4e4d249e15965c09a1ee791eddfbd9abb102e2fa1c70733415f8adafc19382"
+    },
+    {
+      "path": "build/m2-seven-card-optimization-2026-10-22/current/evidence.json",
+      "sha256": "23b08991965c86a64805ff33d0fbfcff020b7aff9d61341f0100dba7fc930570"
+    },
+    {
+      "path": "build/m2-seven-card-optimization-2026-10-22/current/sources.json",
+      "sha256": "e1b5c18449404b06932311d9c701a7c88a399c99f2b719bd7407d3062168e709"
+    },
+    {
+      "path": "build/m2-seven-card-optimization-2026-10-22/current/metadata/editorial-decisions.json",
+      "sha256": "b6fdd1a3f0483839ad5749846fcce17d83844bfe2ee953e0a06c34e129d9b65b"
+    },
+    {
+      "path": "build/m2-seven-card-optimization-2026-10-22/current/metadata/research-receipts.json",
+      "sha256": "af2669082c919f425d4956d0b0bc1a2783ae1187c11265a40f614a71293dba5d"
+    },
+    {
+      "path": "build/m2-seven-card-optimization-2026-10-22/current/metadata/issues.json",
+      "sha256": "68d2c4a27a16ea2364e00a7a843ada1529e7de8918a14c3291824b5c955dbdb5"
+    }
+  ],
+  "toolchain": {
+    "python": "3.12.14",
+    "producers": [
+      {
+        "path": "experiments/rule-cluster-contract-v1-batch-1/produce.py",
+        "sha256": "4afa8ed79b7b55a671a4b57e8c4dbfff78a144af86103c6fe1e5b2ea218b7113"
+      },
+      {
+        "path": "experiments/rule-cluster-contract-v1-batch-1/make_schemas.py",
+        "sha256": "cf695a723358bc4cf29c87c7c84badd85a00b0c802e093e766aa1f4d5bd153d5"
+      },
+      {
+        "path": "experiments/rule-cluster-contract-v1-batch-1/prepare_questions.py",
+        "sha256": "918d3d75ddc4df75f0d001ab13cdbfa9d575cbf28cd1ff5ec72b6514d7bbd39a"
+      },
+      {
+        "path": "experiments/rule-cluster-contract-v1-batch-1/validate.py",
+        "sha256": "0db5b05bbb84fe13448ba63718dae9b625b751c8dd3283b1568e84c9f466ddf2"
+      }
+    ]
+  }
+}

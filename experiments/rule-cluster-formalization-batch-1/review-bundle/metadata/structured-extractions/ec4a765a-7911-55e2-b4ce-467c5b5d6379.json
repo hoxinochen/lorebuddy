@@ -1,0 +1,18 @@
+{
+  "binding": {
+    "adopted_decision_ids": [],
+    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+    "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+    "source_evidence_id": "urn:uuid:15020034-ce70-5e65-80aa-a42210b7ae51",
+    "source_note_utf8_range": {
+      "end": 2963,
+      "start": 2846
+    }
+  },
+  "id": "urn:uuid:ec4a765a-7911-55e2-b4ce-467c5b5d6379",
+  "json_pointer": "/critical_fields/dice",
+  "review_status": "candidate",
+  "revision": 1,
+  "subject_id": "urn:uuid:13f65e3d-4273-52df-abe1-f5c9627ff84b",
+  "value": "3d10+3"
+}

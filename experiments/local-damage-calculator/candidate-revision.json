@@ -1,0 +1,10 @@
+{
+  "implementation_revision": "local-damage-calculator@0.1.1-candidate.1",
+  "comparison_contract_revision": "research-draft-2",
+  "input_snapshot_revision": "input-snapshot-1",
+  "profile_revision": "draft-1",
+  "rule_scope_changed": false,
+  "candidate_status": "candidate_for_terminal_integration",
+  "terminal_acceptance": "not_run",
+  "public_release": "not_authorized"
+}

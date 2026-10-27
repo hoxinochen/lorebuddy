@@ -1,0 +1,26 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:f73f8240683f4920f2b46a72484965e056e78259006db1b326307194d44dbfa3",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/第七章：法术/法术详述/二环.md",
+  "id": "urn:uuid:5cb47e1a-24da-562b-aa40-247a6cea7bbc",
+  "original_record": {
+    "alias": "P.INVISIBILITY",
+    "id": "urn:uuid:5cb47e1a-24da-562b-aa40-247a6cea7bbc",
+    "line_range": [
+      403,
+      413
+    ],
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 28166,
+      "interval": "[start,end)",
+      "start": 27540
+    },
+    "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+    "text": "<a id=\"Invisibility\"></a>\n#### 隐形术｜Invisibility\n\n*二环 幻术（吟游诗人、术士、魔契师、法师、奇械师）*\n**施法时间：**动作\n**施法距离：**触碰\n**法术成分：**V、S、M（一根包裹在阿拉伯胶中的睫毛）\n**持续时间：**专注，至多1小时\n你触碰的一个生物进入隐形状态并维持至法术终止。如果目标进行攻击检定、造成伤害或施展法术，则此法术提前终止。\n**升环施法。**使用三环或更高法术位施展该法术时，你使用的法术位每比二环高一环，就可以额外指定一个生物作为目标。\n\n",
+    "text_sha256": "a8f4b4be73237e3d7d8dcbb82724aad59211f0a1d997fec0f90960e0578f931d"
+  },
+  "raw_fragment_id": "urn:uuid:a6cb8fb7-ab28-5156-b9b5-c10a75688a58",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

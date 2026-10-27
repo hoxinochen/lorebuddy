@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:a9059840540c273cb7c63b35c46986bf767426fbe7584892306d9493892382ee",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/异怪/史拉蟾/史拉绿蟾.md",
+  "id": "urn:uuid:6afabf80-ae33-5e0a-b82f-4494861828d2",
+  "original_record": {
+    "alias": "S.ABILITY.1",
+    "id": "urn:uuid:6afabf80-ae33-5e0a-b82f-4494861828d2",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 2247,
+      "interval": "[start,end)",
+      "start": 2129
+    },
+    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+    "text": "\n**魔法抗性Magic Resistance。**史拉蟾对抗法术和其他魔法效应时进行的豁免检定具有优势。\n",
+    "text_sha256": "12644c10e43b07b68ffbfd49a8f5ef890fa2fc654ef48ccac62c4b9caf2f9ab6"
+  },
+  "raw_fragment_id": "urn:uuid:2f037a82-6e86-5b22-b290-e00cb0335153",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

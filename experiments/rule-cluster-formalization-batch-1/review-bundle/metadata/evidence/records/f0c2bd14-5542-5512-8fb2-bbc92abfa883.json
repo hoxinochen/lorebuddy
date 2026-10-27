@@ -1,0 +1,26 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:40d6b4ba5aec75b37f3ec3ac1c5dda84a869111b8ae82cf196a683a4ecff44f5",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/附录C：术语汇编/状态.md",
+  "id": "urn:uuid:f0c2bd14-5542-5512-8fb2-bbc92abfa883",
+  "original_record": {
+    "alias": "P.INCAP",
+    "id": "urn:uuid:f0c2bd14-5542-5512-8fb2-bbc92abfa883",
+    "line_range": [
+      73,
+      81
+    ],
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 4111,
+      "interval": "[start,end)",
+      "start": 3678
+    },
+    "source_entry_id": "urn:uuid:89505d38-cbaf-5747-9798-96f1a0bf6718",
+    "text": "<a id=\"Incapacitated\"></a>\n### 失能 Incapacitated【状态】\n\n失能状态期间，你将遭受以下这些效应。\n**无法行动Inactive。**你无法执行任何动作、附赠动作以及反应。\n**无法专注No Concentration。**你的专注将被打断。\n**无法说话Speechless。**你无法说话。\n**措手不及Surprised。**如果你在陷入失能状态期间投掷先攻，你的先攻检定将具有劣势。\n\n",
+    "text_sha256": "06a10171407b801f49fa546f18948646f8fe52c28381564d63971df3ebc10234"
+  },
+  "raw_fragment_id": "urn:uuid:8971179e-39ce-5b76-812d-ab574f55a9c7",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

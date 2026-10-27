@@ -1,0 +1,26 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:bf318d178cb2915a36d5820016af305bff54a270a6228dfc89b51ae9a1d5a7f3",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/第七章：法术/法术详述/戏法（零环）.md",
+  "id": "urn:uuid:095055a1-4344-5223-80d0-cc8c68dda67b",
+  "original_record": {
+    "alias": "P.HAND",
+    "id": "urn:uuid:095055a1-4344-5223-80d0-cc8c68dda67b",
+    "line_range": [
+      143,
+      155
+    ],
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 9192,
+      "interval": "[start,end)",
+      "start": 8194
+    },
+    "source_entry_id": "urn:uuid:aeefb9c1-aff9-5982-98ab-0643f145eba5",
+    "text": "<a id=\"Mage_Hand\"></a>\n#### 法师之手｜Mage Hand\n\n*咒法 戏法（吟游诗人、术士、魔契师、法师、奇械师）*\n**施法时间：**动作\n**施法距离：**30尺\n**法术成分：**V、S\n**持续时间：**1分钟\n一只漂浮的幽灵手出现在施法距离内你指定的一点。幽灵手持续存在至法术终止。如果幽灵手与你之间的距离超过30尺，则幽灵手将消失不见。若你再次施展了此法术，现存的幽灵手也将提前消失。\n你可以在施展该法术时使用幽灵手实施一个行为：你可以操控一个物件、打开一扇未上锁的门或容器、将一件物品放入或取出一个打开的容器、或是将小瓶中的内容物倾倒出来。\n在后续的回合中，你可以用魔法 动作控制幽灵手再次实施上述行为之一。而作为那次动作的一部分，你还可以令幽灵手移动至多30尺。\n该幽灵手不能攻击，也不能激活魔法物品或承载超过10磅重的物质。\n\n",
+    "text_sha256": "f9e742f39f16f9a0a0fc299583bb151eeecf2442f2f83ceab29e9a1c3a825550"
+  },
+  "raw_fragment_id": "urn:uuid:f65bce35-3a5b-5e88-9f10-09feb1abc685",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

@@ -1,0 +1,281 @@
+{
+  "body": {
+    "digest": "sha256:7d33493161d3b184b82335f477194a706b6e80662f7a64b0ca6dcc398ebd3b4a",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/b0c16e81-f5e8-5e73-96e1-72735aaec1e9.md"
+  },
+  "candidate_snapshot": {
+    "alias": "P.RAYS",
+    "candidate_revision": 2,
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "casting_contract": {
+          "activation": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+              "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+              "source_evidence_id": "urn:uuid:3a5afe5c-01e1-5d8b-9da6-56725ea44185",
+              "source_note_utf8_range": {
+                "end": 43373,
+                "start": 43348
+              }
+            },
+            "state": "known",
+            "value": "动作"
+          },
+          "base_level": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+              "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+              "source_evidence_id": "urn:uuid:3a5afe5c-01e1-5d8b-9da6-56725ea44185",
+              "source_note_utf8_range": {
+                "end": 43756,
+                "start": 43249
+              }
+            },
+            "state": "known",
+            "value": 2
+          },
+          "components": {
+            "material": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:e7d2d510-5802-5350-a6c7-391b020fa902",
+                "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+                "source_evidence_id": "urn:uuid:3a5afe5c-01e1-5d8b-9da6-56725ea44185",
+                "source_note_utf8_range": {
+                  "end": 43425,
+                  "start": 43401
+                }
+              },
+              "state": "known",
+              "value": false
+            },
+            "material_consumption": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+                "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+                "source_evidence_id": "urn:uuid:3a5afe5c-01e1-5d8b-9da6-56725ea44185",
+                "source_note_utf8_range": {
+                  "end": 43425,
+                  "start": 43401
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "material_detail": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+                "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+                "source_evidence_id": "urn:uuid:3a5afe5c-01e1-5d8b-9da6-56725ea44185",
+                "source_note_utf8_range": {
+                  "end": 43425,
+                  "start": 43401
+                }
+              },
+              "state": "not_applicable",
+              "value": null
+            },
+            "material_value": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+                "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+                "source_evidence_id": "urn:uuid:3a5afe5c-01e1-5d8b-9da6-56725ea44185",
+                "source_note_utf8_range": {
+                  "end": 43425,
+                  "start": 43401
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "somatic": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:e7d2d510-5802-5350-a6c7-391b020fa902",
+                "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+                "source_evidence_id": "urn:uuid:3a5afe5c-01e1-5d8b-9da6-56725ea44185",
+                "source_note_utf8_range": {
+                  "end": 43425,
+                  "start": 43401
+                }
+              },
+              "state": "known",
+              "value": true
+            },
+            "verbal": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:e7d2d510-5802-5350-a6c7-391b020fa902",
+                "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+                "source_evidence_id": "urn:uuid:3a5afe5c-01e1-5d8b-9da6-56725ea44185",
+                "source_note_utf8_range": {
+                  "end": 43425,
+                  "start": 43401
+                }
+              },
+              "state": "known",
+              "value": true
+            }
+          },
+          "concentration": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:49dace82-f73e-5fff-8f21-b5bef68a7a74",
+              "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+              "source_evidence_id": "urn:uuid:3a5afe5c-01e1-5d8b-9da6-56725ea44185",
+              "source_note_utf8_range": {
+                "end": 43451,
+                "start": 43426
+              }
+            },
+            "state": "known",
+            "value": false
+          },
+          "coverage": "headers_targets_saves_and_calls_structured; remaining_effect_prose_retained_uncompiled; not_full_casting_legality",
+          "duration": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+              "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+              "source_evidence_id": "urn:uuid:3a5afe5c-01e1-5d8b-9da6-56725ea44185",
+              "source_note_utf8_range": {
+                "end": 43451,
+                "start": 43426
+              }
+            },
+            "state": "known",
+            "value": "立即"
+          },
+          "effects": [
+            {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+                "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+                "source_evidence_id": "urn:uuid:3a5afe5c-01e1-5d8b-9da6-56725ea44185",
+                "source_note_utf8_range": {
+                  "end": 43756,
+                  "start": 43249
+                }
+              },
+              "state": "partially_structured",
+              "value": {
+                "numeric_facet_pointer": "/numeric_facets",
+                "read_from_evidence_id": "urn:uuid:3a5afe5c-01e1-5d8b-9da6-56725ea44185"
+              }
+            }
+          ],
+          "range": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+              "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+              "source_evidence_id": "urn:uuid:3a5afe5c-01e1-5d8b-9da6-56725ea44185",
+              "source_note_utf8_range": {
+                "end": 43400,
+                "start": 43374
+              }
+            },
+            "state": "known",
+            "value": "120 尺"
+          },
+          "save_attack": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+              "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+              "source_evidence_id": "urn:uuid:3a5afe5c-01e1-5d8b-9da6-56725ea44185",
+              "source_note_utf8_range": {
+                "end": 43756,
+                "start": 43249
+              }
+            },
+            "state": "known",
+            "value": {
+              "kind": "ranged_spell_attack",
+              "on_hit": "2d6_fire",
+              "separate_attack_per_ray": true
+            }
+          },
+          "targeting": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+              "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+              "source_evidence_id": "urn:uuid:3a5afe5c-01e1-5d8b-9da6-56725ea44185",
+              "source_note_utf8_range": {
+                "end": 43756,
+                "start": 43249
+              }
+            },
+            "state": "known",
+            "value": {
+              "base_rays": 3,
+              "kind": "one_or_more_targets",
+              "target_entity_kind": "not_stated_in_local_text"
+            }
+          },
+          "upcast": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+              "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+              "source_evidence_id": "urn:uuid:3a5afe5c-01e1-5d8b-9da6-56725ea44185",
+              "source_note_utf8_range": {
+                "end": 43754,
+                "start": 43657
+              }
+            },
+            "state": "known",
+            "value": "使用的法术位每比二环高一环，你就能多创造出一道射线。"
+          }
+        }
+      }
+    },
+    "id": "urn:uuid:b0c16e81-f5e8-5e73-96e1-72735aaec1e9",
+    "kind": "spell",
+    "numeric_facets": {
+      "damage_each_ray": "2d6",
+      "damage_type": "fire",
+      "each_ray_separate_attack": true,
+      "rays_at_base_level": 3,
+      "upcast_extra_rays_per_level": 1
+    },
+    "review_status": "candidate",
+    "rule_context": "PHB2024",
+    "source_evidence_id": "urn:uuid:3a5afe5c-01e1-5d8b-9da6-56725ea44185",
+    "structured_mechanics_status": "verbatim_complete_structured_facets_below_are_partial_not_silent_defaults",
+    "title": "灼热射线｜Scorching Ray",
+    "verbatim_text": "<a id=\"Scorching_Ray\"></a>\n#### 灼热射线｜Scorching Ray\n\n*二环 塑能（术士、法师）*\n**施法时间：**动作\n**施法距离：**120 尺\n**法术成分：**V、S\n**持续时间：**立即\n你射出三道火焰的射线。你可以将其射向施法距离内的一个或多个目标。每道射线需要你分别进行一次远程法术攻击。若命中，则目标受到2d6点火焰伤害。\n**升环施法。**使用的法术位每比二环高一环，你就能多创造出一道射线。\n\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:b0c16e81-f5e8-5e73-96e1-72735aaec1e9",
+  "language": "zh-Hans",
+  "module": "spells",
+  "review_record_id": "urn:uuid:3e27d89f-a741-5e50-a299-25017f477c2e",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:3a5afe5c-01e1-5d8b-9da6-56725ea44185",
+    "derived_note_utf8_range": {
+      "end": 43756,
+      "start": 43249
+    },
+    "entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+    "fragment_id": "urn:uuid:a6cb8fb7-ab28-5156-b9b5-c10a75688a58",
+    "mapping_id": "urn:uuid:2b6584ea-16ab-541e-93e1-a63ae63c1dad"
+  },
+  "subject_kind": "spell",
+  "title": "灼热射线｜Scorching Ray",
+  "uncompiled_semantics_retained": true
+}

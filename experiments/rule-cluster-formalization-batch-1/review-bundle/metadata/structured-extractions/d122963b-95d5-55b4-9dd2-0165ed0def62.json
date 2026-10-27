@@ -1,0 +1,18 @@
+{
+  "binding": {
+    "adopted_decision_ids": [],
+    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+    "source_entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+    "source_evidence_id": "urn:uuid:8b86d615-d12b-59a4-af05-46b85e1ffd20",
+    "source_note_utf8_range": {
+      "end": 3358,
+      "start": 3250
+    }
+  },
+  "id": "urn:uuid:d122963b-95d5-55b4-9dd2-0165ed0def62",
+  "json_pointer": "/critical_fields/attack_bonus",
+  "review_status": "candidate",
+  "revision": 1,
+  "subject_id": "urn:uuid:fdfa5780-6cdb-5d32-ab27-39c1adee1f8e",
+  "value": 7
+}

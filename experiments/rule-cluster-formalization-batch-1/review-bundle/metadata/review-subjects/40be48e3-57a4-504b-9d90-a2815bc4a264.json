@@ -1,0 +1,112 @@
+{
+  "body": {
+    "digest": "sha256:894b54856d574ca1d093f8146912423b7076103027a496c56d46834913baecfb",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/40be48e3-57a4-504b-9d90-a2815bc4a264.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "damage": 5,
+      "damage_dice": "1d10",
+      "extra_movement_cost": 0,
+      "minimum_gap_inch": 1,
+      "occupy_creature_space": true,
+      "trigger": "first_entry_into_each_creature_space_per_turn"
+    },
+    "editorial_explanation": "每个回合对同一生物首次进入空间触发，不是每进出一次都触发，也不是每轮仅一次。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:e82a1348-7196-50b6-913e-0f7f511951d4",
+            "json_pointer": "/critical_fields/minimum_gap_inch"
+          },
+          {
+            "extraction_id": "urn:uuid:ec490b01-697a-5ef2-a932-6efe065ab499",
+            "json_pointer": "/critical_fields/extra_movement_cost"
+          },
+          {
+            "extraction_id": "urn:uuid:960b85bb-1a41-57f3-b74c-5bf44d94270c",
+            "json_pointer": "/critical_fields/occupy_creature_space"
+          },
+          {
+            "extraction_id": "urn:uuid:9927c00f-736d-554f-ba46-12ffba3f222e",
+            "json_pointer": "/critical_fields/damage"
+          },
+          {
+            "extraction_id": "urn:uuid:9afce477-5e52-5c6a-b570-5e07f8c1e2c7",
+            "json_pointer": "/critical_fields/damage_dice"
+          },
+          {
+            "extraction_id": "urn:uuid:6ee3ec9d-1d41-568a-86fa-ceab1af2401c",
+            "json_pointer": "/critical_fields/trigger"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "local_evidence": "F.ABILITY.2",
+      "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+      "pointer": "/critical_fields"
+    },
+    "id": "urn:uuid:40be48e3-57a4-504b-9d90-a2815bc4a264",
+    "kind": "特质Traits",
+    "mechanics": {
+      "clauses": {
+        "damage": 5,
+        "damage_dice": "1d10",
+        "extra_movement_cost": 0,
+        "minimum_gap_inch": 1,
+        "occupy_creature_space": true,
+        "trigger": "first_entry_into_each_creature_space_per_turn"
+      },
+      "damage": {
+        "amount": {
+          "dice": "1d10",
+          "printed_fixed": 5,
+          "selection": "use_scene_amount_mode; recorded_dice_must_not_be_rerolled"
+        },
+        "damage_type": "fire",
+        "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+        "linked_reduction_from_damage_taken": false,
+        "other_effects": [],
+        "save_success": null,
+        "trigger": "first_entry_per_target_per_turn"
+      },
+      "dependencies": [],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+    },
+    "owner_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+    "required_evidence": [],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:390a8706-7814-5127-9940-41751ddca948",
+    "title": "火焰形态",
+    "verbatim_evidence": "F.ABILITY.2",
+    "verbatim_text": " **火焰形态Fire Form。**火元素可以移动穿过最窄1寸宽的空间而无需消耗额外的移动力，且其可以进入并停留在生物所处的空间。当火元素在一个回合中首次进入某生物所处的空间时，该生物受到5（1d10）火焰伤害。\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:40be48e3-57a4-504b-9d90-a2815bc4a264",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:4492964d-8a4b-53f2-9467-f4edd95118c7",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:390a8706-7814-5127-9940-41751ddca948",
+    "derived_note_utf8_range": {
+      "end": 3675,
+      "start": 3393
+    },
+    "entry_id": "urn:uuid:048a1238-9915-5f2e-8619-c8ccbc580529",
+    "fragment_id": "urn:uuid:d6125d3b-9532-5ccd-8263-8e76bb248835",
+    "mapping_id": "urn:uuid:c0530d90-6451-5541-896f-ae1f13107880"
+  },
+  "subject_kind": "ability",
+  "title": "火焰形态",
+  "uncompiled_semantics_retained": true
+}

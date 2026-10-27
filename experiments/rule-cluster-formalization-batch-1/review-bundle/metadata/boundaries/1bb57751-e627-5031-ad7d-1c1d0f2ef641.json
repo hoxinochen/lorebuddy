@@ -1,0 +1,24 @@
+{
+  "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+  "candidate_key": "sha256:987e5df3baa9ecd79b236097971e8fb513235ed67ba708ddd71c9f460288ea01",
+  "decision": {
+    "reason": "Audit envelope only; per-subject derived ranges remain separate.",
+    "review_status": "pending",
+    "reviewer_id": null
+  },
+  "entry_id": "urn:uuid:90d6a63f-2461-57ee-b524-9b59fdca9edd",
+  "id": "urn:uuid:1bb57751-e627-5031-ad7d-1c1d0f2ef641",
+  "lifecycle": {
+    "revision": 1,
+    "status": "draft"
+  },
+  "locator": {
+    "end": 25629,
+    "kind": "byte-range",
+    "start": 0
+  },
+  "node_id": null,
+  "proposed_title": "七环",
+  "schema": "core.boundary-record@0.1.0",
+  "status": "proposed"
+}

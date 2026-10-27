@@ -1,0 +1,6 @@
+{
+  "id": "urn:uuid:49dace82-f73e-5fff-8f21-b5bef68a7a74",
+  "method": "Read the explicit concentration marker in the duration header under the selected PHB2024 convention.",
+  "name": "lorebuddy.dnd2024.concentration_marker",
+  "revision": 1
+}

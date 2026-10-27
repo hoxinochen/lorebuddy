@@ -1,0 +1,87 @@
+{
+  "body": {
+    "digest": "sha256:7b09abbb6352e0993a73c25adda8926f64b97b663170414eb60b7550cf021944",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/6f37153d-8e5e-58b4-80b9-7cd3b445122d.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "hp_regained": 10,
+      "requires_hp_at_least": 1,
+      "timing": "own_turn_start"
+    },
+    "editorial_explanation": "0HP不能仅凭此特质自行回复；本卡没有巨魔的酸火抑制条款。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:78f156a9-993b-5e24-8819-99315c019c72",
+            "json_pointer": "/critical_fields/hp_regained"
+          },
+          {
+            "extraction_id": "urn:uuid:f683a57c-aab4-590e-b6d6-4322670f8ac2",
+            "json_pointer": "/critical_fields/timing"
+          },
+          {
+            "extraction_id": "urn:uuid:33d35bf4-f50f-5fe2-aeaa-a5b018479a84",
+            "json_pointer": "/critical_fields/requires_hp_at_least"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "local_evidence": "S.ABILITY.2",
+      "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+      "pointer": "/critical_fields"
+    },
+    "id": "urn:uuid:6f37153d-8e5e-58b4-80b9-7cd3b445122d",
+    "kind": "特质Traits",
+    "mechanics": {
+      "clauses": {
+        "hp_regained": 10,
+        "requires_hp_at_least": 1,
+        "timing": "own_turn_start"
+      },
+      "dependencies": [
+        "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b"
+      ],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+    },
+    "owner_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+    "required_evidence": [
+      "P.HP"
+    ],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:b88af575-a594-58f9-8e13-bdb32abb1500",
+    "title": "再生",
+    "verbatim_evidence": "S.ABILITY.2",
+    "verbatim_text": "**再生Regeneration。**若史拉蟾至少拥有1生命值，则其在自己回合开始时回复10生命值。\n\n###### 动作Actions\n"
+  },
+  "dependency_ids": [
+    "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b"
+  ],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:6f37153d-8e5e-58b4-80b9-7cd3b445122d",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:c27003cc-4a15-591b-9073-2b176161eb9f",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:b88af575-a594-58f9-8e13-bdb32abb1500",
+    "derived_note_utf8_range": {
+      "end": 2382,
+      "start": 2247
+    },
+    "entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+    "fragment_id": "urn:uuid:2f037a82-6e86-5b22-b290-e00cb0335153",
+    "mapping_id": "urn:uuid:d69b0a1f-7a80-5cc0-ad1c-f9a647e5d626"
+  },
+  "subject_kind": "ability",
+  "title": "再生",
+  "uncompiled_semantics_retained": true
+}

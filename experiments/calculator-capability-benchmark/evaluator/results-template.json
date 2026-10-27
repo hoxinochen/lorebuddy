@@ -1,0 +1,152 @@
+{
+  "status": "not_run",
+  "implementation": null,
+  "environment": null,
+  "timing_method": null,
+  "cases": [
+    {
+      "id": "N01",
+      "actual_result": null,
+      "score": null,
+      "cold_first_call_ms": null,
+      "warm_samples_ms": [],
+      "warm_p50_ms": null,
+      "warm_p95_ms": null
+    },
+    {
+      "id": "N02",
+      "actual_result": null,
+      "score": null,
+      "cold_first_call_ms": null,
+      "warm_samples_ms": [],
+      "warm_p50_ms": null,
+      "warm_p95_ms": null
+    },
+    {
+      "id": "N03",
+      "actual_result": null,
+      "score": null,
+      "cold_first_call_ms": null,
+      "warm_samples_ms": [],
+      "warm_p50_ms": null,
+      "warm_p95_ms": null
+    },
+    {
+      "id": "N04",
+      "actual_result": null,
+      "score": null,
+      "cold_first_call_ms": null,
+      "warm_samples_ms": [],
+      "warm_p50_ms": null,
+      "warm_p95_ms": null
+    },
+    {
+      "id": "N05",
+      "actual_result": null,
+      "score": null,
+      "cold_first_call_ms": null,
+      "warm_samples_ms": [],
+      "warm_p50_ms": null,
+      "warm_p95_ms": null
+    },
+    {
+      "id": "N06",
+      "actual_result": null,
+      "score": null,
+      "cold_first_call_ms": null,
+      "warm_samples_ms": [],
+      "warm_p50_ms": null,
+      "warm_p95_ms": null
+    },
+    {
+      "id": "N07",
+      "actual_result": null,
+      "score": null,
+      "cold_first_call_ms": null,
+      "warm_samples_ms": [],
+      "warm_p50_ms": null,
+      "warm_p95_ms": null
+    },
+    {
+      "id": "N08",
+      "actual_result": null,
+      "score": null,
+      "cold_first_call_ms": null,
+      "warm_samples_ms": [],
+      "warm_p50_ms": null,
+      "warm_p95_ms": null
+    },
+    {
+      "id": "B01",
+      "actual_result": null,
+      "score": null,
+      "cold_first_call_ms": null,
+      "warm_samples_ms": [],
+      "warm_p50_ms": null,
+      "warm_p95_ms": null
+    },
+    {
+      "id": "B02",
+      "actual_result": null,
+      "score": null,
+      "cold_first_call_ms": null,
+      "warm_samples_ms": [],
+      "warm_p50_ms": null,
+      "warm_p95_ms": null
+    },
+    {
+      "id": "B03",
+      "actual_result": null,
+      "score": null,
+      "cold_first_call_ms": null,
+      "warm_samples_ms": [],
+      "warm_p50_ms": null,
+      "warm_p95_ms": null
+    },
+    {
+      "id": "B04",
+      "actual_result": null,
+      "score": null,
+      "cold_first_call_ms": null,
+      "warm_samples_ms": [],
+      "warm_p50_ms": null,
+      "warm_p95_ms": null
+    },
+    {
+      "id": "B05",
+      "actual_result": null,
+      "score": null,
+      "cold_first_call_ms": null,
+      "warm_samples_ms": [],
+      "warm_p50_ms": null,
+      "warm_p95_ms": null
+    },
+    {
+      "id": "B06",
+      "actual_result": null,
+      "score": null,
+      "cold_first_call_ms": null,
+      "warm_samples_ms": [],
+      "warm_p50_ms": null,
+      "warm_p95_ms": null
+    },
+    {
+      "id": "B07",
+      "actual_result": null,
+      "score": null,
+      "cold_first_call_ms": null,
+      "warm_samples_ms": [],
+      "warm_p50_ms": null,
+      "warm_p95_ms": null
+    },
+    {
+      "id": "B08",
+      "actual_result": null,
+      "score": null,
+      "cold_first_call_ms": null,
+      "warm_samples_ms": [],
+      "warm_p50_ms": null,
+      "warm_p95_ms": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:4177ed87a23d32638d852102f82464663b41655e52540f7a2e648f0d0a045c8f",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/元素/四元素/气元素.md",
+  "id": "urn:uuid:b2508f14-6e32-59aa-aa94-851da2c4ecce",
+  "original_record": {
+    "alias": "A.ABILITY.2",
+    "id": "urn:uuid:b2508f14-6e32-59aa-aa94-851da2c4ecce",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 3333,
+      "interval": "[start,end)",
+      "start": 3259
+    },
+    "source_entry_id": "urn:uuid:2cc417f9-b3ff-5e61-b655-2653f61642d2",
+    "text": "\n**多重攻击Multiattack。**气元素发动两次雷鸣猛击攻击。\n",
+    "text_sha256": "ce8d9650d2c0757dd2fafaa98eb23aea8d4ab79d69980ddd577b364e4f730bc4"
+  },
+  "raw_fragment_id": "urn:uuid:8327c556-e357-5aa1-8db1-9daa6cb59898",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

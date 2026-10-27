@@ -1,0 +1,36 @@
+{
+  "extensions": {
+    "lorebuddy-dnd2024-review": {
+      "decision_scope": "accept claimed association or reject; never auto-verify",
+      "previous_mapping": {
+        "book_id": "phb-2024",
+        "book_name": "玩家手册2024",
+        "category": "core-2024",
+        "entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+        "mapping_basis": "source_path_top_level_root",
+        "mapping_status": "deterministic",
+        "output_path": "Notes/玩家手册2024/第七章：法术/法术详述/三环.md",
+        "source_identity_status": "claimed",
+        "source_path": "玩家手册2024/法术详述/3环.htm",
+        "system_version": "2024",
+        "title": "三环"
+      }
+    }
+  },
+  "id": "urn:uuid:64862a7e-e0c8-5b59-9c7c-18f448b4b775",
+  "lifecycle": {
+    "revision": 1,
+    "status": "draft"
+  },
+  "mapping_status": "claimed",
+  "review_status": "pending",
+  "schema": "core.source-mapping@0.1.0",
+  "source": {
+    "id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+    "kind": "entry"
+  },
+  "target": {
+    "edition_id": "urn:uuid:72d3a3b5-fbaa-5966-90b3-3a667cf60b62",
+    "work_id": "urn:uuid:6654ea59-075b-5f6c-a0b9-23bd7229c397"
+  }
+}

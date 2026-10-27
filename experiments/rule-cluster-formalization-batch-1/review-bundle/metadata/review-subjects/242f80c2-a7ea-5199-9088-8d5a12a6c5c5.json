@@ -1,0 +1,762 @@
+{
+  "body": {
+    "digest": "sha256:bf921374fbb95e9854fbb571f5f7aefab56468a89b53dd68746e59342cfe7fcf",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/242f80c2-a7ea-5199-9088-8d5a12a6c5c5.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "at_will": [
+        "P.DISGUISE",
+        "P.ETHEREAL"
+      ],
+      "casting_ability": "charisma",
+      "components_override": "no_material_only",
+      "each_once_per_day": [
+        "P.DREAM",
+        "P.HYPNOTIC"
+      ],
+      "save_dc": 15
+    },
+    "editorial_explanation": "保留V/S和各法术专注；Hypnotic按ED.HYPNOTIC作明确映射。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "casting_calls": [
+          {
+            "availability": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "known",
+              "value": {
+                "kind": "at_will"
+              }
+            },
+            "cast_level": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "casting_ability": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "known",
+              "value": "charisma"
+            },
+            "components_waived": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "known",
+              "value": [
+                "M"
+              ]
+            },
+            "concentration_override": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "mapping_adoption_ids": [],
+            "mode": "intrinsic_spell_call",
+            "parameter_owner": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "known",
+              "value": "this_actor_instance"
+            },
+            "save_dc": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "known",
+              "value": 15
+            },
+            "spell_attack_bonus": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "spell_id": "urn:uuid:be92f54c-9051-5867-b673-10e61433b6c3",
+            "target_override": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "uncompiled_qualifications": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "known",
+              "value": {}
+            }
+          },
+          {
+            "availability": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "known",
+              "value": {
+                "kind": "at_will"
+              }
+            },
+            "cast_level": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "casting_ability": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "known",
+              "value": "charisma"
+            },
+            "components_waived": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "known",
+              "value": [
+                "M"
+              ]
+            },
+            "concentration_override": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "mapping_adoption_ids": [],
+            "mode": "intrinsic_spell_call",
+            "parameter_owner": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "known",
+              "value": "this_actor_instance"
+            },
+            "save_dc": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "known",
+              "value": 15
+            },
+            "spell_attack_bonus": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "spell_id": "urn:uuid:e3995331-da2b-5e63-a16d-118e40c00303",
+            "target_override": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "uncompiled_qualifications": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "known",
+              "value": {}
+            }
+          },
+          {
+            "availability": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "known",
+              "value": {
+                "kind": "each_once_per_day",
+                "recovery_evidence_id": "urn:uuid:325369fb-509c-57dc-9c14-7f5c093407d0"
+              }
+            },
+            "cast_level": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "casting_ability": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "known",
+              "value": "charisma"
+            },
+            "components_waived": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "known",
+              "value": [
+                "M"
+              ]
+            },
+            "concentration_override": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "mapping_adoption_ids": [],
+            "mode": "intrinsic_spell_call",
+            "parameter_owner": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "known",
+              "value": "this_actor_instance"
+            },
+            "save_dc": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "known",
+              "value": 15
+            },
+            "spell_attack_bonus": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "spell_id": "urn:uuid:eb5e535c-2645-5c77-b237-a1a7e79c9681",
+            "target_override": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "uncompiled_qualifications": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "known",
+              "value": {}
+            }
+          },
+          {
+            "availability": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "known",
+              "value": {
+                "kind": "each_once_per_day",
+                "recovery_evidence_id": "urn:uuid:325369fb-509c-57dc-9c14-7f5c093407d0"
+              }
+            },
+            "cast_level": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "casting_ability": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "known",
+              "value": "charisma"
+            },
+            "components_waived": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "known",
+              "value": [
+                "M"
+              ]
+            },
+            "concentration_override": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "mapping_adoption_ids": [
+              "urn:uuid:1607dde9-3615-5501-8660-838d00e4e588"
+            ],
+            "mode": "intrinsic_spell_call",
+            "parameter_owner": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "known",
+              "value": "this_actor_instance"
+            },
+            "save_dc": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "known",
+              "value": 15
+            },
+            "spell_attack_bonus": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "spell_id": "urn:uuid:5239b2ad-4c89-50ec-bd69-95a5df09d2c9",
+            "target_override": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "uncompiled_qualifications": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                "source_note_utf8_range": {
+                  "end": 3841,
+                  "start": 3544
+                }
+              },
+              "state": "known",
+              "value": {}
+            }
+          }
+        ],
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:e2ae41b3-7450-5f55-804d-29e66b90cf40",
+            "json_pointer": "/critical_fields/casting_ability"
+          },
+          {
+            "extraction_id": "urn:uuid:4cc262ed-845a-53c6-b09f-dafe14485448",
+            "json_pointer": "/critical_fields/save_dc"
+          },
+          {
+            "extraction_id": "urn:uuid:986987db-f184-5e3e-87c5-ff92da7e6276",
+            "json_pointer": "/critical_fields/components_override"
+          },
+          {
+            "extraction_id": "urn:uuid:b99b9a55-b0f3-5ad8-8526-41aedd8a2971",
+            "json_pointer": "/critical_fields/at_will/0"
+          },
+          {
+            "extraction_id": "urn:uuid:b56890f9-6ce5-5100-b281-20a5f6c65ff2",
+            "json_pointer": "/critical_fields/at_will/1"
+          },
+          {
+            "extraction_id": "urn:uuid:aa87b11f-83c4-5d56-a953-535b9bcf3d86",
+            "json_pointer": "/critical_fields/each_once_per_day/0"
+          },
+          {
+            "extraction_id": "urn:uuid:f8920966-f8bd-5733-a0eb-df369fa039c0",
+            "json_pointer": "/critical_fields/each_once_per_day/1"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [
+        "ED.HYPNOTIC"
+      ],
+      "pointer": "/critical_fields",
+      "source_evidence": "IN.ABILITY.4"
+    },
+    "id": "urn:uuid:242f80c2-a7ea-5199-9088-8d5a12a6c5c5",
+    "kind": "动作Actions",
+    "mechanics": {
+      "clauses": {
+        "at_will": [
+          "P.DISGUISE",
+          "P.ETHEREAL"
+        ],
+        "casting_ability": "charisma",
+        "components_override": "no_material_only",
+        "each_once_per_day": [
+          "P.DREAM",
+          "P.HYPNOTIC"
+        ],
+        "save_dc": 15
+      },
+      "dependencies": [
+        "urn:uuid:be92f54c-9051-5867-b673-10e61433b6c3",
+        "urn:uuid:e3995331-da2b-5e63-a16d-118e40c00303",
+        "urn:uuid:eb5e535c-2645-5c77-b237-a1a7e79c9681",
+        "urn:uuid:5239b2ad-4c89-50ec-bd69-95a5df09d2c9",
+        "urn:uuid:54fb4631-fd48-5d41-84fd-2c41fbf2f5d5",
+        "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b",
+        "urn:uuid:9b807124-e59e-5ea1-8ad0-05dc5451847e"
+      ],
+      "kind": "source_bound_candidate",
+      "spell_calls": [
+        {
+          "caller_overrides_from": "/critical_fields",
+          "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+          "target_id": "urn:uuid:be92f54c-9051-5867-b673-10e61433b6c3"
+        },
+        {
+          "caller_overrides_from": "/critical_fields",
+          "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+          "target_id": "urn:uuid:e3995331-da2b-5e63-a16d-118e40c00303"
+        },
+        {
+          "caller_overrides_from": "/critical_fields",
+          "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+          "target_id": "urn:uuid:eb5e535c-2645-5c77-b237-a1a7e79c9681"
+        },
+        {
+          "caller_overrides_from": "/critical_fields",
+          "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+          "target_id": "urn:uuid:5239b2ad-4c89-50ec-bd69-95a5df09d2c9"
+        }
+      ],
+      "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+    },
+    "owner_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+    "required_evidence": [
+      "P.DISGUISE",
+      "P.ETHEREAL",
+      "P.DREAM",
+      "P.HYPNOTIC",
+      "P.COMPONENTS",
+      "P.CONCENTRATION",
+      "M.USAGE"
+    ],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+    "title": "施法",
+    "verbatim_evidence": "IN.ABILITY.4",
+    "verbatim_text": " **施法Spellcasting。**梦魔施展以下一道法术，无需材料成分并使用魅力作为施法属性（法术豁免DC15）：\n ***随意：****易容术Disguise Self，以太化Etherealness*\n ***每项1/日：****托梦术Dream，催眠图纹Hypnotic*\n\n###### 附赠动作Bonus Actions\n\n"
+  },
+  "dependency_ids": [
+    "urn:uuid:5239b2ad-4c89-50ec-bd69-95a5df09d2c9",
+    "urn:uuid:54fb4631-fd48-5d41-84fd-2c41fbf2f5d5",
+    "urn:uuid:9b807124-e59e-5ea1-8ad0-05dc5451847e",
+    "urn:uuid:be92f54c-9051-5867-b673-10e61433b6c3",
+    "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b",
+    "urn:uuid:e3995331-da2b-5e63-a16d-118e40c00303",
+    "urn:uuid:eb5e535c-2645-5c77-b237-a1a7e79c9681"
+  ],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:242f80c2-a7ea-5199-9088-8d5a12a6c5c5",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:716d3a81-9b3a-5dc5-b077-7d02d768109d",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+    "derived_note_utf8_range": {
+      "end": 3841,
+      "start": 3544
+    },
+    "entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+    "fragment_id": "urn:uuid:3da4dc0e-0945-5ef1-8d58-92662fc6ea04",
+    "mapping_id": "urn:uuid:63ace06a-e3e6-5b0c-b9bb-590596d6589b"
+  },
+  "subject_kind": "ability",
+  "title": "施法",
+  "uncompiled_semantics_retained": true
+}

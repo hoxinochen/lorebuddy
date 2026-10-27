@@ -1,0 +1,58 @@
+{
+  "body": {
+    "digest": "sha256:40d6b4ba5aec75b37f3ec3ac1c5dda84a869111b8ae82cf196a683a4ecff44f5",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/9809bb64-da00-54a8-9512-ca442fc5befb.md"
+  },
+  "candidate_snapshot": {
+    "content": {
+      "format": "m1_published_markdown_utf8",
+      "text": "---\nartifact_id: \"urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408\"\nentry_id: \"urn:uuid:89505d38-cbaf-5747-9798-96f1a0bf6718\"\nsource_path: \"玩家手册2024/术语汇编/状态.htm\"\nnavigation_paths:\n  - \"玩家手册2024/附录C：术语汇编/状态\"\nsource_sha256: \"sha256:1bc46897074e0b83e39ee430cee92127952e0eb9428f34a8cdee2827336bcfb2\"\ndetected_encoding: \"gb18030\"\npublisher_profile: \"m1c3.obsidian-baseline@0.1.0\"\npublisher_release: \"baseline\"\npublisher_note_path: \"Notes/玩家手册2024/附录C：术语汇编/状态.md\"\n---\n# 状态\n\n<a id=\"Condition\"></a>\n### 状态 Condition\n\n状态是一种临时的游戏状况。每个状态的释义中都会解释它给其受状态者带来何样的影响，且有一系列有关如何结束这些状态的规则。这些状态在术语汇编的其他条目中皆有释义：\n\n| 目盲 | 魅惑 | 耳聋 |\n| --- | --- | --- |\n| 力竭 | 恐慌 | 受擒 |\n| 失能 | 隐形 | 麻痹 |\n| 石化 | 倒地 | 中毒 |\n| 束缚 | 震慑 | 昏迷 |\n\n 状态不会与自己叠加——一个生物只有“有这个状态”与“没有这个状态”两种状况。不过力竭状态是此规则的一个例外。另见第一章（“**状态**”）。\n\n<a id=\"Blinded\"></a>\n### 目盲 Blinded【状态】\n\n目盲状态期间，你将遭受以下这些效应。\n**看不见Can't See。**你无法视物，且会自动失败于任何需要视觉的属性检定。\n**攻击影响Attacks Affected。**以你为目标的攻击检定具有优势，而你进行的攻击检定具有劣势。\n\n<a id=\"Charmed\"></a>\n### 魅惑 Charmed【状态】\n\n魅惑状态期间，你将遭受以下这些效应。\n**无法伤害魅惑源Can't Harm the Charmer。** 你无法攻击魅惑源，也无法将其作为伤害性能力或魔法效应的对象。\n**社交优势Social Advantage。** 魅惑源对你进行的任何有关社交的属性检定均具有优势。\n\n<a id=\"Deafened\"></a>\n### 耳聋 Deafened【状态】\n\n耳聋状态期间，你将遭受以下这个效应。\n**听不见Can't Hear。** 你无法听声，且会自动失败于任何依赖听觉的属性检定。\n\n<a id=\"Exhaustion\"></a>\n### 力竭 Exhaustion【状态】\n\n力竭状态期间，你将遭受以下这些效应。\n**力竭等级Exhaustion Levels。**此状态可叠加。每次你获得此状态，力竭等级都增加1级。当你力竭等级累加到6级你将死亡。\n**D20检定影响D20 Tests Affected。**当你进行一次D20检定时，此次检定将减去你力竭等级2倍的值。\n**速度降低Speed Reduced。**你的速度减少等于你力竭等级5倍尺。\n**移除力竭等级Removing Exhaustion Levels。**你可以依靠完成长休来降低1级力竭等级。当你力竭等级降至0时，此状态结束。\n\n<a id=\"Frightened\"></a>\n### 恐慌 Frightened【状态】\n\n恐慌状态期间，你将遭受以下这些效应。\n**属性检定与攻击影响Ability Checks and Attacks Affected。**只要恐惧源在你的视线范围内，你进行的属性检定与攻击检定就具有劣势。\n**无法靠近Can't Approach。**你无法自愿地向靠近恐惧源的方向移动。\n\n<a id=\"Grappled\"></a>\n### 受擒 Grappled【状态】\n\n受擒状态期间，你将遭受以下这些效应。\n**速度归零Speed 0。**你的速度变为0，且无法被增加。\n**攻击影响Attacks Affected。**除擒抱者外，你对其他任何目标进行的攻击检定都具有劣势。\n**带动Movable。**擒抱者移动时，其可以拖拽或承载你，但其每移动1尺都需要为此额外消耗1尺移动力。若你的体型为微型或你的体型小于擒抱者两级及以上，擒抱者拖拽/承载你将不需要额外消耗移动力。\n\n<a id=\"Incapacitated\"></a>\n### 失能 Incapacitated【状态】\n\n失能状态期间，你将遭受以下这些效应。\n**无法行动Inactive。**你无法执行任何动作、附赠动作以及反应。\n**无法专注No Concentration。**你的专注将被打断。\n**无法说话Speechless。**你无法说话。\n**措手不及Surprised。**如果你在陷入失能状态期间投掷先攻，你的先攻检定将具有劣势。\n\n<a id=\"Invisible\"></a>\n### 隐形 Invisible【状态】\n\n隐形状态期间，你将获得以下这些效应。\n **出其不意Surprise。**如果你在投掷先攻时处于隐形状态，你的先攻检定将具有优势。\n**隐蔽Concealed。**任何需要能够看见目标的效应都不会影响到你，除非效应的源头能通过某种方式看到你。你所着装或携带的一切装备也同样会被隐蔽起来。\n**攻击影响Attacks Affected。**以你为目标的攻击检定具有劣势，而你进行的攻击检定具有优势。如果一个生物能以某种方式看见你，那么你在面对该生物时不会获得这一增益。\n\n<a id=\"Paralyzed\"></a>\n### 麻痹 Paralyzed【状态】\n\n麻痹状态期间，你将遭受以下这些效应。\n**失能Incapacitated。**你陷入失能状态。\n**速度归零Speed 0。**你的速度变为0，且无法被增加。\n **豁免影响Saving Throws Affected。**你自动失败于力量豁免检定与敏捷豁免检定。\n**攻击影响Attacks Affected。**以你为目标的攻击检定具有优势。\n**自动重击Automatic Critical Hits。**若攻击者位于你5尺内，其任何命中你的攻击检定都会变为重击。\n\n<a id=\"Petrified\"></a>\n### 石化 Petrified【状态】\n\n石化状态期间，你将遭受以下这些效应。\n**化为非活动材质Turned to Inanimate Substance。** 你与你穿着或携带的所有非魔法物品将被变化为坚固的、非活动的材质（通常是石头）。你的重量变为原本的十倍，且你将停止老化。\n**失能Incapacitated。**你陷入失能状态。\n**速度归零Speed 0。**你的速度变为0，且无法被增加。\n**攻击影响Attacks Affected。**以你为目标的攻击检定具有优势。\n**豁免影响Saving Affected。**你自动失败于力量豁免检定与敏捷豁免检定。\n**伤害全抗Resist Damage。**你具有所有伤害的抗性。\n**中毒免疫Poison Immunity。**你具有中毒状态的免疫。\n\n<a id=\"Poisoned\"></a>\n### 中毒 Poisoned【状态】\n\n中毒状态期间，你将遭受以下这个效应。\n**属性检定与攻击影响Ability Checks and Attacks Affected。**你进行的攻击检定与属性检定具有劣势。\n\n<a id=\"Prone\"></a>\n### 倒地 Prone【状态】\n\n倒地状态期间，你将遭受以下这些效应。\n**阻碍移动Restricted Movement。**你唯二的移动选项是匍匐移动或是消耗你速度一半数值（向下取整）的移动力起立，并由此终止这一状态。如果你的速度为0，你无法起立。\n**攻击影响Attacks Affected。**你进行的攻击检定具有劣势。若攻击者位于你5尺内，其以你为目标的攻击检定具有优势；若攻击者不位于你5尺内，其以你为目标的攻击检定具有劣势。\n\n<a id=\"Restrained\"></a>\n### 束缚 Restrained【状态】\n\n束缚状态期间，你将遭受以下这些效应。\n **速度归零Speed 0。**你的速度变为0，且无法被增加。\n **攻击影响Attacks Affected。**以你为目标的攻击检定具有优势，而你进行的攻击检定具有劣势。\n **豁免影响Saving Affected。**你进行的敏捷豁免检定具有劣势。\n\n<a id=\"Stunned\"></a>\n### 震慑 Stunned【状态】\n\n震慑状态期间，你将遭受以下这些效应。\n**失能Incapacitated。**你陷入失能状态。\n**豁免影响Saving Throws Affected。**你自动失败于力量豁免检定与敏捷豁免检定。\n**攻击影响Attacks Affected。**以你为目标的攻击检定具有优势。\n\n<a id=\"Unconscious\"></a>\n### 昏迷 Unconscious【状态】\n\n昏迷状态期间，你将遭受以下这些效应。\n**迟钝Inert。**你陷入失能状态与倒地状态，你手上持握的东西也会全数掉落。此状态结束时，倒地状态并不会因此结束。\n**速度归零Speed 0。**你的速度变为0，且无法被增加。\n**攻击影响Attacks Affected。**以你为目标的攻击检定具有优势。\n**豁免影响Saving Throws Affected。**你自动失败于力量豁免检定与敏捷豁免检定。\n**自动重击Automatic Critical Hits。**若攻击者位于你5尺内，其任何命中你的攻击检定都会变为重击。\n**无知觉Unaware。**你无法感知到你周遭的事物。\n"
+    },
+    "coverage": {
+      "basis": "whole_note_utf8",
+      "complete_entry": true,
+      "end": 8350,
+      "start": 0
+    },
+    "evidence_ids": [
+      "urn:uuid:f0c2bd14-5542-5512-8fb2-bbc92abfa883",
+      "urn:uuid:b7812e50-e3fe-5b47-ab32-ad6db484fa1e",
+      "urn:uuid:2abb4aff-5de1-5be4-bcb4-7d067b4e9bbd",
+      "urn:uuid:cea9b36b-c730-53d9-951b-8f9bbfa069ac",
+      "urn:uuid:0b536b45-d4e1-53ab-85a7-18dae90c3536",
+      "urn:uuid:c1494e0b-4094-5de6-97f6-c345cf85774a",
+      "urn:uuid:ec6fb58d-3876-5bb4-aff0-1770b54ef1b1",
+      "urn:uuid:196d889f-88ea-5e36-a597-f9cda6d753e8",
+      "urn:uuid:b8dede15-094c-5f7a-ac9b-e3705e3a8a80",
+      "urn:uuid:41019aa0-8ac8-570b-a8dd-1f1588e0dfe3"
+    ],
+    "id": "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+    "kind": "shared_rule_entry",
+    "source_entry_id": "urn:uuid:89505d38-cbaf-5747-9798-96f1a0bf6718",
+    "title": "状态"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+  "language": "zh-Hans",
+  "module": "common",
+  "review_record_id": "urn:uuid:58dad9cd-dc03-50e4-a2bd-0980642a13b3",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": null,
+    "derived_note_utf8_range": {
+      "end": 8350,
+      "start": 0
+    },
+    "entry_id": "urn:uuid:89505d38-cbaf-5747-9798-96f1a0bf6718",
+    "fragment_id": "urn:uuid:8971179e-39ce-5b76-812d-ab574f55a9c7",
+    "mapping_id": "urn:uuid:0c42b600-fcf4-526b-bd64-eff4c8095ea6"
+  },
+  "subject_kind": "shared_reference",
+  "title": "状态",
+  "uncompiled_semantics_retained": true
+}

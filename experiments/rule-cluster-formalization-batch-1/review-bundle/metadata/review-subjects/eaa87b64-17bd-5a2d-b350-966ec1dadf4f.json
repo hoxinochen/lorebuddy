@@ -1,0 +1,120 @@
+{
+  "body": {
+    "digest": "sha256:b0f148d62091d0eb7eefeb02c2259be040c929ccbbe73aaf13e336c0d87f3771",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/eaa87b64-17bd-5a2d-b350-966ec1dadf4f.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "attack_bonus": 7,
+      "damage_bludgeoning": 11,
+      "damage_force": 7,
+      "dice": [
+        "2d6+4",
+        "2d6"
+      ],
+      "reach_ft": 10
+    },
+    "editorial_explanation": "分别保留钝击和力场伤害，不将总18当单类型。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "damage_components": {
+          "components": [
+            {
+              "damage_type": "bludgeoning",
+              "dice": "2d6+4",
+              "printed_fixed": 11
+            },
+            {
+              "damage_type": "force",
+              "dice": "2d6",
+              "printed_fixed": 7
+            }
+          ],
+          "execution_requirement": "mixed_damage",
+          "same_hit": true,
+          "source_evidence_id": "urn:uuid:6c696103-aa06-5b86-847e-286e087d4a92"
+        },
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:94d5b267-8219-500f-8960-304efcd84175",
+            "json_pointer": "/critical_fields/attack_bonus"
+          },
+          {
+            "extraction_id": "urn:uuid:27e2ef06-5862-5024-94e0-3459631d027f",
+            "json_pointer": "/critical_fields/reach_ft"
+          },
+          {
+            "extraction_id": "urn:uuid:e4640a4a-2615-585b-ba81-a4119b6d722b",
+            "json_pointer": "/critical_fields/damage_bludgeoning"
+          },
+          {
+            "extraction_id": "urn:uuid:35cec260-ff64-517b-9c63-bfee9d14d7c2",
+            "json_pointer": "/critical_fields/damage_force"
+          },
+          {
+            "extraction_id": "urn:uuid:454afca8-0990-5056-8b6e-6ca05e1aa821",
+            "json_pointer": "/critical_fields/dice/0"
+          },
+          {
+            "extraction_id": "urn:uuid:ae02e883-a796-57f9-ae5b-6ec69177033d",
+            "json_pointer": "/critical_fields/dice/1"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "local_evidence": "G.ABILITY.5",
+      "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+      "pointer": "/critical_fields"
+    },
+    "id": "urn:uuid:eaa87b64-17bd-5a2d-b350-966ec1dadf4f",
+    "kind": "动作Actions",
+    "mechanics": {
+      "clauses": {
+        "attack_bonus": 7,
+        "damage_bludgeoning": 11,
+        "damage_force": 7,
+        "dice": [
+          "2d6+4",
+          "2d6"
+        ],
+        "reach_ft": 10
+      },
+      "dependencies": [],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_and_complete_verbatim; remaining_semantics_uncompiled"
+    },
+    "owner_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+    "required_evidence": [],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:6c696103-aa06-5b86-847e-286e087d4a92",
+    "title": "拳击",
+    "verbatim_evidence": "G.ABILITY.5",
+    "verbatim_text": " **拳击Fist。***近战攻击检定：*+7，触及10尺。*命中：*11（2d6+4）钝击伤害外加7（2d6）力场伤害。\n\n###### 反应Reactions\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:eaa87b64-17bd-5a2d-b350-966ec1dadf4f",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:0fd0a778-6fa4-55eb-9da2-b104d8b1482c",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:6c696103-aa06-5b86-847e-286e087d4a92",
+    "derived_note_utf8_range": {
+      "end": 4082,
+      "start": 3930
+    },
+    "entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+    "fragment_id": "urn:uuid:9636c175-25b3-5946-bf3d-d27bd737b4ec",
+    "mapping_id": "urn:uuid:bb03d887-d3a3-5a05-9c90-b385a184dee9"
+  },
+  "subject_kind": "ability",
+  "title": "拳击",
+  "uncompiled_semantics_retained": true
+}

@@ -1,0 +1,26 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:d823339e2eca6cc5d203709d83f2b6e5c69a0dee88f5c7dcc7018814ba64b01a",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/附录C：术语汇编/其他术语.md",
+  "id": "urn:uuid:7156523c-038d-59bd-87c0-abd75ab06ce8",
+  "original_record": {
+    "alias": "P.REACTION",
+    "id": "urn:uuid:7156523c-038d-59bd-87c0-abd75ab06ce8",
+    "line_range": [
+      511,
+      515
+    ],
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 33374,
+      "interval": "[start,end)",
+      "start": 32793
+    },
+    "source_entry_id": "urn:uuid:110fe3cc-449c-5d30-9bc5-47198a153a06",
+    "text": "<a id=\"Reaction\"></a>\n### 反应 Reaction\n\n反应是一种用于响应某一特定触发事件的特殊动作。触发事件由反应的描述定义。你可以在其他生物的回合中执行反应，而若你在你自己的回合中执行反应，你甚至可以在你执行动作、附赠动作或同时执行动作与附赠动作的时候执行你的反应。一旦你执行了反应，直至你的下个回合开始你都无法再次执行反应。借机攻击是所有生物都可以使用的一种反应。另见“**借机攻击**”与第一章（“**动作**”）。\n\n",
+    "text_sha256": "5766049733c4e9c4adf94ac111e964b7e66724c31cf47263e31d6408cd68963f"
+  },
+  "raw_fragment_id": "urn:uuid:ddb774de-514e-58f9-81d3-40c80ee27e77",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

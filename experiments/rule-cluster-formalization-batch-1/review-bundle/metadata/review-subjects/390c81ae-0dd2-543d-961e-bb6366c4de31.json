@@ -1,0 +1,109 @@
+{
+  "body": {
+    "digest": "sha256:a818bcf9e02a38eda082018f6c0fd73415aaabf1b9089bb353fad2bcb4b9a5fa",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/390c81ae-0dd2-543d-961e-bb6366c4de31.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "attack_bonus": 8,
+      "damage": 14,
+      "damage_dice": "2d8+5",
+      "reach_ft": 10,
+      "type": "bludgeoning"
+    },
+    "editorial_explanation": "命中伤害按对象身份决定是否适用攻城，不自动给生物加倍。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "owner_modifier_dependencies": [
+          "urn:uuid:541f7286-f44c-5233-8977-71ff2ca74f3c"
+        ],
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:ef276ee4-bc69-5a7c-a17f-63382c139e9d",
+            "json_pointer": "/critical_fields/attack_bonus"
+          },
+          {
+            "extraction_id": "urn:uuid:a6b326e7-15f0-57df-abf9-d3e6d39715f9",
+            "json_pointer": "/critical_fields/reach_ft"
+          },
+          {
+            "extraction_id": "urn:uuid:abdafc96-21ef-567f-83ba-9faaf674996a",
+            "json_pointer": "/critical_fields/damage"
+          },
+          {
+            "extraction_id": "urn:uuid:7cb9b526-6aa0-5863-96c5-d88a173829eb",
+            "json_pointer": "/critical_fields/damage_dice"
+          },
+          {
+            "extraction_id": "urn:uuid:ac064654-1341-5202-864b-fe0770fabc52",
+            "json_pointer": "/critical_fields/type"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "local_evidence": "E.ABILITY.4",
+      "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+      "pointer": "/critical_fields"
+    },
+    "id": "urn:uuid:390c81ae-0dd2-543d-961e-bb6366c4de31",
+    "kind": "动作Actions",
+    "mechanics": {
+      "clauses": {
+        "attack_bonus": 8,
+        "damage": 14,
+        "damage_dice": "2d8+5",
+        "reach_ft": 10,
+        "type": "bludgeoning"
+      },
+      "damage": {
+        "amount": {
+          "dice": "2d8+5",
+          "printed_fixed": 14,
+          "selection": "use_scene_amount_mode; recorded_dice_must_not_be_rerolled"
+        },
+        "damage_type": "bludgeoning",
+        "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+        "linked_reduction_from_damage_taken": false,
+        "other_effects": [],
+        "save_success": null,
+        "trigger": "hit"
+      },
+      "dependencies": [],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_and_complete_verbatim; remaining_semantics_uncompiled"
+    },
+    "owner_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+    "required_evidence": [],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:be76a957-66ac-5bdb-9232-5239317f0fb6",
+    "title": "猛击",
+    "verbatim_evidence": "E.ABILITY.4",
+    "verbatim_text": " **猛击Slam。***近战攻击检定：*+8，触及10尺。*命中：*14（2d8+5）钝击伤害。\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:390c81ae-0dd2-543d-961e-bb6366c4de31",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:6b5b56f8-1320-5d40-bf46-2e0b7b04b34c",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:be76a957-66ac-5bdb-9232-5239317f0fb6",
+    "derived_note_utf8_range": {
+      "end": 3713,
+      "start": 3613
+    },
+    "entry_id": "urn:uuid:57a08374-1e20-5c97-a1f3-00447e3b05d9",
+    "fragment_id": "urn:uuid:8144d427-b3e6-53aa-bddc-c78ae18e3a0d",
+    "mapping_id": "urn:uuid:8851fe03-a492-5d23-8860-5d95ed2e5acf"
+  },
+  "subject_kind": "ability",
+  "title": "猛击",
+  "uncompiled_semantics_retained": true
+}

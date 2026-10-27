@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:677e4dd189f174951d627ef1bdd24f616a2e71cd1a92a262a9b005d8027643c4",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/邪魔/梦魔.md",
+  "id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+  "original_record": {
+    "alias": "IN.ABILITY.4",
+    "id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 3841,
+      "interval": "[start,end)",
+      "start": 3544
+    },
+    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+    "text": " **施法Spellcasting。**梦魔施展以下一道法术，无需材料成分并使用魅力作为施法属性（法术豁免DC15）：\n ***随意：****易容术Disguise Self，以太化Etherealness*\n ***每项1/日：****托梦术Dream，催眠图纹Hypnotic*\n\n###### 附赠动作Bonus Actions\n\n",
+    "text_sha256": "bf921374fbb95e9854fbb571f5f7aefab56468a89b53dd68746e59342cfe7fcf"
+  },
+  "raw_fragment_id": "urn:uuid:3da4dc0e-0945-5ef1-8d58-92662fc6ea04",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

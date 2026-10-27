@@ -1,0 +1,24 @@
+{
+  "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+  "candidate_key": "sha256:27f26a8313340733ae232a3158f0e0a5c83e384886aa5a9f992e4e1a8437f1b1",
+  "decision": {
+    "reason": "Audit envelope only; per-subject derived ranges remain separate.",
+    "review_status": "pending",
+    "reviewer_id": null
+  },
+  "entry_id": "urn:uuid:aeefb9c1-aff9-5982-98ab-0643f145eba5",
+  "id": "urn:uuid:b3a7cbe9-9ff7-586a-9a0f-b6a76ea1a98a",
+  "lifecycle": {
+    "revision": 1,
+    "status": "draft"
+  },
+  "locator": {
+    "end": 21945,
+    "kind": "byte-range",
+    "start": 0
+  },
+  "node_id": null,
+  "proposed_title": "戏法（零环）",
+  "schema": "core.boundary-record@0.1.0",
+  "status": "proposed"
+}

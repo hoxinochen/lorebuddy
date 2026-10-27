@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; connect-src 'none'; img-src 'none'; base-uri 'none'; form-action 'none'">
+<title>本地伤害结算 · 研究样机</title>
+<style>
+:root { color-scheme: light; --ink:#202d2c; --muted:#526360; --paper:#f5f5f0; --surface:#fff; --line:#bac6c2; --accent:#225b4e; --warning:#743c16; --warn-bg:#fff2df; }
+* { box-sizing:border-box; }
+body { margin:0; color:var(--ink); background:var(--paper); font:16px/1.65 system-ui,"PingFang SC","Microsoft YaHei",sans-serif; }
+::selection { background:#bdd9ce; color:var(--ink); }
+main { max-width:1040px; margin:auto; padding:42px 28px 56px; }
+h1 { font-size:30px; line-height:1.3; margin:0 0 12px; font-weight:650; }
+h2 { font-size:20px; margin:0 0 18px; font-weight:650; }
+p { max-width:72ch; margin:0 0 16px; }
+.muted,footer { color:var(--muted); }
+.examples { display:flex; flex-wrap:wrap; gap:10px; margin:24px 0 30px; }
+button,input,select { font:inherit; }
+button { cursor:pointer; border:1px solid var(--line); background:var(--surface); color:var(--ink); padding:10px 16px; border-radius:6px; min-height:44px; }
+button:hover { background:#e9efeb; }
+button.primary { background:var(--accent); color:#fff; border-color:var(--accent); padding-inline:24px; }
+button.primary:hover { background:#18483d; }
+:focus-visible { outline:3px solid #397b9a; outline-offset:3px; }
+input,select { color:var(--ink); caret-color:var(--accent); }
+input[type=number],select { display:block; width:100%; background:#fff; border:1px solid #7d9089; border-radius:5px; min-height:44px; padding:8px 10px; margin-top:6px; }
+input[type=checkbox] { accent-color:var(--accent); width:18px; height:18px; margin:0; }
+input:disabled { background:#ecefeb; color:var(--muted); }
+label { display:block; }
+.grid { display:grid; grid-template-columns:1fr 1fr; gap:32px; align-items:start; }
+section { background:var(--surface); padding:24px; border:1px solid var(--line); border-radius:12px; }
+.field { margin-bottom:18px; }
+.checks { display:flex; gap:18px; flex-wrap:wrap; margin-top:10px; }
+.check { display:flex; gap:9px; align-items:center; min-height:44px; }
+fieldset { padding:0; margin:0 0 18px; border:0; min-width:0; }
+legend { padding:0; }
+.hint { font-size:14px; color:var(--muted); margin-top:6px; }
+.draft-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:12px; }
+.draft-grid label { font-size:14px; }
+.actions { margin-top:24px; }
+.status { margin:24px 0 0; padding:15px 18px; background:#e8eee9; border-radius:6px; }
+.attention { color:var(--warning); background:var(--warn-bg); }
+#result { margin-top:28px; }
+.numbers { display:flex; gap:32px; margin:0 0 20px; flex-wrap:wrap; }
+.numbers dt { color:var(--muted); }
+.numbers dd { margin:0; font-size:25px; font-weight:650; font-variant-numeric:tabular-nums; }
+.table-wrap { overflow-x:auto; }
+table { width:100%; border-collapse:collapse; text-align:left; font-variant-numeric:tabular-nums; }
+th,td { border-bottom:1px solid #d9e0dc; padding:12px 10px; white-space:nowrap; }
+th { font-weight:600; color:var(--muted); }
+td:first-child,th:first-child { padding-left:0; }
+#comparison { margin-top:20px; }
+details { margin-top:20px; }
+summary { cursor:pointer; min-height:44px; padding:8px 0; text-underline-offset:4px; }
+pre { white-space:pre-wrap; overflow-wrap:anywhere; font-size:13px; background:var(--paper); padding:16px; border-radius:6px; }
+footer { margin-top:32px; font-size:13px; }
+footer a { color:var(--accent); text-underline-offset:3px; }
+[hidden] { display:none !important; }
+@media(max-width:700px) { main { padding:26px 16px 36px; } .grid { grid-template-columns:1fr; gap:20px; } section { padding:20px; } h1 { font-size:26px; } .draft-grid { gap:12px; } }
+</style>
+</head>
+<body>
+<main>
+<h1>本地伤害结算</h1>
+<p class="muted">研究样机。所有计算在浏览器中完成，不连接模型。这里使用合成能力模板，便于检查计算顺序与遗漏。</p>
+<nav class="examples" aria-label="预设场景">
+<button type="button" data-preset="omission">复现：漏算成功半伤</button>
+<button type="button" data-preset="opposites">抗性与易伤同时存在</button>
+<button type="button" data-preset="missing">缺少豁免结果</button>
+</nav>
+<form id="form" novalidate>
+<div class="grid">
+<section aria-labelledby="facts-heading">
+<h2 id="facts-heading">现场事实</h2>
+<div class="field"><label for="ability">能力模板</label><select id="ability">
+<option value="half-drain">成功半伤，减损等于受到伤害</option><option value="half">成功半伤，无关联减损</option>
+<option value="negate">成功无伤</option><option value="direct">直接伤害，无豁免</option></select>
+<p class="hint">模板固定为心灵伤害，不代表怪物卡或全部适用规则。</p></div>
+<div class="field"><label for="raw">原始伤害</label><input id="raw" type="number" min="0" max="1000000" step="1" inputmode="numeric" value="13"><p class="hint">填写豁免和防御处理之前的数值。</p></div>
+<div class="field"><label for="save">豁免结果</label><select id="save"><option value="success">成功</option><option value="failure">失败</option><option value="unknown">尚未提供</option><option value="not_applicable">不适用</option></select></div>
+<fieldset><legend>目标对心灵伤害的防御</legend><div class="checks">
+<label class="check"><input id="resistance" type="checkbox">抗性</label><label class="check"><input id="vulnerability" type="checkbox">易伤</label><label class="check"><input id="immunity" type="checkbox">免疫</label></div></fieldset>
+<div class="field"><label for="eligibility">目标是否满足能力资格</label><select id="eligibility"><option value="confirmed">已确认满足</option><option value="unknown">尚未确认</option><option value="rejected">明确不满足</option></select></div>
+<label class="check"><input id="coverage" type="checkbox" checked>已确认目标防御信息完整</label>
+<label class="check"><input id="other" type="checkbox">还存在额外固定减伤</label>
+<p class="hint">额外减伤、混合伤害和临时HP不在本样机支持范围。</p>
+</section>
+<section aria-labelledby="draft-heading">
+<h2 id="draft-heading">模拟AI草案</h2>
+<p class="muted">手工填写一份答案，观察本地比较如何发现分歧。没有实际AI参与。</p>
+<label class="check"><input id="compare" type="checkbox" checked>同时核对这份模拟草案</label>
+<div id="draft-fields" class="draft-grid">
+<label>能力分支后<input id="draft-0" type="number" min="0" value="13"></label>
+<label>抗性后<input id="draft-1" type="number" min="0" value="6"></label>
+<label>易伤后<input id="draft-2" type="number" min="0" value="6"></label>
+<label>最终受到伤害<input id="draft-damage" type="number" min="0" value="6"></label>
+<label>关联减损<input id="draft-reduction" type="number" min="0" value="6"></label>
+</div>
+<button id="capture-draft" type="button">固定这份模拟草案</button>
+<p id="draft-state" class="hint" role="status">草案尚未固定。</p>
+<p class="hint">先固定草案和现场输入，再点击计算。之后修改输入会保留旧快照；只有再次点击“固定”才会创建新草案。</p>
+</section>
+</div>
+<div class="actions"><button class="primary" type="submit">计算并核对</button></div>
+</form>
+<p id="status" class="status" role="status" aria-live="polite">输入就绪，点击计算查看结果。</p>
+<section id="result" hidden aria-labelledby="result-heading">
+<h2 id="result-heading">结算结果</h2>
+<div id="numbers">
+<dl class="numbers"><div><dt>受到伤害</dt><dd id="damage-result"></dd></div><div><dt>关联减损</dt><dd id="reduction-result"></dd></div></dl>
+<div class="table-wrap"><table><thead><tr><th scope="col">阶段</th><th scope="col">本地计算</th><th scope="col">处理</th><th scope="col">模拟草案</th></tr></thead><tbody id="trace"></tbody></table></div>
+</div>
+<p id="comparison"></p>
+<details><summary>查看详细记录</summary><pre id="machine-output"></pre></details>
+</section>
+<footer>
+<p>仅支持一次伤害、一个目标、一种伤害类型。不扣血，不处理恢复或状态；计算一致不能证明现场事实正确。</p>
+<details><summary>规则来源与许可说明</summary><p>独立实现的研究代码；无第三方运行时依赖。下述规则内容以合成数值模板表达，未复制中文怪物卡。根据SRD5.2.1的伤害规则改编为计算过程。</p>
+<p lang="en">This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.</p>
+<p><a href="https://www.dndbeyond.com/srd" target="_blank" rel="noopener noreferrer">SRD来源</a> · <a href="https://creativecommons.org/licenses/by/4.0/legalcode" target="_blank" rel="noopener noreferrer">许可条款</a></p></details>
+</footer>
+</main>
+<script id="fixture-data" type="application/json">/*FIXTURES*/</script>
+<script>/*BUNDLE*/</script>
+</body>
+</html>

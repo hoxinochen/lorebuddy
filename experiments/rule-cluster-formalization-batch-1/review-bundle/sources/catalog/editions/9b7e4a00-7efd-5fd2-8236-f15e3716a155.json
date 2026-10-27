@@ -1,0 +1,13 @@
+{
+  "basis": "local Chinese expression claim; not an official Chinese edition assertion",
+  "id": "urn:uuid:9b7e4a00-7efd-5fd2-8236-f15e3716a155",
+  "identity_status": "claimed",
+  "kind": "edition",
+  "language": "zh-Hans",
+  "review_status": "in_review",
+  "rights": "unknown",
+  "schema": "m2.publication-claim@0.1.0",
+  "title_claim": "怪物图鉴2025",
+  "translation_authority": "unknown",
+  "work_id": "urn:uuid:cc510ffb-c824-5afd-9b98-252f6d285089"
+}

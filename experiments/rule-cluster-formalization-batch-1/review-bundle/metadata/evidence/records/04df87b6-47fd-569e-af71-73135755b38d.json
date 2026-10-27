@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:02efbe8a953929558945da2ede1fe2c71cb8fdb15819e95e9510d88bc662e9b9",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/构装/盾卫.md",
+  "id": "urn:uuid:04df87b6-47fd-569e-af71-73135755b38d",
+  "original_record": {
+    "alias": "G.ABILITY.1",
+    "id": "urn:uuid:04df87b6-47fd-569e-af71-73135755b38d",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 3229,
+      "interval": "[start,end)",
+      "start": 2811
+    },
+    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+    "text": "\n**连接Bound。**盾卫与一个命令护符魔法性地相连。在盾卫和其命令护符位于同一存在位面期间，命令护符的佩戴者可以心灵感应般的呼唤盾卫来到自己的位置，并且盾卫知晓自己与命令护符的距离及其位置。如果盾卫位于命令护符佩戴者60尺范围内，佩戴者所承受到的任何伤害的一半（向上取整）都会转移给盾卫。\n",
+    "text_sha256": "4adc5f74261d13b9aaef8bad5b34de5037e8f02e10c4a1b9745db59c698231c7"
+  },
+  "raw_fragment_id": "urn:uuid:9636c175-25b3-5946-bf3d-d27bd737b4ec",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

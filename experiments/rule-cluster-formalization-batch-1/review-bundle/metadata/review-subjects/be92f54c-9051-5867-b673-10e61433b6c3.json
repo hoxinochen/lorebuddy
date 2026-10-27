@@ -1,0 +1,271 @@
+{
+  "body": {
+    "digest": "sha256:729f9a5a23e5bb06e03a1b0857feb6e2d2e48dd8d99c36c83f27dbed525e3489",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/be92f54c-9051-5867-b673-10e61433b6c3.md"
+  },
+  "candidate_snapshot": {
+    "alias": "P.DISGUISE",
+    "candidate_revision": 2,
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "casting_contract": {
+          "activation": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+              "source_entry_id": "urn:uuid:23faa68f-588b-5b14-a6fb-7e0df89dcf8a",
+              "source_evidence_id": "urn:uuid:e96814d6-2bca-527a-90c8-3d4440479917",
+              "source_note_utf8_range": {
+                "end": 12855,
+                "start": 12830
+              }
+            },
+            "state": "known",
+            "value": "动作"
+          },
+          "base_level": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+              "source_entry_id": "urn:uuid:23faa68f-588b-5b14-a6fb-7e0df89dcf8a",
+              "source_evidence_id": "urn:uuid:e96814d6-2bca-527a-90c8-3d4440479917",
+              "source_note_utf8_range": {
+                "end": 13607,
+                "start": 12707
+              }
+            },
+            "state": "known",
+            "value": 1
+          },
+          "components": {
+            "material": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:e7d2d510-5802-5350-a6c7-391b020fa902",
+                "source_entry_id": "urn:uuid:23faa68f-588b-5b14-a6fb-7e0df89dcf8a",
+                "source_evidence_id": "urn:uuid:e96814d6-2bca-527a-90c8-3d4440479917",
+                "source_note_utf8_range": {
+                  "end": 12906,
+                  "start": 12882
+                }
+              },
+              "state": "known",
+              "value": false
+            },
+            "material_consumption": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+                "source_entry_id": "urn:uuid:23faa68f-588b-5b14-a6fb-7e0df89dcf8a",
+                "source_evidence_id": "urn:uuid:e96814d6-2bca-527a-90c8-3d4440479917",
+                "source_note_utf8_range": {
+                  "end": 12906,
+                  "start": 12882
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "material_detail": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+                "source_entry_id": "urn:uuid:23faa68f-588b-5b14-a6fb-7e0df89dcf8a",
+                "source_evidence_id": "urn:uuid:e96814d6-2bca-527a-90c8-3d4440479917",
+                "source_note_utf8_range": {
+                  "end": 12906,
+                  "start": 12882
+                }
+              },
+              "state": "not_applicable",
+              "value": null
+            },
+            "material_value": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+                "source_entry_id": "urn:uuid:23faa68f-588b-5b14-a6fb-7e0df89dcf8a",
+                "source_evidence_id": "urn:uuid:e96814d6-2bca-527a-90c8-3d4440479917",
+                "source_note_utf8_range": {
+                  "end": 12906,
+                  "start": 12882
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "somatic": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:e7d2d510-5802-5350-a6c7-391b020fa902",
+                "source_entry_id": "urn:uuid:23faa68f-588b-5b14-a6fb-7e0df89dcf8a",
+                "source_evidence_id": "urn:uuid:e96814d6-2bca-527a-90c8-3d4440479917",
+                "source_note_utf8_range": {
+                  "end": 12906,
+                  "start": 12882
+                }
+              },
+              "state": "known",
+              "value": true
+            },
+            "verbal": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:e7d2d510-5802-5350-a6c7-391b020fa902",
+                "source_entry_id": "urn:uuid:23faa68f-588b-5b14-a6fb-7e0df89dcf8a",
+                "source_evidence_id": "urn:uuid:e96814d6-2bca-527a-90c8-3d4440479917",
+                "source_note_utf8_range": {
+                  "end": 12906,
+                  "start": 12882
+                }
+              },
+              "state": "known",
+              "value": true
+            }
+          },
+          "concentration": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:49dace82-f73e-5fff-8f21-b5bef68a7a74",
+              "source_entry_id": "urn:uuid:23faa68f-588b-5b14-a6fb-7e0df89dcf8a",
+              "source_evidence_id": "urn:uuid:e96814d6-2bca-527a-90c8-3d4440479917",
+              "source_note_utf8_range": {
+                "end": 12933,
+                "start": 12907
+              }
+            },
+            "state": "known",
+            "value": false
+          },
+          "coverage": "headers_targets_saves_and_calls_structured; remaining_effect_prose_retained_uncompiled; not_full_casting_legality",
+          "duration": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+              "source_entry_id": "urn:uuid:23faa68f-588b-5b14-a6fb-7e0df89dcf8a",
+              "source_evidence_id": "urn:uuid:e96814d6-2bca-527a-90c8-3d4440479917",
+              "source_note_utf8_range": {
+                "end": 12933,
+                "start": 12907
+              }
+            },
+            "state": "known",
+            "value": "1小时"
+          },
+          "effects": [
+            {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+                "source_entry_id": "urn:uuid:23faa68f-588b-5b14-a6fb-7e0df89dcf8a",
+                "source_evidence_id": "urn:uuid:e96814d6-2bca-527a-90c8-3d4440479917",
+                "source_note_utf8_range": {
+                  "end": 13607,
+                  "start": 12707
+                }
+              },
+              "state": "verbatim_only",
+              "value": {
+                "numeric_facet_pointer": null,
+                "read_from_evidence_id": "urn:uuid:e96814d6-2bca-527a-90c8-3d4440479917"
+              }
+            }
+          ],
+          "range": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+              "source_entry_id": "urn:uuid:23faa68f-588b-5b14-a6fb-7e0df89dcf8a",
+              "source_evidence_id": "urn:uuid:e96814d6-2bca-527a-90c8-3d4440479917",
+              "source_note_utf8_range": {
+                "end": 12881,
+                "start": 12856
+              }
+            },
+            "state": "known",
+            "value": "自身"
+          },
+          "save_attack": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+              "source_entry_id": "urn:uuid:23faa68f-588b-5b14-a6fb-7e0df89dcf8a",
+              "source_evidence_id": "urn:uuid:e96814d6-2bca-527a-90c8-3d4440479917",
+              "source_note_utf8_range": {
+                "end": 13607,
+                "start": 12707
+              }
+            },
+            "state": "known",
+            "value": {
+              "discovery_check": "intelligence_investigation_against_spell_dc",
+              "kind": "no_save_or_attack_stated"
+            }
+          },
+          "targeting": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+              "source_entry_id": "urn:uuid:23faa68f-588b-5b14-a6fb-7e0df89dcf8a",
+              "source_evidence_id": "urn:uuid:e96814d6-2bca-527a-90c8-3d4440479917",
+              "source_note_utf8_range": {
+                "end": 13607,
+                "start": 12707
+              }
+            },
+            "state": "known",
+            "value": {
+              "kind": "self"
+            }
+          },
+          "upcast": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+              "source_entry_id": "urn:uuid:23faa68f-588b-5b14-a6fb-7e0df89dcf8a",
+              "source_evidence_id": "urn:uuid:e96814d6-2bca-527a-90c8-3d4440479917",
+              "source_note_utf8_range": {
+                "end": 13607,
+                "start": 12707
+              }
+            },
+            "state": "not_stated",
+            "value": null
+          }
+        }
+      }
+    },
+    "id": "urn:uuid:be92f54c-9051-5867-b673-10e61433b6c3",
+    "kind": "spell",
+    "review_status": "candidate",
+    "rule_context": "PHB2024",
+    "source_evidence_id": "urn:uuid:e96814d6-2bca-527a-90c8-3d4440479917",
+    "structured_mechanics_status": "verbatim_complete_structured_facets_below_are_partial_not_silent_defaults",
+    "title": "易容术｜Disguise Self",
+    "verbatim_text": "<a id=\"Disguise_Self\"></a>\n#### 易容术｜Disguise Self\n\n*一环 幻术（吟游诗人、术士、法师、奇械师）*\n**施法时间：**动作\n**施法距离：**自身\n**法术成分：**V、S\n**持续时间：**1小时\n你改变自身以及随身的衣物、护甲、武器等在你身上的所有物。该效应在法术终止时结束。肉眼看来你的身高可以有1尺的增减，体态可胖可瘦。你必须选择一个和你肢体基础排列方式一致的形态。此外，幻术的影响范围由你决定。\n此法术产生的变化无法应对物理检查。比如，你用此法术添了一顶帽子，那么现实物件会从帽子穿过去，且任何触碰帽子的人将摸不到任何东西。\n如果一名生物想要分辨你是否易容，则必须使用一个研究动作研究你的外貌，并成功于一次对抗你法术豁免DC的智力（调查）检定。\n\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:be92f54c-9051-5867-b673-10e61433b6c3",
+  "language": "zh-Hans",
+  "module": "spells",
+  "review_record_id": "urn:uuid:0f9e1088-a44b-55af-8750-95caa4d7f89b",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:e96814d6-2bca-527a-90c8-3d4440479917",
+    "derived_note_utf8_range": {
+      "end": 13607,
+      "start": 12707
+    },
+    "entry_id": "urn:uuid:23faa68f-588b-5b14-a6fb-7e0df89dcf8a",
+    "fragment_id": "urn:uuid:b457beb8-7788-5e8b-bf14-a11cfda00780",
+    "mapping_id": "urn:uuid:191b344b-d8ff-5572-931e-570715790d1f"
+  },
+  "subject_kind": "spell",
+  "title": "易容术｜Disguise Self",
+  "uncompiled_semantics_retained": true
+}

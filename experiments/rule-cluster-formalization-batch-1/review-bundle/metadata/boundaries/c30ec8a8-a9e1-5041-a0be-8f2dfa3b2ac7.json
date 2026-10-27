@@ -1,0 +1,24 @@
+{
+  "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+  "candidate_key": "sha256:57b10492dc4f04ded302f7bcc6152c0ecb756302aebbebf292e66fdaa60a2085",
+  "decision": {
+    "reason": "Audit envelope only; per-subject derived ranges remain separate.",
+    "review_status": "pending",
+    "reviewer_id": null
+  },
+  "entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+  "id": "urn:uuid:c30ec8a8-a9e1-5041-a0be-8f2dfa3b2ac7",
+  "lifecycle": {
+    "revision": 1,
+    "status": "draft"
+  },
+  "locator": {
+    "end": 4455,
+    "kind": "byte-range",
+    "start": 0
+  },
+  "node_id": null,
+  "proposed_title": "梦魔",
+  "schema": "core.boundary-record@0.1.0",
+  "status": "proposed"
+}

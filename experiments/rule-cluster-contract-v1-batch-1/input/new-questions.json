@@ -1,0 +1,3763 @@
+{
+  "corpus_delivery_id": "urn:uuid:eacf87e2-d7f4-554a-8669-d5587daa56d3",
+  "format_revision": "lorebuddy.dnd2024.scene-request-1",
+  "instructions": "Load full knowledge.json; request_scope is the only explicit request intent. Resolve owners, facts and formulas from corpus and scene. Do not read evaluator or prepare_questions.py. Preserve unexecuted effects.",
+  "questions": [
+    {
+      "id": "N01",
+      "question": "气元素以雷鸣猛击命中土元素，使用卡载固定值，双方没有额外修正。只求该次伤害。",
+      "request_scope": "damage_and_linked",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true,
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "air-A",
+            "prototype_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+            "current_hp": 90,
+            "max_hp": 90,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "earth-A",
+            "prototype_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+            "current_hp": 147,
+            "max_hp": 147,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "guardian-A",
+            "prototype_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+            "current_hp": 142,
+            "max_hp": 142,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": false,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          }
+        ],
+        "event": {
+          "actor_instance_id": "air-A",
+          "declared_action_name": "雷鸣猛击",
+          "target_instance_ids": [
+            "earth-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": "hit",
+          "save_outcome": null,
+          "distance_ft": 5,
+          "same_plane": true,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown"
+        }
+      },
+      "delivery": "input/knowledge.json in full"
+    },
+    {
+      "id": "N02",
+      "question": "气元素的雷鸣猛击命中土元素；2d8已记录1、2，使用能力自己的加值。只求该次伤害。",
+      "request_scope": "damage_and_linked",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true,
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "air-A",
+            "prototype_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+            "current_hp": 90,
+            "max_hp": 90,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "earth-A",
+            "prototype_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+            "current_hp": 147,
+            "max_hp": 147,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "guardian-A",
+            "prototype_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+            "current_hp": 142,
+            "max_hp": 142,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": false,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          }
+        ],
+        "event": {
+          "actor_instance_id": "air-A",
+          "declared_action_name": "雷鸣猛击",
+          "target_instance_ids": [
+            "earth-A"
+          ],
+          "amount_mode": "recorded_roll",
+          "attack_outcome": "hit",
+          "save_outcome": null,
+          "distance_ft": 5,
+          "same_plane": true,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown",
+          "recorded_dice": [
+            1,
+            2
+          ]
+        }
+      },
+      "delivery": "input/knowledge.json in full"
+    },
+    {
+      "id": "N03",
+      "question": "气元素以雷鸣猛击命中另一气元素，采用固定值，无额外修正。只求伤害。",
+      "request_scope": "damage_and_linked",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true,
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "air-A",
+            "prototype_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+            "current_hp": 90,
+            "max_hp": 90,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "earth-A",
+            "prototype_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+            "current_hp": 147,
+            "max_hp": 147,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "guardian-A",
+            "prototype_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+            "current_hp": 142,
+            "max_hp": 142,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": false,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "air-B",
+            "prototype_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+            "current_hp": 90,
+            "max_hp": 90,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          }
+        ],
+        "event": {
+          "actor_instance_id": "air-A",
+          "declared_action_name": "雷鸣猛击",
+          "target_instance_ids": [
+            "air-B"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": "hit",
+          "save_outcome": null,
+          "distance_ft": 5,
+          "same_plane": true,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown"
+        }
+      },
+      "delivery": "input/knowledge.json in full"
+    },
+    {
+      "id": "N04",
+      "question": "气元素以雷鸣猛击命中2025幽魂，采用固定值，只求该次伤害。",
+      "request_scope": "damage_and_linked",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true,
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "air-A",
+            "prototype_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+            "current_hp": 90,
+            "max_hp": 90,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "earth-A",
+            "prototype_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+            "current_hp": 147,
+            "max_hp": 147,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "guardian-A",
+            "prototype_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+            "current_hp": 142,
+            "max_hp": 142,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": false,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          }
+        ],
+        "event": {
+          "actor_instance_id": "air-A",
+          "declared_action_name": "雷鸣猛击",
+          "target_instance_ids": [
+            "ghost-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": "hit",
+          "save_outcome": null,
+          "distance_ft": 5,
+          "same_plane": true,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown"
+        }
+      },
+      "delivery": "input/knowledge.json in full"
+    },
+    {
+      "id": "N05",
+      "question": "气元素以雷鸣猛击命中盾卫，采用固定值；盾卫没有额外防御。只求伤害，不结算后续回合。",
+      "request_scope": "damage_and_linked",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true,
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "air-A",
+            "prototype_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+            "current_hp": 90,
+            "max_hp": 90,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "earth-A",
+            "prototype_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+            "current_hp": 147,
+            "max_hp": 147,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "guardian-A",
+            "prototype_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+            "current_hp": 142,
+            "max_hp": 142,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": false,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          }
+        ],
+        "event": {
+          "actor_instance_id": "air-A",
+          "declared_action_name": "雷鸣猛击",
+          "target_instance_ids": [
+            "guardian-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": "hit",
+          "save_outcome": null,
+          "distance_ft": 5,
+          "same_plane": true,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown"
+        }
+      },
+      "delivery": "input/knowledge.json in full"
+    },
+    {
+      "id": "N06",
+      "question": "土元素以猛击命中火元素，采用固定值。目标是元素生物，非物件或建筑。只求该次伤害。",
+      "request_scope": "damage_and_linked",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true,
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "air-A",
+            "prototype_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+            "current_hp": 90,
+            "max_hp": 90,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "earth-A",
+            "prototype_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+            "current_hp": 147,
+            "max_hp": 147,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "guardian-A",
+            "prototype_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+            "current_hp": 142,
+            "max_hp": 142,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": false,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          }
+        ],
+        "event": {
+          "actor_instance_id": "earth-A",
+          "declared_action_name": "猛击",
+          "target_instance_ids": [
+            "fire-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": "hit",
+          "save_outcome": null,
+          "distance_ft": 5,
+          "same_plane": true,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown"
+        }
+      },
+      "delivery": "input/knowledge.json in full"
+    },
+    {
+      "id": "N07",
+      "question": "土元素以猛击命中气元素，采用固定值，双方无额外修正。只求该次伤害。",
+      "request_scope": "damage_and_linked",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true,
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "air-A",
+            "prototype_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+            "current_hp": 90,
+            "max_hp": 90,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "earth-A",
+            "prototype_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+            "current_hp": 147,
+            "max_hp": 147,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "guardian-A",
+            "prototype_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+            "current_hp": 142,
+            "max_hp": 142,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": false,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          }
+        ],
+        "event": {
+          "actor_instance_id": "earth-A",
+          "declared_action_name": "猛击",
+          "target_instance_ids": [
+            "air-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": "hit",
+          "save_outcome": null,
+          "distance_ft": 5,
+          "same_plane": true,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown"
+        }
+      },
+      "delivery": "input/knowledge.json in full"
+    },
+    {
+      "id": "N08",
+      "question": "土元素以猛击命中盾卫；本题盾卫明确为构装生物而非物件。采用固定值，只求该次伤害。",
+      "request_scope": "damage_and_linked",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true,
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "air-A",
+            "prototype_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+            "current_hp": 90,
+            "max_hp": 90,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "earth-A",
+            "prototype_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+            "current_hp": 147,
+            "max_hp": 147,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "guardian-A",
+            "prototype_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+            "current_hp": 142,
+            "max_hp": 142,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": false,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          }
+        ],
+        "event": {
+          "actor_instance_id": "earth-A",
+          "declared_action_name": "猛击",
+          "target_instance_ids": [
+            "guardian-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": "hit",
+          "save_outcome": null,
+          "distance_ft": 5,
+          "same_plane": true,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown"
+        }
+      },
+      "delivery": "input/knowledge.json in full"
+    },
+    {
+      "id": "N09",
+      "question": "土元素以猛击命中2025幽魂；2d8已记录8、7，使用能力自己的加值，求伤害。",
+      "request_scope": "damage_and_linked",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true,
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "air-A",
+            "prototype_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+            "current_hp": 90,
+            "max_hp": 90,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "earth-A",
+            "prototype_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+            "current_hp": 147,
+            "max_hp": 147,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "guardian-A",
+            "prototype_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+            "current_hp": 142,
+            "max_hp": 142,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": false,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          }
+        ],
+        "event": {
+          "actor_instance_id": "earth-A",
+          "declared_action_name": "猛击",
+          "target_instance_ids": [
+            "ghost-A"
+          ],
+          "amount_mode": "recorded_roll",
+          "attack_outcome": "hit",
+          "save_outcome": null,
+          "distance_ft": 5,
+          "same_plane": true,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown",
+          "recorded_dice": [
+            8,
+            7
+          ]
+        }
+      },
+      "delivery": "input/knowledge.json in full"
+    },
+    {
+      "id": "N10",
+      "question": "土元素以岩石射击命中火元素，采用固定值。只求命中伤害，不应用倒地或其他状态。",
+      "request_scope": "damage_and_linked",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true,
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "air-A",
+            "prototype_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+            "current_hp": 90,
+            "max_hp": 90,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "earth-A",
+            "prototype_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+            "current_hp": 147,
+            "max_hp": 147,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "guardian-A",
+            "prototype_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+            "current_hp": 142,
+            "max_hp": 142,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": false,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          }
+        ],
+        "event": {
+          "actor_instance_id": "earth-A",
+          "declared_action_name": "岩石射击",
+          "target_instance_ids": [
+            "fire-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": "hit",
+          "save_outcome": null,
+          "distance_ft": 5,
+          "same_plane": true,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown"
+        }
+      },
+      "delivery": "input/knowledge.json in full"
+    },
+    {
+      "id": "N11",
+      "question": "土元素以岩石射击命中盾卫，1d6已记录5，使用能力自己的加值。只求伤害，不应用倒地。",
+      "request_scope": "damage_and_linked",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true,
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "air-A",
+            "prototype_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+            "current_hp": 90,
+            "max_hp": 90,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "earth-A",
+            "prototype_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+            "current_hp": 147,
+            "max_hp": 147,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "guardian-A",
+            "prototype_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+            "current_hp": 142,
+            "max_hp": 142,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": false,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          }
+        ],
+        "event": {
+          "actor_instance_id": "earth-A",
+          "declared_action_name": "岩石射击",
+          "target_instance_ids": [
+            "guardian-A"
+          ],
+          "amount_mode": "recorded_roll",
+          "attack_outcome": "hit",
+          "save_outcome": null,
+          "distance_ft": 5,
+          "same_plane": true,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown",
+          "recorded_dice": [
+            5
+          ]
+        }
+      },
+      "delivery": "input/knowledge.json in full"
+    },
+    {
+      "id": "N12",
+      "question": "2025幽魂以凋零之触命中盾卫；采用固定值，只求本次伤害。",
+      "request_scope": "damage_and_linked",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true,
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "air-A",
+            "prototype_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+            "current_hp": 90,
+            "max_hp": 90,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "earth-A",
+            "prototype_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+            "current_hp": 147,
+            "max_hp": 147,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "guardian-A",
+            "prototype_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+            "current_hp": 142,
+            "max_hp": 142,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": false,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          }
+        ],
+        "event": {
+          "actor_instance_id": "ghost-A",
+          "declared_action_name": "凋零之触",
+          "target_instance_ids": [
+            "guardian-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": "hit",
+          "save_outcome": null,
+          "distance_ft": 5,
+          "same_plane": true,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown"
+        }
+      },
+      "delivery": "input/knowledge.json in full"
+    },
+    {
+      "id": "N13",
+      "question": "火元素以燃烧攻击命中盾卫，采用固定值。只求这次命中的伤害，不推进燃烧危害。",
+      "request_scope": "damage_and_linked",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true,
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "air-A",
+            "prototype_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+            "current_hp": 90,
+            "max_hp": 90,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "earth-A",
+            "prototype_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+            "current_hp": 147,
+            "max_hp": 147,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "guardian-A",
+            "prototype_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+            "current_hp": 142,
+            "max_hp": 142,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": false,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          }
+        ],
+        "event": {
+          "actor_instance_id": "fire-A",
+          "declared_action_name": "燃烧",
+          "target_instance_ids": [
+            "guardian-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": "hit",
+          "save_outcome": null,
+          "distance_ft": 5,
+          "same_plane": true,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown"
+        }
+      },
+      "delivery": "input/knowledge.json in full"
+    },
+    {
+      "id": "N14",
+      "question": "魅魔以魔性之触命中盾卫，采用固定值，无其他修正。只求伤害。",
+      "request_scope": "damage_and_linked",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true,
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "air-A",
+            "prototype_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+            "current_hp": 90,
+            "max_hp": 90,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "earth-A",
+            "prototype_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+            "current_hp": 147,
+            "max_hp": 147,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "guardian-A",
+            "prototype_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+            "current_hp": 142,
+            "max_hp": 142,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": false,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          }
+        ],
+        "event": {
+          "actor_instance_id": "succubus-A",
+          "declared_action_name": "魔性之触",
+          "target_instance_ids": [
+            "guardian-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": "hit",
+          "save_outcome": null,
+          "distance_ft": 5,
+          "same_plane": true,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown"
+        }
+      },
+      "delivery": "input/knowledge.json in full"
+    },
+    {
+      "id": "N15",
+      "question": "梦魔以毁梦之触命中盾卫，采用固定值。只求命中伤害，不处理诅咒或短休。",
+      "request_scope": "damage_and_linked",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true,
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "air-A",
+            "prototype_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+            "current_hp": 90,
+            "max_hp": 90,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "earth-A",
+            "prototype_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+            "current_hp": 147,
+            "max_hp": 147,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "guardian-A",
+            "prototype_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+            "current_hp": 142,
+            "max_hp": 142,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": false,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          }
+        ],
+        "event": {
+          "actor_instance_id": "incubus-A",
+          "declared_action_name": "毁梦之触",
+          "target_instance_ids": [
+            "guardian-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": "hit",
+          "save_outcome": null,
+          "distance_ft": 5,
+          "same_plane": true,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown"
+        }
+      },
+      "delivery": "input/knowledge.json in full"
+    },
+    {
+      "id": "N16",
+      "question": "史拉绿蟾以混沌法杖命中盾卫，采用固定值。状态骰另已记录为1，只求伤害，不应用状态。",
+      "request_scope": "damage_and_linked",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true,
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "air-A",
+            "prototype_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+            "current_hp": 90,
+            "max_hp": 90,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "earth-A",
+            "prototype_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+            "current_hp": 147,
+            "max_hp": 147,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "guardian-A",
+            "prototype_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+            "current_hp": 142,
+            "max_hp": 142,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": false,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          }
+        ],
+        "event": {
+          "actor_instance_id": "slaad-A",
+          "declared_action_name": "混沌法杖",
+          "target_instance_ids": [
+            "guardian-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": "hit",
+          "save_outcome": null,
+          "distance_ft": 5,
+          "same_plane": true,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown",
+          "condition_die_d4": 1
+        }
+      },
+      "delivery": "input/knowledge.json in full"
+    },
+    {
+      "id": "N17",
+      "question": "土元素以猛击命中冒险者，目标是类人生物；目标两个独立来源的钝击抗性及钝击易伤均确认适用。采用固定值，只求伤害。",
+      "request_scope": "damage_and_linked",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [
+              {
+                "effect_instance_id": "bludgeon-0",
+                "source_instance_id": "source-0",
+                "kind": "damage_resistance",
+                "damage_type": "bludgeoning",
+                "applicability": "confirmed_for_this_event",
+                "active": true
+              },
+              {
+                "effect_instance_id": "bludgeon-1",
+                "source_instance_id": "source-1",
+                "kind": "damage_resistance",
+                "damage_type": "bludgeoning",
+                "applicability": "confirmed_for_this_event",
+                "active": true
+              },
+              {
+                "effect_instance_id": "bludgeon-2",
+                "source_instance_id": "source-2",
+                "kind": "damage_vulnerability",
+                "damage_type": "bludgeoning",
+                "applicability": "confirmed_for_this_event",
+                "active": true
+              }
+            ],
+            "defense_inventory_complete": true,
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "air-A",
+            "prototype_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+            "current_hp": 90,
+            "max_hp": 90,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "earth-A",
+            "prototype_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+            "current_hp": 147,
+            "max_hp": 147,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "guardian-A",
+            "prototype_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+            "current_hp": 142,
+            "max_hp": 142,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": false,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          }
+        ],
+        "event": {
+          "actor_instance_id": "earth-A",
+          "declared_action_name": "猛击",
+          "target_instance_ids": [
+            "adventurer-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": "hit",
+          "save_outcome": null,
+          "distance_ft": 5,
+          "same_plane": true,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown"
+        }
+      },
+      "delivery": "input/knowledge.json in full"
+    },
+    {
+      "id": "N18",
+      "question": "史拉绿蟾合法使用三环火球术，盾卫确认在区域内且敏捷豁免失败。8d6已记录6、6、5、4、4、3、2、1；只求盾卫伤害，不结算其他对象。",
+      "request_scope": "damage_and_linked",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true,
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "air-A",
+            "prototype_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+            "current_hp": 90,
+            "max_hp": 90,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "earth-A",
+            "prototype_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+            "current_hp": 147,
+            "max_hp": 147,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "guardian-A",
+            "prototype_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+            "current_hp": 142,
+            "max_hp": 142,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": false,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          }
+        ],
+        "event": {
+          "actor_instance_id": "slaad-A",
+          "declared_action_name": "火球术",
+          "target_instance_ids": [
+            "guardian-A"
+          ],
+          "amount_mode": "recorded_roll",
+          "attack_outcome": null,
+          "save_outcome": "failure",
+          "distance_ft": 5,
+          "same_plane": true,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown",
+          "recorded_dice": [
+            6,
+            6,
+            5,
+            4,
+            4,
+            3,
+            2,
+            1
+          ],
+          "spell_level": 3,
+          "spell_target_in_area": true,
+          "verbal_somatic_available": true,
+          "daily_use_available": true
+        }
+      },
+      "delivery": "input/knowledge.json in full"
+    },
+    {
+      "id": "N19",
+      "question": "盾卫以拳击命中火元素，采用卡载固定值。要求结算本次命中的全部伤害分量，不允许只取其中一种。",
+      "request_scope": "damage_and_linked",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true,
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "air-A",
+            "prototype_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+            "current_hp": 90,
+            "max_hp": 90,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "earth-A",
+            "prototype_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+            "current_hp": 147,
+            "max_hp": 147,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "guardian-A",
+            "prototype_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+            "current_hp": 142,
+            "max_hp": 142,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": false,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          }
+        ],
+        "event": {
+          "actor_instance_id": "guardian-A",
+          "declared_action_name": "拳击",
+          "target_instance_ids": [
+            "fire-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": "hit",
+          "save_outcome": null,
+          "distance_ft": 5,
+          "same_plane": true,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown"
+        }
+      },
+      "delivery": "input/knowledge.json in full"
+    },
+    {
+      "id": "N20",
+      "question": "土元素以猛击命中一段建筑墙体，采用固定值；墙体防御已完整确认，无抗性、易伤或免疫。要求结算包括攻城怪物在内的伤害。",
+      "request_scope": "damage_and_linked",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true,
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "air-A",
+            "prototype_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+            "current_hp": 90,
+            "max_hp": 90,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "earth-A",
+            "prototype_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+            "current_hp": 147,
+            "max_hp": 147,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "guardian-A",
+            "prototype_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+            "current_hp": 142,
+            "max_hp": 142,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": false,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "wall-A",
+            "prototype_id": null,
+            "entity_kind": "structure",
+            "current_hp": 100,
+            "max_hp": 100,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true
+          }
+        ],
+        "event": {
+          "actor_instance_id": "earth-A",
+          "declared_action_name": "猛击",
+          "target_instance_ids": [
+            "wall-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": "hit",
+          "save_outcome": null,
+          "distance_ft": 5,
+          "same_plane": true,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown"
+        }
+      },
+      "delivery": "input/knowledge.json in full"
+    },
+    {
+      "id": "N21",
+      "question": "冒险者佩戴本盾卫绑定的命令护符，双方距离30尺；本次转移前伤害已确认13，所有防御已处理且无其他修正，双方尚未扣HP。要求完整应用连接转伤并更新双方HP。",
+      "request_scope": "full_ability",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true,
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "air-A",
+            "prototype_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+            "current_hp": 90,
+            "max_hp": 90,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "earth-A",
+            "prototype_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+            "current_hp": 147,
+            "max_hp": 147,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "guardian-A",
+            "prototype_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+            "current_hp": 142,
+            "max_hp": 142,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": false,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature",
+            "bound_amulet_instance_id": "amulet-A"
+          }
+        ],
+        "event": {
+          "actor_instance_id": "guardian-A",
+          "declared_action_name": "连接",
+          "target_instance_ids": [
+            "adventurer-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": "hit",
+          "save_outcome": null,
+          "distance_ft": 30,
+          "same_plane": true,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown",
+          "incoming_damage_before_transfer_after_defenses": 13,
+          "wearer_amulet_instance_id": "amulet-A",
+          "guardian_bound_amulet_instance_id": "amulet-A"
+        }
+      },
+      "delivery": "input/knowledge.json in full"
+    },
+    {
+      "id": "N22",
+      "question": "盾卫已合法储存原施法者的三环火球术；其释放机会与目标合法性均已确认。要求用原施法者DC17释放，并在释放后清空储法槽。目标冒险者敏捷豁免成功，无额外防御。8d6已记录6、6、5、4、4、3、2、1。",
+      "request_scope": "full_ability",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true,
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "air-A",
+            "prototype_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+            "current_hp": 90,
+            "max_hp": 90,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "earth-A",
+            "prototype_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+            "current_hp": 147,
+            "max_hp": 147,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "guardian-A",
+            "prototype_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+            "current_hp": 142,
+            "max_hp": 142,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": false,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          }
+        ],
+        "event": {
+          "actor_instance_id": "guardian-A",
+          "declared_action_name": "法术储存",
+          "target_instance_ids": [
+            "adventurer-A"
+          ],
+          "amount_mode": "recorded_roll",
+          "attack_outcome": null,
+          "save_outcome": "success",
+          "distance_ft": 5,
+          "same_plane": true,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown",
+          "recorded_dice": [
+            6,
+            6,
+            5,
+            4,
+            4,
+            3,
+            2,
+            1
+          ],
+          "release_opportunity_confirmed": true,
+          "spell_target_in_area": true,
+          "stored_spell_instance": {
+            "id": "stored-A",
+            "spell_id": "urn:uuid:99a9d4c8-57a7-55d5-8d55-d9ff42749632",
+            "cast_level": 3,
+            "original_caster_instance_id": "original-caster-X",
+            "save_dc": 17,
+            "spell_attack_bonus": 9,
+            "components_waived": [
+              "V",
+              "S",
+              "M"
+            ]
+          }
+        }
+      },
+      "delivery": "input/knowledge.json in full"
+    },
+    {
+      "id": "N23",
+      "question": "有人要求气元素用雷鸣猛击结算一次命中，但现场目标距其11尺，没有延长触及的效果。请按本卡触及与现场信息判断能否继续结算。",
+      "request_scope": "damage_and_linked",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true,
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "air-A",
+            "prototype_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+            "current_hp": 90,
+            "max_hp": 90,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "earth-A",
+            "prototype_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+            "current_hp": 147,
+            "max_hp": 147,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "guardian-A",
+            "prototype_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+            "current_hp": 142,
+            "max_hp": 142,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": false,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          }
+        ],
+        "event": {
+          "actor_instance_id": "air-A",
+          "declared_action_name": "雷鸣猛击",
+          "target_instance_ids": [
+            "adventurer-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": "hit",
+          "save_outcome": null,
+          "distance_ft": 11,
+          "same_plane": true,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "complete_unless_explicitly_unknown"
+        }
+      },
+      "delivery": "input/knowledge.json in full"
+    },
+    {
+      "id": "N24",
+      "question": "土元素猛击已命中盾卫，采用固定值；盾卫现场新增防御清单尚未核对完整。要求结算最终伤害，不能把未确认清单当没有修正。",
+      "request_scope": "damage_and_linked",
+      "scene": {
+        "roster": [
+          {
+            "instance_id": "succubus-A",
+            "prototype_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+            "current_hp": 71,
+            "max_hp": 71,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "incubus-A",
+            "prototype_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+            "current_hp": 66,
+            "max_hp": 66,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-A",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "ghost-B",
+            "prototype_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+            "current_hp": 45,
+            "max_hp": 45,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "fire-A",
+            "prototype_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+            "current_hp": 93,
+            "max_hp": 93,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "slaad-A",
+            "prototype_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+            "current_hp": 144,
+            "max_hp": 144,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "adventurer-A",
+            "prototype_id": null,
+            "creature_type": "humanoid",
+            "current_hp": 40,
+            "max_hp": 60,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "intrinsic_defenses": {
+              "damage_resistance": [],
+              "damage_vulnerability": [],
+              "damage_immunity": [],
+              "condition_immunity": []
+            },
+            "sourced_effects": [],
+            "defense_inventory_complete": true,
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "air-A",
+            "prototype_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+            "current_hp": 90,
+            "max_hp": 90,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "earth-A",
+            "prototype_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+            "current_hp": 147,
+            "max_hp": 147,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": true,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature"
+          },
+          {
+            "instance_id": "guardian-A",
+            "prototype_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+            "current_hp": 142,
+            "max_hp": 142,
+            "position_plane": "material",
+            "can_see_and_be_seen": true,
+            "can_speak_and_gesture": false,
+            "resources": "all_printed_uses_available",
+            "sourced_effects": [],
+            "entity_kind": "creature",
+            "defense_inventory_complete": false
+          }
+        ],
+        "event": {
+          "actor_instance_id": "earth-A",
+          "declared_action_name": "猛击",
+          "target_instance_ids": [
+            "guardian-A"
+          ],
+          "amount_mode": "printed_fixed",
+          "attack_outcome": "hit",
+          "save_outcome": null,
+          "distance_ft": 5,
+          "same_plane": true,
+          "actor_can_see_target": true,
+          "target_can_see_actor": true,
+          "other_damage_adjustments": "none",
+          "defense_effect_inventory": "unknown"
+        }
+      },
+      "delivery": "input/knowledge.json in full"
+    }
+  ]
+}

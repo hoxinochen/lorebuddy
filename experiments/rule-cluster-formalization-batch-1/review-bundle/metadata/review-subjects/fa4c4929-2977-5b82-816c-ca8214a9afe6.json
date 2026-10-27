@@ -1,0 +1,137 @@
+{
+  "body": {
+    "digest": "sha256:36af48d1aa8c27a8d9e1ae8bfd83ec4e5f6fdc27640945bbabaa30171ac33855",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/fa4c4929-2977-5b82-816c-ca8214a9afe6.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "attack_bonus": 6,
+      "damage": 10,
+      "damage_dice": "2d6+3",
+      "ignites": [
+        "creatures",
+        "flammable_objects"
+      ],
+      "reach_ft": 5,
+      "type": "fire"
+    },
+    "editorial_explanation": "Burn是此怪物攻击名；Burning是公共危害。不能因同中文词混成同一个事实对象。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:74895e10-33b1-5401-9c62-2a58ce3205ec",
+            "json_pointer": "/critical_fields/attack_bonus"
+          },
+          {
+            "extraction_id": "urn:uuid:6f3d2069-32d6-5f4c-bb64-2fb7a8ab8832",
+            "json_pointer": "/critical_fields/reach_ft"
+          },
+          {
+            "extraction_id": "urn:uuid:8d4013bd-67a4-55a9-8521-bb93f6007c0c",
+            "json_pointer": "/critical_fields/damage"
+          },
+          {
+            "extraction_id": "urn:uuid:c86a5d9c-9f70-5a65-a4d2-4b2dc7e4b379",
+            "json_pointer": "/critical_fields/damage_dice"
+          },
+          {
+            "extraction_id": "urn:uuid:dca6c046-7176-5d72-9e27-f578c09725b9",
+            "json_pointer": "/critical_fields/type"
+          },
+          {
+            "extraction_id": "urn:uuid:ae10eac4-af25-59b1-948a-3bb8481693da",
+            "json_pointer": "/critical_fields/ignites/0"
+          },
+          {
+            "extraction_id": "urn:uuid:3f428576-ead4-5781-a071-56f98c2a1086",
+            "json_pointer": "/critical_fields/ignites/1"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "local_evidence": "F.ABILITY.6",
+      "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+      "pointer": "/critical_fields"
+    },
+    "id": "urn:uuid:fa4c4929-2977-5b82-816c-ca8214a9afe6",
+    "kind": "动作Actions",
+    "mechanics": {
+      "clauses": {
+        "attack_bonus": 6,
+        "damage": 10,
+        "damage_dice": "2d6+3",
+        "ignites": [
+          "creatures",
+          "flammable_objects"
+        ],
+        "reach_ft": 5,
+        "type": "fire"
+      },
+      "damage": {
+        "amount": {
+          "dice": "2d6+3",
+          "printed_fixed": 10,
+          "selection": "use_scene_amount_mode; recorded_dice_must_not_be_rerolled"
+        },
+        "damage_type": "fire",
+        "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+        "linked_reduction_from_damage_taken": false,
+        "other_effects": [
+          {
+            "dependency": "urn:uuid:7e7508f9-6982-5247-8301-85b530a5665c",
+            "kind": "ignite",
+            "targets": [
+              "creatures",
+              "flammable_objects"
+            ]
+          }
+        ],
+        "save_success": null,
+        "trigger": "hit"
+      },
+      "dependencies": [
+        "urn:uuid:7e7508f9-6982-5247-8301-85b530a5665c"
+      ],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+    },
+    "owner_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+    "required_evidence": [
+      "P.BURNING"
+    ],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:108e2b08-f639-5598-813b-97c3d9e40ec1",
+    "title": "燃烧",
+    "verbatim_evidence": "F.ABILITY.6",
+    "verbatim_text": " **燃烧Burn。***近战攻击检定：*+6，触及5尺。*命中：*10（2d6+3）火焰伤害。若目标为生物或易燃物件，则其开始燃烧。\n"
+  },
+  "dependency_ids": [
+    "urn:uuid:7e7508f9-6982-5247-8301-85b530a5665c"
+  ],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:fa4c4929-2977-5b82-816c-ca8214a9afe6",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:bc8c8dc1-446c-5a51-a749-684ff6846d05",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:108e2b08-f639-5598-813b-97c3d9e40ec1",
+    "derived_note_utf8_range": {
+      "end": 4158,
+      "start": 4002
+    },
+    "entry_id": "urn:uuid:048a1238-9915-5f2e-8619-c8ccbc580529",
+    "fragment_id": "urn:uuid:d6125d3b-9532-5ccd-8263-8e76bb248835",
+    "mapping_id": "urn:uuid:c0530d90-6451-5541-896f-ae1f13107880"
+  },
+  "subject_kind": "ability",
+  "title": "燃烧",
+  "uncompiled_semantics_retained": true
+}

@@ -1,0 +1,215 @@
+[
+  {
+    "batch": "build/m2-cross-relations-6cards-2026-10-22",
+    "question_id": "V01",
+    "case_ids": [
+      "N01",
+      "N02",
+      "N03",
+      "B01",
+      "B02",
+      "B03"
+    ],
+    "original_question_and_gold": {
+      "id": "V01",
+      "group": "V",
+      "origin": "new_cross_relation",
+      "question": "分别使用2014与2025幽魂，均未附身、无其他修正。各受20寒冷、20魔法武器挥砍、20非魔法攻击挥砍，三个情形独立。逐项最终伤害是多少？能否按同名共用防御？",
+      "criteria": [
+        "2014依次0/20/10；2025依次10/10/10",
+        "不跨版本复制寒冷免疫或非魔法限定"
+      ],
+      "references": [
+        "G14.HEADER",
+        "G25.HEADER",
+        "P14.RESISTANCE",
+        "P.RESISTANCE"
+      ]
+    },
+    "answer_file": "build/m2-cross-relations-6cards-2026-10-22/answers/V.json",
+    "model": "gpt-6-luna",
+    "effort": "high",
+    "original_answer": {
+      "id": "V01",
+      "status": "answered",
+      "answer": "事实：2014幽魂对寒冷免疫，对非魔法攻击的挥砍抗性；2025幽魂对寒冷及挥砍均有抗性，且挥砍未限非魔法。适用与核对：2014三项依次为寒冷0、魔法挥砍20、非魔法挥砍20减半为10；2025三项均减半为10。两张卡的防御字段属于不同规则版本，不能因同名共用。结论：2014为0、20、10；2025为10、10、10；不可共用防御。",
+      "citations": [
+        "G14.HEADER",
+        "G25.HEADER",
+        "P14.RESISTANCE"
+      ]
+    },
+    "numeric_projection_review": "pass",
+    "review_note": "Only selected numeric subitems reviewed; not entire original question or new prompt.",
+    "per_question_latency_ms": null,
+    "latency_status": "not_recorded; historical batch wall time cannot be divided by question count"
+  },
+  {
+    "batch": "build/m2-facts-first-high-2026-10-22",
+    "question_id": "E06",
+    "case_ids": [
+      "N04"
+    ],
+    "original_question_and_gold": {
+      "id": "E06",
+      "group": "E",
+      "question": "魔法武器对火元素造成11点挥砍伤害，没有其他修正。有人说“旧版只抗非魔法，所以这里必受11”。按本批完整卡应如何处理？火元素有倒地免疫是否足以证明土元素也有倒地免疫？",
+      "criteria": [
+        "火元素本卡挥砍抗性无非魔法限定，减半向下为5",
+        "不能跨卡复制免疫；土元素完整免疫清单未列倒地"
+      ],
+      "references": [
+        "F.CARD",
+        "E.CARD",
+        "P.RESISTANCE",
+        "P.ROUND"
+      ],
+      "origin": "old_regression"
+    },
+    "answer_file": "build/m2-facts-first-high-2026-10-22/answers/facts_E.json",
+    "model": "gpt-6-luna",
+    "effort": "high",
+    "original_answer": {
+      "id": "E06",
+      "status": "answered",
+      "answer": "事实：火元素本卡列有挥砍抗性，未限定为非魔法攻击；它另有倒地免疫。适用与核对：11点挥砍经抗性减半并向下取整，为5点；武器具有魔法性不取消本卡所列抗性。防御按各自卡片记录，火元素的倒地免疫不能推作土元素也有该免疫；土元素卡列出的状态免疫中没有倒地。结论：火元素承受5点挥砍伤害；不能据火元素卡证明土元素免疫倒地。",
+      "citations": [
+        "F.HEADER",
+        "F.CARD",
+        "E.HEADER",
+        "P.RESISTANCE",
+        "P.ROUND"
+      ]
+    },
+    "numeric_projection_review": "pass",
+    "review_note": "Only selected numeric subitems reviewed; not entire original question or new prompt.",
+    "per_question_latency_ms": null,
+    "latency_status": "not_recorded; historical batch wall time cannot be divided by question count"
+  },
+  {
+    "batch": "build/m2-cross-relations-6cards-2026-10-22",
+    "question_id": "G14",
+    "case_ids": [
+      "N05"
+    ],
+    "original_question_and_gold": {
+      "id": "G14",
+      "group": "R",
+      "question": "四个简短判断：①绿蟾面对法术豁免失败、随后受28火焰伤害且无其他修正，魔法抗性会不会再让伤害减半，实际多少？②0HP的绿蟾能凭再生回复吗？③侦测思想只用感知思想是否立即读出内容？④法师之手能攻击或承载11磅吗？",
+      "criteria": [
+        "①魔法抗性是豁免优势，不另减伤；本卡火焰抗性减至14",
+        "②至少1HP才再生，0不行",
+        "③仅感知思想存在不读内容；④不能攻击或超10磅"
+      ],
+      "references": [
+        "S.CARD",
+        "P.RESISTANCE",
+        "P.THOUGHTS",
+        "P.HAND"
+      ],
+      "origin": "old_regression"
+    },
+    "answer_file": "build/m2-cross-relations-6cards-2026-10-22/answers/R.json",
+    "model": "gpt-6-luna",
+    "effort": "high",
+    "original_answer": {
+      "id": "G14",
+      "status": "answered",
+      "answer": "事实：绿蟾卡列火焰抗性；魔法抗性只给予对抗法术及其他魔法效应的豁免优势。再生要求回合开始时至少有1HP；侦测思想的感知思想效应感知思想存在，不读取内容；法师之手不能攻击或承载超过10磅。适用与核对：已判失败的豁免不改变28点火焰伤害结算；火焰抗性使28减半为14，魔法抗性不再减伤。0HP不满足再生条件；法师之手承载11磅也超限。结论：①14点；②不能；③不能立即读出内容；④不能攻击，也不能承载11磅。",
+      "citations": [
+        "S.CARD",
+        "S.ABILITY.1",
+        "S.ABILITY.2",
+        "P.RESISTANCE",
+        "P.THOUGHTS",
+        "P.HAND"
+      ]
+    },
+    "numeric_projection_review": "pass",
+    "review_note": "Only selected numeric subitems reviewed; not entire original question or new prompt.",
+    "per_question_latency_ms": null,
+    "latency_status": "not_recorded; historical batch wall time cannot be divided by question count"
+  },
+  {
+    "batch": "build/m2-cross-relations-6cards-2026-10-22",
+    "question_id": "R02",
+    "case_ids": [
+      "N06",
+      "N07"
+    ],
+    "original_question_and_gold": {
+      "id": "R02",
+      "group": "R",
+      "question": "史拉绿蟾面对一个法术的豁免已经判定失败，随后原始闪电伤害31；只有本卡防御，无其他修正。该次最终伤害是多少？请区分魔法抗性与伤害抗性。若伤害类型改为31力场，其余不变，又是多少？",
+      "criteria": [
+        "闪电抗性减半向下15；魔法抗性只作用于豁免，不另减半",
+        "无力场抗性，力场31；不把魔法抗性当所有魔法伤害抗性"
+      ],
+      "references": [
+        "S.CARD",
+        "P.RESISTANCE",
+        "P.ROUND"
+      ],
+      "origin": "old_regression"
+    },
+    "answer_file": "build/m2-cross-relations-6cards-2026-10-22/answers/R.json",
+    "model": "gpt-6-luna",
+    "effort": "high",
+    "original_answer": {
+      "id": "R02",
+      "status": "answered",
+      "answer": "事实：绿蟾卡的固有防御包含闪电抗性，不列力场抗性；魔法抗性仅令对抗法术或其他魔法效应的豁免具有优势。题设豁免结果已定且无其他修正。适用与核对：31点闪电伤害匹配抗性，31÷2=15.5，按伤害抗性向下取整为15；魔法抗性不额外减半伤害。改为31点力场时无匹配抗性，伤害保持31。结论：闪电最终15点，力场最终31点。",
+      "citations": [
+        "S.CARD",
+        "S.ABILITY.1",
+        "P.RESISTANCE",
+        "P.ROUND"
+      ]
+    },
+    "numeric_projection_review": "pass",
+    "review_note": "Only selected numeric subitems reviewed; not entire original question or new prompt.",
+    "per_question_latency_ms": null,
+    "latency_status": "not_recorded; historical batch wall time cannot be divided by question count"
+  },
+  {
+    "batch": "build/m2-cross-relations-6cards-2026-10-22",
+    "question_id": "D09",
+    "case_ids": [
+      "N08"
+    ],
+    "original_question_and_gold": {
+      "id": "D09",
+      "group": "D",
+      "origin": "new_cross_relation",
+      "question": "汲命之吻的目标满足来源与距离条件，体质豁免成功；用原固定13，目标另有心灵伤害抗性且无其他修正。最终伤害、生命值上限减损分别多少？之后明确成功完成一次合法长休且无阻止恢复的特效，上限是否恢复？不能仅因卡内未写恢复就断言永久。",
+      "criteria": [
+        "先成功半伤13向下6，再抗性向下3；最终3，上限减3而非13或6",
+        "按PHB2024 P.LONG_REST长休增益恢复降低的上限；不是套2014魅魔句或猜永久"
+      ],
+      "references": [
+        "SU.ABILITY.5",
+        "P.ROUND",
+        "P.RESISTANCE",
+        "P.LONG_REST"
+      ]
+    },
+    "answer_file": "build/m2-cross-relations-6cards-2026-10-22/answers/D.json",
+    "model": "gpt-6-luna",
+    "effort": "high",
+    "original_answer": {
+      "id": "D09",
+      "status": "answered",
+      "answer": "事实：汲命之吻造成13点心灵伤害，生命值上限减少等于实际受到的伤害；目标对心灵伤害有抗性，抗性减半并向下取整。适用与核对：13÷2=6.5，向下取整为6点最终伤害，因此上限减少6点。完成长休会恢复已减少的生命值上限。结论：最终伤害6，上限减损6；在题设合法完成长休且无阻止恢复特效时，上限恢复。",
+      "citations": [
+        "SU.ABILITY.5",
+        "P.RESISTANCE",
+        "P.ROUND",
+        "P.LONG_REST"
+      ]
+    },
+    "numeric_projection_review": "fail",
+    "review_note": "D09 original answer says 6/6; source and original Gold require 3/3. Preserve failure.",
+    "per_question_latency_ms": null,
+    "latency_status": "not_recorded; historical batch wall time cannot be divided by question count"
+  }
+]

@@ -1,0 +1,126 @@
+{
+  "revision": "explicit-scope-adapter-2",
+  "limitation": "原题缺统一范围字段；此表仅表达所问范围，未解析自然语言，不提供计算参数。",
+  "cases": [
+    {
+      "question_id": "C01",
+      "request_scope": "damage_and_linked",
+      "basis": "只问本次伤害及对应上限减损数值"
+    },
+    {
+      "question_id": "C02",
+      "request_scope": "damage_and_linked",
+      "basis": "求本次伤害和对应上限减损"
+    },
+    {
+      "question_id": "C03",
+      "request_scope": "damage_and_linked",
+      "basis": "求伤害和对应上限减损，不重新掷骰"
+    },
+    {
+      "question_id": "C04",
+      "request_scope": "damage_and_linked",
+      "basis": "求本次数值，零伤害也须返回"
+    },
+    {
+      "question_id": "C05",
+      "request_scope": "damage_and_linked",
+      "basis": "求本次伤害及对应上限减损"
+    },
+    {
+      "question_id": "C06",
+      "request_scope": "damage_and_linked",
+      "basis": "求伤害及对应上限减损"
+    },
+    {
+      "question_id": "C07",
+      "request_scope": "damage_and_linked",
+      "basis": "求伤害及减损"
+    },
+    {
+      "question_id": "C08",
+      "request_scope": "damage_and_linked",
+      "basis": "求伤害及对应上限减损"
+    },
+    {
+      "question_id": "C09",
+      "request_scope": "damage_and_linked",
+      "basis": "只求本次伤害"
+    },
+    {
+      "question_id": "C10",
+      "request_scope": "damage_and_linked",
+      "basis": "只求伤害，不要求写入或删除诅咒"
+    },
+    {
+      "question_id": "C11",
+      "request_scope": "damage_and_linked",
+      "basis": "只求伤害"
+    },
+    {
+      "question_id": "C12",
+      "request_scope": "damage_and_linked",
+      "basis": "计算最终伤害"
+    },
+    {
+      "question_id": "C13",
+      "request_scope": "damage_and_linked",
+      "basis": "只求这次命中的伤害，不推进后续回合"
+    },
+    {
+      "question_id": "C14",
+      "request_scope": "damage_and_linked",
+      "basis": "只结算该目标当时的伤害，不推进燃烧危害"
+    },
+    {
+      "question_id": "C15",
+      "request_scope": "damage_and_linked",
+      "basis": "只求这一次触发伤害"
+    },
+    {
+      "question_id": "C16",
+      "request_scope": "damage_and_linked",
+      "basis": "求它本次受到的伤害"
+    },
+    {
+      "question_id": "C17",
+      "request_scope": "damage_and_linked",
+      "basis": "仅结算这名目标的伤害"
+    },
+    {
+      "question_id": "C18",
+      "request_scope": "damage_and_linked",
+      "basis": "只求伤害，不把状态写入说成已完成"
+    },
+    {
+      "question_id": "C19",
+      "request_scope": "full_ability",
+      "basis": "要求完整选择HP分支，给出伤害及是否昏迷"
+    },
+    {
+      "question_id": "C20",
+      "request_scope": "hp_settlement",
+      "basis": "要求最终HP、剩余临时HP及对应上限减损"
+    },
+    {
+      "question_id": "C21",
+      "request_scope": "full_ability",
+      "basis": "要求一次性结算多名目标并应用燃烧"
+    },
+    {
+      "question_id": "C22",
+      "request_scope": "source_state_change",
+      "basis": "要求删除已结束效果，保留仍有效的来源效果"
+    },
+    {
+      "question_id": "C23",
+      "request_scope": "instance_migration",
+      "basis": "要求休息及替换后的当前HP和各资源剩余值"
+    },
+    {
+      "question_id": "C24",
+      "request_scope": "damage_and_linked",
+      "basis": "要求完整核验并结算，不能自行补豁免结果"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "extensions": {
+    "lorebuddy-dnd2024-review": {
+      "decision_scope": "accept claimed association or reject; never auto-verify",
+      "previous_mapping": {
+        "book_id": "phb-2024",
+        "book_name": "玩家手册2024",
+        "category": "core-2024",
+        "entry_id": "urn:uuid:2d46b742-37e3-5734-b0a8-afe4a0b85704",
+        "mapping_basis": "source_path_top_level_root",
+        "mapping_status": "deterministic",
+        "output_path": "Notes/玩家手册2024/第七章：法术/施展法术/法术成分.md",
+        "source_identity_status": "claimed",
+        "source_path": "玩家手册2024/法术/法术成分.htm",
+        "system_version": "2024",
+        "title": "法术成分"
+      }
+    }
+  },
+  "id": "urn:uuid:2defde9a-38f6-56b2-aed5-e008a5082feb",
+  "lifecycle": {
+    "revision": 1,
+    "status": "draft"
+  },
+  "mapping_status": "claimed",
+  "review_status": "pending",
+  "schema": "core.source-mapping@0.1.0",
+  "source": {
+    "id": "urn:uuid:2d46b742-37e3-5734-b0a8-afe4a0b85704",
+    "kind": "entry"
+  },
+  "target": {
+    "edition_id": "urn:uuid:72d3a3b5-fbaa-5966-90b3-3a667cf60b62",
+    "work_id": "urn:uuid:6654ea59-075b-5f6c-a0b9-23bd7229c397"
+  }
+}

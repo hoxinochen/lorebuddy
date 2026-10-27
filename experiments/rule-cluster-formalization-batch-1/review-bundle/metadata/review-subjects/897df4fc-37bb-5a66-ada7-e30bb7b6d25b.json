@@ -1,0 +1,79 @@
+{
+  "body": {
+    "digest": "sha256:c99091fd760bde803dc1c03aa4731a0e6907182ee09adac3ce8a97135c4a4e51",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/897df4fc-37bb-5a66-ada7-e30bb7b6d25b.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "allowed": [
+        "G.Fist"
+      ],
+      "attacks": 2
+    },
+    "editorial_explanation": "两次拳击，不因此有两次法术储存或两次反应。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:dd264b80-0c65-5cfd-91a3-0a263cbfeef5",
+            "json_pointer": "/critical_fields/attacks"
+          },
+          {
+            "extraction_id": "urn:uuid:ee6319cf-0a66-5efd-92f5-37c43ce8c05d",
+            "json_pointer": "/critical_fields/allowed/0"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "local_evidence": "G.ABILITY.4",
+      "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+      "pointer": "/critical_fields"
+    },
+    "id": "urn:uuid:897df4fc-37bb-5a66-ada7-e30bb7b6d25b",
+    "kind": "动作Actions",
+    "mechanics": {
+      "clauses": {
+        "allowed": [
+          "G.Fist"
+        ],
+        "attacks": 2
+      },
+      "dependencies": [],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_and_complete_verbatim; remaining_semantics_uncompiled"
+    },
+    "owner_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+    "required_evidence": [],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:d39a5827-a9c1-5925-9e62-d8a3cd63eadb",
+    "title": "多重攻击",
+    "verbatim_evidence": "G.ABILITY.4",
+    "verbatim_text": "\n**多重攻击Multiattack。**盾卫发动两次拳击攻击。\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:897df4fc-37bb-5a66-ada7-e30bb7b6d25b",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:c7669718-25b4-5e80-a2f6-8dd8486e9fac",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:d39a5827-a9c1-5925-9e62-d8a3cd63eadb",
+    "derived_note_utf8_range": {
+      "end": 3930,
+      "start": 3865
+    },
+    "entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+    "fragment_id": "urn:uuid:9636c175-25b3-5946-bf3d-d27bd737b4ec",
+    "mapping_id": "urn:uuid:bb03d887-d3a3-5a05-9c90-b385a184dee9"
+  },
+  "subject_kind": "ability",
+  "title": "多重攻击",
+  "uncompiled_semantics_retained": true
+}

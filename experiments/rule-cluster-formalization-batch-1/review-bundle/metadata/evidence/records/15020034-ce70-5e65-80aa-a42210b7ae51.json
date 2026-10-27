@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:69dabf6858e76ecb02ba591a9b454e46aeb6a2746f02753b1a6e515586c35bdd",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/亡灵/幽魂.md",
+  "id": "urn:uuid:15020034-ce70-5e65-80aa-a42210b7ae51",
+  "original_record": {
+    "alias": "G25.ABILITY.4",
+    "id": "urn:uuid:15020034-ce70-5e65-80aa-a42210b7ae51",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 2963,
+      "interval": "[start,end)",
+      "start": 2846
+    },
+    "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+    "text": " **凋零之触Withering Touch。***近战攻击检定：*+5，触及5尺。*命中：*19（3d10+3）暗蚀伤害。\n",
+    "text_sha256": "11a68c8a6857b8e0e2c98b564a9344b193d9bfa6bc103444e504927084af21cc"
+  },
+  "raw_fragment_id": "urn:uuid:b32518f2-acd4-5874-acf6-2482d95a72d4",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

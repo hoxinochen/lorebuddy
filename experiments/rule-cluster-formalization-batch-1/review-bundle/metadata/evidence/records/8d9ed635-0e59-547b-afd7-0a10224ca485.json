@@ -1,0 +1,26 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:d823339e2eca6cc5d203709d83f2b6e5c69a0dee88f5c7dcc7018814ba64b01a",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/附录C：术语汇编/其他术语.md",
+  "id": "urn:uuid:8d9ed635-0e59-547b-afd7-0a10224ca485",
+  "original_record": {
+    "alias": "P.ROUND",
+    "id": "urn:uuid:8d9ed635-0e59-547b-afd7-0a10224ca485",
+    "line_range": [
+      526,
+      530
+    ],
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 34241,
+      "interval": "[start,end)",
+      "start": 33946
+    },
+    "source_entry_id": "urn:uuid:110fe3cc-449c-5d30-9bc5-47198a153a06",
+    "text": "<a id=\"Round_Down\"></a>\n### 向下取整 Round Down\n\n每当你在游戏里对某个数字进行除法或乘法运算时，如果最终结果有小数部分，向下取整。即使小数部分超过了0.5，你也要向下取整。不过部分规则会做出例外，告诉你要向上取整。\n\n",
+    "text_sha256": "29975576af32c9c34a46f75437ba401f720e5614bad4e8c3bafddc7432f980f9"
+  },
+  "raw_fragment_id": "urn:uuid:ddb774de-514e-58f9-81d3-40c80ee27e77",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+  "method": "Copy the exact stated header value; do not infer unstated mechanics.",
+  "name": "lorebuddy.dnd2024.literal_header",
+  "revision": 1
+}

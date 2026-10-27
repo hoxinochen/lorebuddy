@@ -1,0 +1,10 @@
+{
+  "basis": "previous accepted candidate catalog classification; not bibliographic verification",
+  "id": "urn:uuid:6654ea59-075b-5f6c-a0b9-23bd7229c397",
+  "identity_status": "claimed",
+  "kind": "work",
+  "review_status": "in_review",
+  "rights": "unknown",
+  "schema": "m2.publication-claim@0.1.0",
+  "title_claim": "玩家手册2024"
+}

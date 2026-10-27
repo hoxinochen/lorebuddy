@@ -1,0 +1,26 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:02efbe8a953929558945da2ede1fe2c71cb8fdb15819e95e9510d88bc662e9b9",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/构装/盾卫.md",
+  "id": "urn:uuid:f4c2225f-f7dd-59d7-a94e-0519d1412865",
+  "original_record": {
+    "alias": "G.CARD",
+    "id": "urn:uuid:f4c2225f-f7dd-59d7-a94e-0519d1412865",
+    "line_range": [
+      24,
+      52
+    ],
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 4352,
+      "interval": "[start,end)",
+      "start": 1595
+    },
+    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+    "text": "<a id=\"Shield_Guardian\"></a>\n##### 盾卫Shield Guardian\n\n大型构装，无阵营\n\n<table><tr><td><strong>AC </strong>17</td><td><strong>先攻 </strong>-1（9）</td></tr> <tr><td colspan=\"2\"><strong>HP </strong>142（15d10+60）</td></tr> <tr><td colspan=\"2\"><strong>速度 </strong>30尺</td></tr></table>\n\n<table><tr><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th></tr> <tr><td><strong>力量</strong></td><td>18</td><td>+4</td><td>+4</td> <td></td> <td><strong>敏捷</strong></td><td>8</td><td>-1</td><td>-1</td> <td></td> <td><strong>体质</strong></td><td>18</td><td>+4</td><td>+4</td></tr> <tr><td><strong>智力</strong></td><td>7</td><td>-2</td><td>-2</td> <td></td> <td><strong>感知</strong></td><td>10</td><td>+0</td><td>+0</td> <td></td> <td><strong>魅力</strong></td><td>3</td><td>-4</td><td>-4</td></tr> </table>\n\n| **免疫**毒素；魅惑，力竭，恐慌，麻痹，石化，中毒 |\n| --- |\n| **感官**盲视10尺，黑暗视觉60尺；被动察觉10 |\n| **语言**理解用任何语言下达的命令，但不会说 |\n| **CR**7（XP2,900；PB+3） |\n\n###### 特质Traits\n\n**连接Bound。**盾卫与一个命令护符魔法性地相连。在盾卫和其命令护符位于同一存在位面期间，命令护符的佩戴者可以心灵感应般的呼唤盾卫来到自己的位置，并且盾卫知晓自己与命令护符的距离及其位置。如果盾卫位于命令护符佩戴者60尺范围内，佩戴者所承受到的任何伤害的一半（向上取整）都会转移给盾卫。\n **再生Regeneration。**若盾卫至少拥有1生命值，则其在自己回合开始时回复10生命值。\n **法术储存Spell Storing。**一名携带着盾卫命令护符的施法者可以让盾卫储存一道四环及以下的法术。为此，护符携带者必须在盾卫5尺内施展那道法术。此时该法术不会产生任何效应，而是被储存在盾卫之中。新法术储存时先前储存的旧法术将会消失。盾卫可以在法术储存者预先设定的条件满足时将其施展，无需法术成分并使用法术储存者的施法属性。储存其内的法术随后消失。\n\n###### 动作Actions\n\n**多重攻击Multiattack。**盾卫发动两次拳击攻击。\n **拳击Fist。***近战攻击检定：*+7，触及10尺。*命中：*11（2d6+4）钝击伤害外加7（2d6）力场伤害。\n\n###### 反应Reactions\n\n**守护Protection。***触发：*盾卫的护符携带者在盾卫的5尺内被一次攻击检定命中。*响应：*携带者的AC获得+5的加值，持续至盾卫的下个回合开始，这包括了对抗触发攻击的AC，并可能令那次攻击改为失手。\n",
+    "text_sha256": "2a3439509ed8525335b9b38f51f334fa23766f2e18c591e3d4d0ead57ffea683"
+  },
+  "raw_fragment_id": "urn:uuid:9636c175-25b3-5946-bf3d-d27bd737b4ec",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:a0502b76c55e4004a72020f2279593ae99a9c21d32da825e34b24b893afa7104",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/邪魔/魅魔.md",
+  "id": "urn:uuid:6133ef26-06fb-5d38-a549-eb5019909a05",
+  "original_record": {
+    "alias": "SU.ABILITY.2",
+    "id": "urn:uuid:6133ef26-06fb-5d38-a549-eb5019909a05",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 3250,
+      "interval": "[start,end)",
+      "start": 3150
+    },
+    "source_entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+    "text": "**多重攻击Multiattack。**魅魔发动一次魔性之触攻击并使用魅惑或汲命之吻。\n",
+    "text_sha256": "3d1f6461921cf05229888ddec09aa8dfa9ee5334c4d0745e022fbea64ee55eee"
+  },
+  "raw_fragment_id": "urn:uuid:ab664971-31bb-5827-81c4-9d5f7275a56e",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

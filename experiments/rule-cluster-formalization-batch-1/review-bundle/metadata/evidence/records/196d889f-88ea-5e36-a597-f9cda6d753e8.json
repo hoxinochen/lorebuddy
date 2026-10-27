@@ -1,0 +1,26 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:40d6b4ba5aec75b37f3ec3ac1c5dda84a869111b8ae82cf196a683a4ecff44f5",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/附录C：术语汇编/状态.md",
+  "id": "urn:uuid:196d889f-88ea-5e36-a597-f9cda6d753e8",
+  "original_record": {
+    "alias": "P.EXHAUSTION",
+    "id": "urn:uuid:196d889f-88ea-5e36-a597-f9cda6d753e8",
+    "line_range": [
+      49,
+      57
+    ],
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 2741,
+      "interval": "[start,end)",
+      "start": 2106
+    },
+    "source_entry_id": "urn:uuid:89505d38-cbaf-5747-9798-96f1a0bf6718",
+    "text": "<a id=\"Exhaustion\"></a>\n### 力竭 Exhaustion【状态】\n\n力竭状态期间，你将遭受以下这些效应。\n**力竭等级Exhaustion Levels。**此状态可叠加。每次你获得此状态，力竭等级都增加1级。当你力竭等级累加到6级你将死亡。\n**D20检定影响D20 Tests Affected。**当你进行一次D20检定时，此次检定将减去你力竭等级2倍的值。\n**速度降低Speed Reduced。**你的速度减少等于你力竭等级5倍尺。\n**移除力竭等级Removing Exhaustion Levels。**你可以依靠完成长休来降低1级力竭等级。当你力竭等级降至0时，此状态结束。\n\n",
+    "text_sha256": "3f6991764538ec47be1a36c6fe2b9e9beba9c0b6dae5270ee97ed500b73a259c"
+  },
+  "raw_fragment_id": "urn:uuid:8971179e-39ce-5b76-812d-ab574f55a9c7",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

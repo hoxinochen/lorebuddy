@@ -1,0 +1,18 @@
+{
+  "binding": {
+    "adopted_decision_ids": [],
+    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+    "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+    "source_evidence_id": "urn:uuid:e823d2f7-ff17-59a1-bc25-3c0ff7233817",
+    "source_note_utf8_range": {
+      "end": 4334,
+      "start": 3551
+    }
+  },
+  "id": "urn:uuid:a12b11c5-7736-5cb0-88f6-2b1d91260cfd",
+  "json_pointer": "/critical_fields/take_from_target/0",
+  "review_status": "candidate",
+  "revision": 1,
+  "subject_id": "urn:uuid:ee7559b0-7859-56d2-abcf-a0d14993bcfc",
+  "value": "speed"
+}

@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:c9c56baacc1df4a575d8284d4e82ccb606aec1e45fe35185e1fd15932d851fb8",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/元素/四元素/火元素.md",
+  "id": "urn:uuid:1db31c05-1484-5763-af03-d34be52b39ac",
+  "original_record": {
+    "alias": "F.ABILITY.4",
+    "id": "urn:uuid:1db31c05-1484-5763-af03-d34be52b39ac",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 3934,
+      "interval": "[start,end)",
+      "start": 3782
+    },
+    "source_entry_id": "urn:uuid:048a1238-9915-5f2e-8619-c8ccbc580529",
+    "text": "**水体易感 Water Susceptibility。**每在水中移动5尺或每被泼一加仑水，火元素受到3（1d6）寒冷伤害。\n\n###### 动作Actions\n",
+    "text_sha256": "b85c21286cfefd1a04f4a7ecf4cc620e2e47d6ea3c9d2f7735f4ed159b7d746d"
+  },
+  "raw_fragment_id": "urn:uuid:d6125d3b-9532-5ccd-8263-8e76bb248835",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

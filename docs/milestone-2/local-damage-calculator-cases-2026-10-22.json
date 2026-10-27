@@ -1,0 +1,1215 @@
+{
+  "artifact_kind": "research_acceptance_cases",
+  "status": "expected_only_not_executed",
+  "scope": "single_event_target_damage_type",
+  "interface_revision": "research-draft-1",
+  "identity_note": "fixture labels are test references, not formal knowledge identities",
+  "fixtures": {
+    "half-drain": {
+      "id": "urn:uuid:cce51c6a-5501-5632-b815-30125cad982e",
+      "save": true,
+      "on_success": "half",
+      "linked_reduction": true,
+      "damage_type": "psychic",
+      "status": "synthetic_fixture_not_approved_rule"
+    },
+    "half": {
+      "id": "urn:uuid:fb431c90-83dd-5b7b-8d80-31d707fe37bc",
+      "save": true,
+      "on_success": "half",
+      "linked_reduction": false,
+      "damage_type": "psychic",
+      "status": "synthetic_fixture_not_approved_rule"
+    },
+    "negate": {
+      "id": "urn:uuid:116cf125-3020-527c-a7c1-d82abf598a82",
+      "save": true,
+      "on_success": "zero",
+      "linked_reduction": false,
+      "damage_type": "psychic",
+      "status": "synthetic_fixture_not_approved_rule"
+    },
+    "direct": {
+      "id": "urn:uuid:2b7b1c64-95ff-5eb6-98a5-6d9210e3cc0e",
+      "save": false,
+      "on_success": "unchanged",
+      "linked_reduction": false,
+      "damage_type": "psychic",
+      "status": "synthetic_fixture_not_approved_rule"
+    }
+  },
+  "input_note": "扁平化便于研究审阅；未来请求与受控环境拆开，defenses不允许AI覆盖固定防御",
+  "cases": [
+    {
+      "case_id": "C01",
+      "purpose": "D09漏成功半伤应被纠正",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "half-drain",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [
+            "psychic"
+          ],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "expected": {
+        "status": "calculated",
+        "stages": {
+          "after_ability": 6,
+          "after_resistance": 3,
+          "after_vulnerability": 3
+        },
+        "damage_taken": 3,
+        "linked_reduction": 3
+      }
+    },
+    {
+      "case_id": "C02",
+      "purpose": "失败只受一次抗性",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "half-drain",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "failure",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [
+            "psychic"
+          ],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "expected": {
+        "status": "calculated",
+        "stages": {
+          "after_ability": 13,
+          "after_resistance": 6,
+          "after_vulnerability": 6
+        },
+        "damage_taken": 6,
+        "linked_reduction": 6
+      }
+    },
+    {
+      "case_id": "C03",
+      "purpose": "成功无抗性",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "half-drain",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "expected": {
+        "status": "calculated",
+        "stages": {
+          "after_ability": 6,
+          "after_resistance": 6,
+          "after_vulnerability": 6
+        },
+        "damage_taken": 6,
+        "linked_reduction": 6
+      }
+    },
+    {
+      "case_id": "C04",
+      "purpose": "1先半伤归零",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "half-drain",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 1,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [
+            "psychic"
+          ],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "expected": {
+        "status": "calculated",
+        "stages": {
+          "after_ability": 0,
+          "after_resistance": 0,
+          "after_vulnerability": 0
+        },
+        "damage_taken": 0,
+        "linked_reduction": 0
+      }
+    },
+    {
+      "case_id": "C05",
+      "purpose": "3两次半伤逐步取整",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "half-drain",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 3,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [
+            "psychic"
+          ],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "expected": {
+        "status": "calculated",
+        "stages": {
+          "after_ability": 1,
+          "after_resistance": 0,
+          "after_vulnerability": 0
+        },
+        "damage_taken": 0,
+        "linked_reduction": 0
+      }
+    },
+    {
+      "case_id": "C06",
+      "purpose": "零值不是缺输入",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "half-drain",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 0,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "expected": {
+        "status": "calculated",
+        "stages": {
+          "after_ability": 0,
+          "after_resistance": 0,
+          "after_vulnerability": 0
+        },
+        "damage_taken": 0,
+        "linked_reduction": 0
+      }
+    },
+    {
+      "case_id": "C07",
+      "purpose": "抗性与易伤不能抵消",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "direct",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "not_applicable",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [
+            "psychic"
+          ],
+          "vulnerability": [
+            "psychic"
+          ],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "expected": {
+        "status": "calculated",
+        "stages": {
+          "after_ability": 13,
+          "after_resistance": 6,
+          "after_vulnerability": 12
+        },
+        "damage_taken": 12,
+        "linked_reduction": null
+      }
+    },
+    {
+      "case_id": "C08",
+      "purpose": "成功半伤后易伤",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "half-drain",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [],
+          "vulnerability": [
+            "psychic"
+          ],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "expected": {
+        "status": "calculated",
+        "stages": {
+          "after_ability": 6,
+          "after_resistance": 6,
+          "after_vulnerability": 12
+        },
+        "damage_taken": 12,
+        "linked_reduction": 12
+      }
+    },
+    {
+      "case_id": "C09",
+      "purpose": "同类抗性不叠加",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "half-drain",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [
+            "psychic",
+            "psychic"
+          ],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "expected": {
+        "status": "calculated",
+        "stages": {
+          "after_ability": 6,
+          "after_resistance": 3,
+          "after_vulnerability": 3
+        },
+        "damage_taken": 3,
+        "linked_reduction": 3
+      }
+    },
+    {
+      "case_id": "C10",
+      "purpose": "同类易伤不叠加",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "half-drain",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [],
+          "vulnerability": [
+            "psychic",
+            "psychic"
+          ],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "expected": {
+        "status": "calculated",
+        "stages": {
+          "after_ability": 6,
+          "after_resistance": 6,
+          "after_vulnerability": 12
+        },
+        "damage_taken": 12,
+        "linked_reduction": 12
+      }
+    },
+    {
+      "case_id": "C11",
+      "purpose": "免疫最终伤害及关联减损归零",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "half-drain",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [],
+          "vulnerability": [],
+          "immunity": [
+            "psychic"
+          ]
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "expected": {
+        "status": "calculated",
+        "stages": {
+          "after_ability": 6,
+          "after_resistance": 6,
+          "after_vulnerability": 6
+        },
+        "damage_taken": 0,
+        "linked_reduction": 0
+      }
+    },
+    {
+      "case_id": "C12",
+      "purpose": "不匹配伤害类型不应用",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "half-drain",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "failure",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [
+            "cold"
+          ],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "expected": {
+        "status": "calculated",
+        "stages": {
+          "after_ability": 13,
+          "after_resistance": 13,
+          "after_vulnerability": 13
+        },
+        "damage_taken": 13,
+        "linked_reduction": 13
+      }
+    },
+    {
+      "case_id": "C13",
+      "purpose": "成功无伤不是成功半伤",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "negate",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "expected": {
+        "status": "calculated",
+        "stages": {
+          "after_ability": 0,
+          "after_resistance": 0,
+          "after_vulnerability": 0
+        },
+        "damage_taken": 0,
+        "linked_reduction": null
+      }
+    },
+    {
+      "case_id": "C14",
+      "purpose": "无关联减损能力不能自动添加",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "half",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [
+            "psychic"
+          ],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "expected": {
+        "status": "calculated",
+        "stages": {
+          "after_ability": 6,
+          "after_resistance": 3,
+          "after_vulnerability": 3
+        },
+        "damage_taken": 3,
+        "linked_reduction": null
+      }
+    },
+    {
+      "case_id": "C15",
+      "purpose": "工具数值上界属于操作约束",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "direct",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 1000000,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "not_applicable",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [],
+          "vulnerability": [
+            "psychic"
+          ],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "expected": {
+        "status": "calculated",
+        "stages": {
+          "after_ability": 1000000,
+          "after_resistance": 1000000,
+          "after_vulnerability": 2000000
+        },
+        "damage_taken": 2000000,
+        "linked_reduction": null
+      }
+    },
+    {
+      "case_id": "C16",
+      "purpose": "缺少成功失败",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "half-drain",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": null,
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "expected": {
+        "status": "needs_input",
+        "issue": "missing_save_outcome"
+      }
+    },
+    {
+      "case_id": "C17",
+      "purpose": "未知防御不能当无抗性",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "half-drain",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "unknown",
+        "other_adjustments": "none"
+      },
+      "expected": {
+        "status": "needs_input",
+        "issue": "defense_coverage_unknown"
+      }
+    },
+    {
+      "case_id": "C18",
+      "purpose": "资格未确认",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "half-drain",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "unknown",
+        "defenses": {
+          "resistance": [],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "expected": {
+        "status": "needs_input",
+        "issue": "eligibility_unknown"
+      }
+    },
+    {
+      "case_id": "C19",
+      "purpose": "明确不符合目标资格",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "half-drain",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "rejected",
+        "defenses": {
+          "resistance": [],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "expected": {
+        "status": "invalid",
+        "issue": "target_ineligible"
+      }
+    },
+    {
+      "case_id": "C20",
+      "purpose": "不支持2014环境",
+      "request": {
+        "environment": "research.dnd2014",
+        "ability": "half-drain",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "expected": {
+        "status": "unsupported",
+        "issue": "unsupported_profile"
+      }
+    },
+    {
+      "case_id": "C21",
+      "purpose": "不能仅按名称猜能力",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "unknown-same-name",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "expected": {
+        "status": "invalid",
+        "issue": "unresolved_ability"
+      }
+    },
+    {
+      "case_id": "C22",
+      "purpose": "已经减半的值不能当原始伤害",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "half-drain",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 6,
+        "damage_basis": "after_save",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "expected": {
+        "status": "invalid",
+        "issue": "wrong_damage_basis"
+      }
+    },
+    {
+      "case_id": "C23",
+      "purpose": "负值不是治疗",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "half-drain",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": -1,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "expected": {
+        "status": "invalid",
+        "issue": "damage_out_of_range"
+      }
+    },
+    {
+      "case_id": "C24",
+      "purpose": "小数不能静默截断",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "half-drain",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 13.5,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "expected": {
+        "status": "invalid",
+        "issue": "damage_not_integer"
+      }
+    },
+    {
+      "case_id": "C25",
+      "purpose": "字符串不能强制转数值",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "half-drain",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": "13",
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "expected": {
+        "status": "invalid",
+        "issue": "damage_not_integer"
+      }
+    },
+    {
+      "case_id": "C26",
+      "purpose": "超过操作上界",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "half-drain",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 1000001,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "expected": {
+        "status": "invalid",
+        "issue": "damage_out_of_range"
+      }
+    },
+    {
+      "case_id": "C27",
+      "purpose": "未支持固定减伤不忽略",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "half-drain",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": [
+          {
+            "kind": "subtract",
+            "amount": 5
+          }
+        ]
+      },
+      "expected": {
+        "status": "unsupported",
+        "issue": "unsupported_adjustment"
+      }
+    },
+    {
+      "case_id": "C28",
+      "purpose": "混合类型需要分组规则",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "half-drain",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none",
+        "components": [
+          {
+            "type": "psychic",
+            "amount": 3
+          },
+          {
+            "type": "fire",
+            "amount": 3
+          }
+        ]
+      },
+      "expected": {
+        "status": "unsupported",
+        "issue": "mixed_damage_not_supported"
+      }
+    },
+    {
+      "case_id": "C29",
+      "purpose": "条件抗性未求值",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "half-drain",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none",
+        "conditional_resistance": {
+          "only": "nonmagical_attacks",
+          "type": "psychic"
+        }
+      },
+      "expected": {
+        "status": "unsupported",
+        "issue": "conditional_defense_not_supported"
+      }
+    },
+    {
+      "case_id": "C30",
+      "purpose": "临时HP不是可忽略字段",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "half-drain",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none",
+        "temporary_hp": 10
+      },
+      "expected": {
+        "status": "unsupported",
+        "issue": "temporary_hp_not_supported"
+      }
+    },
+    {
+      "case_id": "C31",
+      "purpose": "调用方不能覆盖能力成功分支",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "half-drain",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none",
+        "on_success_override": "unchanged"
+      },
+      "expected": {
+        "status": "invalid",
+        "issue": "fixed_rule_override"
+      }
+    },
+    {
+      "case_id": "C32",
+      "purpose": "未知字段不能静默忽略",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "half-drain",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none",
+        "ignore_resistance": true
+      },
+      "expected": {
+        "status": "invalid",
+        "issue": "unknown_field"
+      }
+    },
+    {
+      "case_id": "C33",
+      "purpose": "免疫不能绕过输入完整性",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "half-drain",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": null,
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [],
+          "vulnerability": [],
+          "immunity": [
+            "psychic"
+          ]
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "expected": {
+        "status": "needs_input",
+        "issue": "missing_save_outcome"
+      }
+    },
+    {
+      "case_id": "C34",
+      "purpose": "无豁免能力不得夹带成功豁免",
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "direct",
+        "target": "fixture-target-A",
+        "event": "fixture-event-A",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defenses": {
+          "resistance": [],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "expected": {
+        "status": "invalid",
+        "issue": "save_not_applicable"
+      }
+    }
+  ],
+  "comparison_cases": [
+    {
+      "case_id": "X01",
+      "basis": "C01",
+      "ai_draft": {
+        "stages": {
+          "after_ability": 6,
+          "after_resistance": 3,
+          "after_vulnerability": 3
+        },
+        "damage_taken": 3,
+        "linked_reduction": 3
+      },
+      "expected": "matched",
+      "qualification": "仅支持范围内一致，不是整题正确证明"
+    },
+    {
+      "case_id": "X02",
+      "basis": "C01",
+      "ai_draft": {
+        "stages": {
+          "after_ability": 13,
+          "after_resistance": 6,
+          "after_vulnerability": 6
+        },
+        "damage_taken": 6,
+        "linked_reduction": 6
+      },
+      "expected": "numeric_mismatch",
+      "qualification": "升级候选；本轮不实际升模"
+    },
+    {
+      "case_id": "X03",
+      "basis": "C01",
+      "ai_draft": {
+        "stages": {
+          "after_ability": 13,
+          "after_resistance": 3,
+          "after_vulnerability": 3
+        },
+        "damage_taken": 3,
+        "linked_reduction": 3
+      },
+      "expected": "stage_mismatch",
+      "qualification": "最终数值相等也应拦下"
+    },
+    {
+      "case_id": "X04",
+      "basis": "C01",
+      "ai_draft": {
+        "damage_taken": 3,
+        "linked_reduction": 3
+      },
+      "expected": "missing_draft_stage",
+      "qualification": "不能假称已比较步骤"
+    },
+    {
+      "case_id": "X05",
+      "basis": "C01",
+      "ai_draft": {
+        "stages": {
+          "after_ability": 6,
+          "after_resistance": 3,
+          "after_vulnerability": 3
+        },
+        "damage_taken": 3,
+        "linked_reduction": 6
+      },
+      "expected": "numeric_mismatch",
+      "qualification": "关联减损须独立核对"
+    },
+    {
+      "case_id": "X06",
+      "basis": "C01",
+      "changed_binding": {
+        "target": "fixture-target-B"
+      },
+      "expected": "context_mismatch",
+      "qualification": "相同数字也不能跨目标比较"
+    },
+    {
+      "case_id": "X07",
+      "basis": "C01",
+      "changed_binding": {
+        "event": "fixture-event-B"
+      },
+      "expected": "context_mismatch",
+      "qualification": "旧事件不能覆盖当前事件"
+    },
+    {
+      "case_id": "X08",
+      "basis": "C01",
+      "changed_request": {
+        "save_outcome": "failure"
+      },
+      "trusted_context": {
+        "save_outcome": "success"
+      },
+      "expected": "context_mismatch",
+      "qualification": "存在独立现场上下文时可抓到漏用成功"
+    },
+    {
+      "case_id": "X09",
+      "basis": "C02",
+      "shared_wrong_fact": {
+        "supplied_save": "failure",
+        "actual_save_not_in_machine_context": "success"
+      },
+      "ai_draft": {
+        "stages": {
+          "after_ability": 13,
+          "after_resistance": 6,
+          "after_vulnerability": 6
+        },
+        "damage_taken": 6,
+        "linked_reduction": 6
+      },
+      "expected": "matched_but_semantically_wrong_not_detected",
+      "qualification": "无独立现场证据时，不能宣称双向计算捕获此错"
+    },
+    {
+      "case_id": "X10",
+      "basis": "C02",
+      "ai_draft": {
+        "damage_taken": 3,
+        "linked_reduction": 3,
+        "stages": {
+          "after_ability": 6,
+          "after_resistance": 3,
+          "after_vulnerability": 3
+        }
+      },
+      "higher_model_configured": false,
+      "expected": "conflict_without_model_call",
+      "qualification": "未配置高模型仍可使用本地工具，显示冲突"
+    },
+    {
+      "case_id": "X11",
+      "basis": "C16",
+      "expected": "request_input_without_model_call",
+      "qualification": "缺事实先问输入，不以升模补造"
+    },
+    {
+      "case_id": "X12",
+      "basis": "C28",
+      "expected": "report_unsupported",
+      "qualification": "不能因模型给了答案就宣称工具已核验"
+    }
+  ],
+  "planned_mutations": [
+    {
+      "fault": "skip_success_half",
+      "must_be_caught_by": [
+        "C01",
+        "C03",
+        "C05"
+      ]
+    },
+    {
+      "fault": "stack_resistance",
+      "must_be_caught_by": [
+        "C09"
+      ]
+    },
+    {
+      "fault": "cancel_resistance_vulnerability",
+      "must_be_caught_by": [
+        "C07"
+      ]
+    },
+    {
+      "fault": "derive_reduction_from_raw",
+      "must_be_caught_by": [
+        "C01",
+        "C02",
+        "C11"
+      ]
+    }
+  ]
+}

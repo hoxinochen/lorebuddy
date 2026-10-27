@@ -1,0 +1,291 @@
+{
+  "body": {
+    "digest": "sha256:278924dd02af1178781eb2a50f30b2bdfc536e4d914159e09dbe5681a84a9a02",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/99a9d4c8-57a7-55d5-8d55-d9ff42749632.md"
+  },
+  "candidate_snapshot": {
+    "alias": "P.FIREBALL",
+    "candidate_revision": 2,
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "casting_contract": {
+          "activation": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+              "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+              "source_evidence_id": "urn:uuid:207df704-38f2-544f-89c2-694dc7cf2758",
+              "source_note_utf8_range": {
+                "end": 15075,
+                "start": 15050
+              }
+            },
+            "state": "known",
+            "value": "动作"
+          },
+          "base_level": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+              "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+              "source_evidence_id": "urn:uuid:207df704-38f2-544f-89c2-694dc7cf2758",
+              "source_note_utf8_range": {
+                "end": 15641,
+                "start": 14964
+              }
+            },
+            "state": "known",
+            "value": 3
+          },
+          "components": {
+            "material": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:e7d2d510-5802-5350-a6c7-391b020fa902",
+                "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+                "source_evidence_id": "urn:uuid:207df704-38f2-544f-89c2-694dc7cf2758",
+                "source_note_utf8_range": {
+                  "end": 15175,
+                  "start": 15102
+                }
+              },
+              "state": "known",
+              "value": true
+            },
+            "material_consumption": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+                "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+                "source_evidence_id": "urn:uuid:207df704-38f2-544f-89c2-694dc7cf2758",
+                "source_note_utf8_range": {
+                  "end": 15175,
+                  "start": 15102
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "material_detail": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+                "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+                "source_evidence_id": "urn:uuid:207df704-38f2-544f-89c2-694dc7cf2758",
+                "source_note_utf8_range": {
+                  "end": 15175,
+                  "start": 15102
+                }
+              },
+              "state": "known",
+              "value": "一颗蝙蝠粪和硫磺搓成的小球"
+            },
+            "material_value": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+                "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+                "source_evidence_id": "urn:uuid:207df704-38f2-544f-89c2-694dc7cf2758",
+                "source_note_utf8_range": {
+                  "end": 15175,
+                  "start": 15102
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "somatic": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:e7d2d510-5802-5350-a6c7-391b020fa902",
+                "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+                "source_evidence_id": "urn:uuid:207df704-38f2-544f-89c2-694dc7cf2758",
+                "source_note_utf8_range": {
+                  "end": 15175,
+                  "start": 15102
+                }
+              },
+              "state": "known",
+              "value": true
+            },
+            "verbal": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:e7d2d510-5802-5350-a6c7-391b020fa902",
+                "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+                "source_evidence_id": "urn:uuid:207df704-38f2-544f-89c2-694dc7cf2758",
+                "source_note_utf8_range": {
+                  "end": 15175,
+                  "start": 15102
+                }
+              },
+              "state": "known",
+              "value": true
+            }
+          },
+          "concentration": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:49dace82-f73e-5fff-8f21-b5bef68a7a74",
+              "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+              "source_evidence_id": "urn:uuid:207df704-38f2-544f-89c2-694dc7cf2758",
+              "source_note_utf8_range": {
+                "end": 15201,
+                "start": 15176
+              }
+            },
+            "state": "known",
+            "value": false
+          },
+          "coverage": "headers_targets_saves_and_calls_structured; remaining_effect_prose_retained_uncompiled; not_full_casting_legality",
+          "duration": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+              "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+              "source_evidence_id": "urn:uuid:207df704-38f2-544f-89c2-694dc7cf2758",
+              "source_note_utf8_range": {
+                "end": 15201,
+                "start": 15176
+              }
+            },
+            "state": "known",
+            "value": "立即"
+          },
+          "effects": [
+            {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+                "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+                "source_evidence_id": "urn:uuid:207df704-38f2-544f-89c2-694dc7cf2758",
+                "source_note_utf8_range": {
+                  "end": 15641,
+                  "start": 14964
+                }
+              },
+              "state": "partially_structured",
+              "value": {
+                "numeric_facet_pointer": "/numeric_facets",
+                "read_from_evidence_id": "urn:uuid:207df704-38f2-544f-89c2-694dc7cf2758"
+              }
+            }
+          ],
+          "range": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+              "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+              "source_evidence_id": "urn:uuid:207df704-38f2-544f-89c2-694dc7cf2758",
+              "source_note_utf8_range": {
+                "end": 15101,
+                "start": 15076
+              }
+            },
+            "state": "known",
+            "value": "150尺"
+          },
+          "save_attack": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+              "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+              "source_evidence_id": "urn:uuid:207df704-38f2-544f-89c2-694dc7cf2758",
+              "source_note_utf8_range": {
+                "end": 15641,
+                "start": 14964
+              }
+            },
+            "state": "known",
+            "value": {
+              "ability": "dexterity",
+              "kind": "saving_throw",
+              "on_failure": "full_damage",
+              "on_success": "half_damage"
+            }
+          },
+          "targeting": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+              "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+              "source_evidence_id": "urn:uuid:207df704-38f2-544f-89c2-694dc7cf2758",
+              "source_note_utf8_range": {
+                "end": 15641,
+                "start": 14964
+              }
+            },
+            "state": "known",
+            "value": {
+              "kind": "point_and_all_creatures_in_area",
+              "radius_ft": 20,
+              "shape": "sphere"
+            }
+          },
+          "upcast": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+              "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+              "source_evidence_id": "urn:uuid:207df704-38f2-544f-89c2-694dc7cf2758",
+              "source_note_utf8_range": {
+                "end": 15639,
+                "start": 15554
+              }
+            },
+            "state": "known",
+            "value": "使用的法术位每比三环高一环，此伤害就增加1d6。"
+          }
+        }
+      }
+    },
+    "id": "urn:uuid:99a9d4c8-57a7-55d5-8d55-d9ff42749632",
+    "kind": "spell",
+    "numeric_facets": {
+      "area": {
+        "radius_ft": 20,
+        "shape": "sphere"
+      },
+      "base_dice": "8d6",
+      "damage_type": "fire",
+      "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+      "ignites": "unworn_uncarried_flammable_objects",
+      "on_success": "half",
+      "save": "dexterity",
+      "upcast": {
+        "base_level": 3,
+        "dice_added_per_level": "1d6"
+      }
+    },
+    "review_status": "candidate",
+    "rule_context": "PHB2024",
+    "source_evidence_id": "urn:uuid:207df704-38f2-544f-89c2-694dc7cf2758",
+    "structured_mechanics_status": "verbatim_complete_structured_facets_below_are_partial_not_silent_defaults",
+    "title": "火球术｜Fireball",
+    "verbatim_text": "<a id=\"Fireball\"></a>\n#### 火球术｜Fireball\n\n*三环 塑能（术士、法师）*\n**施法时间：**动作\n**施法距离：**150尺\n**法术成分：**V、S、M（一颗蝙蝠粪和硫磺搓成的小球）\n**持续时间：**立即\n明亮的闪光从你的指间飞驰向施法距离内你指定的一点，并随着一声低吼迸成一片烈焰。目标点周围半径20尺球状区域内的每个生物必须进行一次敏捷豁免。豁免失败者将受到8d6点火焰伤害，豁免成功则伤害减半。\n区域内所有未被着装或携带的可燃物件会开始燃烧。\n**升环施法。**使用的法术位每比三环高一环，此伤害就增加1d6。\n\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:99a9d4c8-57a7-55d5-8d55-d9ff42749632",
+  "language": "zh-Hans",
+  "module": "spells",
+  "review_record_id": "urn:uuid:a5eef48d-c541-532f-805b-fd6de291dfa2",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:207df704-38f2-544f-89c2-694dc7cf2758",
+    "derived_note_utf8_range": {
+      "end": 15641,
+      "start": 14964
+    },
+    "entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+    "fragment_id": "urn:uuid:38138731-29ce-562c-96ae-d5f4882f905f",
+    "mapping_id": "urn:uuid:64862a7e-e0c8-5b59-9c7c-18f448b4b775"
+  },
+  "subject_kind": "spell",
+  "title": "火球术｜Fireball",
+  "uncompiled_semantics_retained": true
+}

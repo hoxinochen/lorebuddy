@@ -1,0 +1,36 @@
+{
+  "extensions": {
+    "lorebuddy-dnd2024-review": {
+      "decision_scope": "accept claimed association or reject; never auto-verify",
+      "previous_mapping": {
+        "book_id": "mm-2025",
+        "book_name": "怪物图鉴2025",
+        "category": "core-2024",
+        "entry_id": "urn:uuid:54ebd374-23f2-5912-9d12-9bd95add858e",
+        "mapping_basis": "source_path_top_level_root",
+        "mapping_status": "deterministic",
+        "output_path": "Notes/怪物图鉴2025/前言/数据卡的组成部分.md",
+        "source_identity_status": "claimed",
+        "source_path": "怪物图鉴2025/前言/数据卡的组成部分.htm",
+        "system_version": "2024",
+        "title": "数据卡的组成部分"
+      }
+    }
+  },
+  "id": "urn:uuid:eb665732-68cc-511f-8291-07e7c0979f2f",
+  "lifecycle": {
+    "revision": 1,
+    "status": "draft"
+  },
+  "mapping_status": "claimed",
+  "review_status": "pending",
+  "schema": "core.source-mapping@0.1.0",
+  "source": {
+    "id": "urn:uuid:54ebd374-23f2-5912-9d12-9bd95add858e",
+    "kind": "entry"
+  },
+  "target": {
+    "edition_id": "urn:uuid:9b7e4a00-7efd-5fd2-8236-f15e3716a155",
+    "work_id": "urn:uuid:cc510ffb-c824-5afd-9b98-252f6d285089"
+  }
+}

@@ -1,0 +1,694 @@
+{
+  "body": {
+    "digest": "sha256:7c02eb1f16b9796bea72a3b47bca44f8425c83f75d7b103f264629f65e78f6bf",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/5a08c0b2-4376-5daa-a254-10a3de5b1115.md"
+  },
+  "candidate_snapshot": {
+    "abilities": [
+      {
+        "critical_fields": {
+          "replace_game_statistics_with": "IN",
+          "when": "on_finishing_long_rest"
+        },
+        "editorial_explanation": "整卡替换与附赠动作外形变化不同；当前HP与已消耗资源迁移不补算法。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:bfdd6f51-4e87-54a4-8972-728fa3cb7ec5",
+                "json_pointer": "/critical_fields/when"
+              },
+              {
+                "extraction_id": "urn:uuid:947d7f02-dd8c-5b12-9573-be99e768ccb2",
+                "json_pointer": "/critical_fields/replace_game_statistics_with"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "pointer": "/critical_fields",
+          "source_evidence": "SU.ABILITY.1"
+        },
+        "id": "urn:uuid:5479a7d8-99df-5791-9013-dd434cfa2908",
+        "kind": "特质Traits",
+        "mechanics": {
+          "clauses": {
+            "replace_game_statistics_with": "IN",
+            "when": "on_finishing_long_rest"
+          },
+          "dependencies": [],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+        "required_evidence": [],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:bc254e09-b0a2-55d4-92e5-9c0d78697f07",
+        "title": "化身梦魔",
+        "verbatim_evidence": "SU.ABILITY.1",
+        "verbatim_text": "**化身梦魔Incubus Form。**魅魔在完成一次长休时可以变形为**梦魔Incubus**，并使用梦魔的游戏数据替代其原来的数据。\n\n###### 动作Actions\n\n"
+      },
+      {
+        "critical_fields": {
+          "sequence": [
+            "FiendishTouch",
+            "Charm_or_DrainingKiss"
+          ]
+        },
+        "editorial_explanation": "一次触碰加魅惑或吻，不是两次触碰或三项全部用。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:2a658fbe-ce03-53ba-bf78-fbc3b3cd402a",
+                "json_pointer": "/critical_fields/sequence/0"
+              },
+              {
+                "extraction_id": "urn:uuid:5682060c-c459-5cf0-b7f3-1772b9f7c1bf",
+                "json_pointer": "/critical_fields/sequence/1"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "pointer": "/critical_fields",
+          "source_evidence": "SU.ABILITY.2"
+        },
+        "id": "urn:uuid:8fa93858-68e2-5693-b484-a73f5a97c7bc",
+        "kind": "动作Actions",
+        "mechanics": {
+          "clauses": {
+            "sequence": [
+              "FiendishTouch",
+              "Charm_or_DrainingKiss"
+            ]
+          },
+          "dependencies": [],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+        "required_evidence": [],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:6133ef26-06fb-5d38-a549-eb5019909a05",
+        "title": "多重攻击",
+        "verbatim_evidence": "SU.ABILITY.2",
+        "verbatim_text": "**多重攻击Multiattack。**魅魔发动一次魔性之触攻击并使用魅惑或汲命之吻。\n"
+      },
+      {
+        "critical_fields": {
+          "attack_bonus": 7,
+          "damage": 16,
+          "dice": "2d10+5",
+          "reach_ft": 5,
+          "type": "psychic"
+        },
+        "editorial_explanation": "仅本卡攻击。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:d122963b-95d5-55b4-9dd2-0165ed0def62",
+                "json_pointer": "/critical_fields/attack_bonus"
+              },
+              {
+                "extraction_id": "urn:uuid:e969126c-e6a6-563f-bdd7-1e31e5619b05",
+                "json_pointer": "/critical_fields/reach_ft"
+              },
+              {
+                "extraction_id": "urn:uuid:eb4ab9e6-34ce-5704-a76f-5718784c2dab",
+                "json_pointer": "/critical_fields/damage"
+              },
+              {
+                "extraction_id": "urn:uuid:2f22cc1b-3b2d-5467-8f7c-28f82628c30d",
+                "json_pointer": "/critical_fields/dice"
+              },
+              {
+                "extraction_id": "urn:uuid:44851f5c-6642-5447-8866-7f5ef317b5f8",
+                "json_pointer": "/critical_fields/type"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "pointer": "/critical_fields",
+          "source_evidence": "SU.ABILITY.3"
+        },
+        "id": "urn:uuid:fdfa5780-6cdb-5d32-ab27-39c1adee1f8e",
+        "kind": "动作Actions",
+        "mechanics": {
+          "clauses": {
+            "attack_bonus": 7,
+            "damage": 16,
+            "dice": "2d10+5",
+            "reach_ft": 5,
+            "type": "psychic"
+          },
+          "damage": {
+            "amount": {
+              "dice": "2d10+5",
+              "printed_fixed": 16,
+              "selection": "use_scene_amount_mode; recorded_dice_must_not_be_rerolled"
+            },
+            "damage_type": "psychic",
+            "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+            "linked_reduction_from_damage_taken": false,
+            "other_effects": [],
+            "save_success": null,
+            "trigger": "hit"
+          },
+          "dependencies": [],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+        "required_evidence": [],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:8b86d615-d12b-59a4-af05-46b85e1ffd20",
+        "title": "魔性之触",
+        "verbatim_evidence": "SU.ABILITY.3",
+        "verbatim_text": " **魔性之触Fiendish Touch。**近战攻击：+7，触及5尺。*命中：*16（2d10+5）心灵伤害。\n"
+      },
+      {
+        "critical_fields": {
+          "cast_level": 8,
+          "casting_ability": "charisma",
+          "components_override": "none",
+          "save_dc": 15,
+          "spell": "P.DOMINATE"
+        },
+        "editorial_explanation": "无成分不免专注；八环时长上限仍需按法术维持。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "casting_calls": [
+              {
+                "availability": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+                    "source_evidence_id": "urn:uuid:0a1f8361-88fb-5999-b98a-f868d5b9cfae",
+                    "source_note_utf8_range": {
+                      "end": 3517,
+                      "start": 3358
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "cast_level": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+                    "source_evidence_id": "urn:uuid:0a1f8361-88fb-5999-b98a-f868d5b9cfae",
+                    "source_note_utf8_range": {
+                      "end": 3517,
+                      "start": 3358
+                    }
+                  },
+                  "state": "known",
+                  "value": 8
+                },
+                "casting_ability": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+                    "source_evidence_id": "urn:uuid:0a1f8361-88fb-5999-b98a-f868d5b9cfae",
+                    "source_note_utf8_range": {
+                      "end": 3517,
+                      "start": 3358
+                    }
+                  },
+                  "state": "known",
+                  "value": "charisma"
+                },
+                "components_waived": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+                    "source_evidence_id": "urn:uuid:0a1f8361-88fb-5999-b98a-f868d5b9cfae",
+                    "source_note_utf8_range": {
+                      "end": 3517,
+                      "start": 3358
+                    }
+                  },
+                  "state": "known",
+                  "value": [
+                    "V",
+                    "S",
+                    "M"
+                  ]
+                },
+                "concentration_override": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+                    "source_evidence_id": "urn:uuid:0a1f8361-88fb-5999-b98a-f868d5b9cfae",
+                    "source_note_utf8_range": {
+                      "end": 3517,
+                      "start": 3358
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "mapping_adoption_ids": [],
+                "mode": "intrinsic_spell_call",
+                "parameter_owner": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+                    "source_evidence_id": "urn:uuid:0a1f8361-88fb-5999-b98a-f868d5b9cfae",
+                    "source_note_utf8_range": {
+                      "end": 3517,
+                      "start": 3358
+                    }
+                  },
+                  "state": "known",
+                  "value": "this_actor_instance"
+                },
+                "save_dc": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+                    "source_evidence_id": "urn:uuid:0a1f8361-88fb-5999-b98a-f868d5b9cfae",
+                    "source_note_utf8_range": {
+                      "end": 3517,
+                      "start": 3358
+                    }
+                  },
+                  "state": "known",
+                  "value": 15
+                },
+                "spell_attack_bonus": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+                    "source_evidence_id": "urn:uuid:0a1f8361-88fb-5999-b98a-f868d5b9cfae",
+                    "source_note_utf8_range": {
+                      "end": 3517,
+                      "start": 3358
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "spell_id": "urn:uuid:73291d6c-3766-5e10-858e-e5bb7cb507db",
+                "target_override": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+                    "source_evidence_id": "urn:uuid:0a1f8361-88fb-5999-b98a-f868d5b9cfae",
+                    "source_note_utf8_range": {
+                      "end": 3517,
+                      "start": 3358
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "uncompiled_qualifications": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+                    "source_evidence_id": "urn:uuid:0a1f8361-88fb-5999-b98a-f868d5b9cfae",
+                    "source_note_utf8_range": {
+                      "end": 3517,
+                      "start": 3358
+                    }
+                  },
+                  "state": "known",
+                  "value": {}
+                }
+              }
+            ],
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:f086af0c-b79d-5701-a36d-5d96db1b66c0",
+                "json_pointer": "/critical_fields/spell"
+              },
+              {
+                "extraction_id": "urn:uuid:35963a02-54a1-5a34-b6d6-e4d2b18200a1",
+                "json_pointer": "/critical_fields/cast_level"
+              },
+              {
+                "extraction_id": "urn:uuid:9d75b1f2-44fa-56e2-b271-595ca9a12e56",
+                "json_pointer": "/critical_fields/save_dc"
+              },
+              {
+                "extraction_id": "urn:uuid:07136a4e-9750-5db4-b177-0b7c5b92d20d",
+                "json_pointer": "/critical_fields/casting_ability"
+              },
+              {
+                "extraction_id": "urn:uuid:b7194845-01e2-5fd8-9676-1029579008b1",
+                "json_pointer": "/critical_fields/components_override"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "pointer": "/critical_fields",
+          "source_evidence": "SU.ABILITY.4"
+        },
+        "id": "urn:uuid:c4f2e545-e477-52a2-902c-a5046d32ed32",
+        "kind": "动作Actions",
+        "mechanics": {
+          "clauses": {
+            "cast_level": 8,
+            "casting_ability": "charisma",
+            "components_override": "none",
+            "save_dc": 15,
+            "spell": "P.DOMINATE"
+          },
+          "dependencies": [
+            "urn:uuid:73291d6c-3766-5e10-858e-e5bb7cb507db",
+            "urn:uuid:54fb4631-fd48-5d41-84fd-2c41fbf2f5d5",
+            "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b",
+            "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb"
+          ],
+          "kind": "source_bound_candidate",
+          "spell_calls": [
+            {
+              "caller_overrides_from": "/critical_fields",
+              "source_evidence_id": "urn:uuid:0a1f8361-88fb-5999-b98a-f868d5b9cfae",
+              "target_id": "urn:uuid:73291d6c-3766-5e10-858e-e5bb7cb507db"
+            }
+          ],
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+        "required_evidence": [
+          "P.DOMINATE",
+          "P.COMPONENTS",
+          "P.CONCENTRATION",
+          "P.CHARMED"
+        ],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:0a1f8361-88fb-5999-b98a-f868d5b9cfae",
+        "title": "魅惑",
+        "verbatim_evidence": "SU.ABILITY.4",
+        "verbatim_text": " **魅惑Charm。**魅魔施展*支配类人Dominate Person* （八环版本），无需法术成分并使用魅力作为施法属性（法术豁免DC15）。\n"
+      },
+      {
+        "critical_fields": {
+          "damage": 13,
+          "dc": 15,
+          "dice": "3d8",
+          "local_reduction_end_clause": "not_stated",
+          "max_hp_reduction": "actual_damage_taken",
+          "range_ft": 5,
+          "recovery_rule": "P.LONG_REST",
+          "save": "constitution",
+          "success": "half_damage",
+          "target": "creature_charmed_by_this_succubus",
+          "type": "psychic"
+        },
+        "editorial_explanation": "必须魅惑于这只魅魔；减上限按实际受到伤害，不按原骰值；卡内未写恢复时点，依P.LONG_REST的长休增益恢复上限，不套2014私有条款。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:493fff9f-dfc6-50b8-b0bb-5e634b5942e2",
+                "json_pointer": "/critical_fields/save"
+              },
+              {
+                "extraction_id": "urn:uuid:6ef87f00-a82f-537c-81e7-e4f5ec4ca8ee",
+                "json_pointer": "/critical_fields/dc"
+              },
+              {
+                "extraction_id": "urn:uuid:c68ee73b-51ae-5e59-bc0d-aff86bca380b",
+                "json_pointer": "/critical_fields/range_ft"
+              },
+              {
+                "extraction_id": "urn:uuid:a968b05b-7391-521a-847f-11b4e4e446a5",
+                "json_pointer": "/critical_fields/target"
+              },
+              {
+                "extraction_id": "urn:uuid:5d0fb20d-766a-521f-af2a-aed0b5e3daa5",
+                "json_pointer": "/critical_fields/damage"
+              },
+              {
+                "extraction_id": "urn:uuid:32ec5528-a8dc-55de-bbe0-32e2e484a920",
+                "json_pointer": "/critical_fields/dice"
+              },
+              {
+                "extraction_id": "urn:uuid:a13e47a0-915c-535c-ac22-d0f7fb3789c0",
+                "json_pointer": "/critical_fields/type"
+              },
+              {
+                "extraction_id": "urn:uuid:a8e2e7a6-7c5a-5bec-bf10-b1fa82cd8078",
+                "json_pointer": "/critical_fields/success"
+              },
+              {
+                "extraction_id": "urn:uuid:f7042ee8-f669-52dd-9e19-b44eb479b73a",
+                "json_pointer": "/critical_fields/max_hp_reduction"
+              },
+              {
+                "extraction_id": "urn:uuid:024a97ac-1047-56e4-8ebd-213764dc3369",
+                "json_pointer": "/critical_fields/local_reduction_end_clause"
+              },
+              {
+                "extraction_id": "urn:uuid:a7b16786-e2c3-52f6-8c9a-07ee34d2a65a",
+                "json_pointer": "/critical_fields/recovery_rule"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "pointer": "/critical_fields",
+          "source_evidence": "SU.ABILITY.5"
+        },
+        "id": "urn:uuid:4c9d16ed-3500-55fa-af4a-dc06f78702ae",
+        "kind": "动作Actions",
+        "mechanics": {
+          "clauses": {
+            "damage": 13,
+            "dc": 15,
+            "dice": "3d8",
+            "local_reduction_end_clause": "not_stated",
+            "max_hp_reduction": "actual_damage_taken",
+            "range_ft": 5,
+            "recovery_rule": "P.LONG_REST",
+            "save": "constitution",
+            "success": "half_damage",
+            "target": "creature_charmed_by_this_succubus",
+            "type": "psychic"
+          },
+          "damage": {
+            "amount": {
+              "dice": "3d8",
+              "printed_fixed": 13,
+              "selection": "use_scene_amount_mode; recorded_dice_must_not_be_rerolled"
+            },
+            "damage_type": "psychic",
+            "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+            "linked_reduction_from_damage_taken": true,
+            "other_effects": [
+              {
+                "amount_from": "damage_taken",
+                "kind": "maximum_hp_reduction",
+                "recovery_dependency": "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b"
+              }
+            ],
+            "save_success": "half",
+            "trigger": "constitution_save"
+          },
+          "dependencies": [
+            "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+            "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b",
+            "urn:uuid:4dfe39fd-0141-5e50-ae95-ebeaa474aab9",
+            "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b",
+            "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b"
+          ],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+        "required_evidence": [
+          "P.CHARMED",
+          "P.HP",
+          "P.RESISTANCE",
+          "P.ROUND",
+          "P.LONG_REST"
+        ],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:46a2542c-6f20-5f68-a067-ae2ca9c62e96",
+        "title": "汲命之吻",
+        "verbatim_evidence": "SU.ABILITY.5",
+        "verbatim_text": " **汲命之吻Draining Kiss。***体质豁免检定：*DC15，单一5尺内魅惑于魅魔的生物。*失败：*13（3d8）心灵伤害。*成功：*半伤。*失败或成功：*目标的生命值上限减少等于其受到伤害的数值\n\n###### 附赠动作Bonus Actions\n\n"
+      },
+      {
+        "critical_fields": {
+          "activation": "bonus_action",
+          "equipment": "unchanged",
+          "flying_only_true_form": true,
+          "forms": [
+            "small_humanoid",
+            "medium_humanoid",
+            "true_form"
+          ],
+          "stats": "unchanged_except_flying"
+        },
+        "editorial_explanation": "形态不自动换成梦魔卡；装备不变。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:23b49faa-8694-51e7-8cdb-a078c69cacb7",
+                "json_pointer": "/critical_fields/activation"
+              },
+              {
+                "extraction_id": "urn:uuid:2cfe851f-685b-5f06-a99d-3e6b0b751565",
+                "json_pointer": "/critical_fields/forms/0"
+              },
+              {
+                "extraction_id": "urn:uuid:3f168514-25e8-52df-b1c3-c1c2e341de13",
+                "json_pointer": "/critical_fields/forms/1"
+              },
+              {
+                "extraction_id": "urn:uuid:89b4bea2-600b-5ba7-8ba1-1b0230ddd88a",
+                "json_pointer": "/critical_fields/forms/2"
+              },
+              {
+                "extraction_id": "urn:uuid:8bf13790-b2a1-5578-99de-5c6e16051c34",
+                "json_pointer": "/critical_fields/stats"
+              },
+              {
+                "extraction_id": "urn:uuid:7097a8e4-b71b-5731-9f3b-f97e7624b8fe",
+                "json_pointer": "/critical_fields/flying_only_true_form"
+              },
+              {
+                "extraction_id": "urn:uuid:78f91cbf-49e4-59ee-9c72-f0b15a5bc223",
+                "json_pointer": "/critical_fields/equipment"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "pointer": "/critical_fields",
+          "source_evidence": "SU.ABILITY.6"
+        },
+        "id": "urn:uuid:2965fca5-70ac-5730-bdfe-71e87a89038a",
+        "kind": "附赠动作Bonus Actions",
+        "mechanics": {
+          "clauses": {
+            "activation": "bonus_action",
+            "equipment": "unchanged",
+            "flying_only_true_form": true,
+            "forms": [
+              "small_humanoid",
+              "medium_humanoid",
+              "true_form"
+            ],
+            "stats": "unchanged_except_flying"
+          },
+          "dependencies": [],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+        "required_evidence": [],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:83f96905-64df-5ea4-a524-f50d2ca33596",
+        "title": "变形",
+        "verbatim_evidence": "SU.ABILITY.6",
+        "verbatim_text": "**变形Shape-Shift。**魅魔变形为小型或中型的类人生物，或变回其真实形态。除飞行速度仅其真实形态可用以外，其各形态下游戏数据均相同。魅魔着装或携带的任何装备都不会随之变化。\n"
+      }
+    ],
+    "all_abilities_present": true,
+    "all_card_text_present": true,
+    "candidate_revision": 3,
+    "card_evidence": "SU.CARD",
+    "every_numeric_field_atomized": false,
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "content_coverage": {
+          "all_abilities": "complete",
+          "card_text": "complete",
+          "formal_rule_approval": false,
+          "structured_semantics": "partial_explicit"
+        },
+        "identity_traits": {
+          "creature_type": "fiend",
+          "entity_kind": "creature",
+          "size": "medium",
+          "source_evidence_id": "urn:uuid:1153f7b2-f7c0-5605-86a6-0e4ac1c81d8b"
+        }
+      }
+    },
+    "group": "D",
+    "header": {
+      "ac": 15,
+      "defense_binding": {
+        "enumeration_complete_for_selected_card": true,
+        "evidence": "SU.HEADER"
+      },
+      "defenses": {
+        "condition_immunity": [],
+        "damage_immunity": [],
+        "resistance": [
+          "cold",
+          "fire",
+          "poison",
+          "psychic"
+        ]
+      },
+      "hp": 71,
+      "hp_role": "printed_default_maximum_hp; never runtime_current_hp",
+      "source_evidence": "SU.HEADER"
+    },
+    "id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+    "language": "zh-Hans",
+    "previous_candidate_revision": 2,
+    "prototype_role": "printed_template_not_live_instance",
+    "publication_identity": "claimed",
+    "review_status": "candidate",
+    "rights": "unknown",
+    "rule_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+    "rule_edition": "2024",
+    "rules_context": "MM2025+PHB2024",
+    "source_evidence_id": "urn:uuid:3ecd24ee-74da-5830-885f-4400e6e923a2",
+    "title": "魅魔",
+    "translation_authority": "unknown",
+    "verbatim_text": "<a id=\"Succubus\"></a>\n##### 魅魔Succubus\n\n中型邪魔，中立邪恶\n\n<table><tr><td><strong>AC </strong>15</td><td><strong>先攻 </strong>+3（13）</td></tr> <tr><td colspan=\"2\"><strong>HP </strong>71（13d8+13）</td></tr> <tr><td colspan=\"2\"><strong>速度 </strong>30尺，飞行60尺</td></tr></table>\n\n<table><tr><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th></tr> <tr><td><strong>力量</strong></td><td>8</td><td>-1</td><td>-1</td> <td></td> <td><strong>敏捷</strong></td><td>17</td><td>+3</td><td>+3</td> <td></td> <td><strong>体质</strong></td><td>13</td><td>+1</td><td>+1</td></tr> <tr><td><strong>智力</strong></td><td>15</td><td>+2</td><td>+2</td> <td></td> <td><strong>感知</strong></td><td>12</td><td>+1</td><td>+1</td> <td></td> <td><strong>魅力</strong></td><td>20</td><td>+5</td><td>+5</td></tr> </table>\n\n| **技能**欺瞒+9，洞悉+5，察觉+5，游说+9，隐匿+7 |\n| --- |\n| **抗性**寒冷，火焰，毒素，心灵 |\n| **感官**黑暗视觉60尺；被动察觉15 |\n| **语言**深渊语，通用语，炼狱语；心灵感应60尺 |\n| **CR**4（XP1,100；PB+2） |\n\n###### 特质Traits\n\n**化身梦魔Incubus Form。**魅魔在完成一次长休时可以变形为**梦魔Incubus**，并使用梦魔的游戏数据替代其原来的数据。\n\n###### 动作Actions\n\n**多重攻击Multiattack。**魅魔发动一次魔性之触攻击并使用魅惑或汲命之吻。\n **魔性之触Fiendish Touch。**近战攻击：+7，触及5尺。*命中：*16（2d10+5）心灵伤害。\n **魅惑Charm。**魅魔施展*支配类人Dominate Person* （八环版本），无需法术成分并使用魅力作为施法属性（法术豁免DC15）。\n **汲命之吻Draining Kiss。***体质豁免检定：*DC15，单一5尺内魅惑于魅魔的生物。*失败：*13（3d8）心灵伤害。*成功：*半伤。*失败或成功：*目标的生命值上限减少等于其受到伤害的数值\n\n###### 附赠动作Bonus Actions\n\n**变形Shape-Shift。**魅魔变形为小型或中型的类人生物，或变回其真实形态。除飞行速度仅其真实形态可用以外，其各形态下游戏数据均相同。魅魔着装或携带的任何装备都不会随之变化。\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:be18ed52-2934-5854-806d-0efbf7bfd773",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:3ecd24ee-74da-5830-885f-4400e6e923a2",
+    "derived_note_utf8_range": {
+      "end": 4040,
+      "start": 1724
+    },
+    "entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+    "fragment_id": "urn:uuid:ab664971-31bb-5827-81c4-9d5f7275a56e",
+    "mapping_id": "urn:uuid:4a7721ec-278a-529c-b1a5-258cb61423d1"
+  },
+  "subject_kind": "creature",
+  "title": "魅魔",
+  "uncompiled_semantics_retained": true
+}

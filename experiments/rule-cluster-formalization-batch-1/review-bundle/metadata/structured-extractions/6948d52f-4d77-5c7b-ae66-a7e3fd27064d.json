@@ -1,0 +1,18 @@
+{
+  "binding": {
+    "adopted_decision_ids": [],
+    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+    "source_evidence_id": "urn:uuid:a488f87b-85b2-5435-9a8e-0d529f330cf3",
+    "source_note_utf8_range": {
+      "end": 3544,
+      "start": 3309
+    }
+  },
+  "id": "urn:uuid:6948d52f-4d77-5c7b-ae66-a7e3fd27064d",
+  "json_pointer": "/critical_fields/type",
+  "review_status": "candidate",
+  "revision": 1,
+  "subject_id": "urn:uuid:efcea215-d122-5c93-891b-46a8c262b18f",
+  "value": "psychic"
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "alias": "R.SRD521",
+    "finding": "梦魔每日各一次法术名包含Hypnotic Pattern；魅魔汲命之吻本段同样未写上限减损结束时点，本批依给定PHB2024长休通则恢复，不从2014旧卡套规则。",
+    "id": "urn:uuid:ff77823d-1433-5e80-84e8-927ce0b13e51",
+    "kind": "external_research_receipt_not_ingested_fragment",
+    "locator": "printed p.301 Incubus; p.331 Succubus",
+    "retrieved_on": "2026-10-22",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+  },
+  {
+    "alias": "R.ERRATA",
+    "findings": "当前所查勘误调整为每项每日一次，未在此文列出DC/攻击加值调整；后者不因未列出而被证明历史上永无勘误。",
+    "id": "urn:uuid:daf36165-c231-5652-b25a-c5391fac2c72",
+    "kind": "external_research_receipt_not_ingested_source",
+    "locator": "p.1 / Green Slaad",
+    "retrieved_on": "2026-10-22",
+    "url": "https://media.dndbeyond.com/compendium-images/errata/MM-25/MM-2025_v1.pdf"
+  },
+  {
+    "alias": "R.SRD",
+    "findings": "断肢再生5；巨魔失肢各对应一级力竭并在回血时补肢；盾卫储存需佩戴护符、由原施法者设定法术参数。",
+    "id": "urn:uuid:aa375a4a-050c-59b9-a260-c5042b88947e",
+    "kind": "external_research_receipt_not_ingested_source",
+    "locator": "printed pp.333 (Troll/Troll Limb), 323 (Shield Guardian)",
+    "publication_identity": "official_SRD_5.2.1_not_proof_of_local_MM_printing",
+    "retrieved_on": "2026-10-22",
+    "traceability": "research_receipt_not_formal_fragment_chain",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+  }
+]

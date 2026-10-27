@@ -1,0 +1,18 @@
+{
+  "binding": {
+    "adopted_decision_ids": [],
+    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+    "source_evidence_id": "urn:uuid:6afabf80-ae33-5e0a-b82f-4494861828d2",
+    "source_note_utf8_range": {
+      "end": 2247,
+      "start": 2129
+    }
+  },
+  "id": "urn:uuid:9b3b102c-7e15-5cf6-bf10-1e181ec7d413",
+  "json_pointer": "/critical_fields/advantage",
+  "review_status": "candidate",
+  "revision": 1,
+  "subject_id": "urn:uuid:d2dd764c-14ed-527c-8886-f5766f3a1452",
+  "value": "saving_throws_against_spells_and_other_magical_effects"
+}

@@ -1,0 +1,279 @@
+{
+  "body": {
+    "digest": "sha256:5546bdcb3e6c1fdfb05118256c24812d2758397aaaf620b29d505e0126b3d9cb",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/5239b2ad-4c89-50ec-bd69-95a5df09d2c9.md"
+  },
+  "candidate_snapshot": {
+    "alias": "P.HYPNOTIC",
+    "candidate_revision": 2,
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "casting_contract": {
+          "activation": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+              "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+              "source_evidence_id": "urn:uuid:70e6a0ef-f899-5040-8aa5-d381b34523b3",
+              "source_note_utf8_range": {
+                "end": 22097,
+                "start": 22072
+              }
+            },
+            "state": "known",
+            "value": "动作"
+          },
+          "base_level": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+              "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+              "source_evidence_id": "urn:uuid:70e6a0ef-f899-5040-8aa5-d381b34523b3",
+              "source_note_utf8_range": {
+                "end": 22736,
+                "start": 21940
+              }
+            },
+            "state": "known",
+            "value": 3
+          },
+          "components": {
+            "material": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:e7d2d510-5802-5350-a6c7-391b020fa902",
+                "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+                "source_evidence_id": "urn:uuid:70e6a0ef-f899-5040-8aa5-d381b34523b3",
+                "source_note_utf8_range": {
+                  "end": 22172,
+                  "start": 22124
+                }
+              },
+              "state": "known",
+              "value": true
+            },
+            "material_consumption": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+                "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+                "source_evidence_id": "urn:uuid:70e6a0ef-f899-5040-8aa5-d381b34523b3",
+                "source_note_utf8_range": {
+                  "end": 22172,
+                  "start": 22124
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "material_detail": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+                "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+                "source_evidence_id": "urn:uuid:70e6a0ef-f899-5040-8aa5-d381b34523b3",
+                "source_note_utf8_range": {
+                  "end": 22172,
+                  "start": 22124
+                }
+              },
+              "state": "known",
+              "value": "一撮五彩纸屑"
+            },
+            "material_value": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+                "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+                "source_evidence_id": "urn:uuid:70e6a0ef-f899-5040-8aa5-d381b34523b3",
+                "source_note_utf8_range": {
+                  "end": 22172,
+                  "start": 22124
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "somatic": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:e7d2d510-5802-5350-a6c7-391b020fa902",
+                "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+                "source_evidence_id": "urn:uuid:70e6a0ef-f899-5040-8aa5-d381b34523b3",
+                "source_note_utf8_range": {
+                  "end": 22172,
+                  "start": 22124
+                }
+              },
+              "state": "known",
+              "value": true
+            },
+            "verbal": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:e7d2d510-5802-5350-a6c7-391b020fa902",
+                "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+                "source_evidence_id": "urn:uuid:70e6a0ef-f899-5040-8aa5-d381b34523b3",
+                "source_note_utf8_range": {
+                  "end": 22172,
+                  "start": 22124
+                }
+              },
+              "state": "known",
+              "value": false
+            }
+          },
+          "concentration": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:49dace82-f73e-5fff-8f21-b5bef68a7a74",
+              "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+              "source_evidence_id": "urn:uuid:70e6a0ef-f899-5040-8aa5-d381b34523b3",
+              "source_note_utf8_range": {
+                "end": 22214,
+                "start": 22173
+              }
+            },
+            "state": "known",
+            "value": true
+          },
+          "coverage": "headers_targets_saves_and_calls_structured; remaining_effect_prose_retained_uncompiled; not_full_casting_legality",
+          "duration": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+              "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+              "source_evidence_id": "urn:uuid:70e6a0ef-f899-5040-8aa5-d381b34523b3",
+              "source_note_utf8_range": {
+                "end": 22214,
+                "start": 22173
+              }
+            },
+            "state": "known",
+            "value": "专注，至多1分钟"
+          },
+          "effects": [
+            {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+                "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+                "source_evidence_id": "urn:uuid:70e6a0ef-f899-5040-8aa5-d381b34523b3",
+                "source_note_utf8_range": {
+                  "end": 22736,
+                  "start": 21940
+                }
+              },
+              "state": "verbatim_only",
+              "value": {
+                "numeric_facet_pointer": null,
+                "read_from_evidence_id": "urn:uuid:70e6a0ef-f899-5040-8aa5-d381b34523b3"
+              }
+            }
+          ],
+          "range": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+              "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+              "source_evidence_id": "urn:uuid:70e6a0ef-f899-5040-8aa5-d381b34523b3",
+              "source_note_utf8_range": {
+                "end": 22123,
+                "start": 22098
+              }
+            },
+            "state": "known",
+            "value": "120尺"
+          },
+          "save_attack": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+              "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+              "source_evidence_id": "urn:uuid:70e6a0ef-f899-5040-8aa5-d381b34523b3",
+              "source_note_utf8_range": {
+                "end": 22736,
+                "start": 21940
+              }
+            },
+            "state": "known",
+            "value": {
+              "ability": "wisdom",
+              "kind": "saving_throw",
+              "on_failure": [
+                "charmed",
+                "incapacitated",
+                "speed_zero"
+              ]
+            }
+          },
+          "targeting": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+              "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+              "source_evidence_id": "urn:uuid:70e6a0ef-f899-5040-8aa5-d381b34523b3",
+              "source_note_utf8_range": {
+                "end": 22736,
+                "start": 21940
+              }
+            },
+            "state": "known",
+            "value": {
+              "kind": "area_creatures",
+              "must_see_pattern": true,
+              "shape": "cube",
+              "side_ft": 30
+            }
+          },
+          "upcast": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+              "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+              "source_evidence_id": "urn:uuid:70e6a0ef-f899-5040-8aa5-d381b34523b3",
+              "source_note_utf8_range": {
+                "end": 22736,
+                "start": 21940
+              }
+            },
+            "state": "not_stated",
+            "value": null
+          }
+        }
+      }
+    },
+    "id": "urn:uuid:5239b2ad-4c89-50ec-bd69-95a5df09d2c9",
+    "kind": "spell",
+    "review_status": "candidate",
+    "rule_context": "PHB2024",
+    "source_evidence_id": "urn:uuid:70e6a0ef-f899-5040-8aa5-d381b34523b3",
+    "structured_mechanics_status": "verbatim_complete_structured_facets_below_are_partial_not_silent_defaults",
+    "title": "催眠图纹｜Hypnotic Pattern",
+    "verbatim_text": "<a id=\"Hypnotic_Pattern\"></a>\n#### 催眠图纹｜Hypnotic Pattern\n\n*三环 幻术（吟游诗人、术士、魔契师、法师）*\n**施法时间：**动作\n**施法距离：**120尺\n**法术成分：**S、M（一撮五彩纸屑）\n**持续时间：**专注，至多1分钟\n你在施法距离内一处边长 30 尺的立方区域内创造出一个在空中舞动旋转的彩色图纹。图纹在出现片刻后消失，然后迫使区域内每个看到它的生物进行一次感知豁免，豁免失败者将在法术持续时间内陷入魅惑状态。在被该法术魅惑期间，被该法术魅惑的生物陷入失能状态，且速度降为0。\n如果受术生物受到任何伤害，或有其他生物用一个动作将其从恍惚中摇醒，则其身上的此效应将提前终止。\n\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:5239b2ad-4c89-50ec-bd69-95a5df09d2c9",
+  "language": "zh-Hans",
+  "module": "spells",
+  "review_record_id": "urn:uuid:9e772172-e8fb-53d6-86e0-ebad2158eead",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:70e6a0ef-f899-5040-8aa5-d381b34523b3",
+    "derived_note_utf8_range": {
+      "end": 22736,
+      "start": 21940
+    },
+    "entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+    "fragment_id": "urn:uuid:38138731-29ce-562c-96ae-d5f4882f905f",
+    "mapping_id": "urn:uuid:64862a7e-e0c8-5b59-9c7c-18f448b4b775"
+  },
+  "subject_kind": "spell",
+  "title": "催眠图纹｜Hypnotic Pattern",
+  "uncompiled_semantics_retained": true
+}

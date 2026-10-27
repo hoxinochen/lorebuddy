@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:677e4dd189f174951d627ef1bdd24f616a2e71cd1a92a262a9b005d8027643c4",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/邪魔/梦魔.md",
+  "id": "urn:uuid:73ea8ad6-ba19-5686-abf5-1647fd6f1a3e",
+  "original_record": {
+    "alias": "IN.ABILITY.2",
+    "id": "urn:uuid:73ea8ad6-ba19-5686-abf5-1647fd6f1a3e",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 3309,
+      "interval": "[start,end)",
+      "start": 3239
+    },
+    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+    "text": "**多重攻击Multiattack。**梦魔发动两次毁梦之触攻击。\n",
+    "text_sha256": "a1b11c367b062ac061b1c865646a5e7a1b8854b3bb29d7b7e7786d6e2442ea60"
+  },
+  "raw_fragment_id": "urn:uuid:3da4dc0e-0945-5ef1-8d58-92662fc6ea04",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

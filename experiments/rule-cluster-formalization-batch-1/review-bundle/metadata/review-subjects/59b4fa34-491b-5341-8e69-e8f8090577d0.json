@@ -1,0 +1,78 @@
+{
+  "body": {
+    "digest": "sha256:0d251da76c712087fc3038c0543f3276e5d8b9fdd0c853ee6cabed3983849b0f",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/59b4fa34-491b-5341-8e69-e8f8090577d0.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "allowed": [
+        "G25.WitheringTouch"
+      ],
+      "attacks": 2
+    },
+    "editorial_explanation": "限定两次凋零之触，不自动替换为恐惧或附身。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:4675c0d3-8589-526b-a816-f47023c32c6d",
+            "json_pointer": "/critical_fields/attacks"
+          },
+          {
+            "extraction_id": "urn:uuid:12d15dba-09e7-5223-bbb9-5201c3b72bc4",
+            "json_pointer": "/critical_fields/allowed/0"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "pointer": "/critical_fields",
+      "source_evidence": "G25.ABILITY.3"
+    },
+    "id": "urn:uuid:59b4fa34-491b-5341-8e69-e8f8090577d0",
+    "kind": "动作Actions",
+    "mechanics": {
+      "clauses": {
+        "allowed": [
+          "G25.WitheringTouch"
+        ],
+        "attacks": 2
+      },
+      "dependencies": [],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+    },
+    "owner_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+    "required_evidence": [],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:30cc265a-0cd7-5372-8f52-e0ce16db380f",
+    "title": "多重攻击",
+    "verbatim_evidence": "G25.ABILITY.3",
+    "verbatim_text": "**多重攻击Multiattack。**幽魂发动两次凋零之触攻击。\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:59b4fa34-491b-5341-8e69-e8f8090577d0",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:d16a604c-cd68-5d58-886b-c6d26007c50f",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:30cc265a-0cd7-5372-8f52-e0ce16db380f",
+    "derived_note_utf8_range": {
+      "end": 2846,
+      "start": 2776
+    },
+    "entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+    "fragment_id": "urn:uuid:b32518f2-acd4-5874-acf6-2482d95a72d4",
+    "mapping_id": "urn:uuid:d142700e-702e-5bff-9bcd-1020553eb86e"
+  },
+  "subject_kind": "ability",
+  "title": "多重攻击",
+  "uncompiled_semantics_retained": true
+}

@@ -1,0 +1,18 @@
+{
+  "binding": {
+    "adopted_decision_ids": [],
+    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+    "source_entry_id": "urn:uuid:57a08374-1e20-5c97-a1f3-00447e3b05d9",
+    "source_evidence_id": "urn:uuid:52f2cdba-6c53-5e4d-b4d7-cf662e8966f9",
+    "source_note_utf8_range": {
+      "end": 3891,
+      "start": 3713
+    }
+  },
+  "id": "urn:uuid:9b411be3-a978-5625-b38d-9016d9c40431",
+  "json_pointer": "/critical_fields/type",
+  "review_status": "candidate",
+  "revision": 1,
+  "subject_id": "urn:uuid:910bccc5-9095-5d63-a254-25bd9bcaeb38",
+  "value": "bludgeoning"
+}

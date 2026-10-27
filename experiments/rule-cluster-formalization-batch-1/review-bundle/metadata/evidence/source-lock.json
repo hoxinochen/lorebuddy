@@ -1,0 +1,1119 @@
+{
+  "artifact_record": {
+    "access_status": "restricted",
+    "acquisition": {
+      "source_kind": "local-file",
+      "source_label": "user-provided-workspace-input"
+    },
+    "digest": "sha256:836eea8912cf6c068687e99db4a1b4b6b915aeb2ef8af35cfb040803184686f2",
+    "extensions": {
+      "m1b-acquisition": {
+        "backend": {
+          "executable_name": "7zz",
+          "executable_sha256": "2f412eded2d37f2cc52f26138e6964bd205ea0bf2ee6a70b8b990a18107e784d",
+          "name": "7zip",
+          "version": "7-Zip (z) 26.02 (arm64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-06-25"
+        },
+        "preserved_path": "artifact/original.chm",
+        "source_identity": "digest-verified"
+      }
+    },
+    "format": "chm",
+    "id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "lifecycle": {
+      "revision": 1,
+      "status": "draft"
+    },
+    "original_filename": "DND五版不全书26.06.30.chm",
+    "package_id": "urn:uuid:fa692703-034f-5cf9-9af4-03dc605bf22d",
+    "schema": "core.source-artifact@0.1.0",
+    "size": 36787743
+  },
+  "artifact_record_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/inventory/artifact.json",
+  "inventory_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/inventory/entries.jsonl",
+  "inventory_sha256": "sha256:d76f1f5fc971eeb9d6ec3dbd55060ddaa7ab2aa195397ab1c00a4c46059b12b0",
+  "ownership": "Original Artifact and full Inventory remain in frozen acquisition; selected records here are locked references, not a new Inventory.",
+  "preserved_container_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/artifact/original.chm",
+  "selected_entries": [
+    {
+      "encoding": "gb18030",
+      "entry_id": "urn:uuid:89505d38-cbaf-5747-9798-96f1a0bf6718",
+      "fragment_id": "urn:uuid:8971179e-39ce-5b76-812d-ab574f55a9c7",
+      "inventory_record": {
+        "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+        "charset": {
+          "declared": "gb2312",
+          "detected": "gb18030",
+          "status": "unknown"
+        },
+        "digest": "sha256:1bc46897074e0b83e39ee430cee92127952e0eb9428f34a8cdee2827336bcfb2",
+        "extensions": {
+          "m1b-acquisition": {
+            "conflict_kind": null,
+            "declared_encoding": "gb2312",
+            "declared_media_type": "text/html",
+            "detected_encoding_candidate": "gb18030",
+            "detected_media_type": "text/html",
+            "duplicate_status": "filename-collision",
+            "encoding_confidence": "low",
+            "encoding_conflict": false,
+            "encoding_evidence": [
+              "declaration:gb2312",
+              "strict-decode:gb18030"
+            ],
+            "entry_kind": "regular-file",
+            "errors": [],
+            "media_type_confidence": "extension-only",
+            "normalized_path": "玩家手册2024/术语汇编/状态.htm",
+            "path_status": "safe",
+            "preserved_path": "entries/玩家手册2024/术语汇编/状态.htm",
+            "safety_remapped": false,
+            "source_order": null,
+            "warnings": []
+          }
+        },
+        "extraction_status": "extracted",
+        "id": "urn:uuid:89505d38-cbaf-5747-9798-96f1a0bf6718",
+        "lifecycle": {
+          "revision": 1,
+          "status": "draft"
+        },
+        "media_type": "text/html",
+        "original_path": "玩家手册2024/术语汇编/状态.htm",
+        "schema": "core.source-entry@0.1.0",
+        "size": 7441,
+        "storage_path": "entries/玩家手册2024/术语汇编/状态.htm"
+      },
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/附录C：术语汇编/状态.md",
+      "note_sha256": "sha256:40d6b4ba5aec75b37f3ec3ac1c5dda84a869111b8ae82cf196a683a4ecff44f5",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/玩家手册2024/术语汇编/状态.htm",
+      "source_mapping_id": "urn:uuid:0c42b600-fcf4-526b-bd64-eff4c8095ea6"
+    },
+    {
+      "encoding": "gb18030",
+      "entry_id": "urn:uuid:110fe3cc-449c-5d30-9bc5-47198a153a06",
+      "fragment_id": "urn:uuid:ddb774de-514e-58f9-81d3-40c80ee27e77",
+      "inventory_record": {
+        "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+        "charset": {
+          "declared": "gb2312",
+          "detected": "gb18030",
+          "status": "unknown"
+        },
+        "digest": "sha256:1a048d7f168ab8c81f1c4e73180a77b49e73b5e6aa54029c0cdc272a17c38c2c",
+        "extensions": {
+          "m1b-acquisition": {
+            "conflict_kind": null,
+            "declared_encoding": "gb2312",
+            "declared_media_type": "text/html",
+            "detected_encoding_candidate": "gb18030",
+            "detected_media_type": "text/html",
+            "duplicate_status": "unique",
+            "encoding_confidence": "low",
+            "encoding_conflict": false,
+            "encoding_evidence": [
+              "declaration:gb2312",
+              "strict-decode:gb18030"
+            ],
+            "entry_kind": "regular-file",
+            "errors": [],
+            "media_type_confidence": "extension-only",
+            "normalized_path": "玩家手册2024/术语汇编/其他术语.htm",
+            "path_status": "safe",
+            "preserved_path": "entries/玩家手册2024/术语汇编/其他术语.htm",
+            "safety_remapped": false,
+            "source_order": null,
+            "warnings": []
+          }
+        },
+        "extraction_status": "extracted",
+        "id": "urn:uuid:110fe3cc-449c-5d30-9bc5-47198a153a06",
+        "lifecycle": {
+          "revision": 1,
+          "status": "draft"
+        },
+        "media_type": "text/html",
+        "original_path": "玩家手册2024/术语汇编/其他术语.htm",
+        "schema": "core.source-entry@0.1.0",
+        "size": 41516,
+        "storage_path": "entries/玩家手册2024/术语汇编/其他术语.htm"
+      },
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/附录C：术语汇编/其他术语.md",
+      "note_sha256": "sha256:d823339e2eca6cc5d203709d83f2b6e5c69a0dee88f5c7dcc7018814ba64b01a",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/玩家手册2024/术语汇编/其他术语.htm",
+      "source_mapping_id": "urn:uuid:31e241ac-aa4f-52ea-b634-54d839d30379"
+    },
+    {
+      "encoding": "gb18030",
+      "entry_id": "urn:uuid:2d46b742-37e3-5734-b0a8-afe4a0b85704",
+      "fragment_id": "urn:uuid:e4072492-84d5-5c6e-8eac-15c0dcc40e55",
+      "inventory_record": {
+        "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+        "charset": {
+          "declared": "gb2312",
+          "detected": "gb18030",
+          "status": "unknown"
+        },
+        "digest": "sha256:d917b0bb1a669deecb8732578b6b25452873c17f64f222303d4b49247ab4204d",
+        "extensions": {
+          "m1b-acquisition": {
+            "conflict_kind": null,
+            "declared_encoding": "gb2312",
+            "declared_media_type": "text/html",
+            "detected_encoding_candidate": "gb18030",
+            "detected_media_type": "text/html",
+            "duplicate_status": "filename-collision",
+            "encoding_confidence": "low",
+            "encoding_conflict": false,
+            "encoding_evidence": [
+              "declaration:gb2312",
+              "strict-decode:gb18030"
+            ],
+            "entry_kind": "regular-file",
+            "errors": [],
+            "media_type_confidence": "extension-only",
+            "normalized_path": "玩家手册2024/法术/法术成分.htm",
+            "path_status": "safe",
+            "preserved_path": "entries/玩家手册2024/法术/法术成分.htm",
+            "safety_remapped": false,
+            "source_order": null,
+            "warnings": []
+          }
+        },
+        "extraction_status": "extracted",
+        "id": "urn:uuid:2d46b742-37e3-5734-b0a8-afe4a0b85704",
+        "lifecycle": {
+          "revision": 1,
+          "status": "draft"
+        },
+        "media_type": "text/html",
+        "original_path": "玩家手册2024/法术/法术成分.htm",
+        "schema": "core.source-entry@0.1.0",
+        "size": 2061,
+        "storage_path": "entries/玩家手册2024/法术/法术成分.htm"
+      },
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/第七章：法术/施展法术/法术成分.md",
+      "note_sha256": "sha256:fa8a7853561053b6857a018feca16be400392b30c7e0308da79a72462f67256b",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/玩家手册2024/法术/法术成分.htm",
+      "source_mapping_id": "urn:uuid:2defde9a-38f6-56b2-aed5-e008a5082feb"
+    },
+    {
+      "encoding": "gb18030",
+      "entry_id": "urn:uuid:46f52d9f-45ec-5c25-b3b1-9c432c68caa0",
+      "fragment_id": "urn:uuid:c6712587-f75e-5615-8849-35f3cdd810f4",
+      "inventory_record": {
+        "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+        "charset": {
+          "declared": "gb2312",
+          "detected": "gb18030",
+          "status": "unknown"
+        },
+        "digest": "sha256:c429da8fe5d132fc83c134107fc6ab51fed10ef49017c6798afc3a9c6cb1e28f",
+        "extensions": {
+          "m1b-acquisition": {
+            "conflict_kind": null,
+            "declared_encoding": "gb2312",
+            "declared_media_type": "text/html",
+            "detected_encoding_candidate": "gb18030",
+            "detected_media_type": "text/html",
+            "duplicate_status": "unique",
+            "encoding_confidence": "low",
+            "encoding_conflict": false,
+            "encoding_evidence": [
+              "declaration:gb2312",
+              "strict-decode:gb18030"
+            ],
+            "entry_kind": "regular-file",
+            "errors": [],
+            "media_type_confidence": "extension-only",
+            "normalized_path": "玩家手册2024/进行游戏/抗性和易伤.htm",
+            "path_status": "safe",
+            "preserved_path": "entries/玩家手册2024/进行游戏/抗性和易伤.htm",
+            "safety_remapped": false,
+            "source_order": null,
+            "warnings": []
+          }
+        },
+        "extraction_status": "extracted",
+        "id": "urn:uuid:46f52d9f-45ec-5c25-b3b1-9c432c68caa0",
+        "lifecycle": {
+          "revision": 1,
+          "status": "draft"
+        },
+        "media_type": "text/html",
+        "original_path": "玩家手册2024/进行游戏/抗性和易伤.htm",
+        "schema": "core.source-entry@0.1.0",
+        "size": 1259,
+        "storage_path": "entries/玩家手册2024/进行游戏/抗性和易伤.htm"
+      },
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/第一章：进行游戏/伤害与治疗/抗性和易伤.md",
+      "note_sha256": "sha256:67c33dee5e3a765c9f97630a869d55ec8d1b862650c3891946b94ffba92d59d8",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/玩家手册2024/进行游戏/抗性和易伤.htm",
+      "source_mapping_id": "urn:uuid:978cd294-1fe8-5acf-8be2-d1ccb10fe6bc"
+    },
+    {
+      "encoding": "gb18030",
+      "entry_id": "urn:uuid:54ebd374-23f2-5912-9d12-9bd95add858e",
+      "fragment_id": "urn:uuid:a85917e3-ebf5-56b8-9e78-fa7eb76a6710",
+      "inventory_record": {
+        "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+        "charset": {
+          "declared": "gb2312",
+          "detected": "gb18030",
+          "status": "unknown"
+        },
+        "digest": "sha256:072f7cd2ade122313a958fbae8a3fd68ddeb09b9f82bb4ae9895682d503cda9a",
+        "extensions": {
+          "m1b-acquisition": {
+            "conflict_kind": null,
+            "declared_encoding": "gb2312",
+            "declared_media_type": "text/html",
+            "detected_encoding_candidate": "gb18030",
+            "detected_media_type": "text/html",
+            "duplicate_status": "unique",
+            "encoding_confidence": "low",
+            "encoding_conflict": false,
+            "encoding_evidence": [
+              "declaration:gb2312",
+              "strict-decode:gb18030"
+            ],
+            "entry_kind": "regular-file",
+            "errors": [],
+            "media_type_confidence": "extension-only",
+            "normalized_path": "怪物图鉴2025/前言/数据卡的组成部分.htm",
+            "path_status": "safe",
+            "preserved_path": "entries/怪物图鉴2025/前言/数据卡的组成部分.htm",
+            "safety_remapped": false,
+            "source_order": null,
+            "warnings": []
+          }
+        },
+        "extraction_status": "extracted",
+        "id": "urn:uuid:54ebd374-23f2-5912-9d12-9bd95add858e",
+        "lifecycle": {
+          "revision": 1,
+          "status": "draft"
+        },
+        "media_type": "text/html",
+        "original_path": "怪物图鉴2025/前言/数据卡的组成部分.htm",
+        "schema": "core.source-entry@0.1.0",
+        "size": 17367,
+        "storage_path": "entries/怪物图鉴2025/前言/数据卡的组成部分.htm"
+      },
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/前言/数据卡的组成部分.md",
+      "note_sha256": "sha256:2ff27c19b24b1023b6d4b922f5c8fb98f5022f89bb03c31332a70835b3974491",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/怪物图鉴2025/前言/数据卡的组成部分.htm",
+      "source_mapping_id": "urn:uuid:eb665732-68cc-511f-8291-07e7c0979f2f"
+    },
+    {
+      "encoding": "gb18030",
+      "entry_id": "urn:uuid:e2f3f7c0-0fd2-569c-b264-08db06c4c19d",
+      "fragment_id": "urn:uuid:2432ba04-3874-5c13-b80d-5f378f428c7b",
+      "inventory_record": {
+        "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+        "charset": {
+          "declared": "gb2312",
+          "detected": "gb18030",
+          "status": "unknown"
+        },
+        "digest": "sha256:8450df055efb10a4bed0a02dcfecc132cbd45dadbbcacc06f603a58e505e1604",
+        "extensions": {
+          "m1b-acquisition": {
+            "conflict_kind": null,
+            "declared_encoding": "gb2312",
+            "declared_media_type": "text/html",
+            "detected_encoding_candidate": "gb18030",
+            "detected_media_type": "text/html",
+            "duplicate_status": "unique",
+            "encoding_confidence": "low",
+            "encoding_conflict": false,
+            "encoding_evidence": [
+              "declaration:gb2312",
+              "strict-decode:gb18030"
+            ],
+            "entry_kind": "regular-file",
+            "errors": [],
+            "media_type_confidence": "extension-only",
+            "normalized_path": "玩家手册2024/法术详述/5环.htm",
+            "path_status": "safe",
+            "preserved_path": "entries/玩家手册2024/法术详述/5环.htm",
+            "safety_remapped": false,
+            "source_order": null,
+            "warnings": []
+          }
+        },
+        "extraction_status": "extracted",
+        "id": "urn:uuid:e2f3f7c0-0fd2-569c-b264-08db06c4c19d",
+        "lifecycle": {
+          "revision": 1,
+          "status": "draft"
+        },
+        "media_type": "text/html",
+        "original_path": "玩家手册2024/法术详述/5环.htm",
+        "schema": "core.source-entry@0.1.0",
+        "size": 50442,
+        "storage_path": "entries/玩家手册2024/法术详述/5环.htm"
+      },
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/第七章：法术/法术详述/五环.md",
+      "note_sha256": "sha256:f34caa83be805ca8662bbcdd2a60766332a6f07a77cc9affbf3fbfd8a3573402",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/玩家手册2024/法术详述/5环.htm",
+      "source_mapping_id": "urn:uuid:04f775cd-2972-5caa-b615-d73d4913b038"
+    },
+    {
+      "encoding": "gb18030",
+      "entry_id": "urn:uuid:23faa68f-588b-5b14-a6fb-7e0df89dcf8a",
+      "fragment_id": "urn:uuid:b457beb8-7788-5e8b-bf14-a11cfda00780",
+      "inventory_record": {
+        "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+        "charset": {
+          "declared": "gb2312",
+          "detected": "gb18030",
+          "status": "unknown"
+        },
+        "digest": "sha256:9522f9178efa536d1eeab5984865afa648af745739dc4b5d5633fd1e5b74422c",
+        "extensions": {
+          "m1b-acquisition": {
+            "conflict_kind": null,
+            "declared_encoding": "gb2312",
+            "declared_media_type": "text/html",
+            "detected_encoding_candidate": "gb18030",
+            "detected_media_type": "text/html",
+            "duplicate_status": "unique",
+            "encoding_confidence": "low",
+            "encoding_conflict": false,
+            "encoding_evidence": [
+              "declaration:gb2312",
+              "strict-decode:gb18030"
+            ],
+            "entry_kind": "regular-file",
+            "errors": [],
+            "media_type_confidence": "extension-only",
+            "normalized_path": "玩家手册2024/法术详述/1环.htm",
+            "path_status": "safe",
+            "preserved_path": "entries/玩家手册2024/法术详述/1环.htm",
+            "safety_remapped": false,
+            "source_order": null,
+            "warnings": []
+          }
+        },
+        "extraction_status": "extracted",
+        "id": "urn:uuid:23faa68f-588b-5b14-a6fb-7e0df89dcf8a",
+        "lifecycle": {
+          "revision": 1,
+          "status": "draft"
+        },
+        "media_type": "text/html",
+        "original_path": "玩家手册2024/法术详述/1环.htm",
+        "schema": "core.source-entry@0.1.0",
+        "size": 38691,
+        "storage_path": "entries/玩家手册2024/法术详述/1环.htm"
+      },
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/第七章：法术/法术详述/一环.md",
+      "note_sha256": "sha256:f160fab6ad4c958b829000b33c775f97b861ae6c688ad20919b798d0a7a67bde",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/玩家手册2024/法术详述/1环.htm",
+      "source_mapping_id": "urn:uuid:191b344b-d8ff-5572-931e-570715790d1f"
+    },
+    {
+      "encoding": "gb18030",
+      "entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+      "fragment_id": "urn:uuid:38138731-29ce-562c-96ae-d5f4882f905f",
+      "inventory_record": {
+        "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+        "charset": {
+          "declared": "gb2312",
+          "detected": "gb18030",
+          "status": "unknown"
+        },
+        "digest": "sha256:27b964c5d027569800726693e91e01b4aa8ac63bedffa1cfeeb4c3f0f95327f7",
+        "extensions": {
+          "m1b-acquisition": {
+            "conflict_kind": null,
+            "declared_encoding": "gb2312",
+            "declared_media_type": "text/html",
+            "detected_encoding_candidate": "gb18030",
+            "detected_media_type": "text/html",
+            "duplicate_status": "unique",
+            "encoding_confidence": "low",
+            "encoding_conflict": false,
+            "encoding_evidence": [
+              "declaration:gb2312",
+              "strict-decode:gb18030"
+            ],
+            "entry_kind": "regular-file",
+            "errors": [],
+            "media_type_confidence": "extension-only",
+            "normalized_path": "玩家手册2024/法术详述/3环.htm",
+            "path_status": "safe",
+            "preserved_path": "entries/玩家手册2024/法术详述/3环.htm",
+            "safety_remapped": false,
+            "source_order": null,
+            "warnings": []
+          }
+        },
+        "extraction_status": "extracted",
+        "id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+        "lifecycle": {
+          "revision": 1,
+          "status": "draft"
+        },
+        "media_type": "text/html",
+        "original_path": "玩家手册2024/法术详述/3环.htm",
+        "schema": "core.source-entry@0.1.0",
+        "size": 43507,
+        "storage_path": "entries/玩家手册2024/法术详述/3环.htm"
+      },
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/第七章：法术/法术详述/三环.md",
+      "note_sha256": "sha256:c1c336ece29a8e70c283191e98da06ec717fc664d9af74881a22534f0b2d1367",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/玩家手册2024/法术详述/3环.htm",
+      "source_mapping_id": "urn:uuid:64862a7e-e0c8-5b59-9c7c-18f448b4b775"
+    },
+    {
+      "encoding": "gb18030",
+      "entry_id": "urn:uuid:90d6a63f-2461-57ee-b524-9b59fdca9edd",
+      "fragment_id": "urn:uuid:0421b3ec-a197-5158-8d18-84348429437d",
+      "inventory_record": {
+        "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+        "charset": {
+          "declared": "gb2312",
+          "detected": "gb18030",
+          "status": "unknown"
+        },
+        "digest": "sha256:6b1e0440708e52393887021b44bc4744fd54c509fea0566579ac561e0a0816c6",
+        "extensions": {
+          "m1b-acquisition": {
+            "conflict_kind": null,
+            "declared_encoding": "gb2312",
+            "declared_media_type": "text/html",
+            "detected_encoding_candidate": "gb18030",
+            "detected_media_type": "text/html",
+            "duplicate_status": "unique",
+            "encoding_confidence": "low",
+            "encoding_conflict": false,
+            "encoding_evidence": [
+              "declaration:gb2312",
+              "strict-decode:gb18030"
+            ],
+            "entry_kind": "regular-file",
+            "errors": [],
+            "media_type_confidence": "extension-only",
+            "normalized_path": "玩家手册2024/法术详述/7环.htm",
+            "path_status": "safe",
+            "preserved_path": "entries/玩家手册2024/法术详述/7环.htm",
+            "safety_remapped": false,
+            "source_order": null,
+            "warnings": []
+          }
+        },
+        "extraction_status": "extracted",
+        "id": "urn:uuid:90d6a63f-2461-57ee-b524-9b59fdca9edd",
+        "lifecycle": {
+          "revision": 1,
+          "status": "draft"
+        },
+        "media_type": "text/html",
+        "original_path": "玩家手册2024/法术详述/7环.htm",
+        "schema": "core.source-entry@0.1.0",
+        "size": 25629,
+        "storage_path": "entries/玩家手册2024/法术详述/7环.htm"
+      },
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/第七章：法术/法术详述/七环.md",
+      "note_sha256": "sha256:54354171ebc8b60c1ebb0575582e87d51dac54d0bc743661e255c20aae277ed3",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/玩家手册2024/法术详述/7环.htm",
+      "source_mapping_id": "urn:uuid:c52fe7c4-69fb-59a1-9b21-08bab0bc817e"
+    },
+    {
+      "encoding": "gb18030",
+      "entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+      "fragment_id": "urn:uuid:b32518f2-acd4-5874-acf6-2482d95a72d4",
+      "inventory_record": {
+        "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+        "charset": {
+          "declared": "gb2312",
+          "detected": "gb18030",
+          "status": "unknown"
+        },
+        "digest": "sha256:f075d6f278edda4f7514b0342f9f67b7ed5e509ac8783887756049717c442e79",
+        "extensions": {
+          "m1b-acquisition": {
+            "conflict_kind": null,
+            "declared_encoding": "gb2312",
+            "declared_media_type": "text/html",
+            "detected_encoding_candidate": "gb18030",
+            "detected_media_type": "text/html",
+            "duplicate_status": "filename-collision",
+            "encoding_confidence": "low",
+            "encoding_conflict": false,
+            "encoding_evidence": [
+              "declaration:gb2312",
+              "strict-decode:gb18030"
+            ],
+            "entry_kind": "regular-file",
+            "errors": [],
+            "media_type_confidence": "extension-only",
+            "normalized_path": "怪物图鉴2025/亡灵/幽魂.htm",
+            "path_status": "safe",
+            "preserved_path": "entries/怪物图鉴2025/亡灵/幽魂.htm",
+            "safety_remapped": false,
+            "source_order": null,
+            "warnings": []
+          }
+        },
+        "extraction_status": "extracted",
+        "id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+        "lifecycle": {
+          "revision": 1,
+          "status": "draft"
+        },
+        "media_type": "text/html",
+        "original_path": "怪物图鉴2025/亡灵/幽魂.htm",
+        "schema": "core.source-entry@0.1.0",
+        "size": 4150,
+        "storage_path": "entries/怪物图鉴2025/亡灵/幽魂.htm"
+      },
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/亡灵/幽魂.md",
+      "note_sha256": "sha256:69dabf6858e76ecb02ba591a9b454e46aeb6a2746f02753b1a6e515586c35bdd",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/怪物图鉴2025/亡灵/幽魂.htm",
+      "source_mapping_id": "urn:uuid:d142700e-702e-5bff-9bcd-1020553eb86e"
+    },
+    {
+      "encoding": "gb18030",
+      "entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+      "fragment_id": "urn:uuid:ab664971-31bb-5827-81c4-9d5f7275a56e",
+      "inventory_record": {
+        "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+        "charset": {
+          "declared": "gb2312",
+          "detected": "gb18030",
+          "status": "unknown"
+        },
+        "digest": "sha256:4593d81c5ab24ff78d8e513e1a1b0f74c717a1010989290f675c5d9ca96bf3d8",
+        "extensions": {
+          "m1b-acquisition": {
+            "conflict_kind": null,
+            "declared_encoding": "gb2312",
+            "declared_media_type": "text/html",
+            "detected_encoding_candidate": "gb18030",
+            "detected_media_type": "text/html",
+            "duplicate_status": "unique",
+            "encoding_confidence": "low",
+            "encoding_conflict": false,
+            "encoding_evidence": [
+              "declaration:gb2312",
+              "strict-decode:gb18030"
+            ],
+            "entry_kind": "regular-file",
+            "errors": [],
+            "media_type_confidence": "extension-only",
+            "normalized_path": "怪物图鉴2025/邪魔/魅魔.htm",
+            "path_status": "safe",
+            "preserved_path": "entries/怪物图鉴2025/邪魔/魅魔.htm",
+            "safety_remapped": false,
+            "source_order": null,
+            "warnings": []
+          }
+        },
+        "extraction_status": "extracted",
+        "id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+        "lifecycle": {
+          "revision": 1,
+          "status": "draft"
+        },
+        "media_type": "text/html",
+        "original_path": "怪物图鉴2025/邪魔/魅魔.htm",
+        "schema": "core.source-entry@0.1.0",
+        "size": 4274,
+        "storage_path": "entries/怪物图鉴2025/邪魔/魅魔.htm"
+      },
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/邪魔/魅魔.md",
+      "note_sha256": "sha256:a0502b76c55e4004a72020f2279593ae99a9c21d32da825e34b24b893afa7104",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/怪物图鉴2025/邪魔/魅魔.htm",
+      "source_mapping_id": "urn:uuid:4a7721ec-278a-529c-b1a5-258cb61423d1"
+    },
+    {
+      "encoding": "gb18030",
+      "entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+      "fragment_id": "urn:uuid:3da4dc0e-0945-5ef1-8d58-92662fc6ea04",
+      "inventory_record": {
+        "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+        "charset": {
+          "declared": "gb2312",
+          "detected": "gb18030",
+          "status": "unknown"
+        },
+        "digest": "sha256:bdb3a7cd94dd24b1fe7124b34cf7b9c8bd7b05a08a90b2787198a0298a3d4911",
+        "extensions": {
+          "m1b-acquisition": {
+            "conflict_kind": null,
+            "declared_encoding": "gb2312",
+            "declared_media_type": "text/html",
+            "detected_encoding_candidate": "gb18030",
+            "detected_media_type": "text/html",
+            "duplicate_status": "unique",
+            "encoding_confidence": "low",
+            "encoding_conflict": false,
+            "encoding_evidence": [
+              "declaration:gb2312",
+              "strict-decode:gb18030"
+            ],
+            "entry_kind": "regular-file",
+            "errors": [],
+            "media_type_confidence": "extension-only",
+            "normalized_path": "怪物图鉴2025/邪魔/梦魔.htm",
+            "path_status": "safe",
+            "preserved_path": "entries/怪物图鉴2025/邪魔/梦魔.htm",
+            "safety_remapped": false,
+            "source_order": null,
+            "warnings": []
+          }
+        },
+        "extraction_status": "extracted",
+        "id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+        "lifecycle": {
+          "revision": 1,
+          "status": "draft"
+        },
+        "media_type": "text/html",
+        "original_path": "怪物图鉴2025/邪魔/梦魔.htm",
+        "schema": "core.source-entry@0.1.0",
+        "size": 4455,
+        "storage_path": "entries/怪物图鉴2025/邪魔/梦魔.htm"
+      },
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/邪魔/梦魔.md",
+      "note_sha256": "sha256:677e4dd189f174951d627ef1bdd24f616a2e71cd1a92a262a9b005d8027643c4",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/怪物图鉴2025/邪魔/梦魔.htm",
+      "source_mapping_id": "urn:uuid:63ace06a-e3e6-5b0c-b9bb-590596d6589b"
+    },
+    {
+      "encoding": "gb18030",
+      "entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+      "fragment_id": "urn:uuid:a6cb8fb7-ab28-5156-b9b5-c10a75688a58",
+      "inventory_record": {
+        "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+        "charset": {
+          "declared": "gb2312",
+          "detected": "gb18030",
+          "status": "unknown"
+        },
+        "digest": "sha256:3a91b1caab0d5a2205b522ba841da12e588df65dd4b4e5e647da7e9f12723362",
+        "extensions": {
+          "m1b-acquisition": {
+            "conflict_kind": null,
+            "declared_encoding": "gb2312",
+            "declared_media_type": "text/html",
+            "detected_encoding_candidate": "gb18030",
+            "detected_media_type": "text/html",
+            "duplicate_status": "unique",
+            "encoding_confidence": "low",
+            "encoding_conflict": false,
+            "encoding_evidence": [
+              "declaration:gb2312",
+              "strict-decode:gb18030"
+            ],
+            "entry_kind": "regular-file",
+            "errors": [],
+            "media_type_confidence": "extension-only",
+            "normalized_path": "玩家手册2024/法术详述/2环.htm",
+            "path_status": "safe",
+            "preserved_path": "entries/玩家手册2024/法术详述/2环.htm",
+            "safety_remapped": false,
+            "source_order": null,
+            "warnings": []
+          }
+        },
+        "extraction_status": "extracted",
+        "id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+        "lifecycle": {
+          "revision": 1,
+          "status": "draft"
+        },
+        "media_type": "text/html",
+        "original_path": "玩家手册2024/法术详述/2环.htm",
+        "schema": "core.source-entry@0.1.0",
+        "size": 48881,
+        "storage_path": "entries/玩家手册2024/法术详述/2环.htm"
+      },
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/第七章：法术/法术详述/二环.md",
+      "note_sha256": "sha256:f73f8240683f4920f2b46a72484965e056e78259006db1b326307194d44dbfa3",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/玩家手册2024/法术详述/2环.htm",
+      "source_mapping_id": "urn:uuid:2b6584ea-16ab-541e-93e1-a63ae63c1dad"
+    },
+    {
+      "encoding": "gb18030",
+      "entry_id": "urn:uuid:fc4b66c5-886f-5388-a98b-261d1162e454",
+      "fragment_id": "urn:uuid:d17a3815-3284-51a1-bbcb-057ce834a429",
+      "inventory_record": {
+        "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+        "charset": {
+          "declared": "gb2312",
+          "detected": "gb18030",
+          "status": "unknown"
+        },
+        "digest": "sha256:bffc4b34af8e03e0fc9a3b98e1df04d0cdff833d26b9815181e8e4d13f7db128",
+        "extensions": {
+          "m1b-acquisition": {
+            "conflict_kind": null,
+            "declared_encoding": "gb2312",
+            "declared_media_type": "text/html",
+            "detected_encoding_candidate": "gb18030",
+            "detected_media_type": "text/html",
+            "duplicate_status": "filename-collision",
+            "encoding_confidence": "low",
+            "encoding_conflict": false,
+            "encoding_evidence": [
+              "declaration:gb2312",
+              "strict-decode:gb18030"
+            ],
+            "entry_kind": "regular-file",
+            "errors": [],
+            "media_type_confidence": "extension-only",
+            "normalized_path": "玩家手册2024/术语汇编/危害.htm",
+            "path_status": "safe",
+            "preserved_path": "entries/玩家手册2024/术语汇编/危害.htm",
+            "safety_remapped": false,
+            "source_order": null,
+            "warnings": []
+          }
+        },
+        "extraction_status": "extracted",
+        "id": "urn:uuid:fc4b66c5-886f-5388-a98b-261d1162e454",
+        "lifecycle": {
+          "revision": 1,
+          "status": "draft"
+        },
+        "media_type": "text/html",
+        "original_path": "玩家手册2024/术语汇编/危害.htm",
+        "schema": "core.source-entry@0.1.0",
+        "size": 3987,
+        "storage_path": "entries/玩家手册2024/术语汇编/危害.htm"
+      },
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/附录C：术语汇编/危害.md",
+      "note_sha256": "sha256:36d50665160e988ae77aa43d8feea79dad1efc477c4546a445d6bf5b0f1267e8",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/玩家手册2024/术语汇编/危害.htm",
+      "source_mapping_id": "urn:uuid:a9215f4d-6094-5b6f-9377-6a9b33bc8e97"
+    },
+    {
+      "encoding": "gb18030",
+      "entry_id": "urn:uuid:aeefb9c1-aff9-5982-98ab-0643f145eba5",
+      "fragment_id": "urn:uuid:f65bce35-3a5b-5e88-9f10-09feb1abc685",
+      "inventory_record": {
+        "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+        "charset": {
+          "declared": "gb2312",
+          "detected": "gb18030",
+          "status": "unknown"
+        },
+        "digest": "sha256:bf6bad14227eff5ef7e369e8b63b641de14dfa45a2645659988822a10140fc25",
+        "extensions": {
+          "m1b-acquisition": {
+            "conflict_kind": null,
+            "declared_encoding": "gb2312",
+            "declared_media_type": "text/html",
+            "detected_encoding_candidate": "gb18030",
+            "detected_media_type": "text/html",
+            "duplicate_status": "unique",
+            "encoding_confidence": "low",
+            "encoding_conflict": false,
+            "encoding_evidence": [
+              "declaration:gb2312",
+              "strict-decode:gb18030"
+            ],
+            "entry_kind": "regular-file",
+            "errors": [],
+            "media_type_confidence": "extension-only",
+            "normalized_path": "玩家手册2024/法术详述/0环.htm",
+            "path_status": "safe",
+            "preserved_path": "entries/玩家手册2024/法术详述/0环.htm",
+            "safety_remapped": false,
+            "source_order": null,
+            "warnings": []
+          }
+        },
+        "extraction_status": "extracted",
+        "id": "urn:uuid:aeefb9c1-aff9-5982-98ab-0643f145eba5",
+        "lifecycle": {
+          "revision": 1,
+          "status": "draft"
+        },
+        "media_type": "text/html",
+        "original_path": "玩家手册2024/法术详述/0环.htm",
+        "schema": "core.source-entry@0.1.0",
+        "size": 21945,
+        "storage_path": "entries/玩家手册2024/法术详述/0环.htm"
+      },
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/第七章：法术/法术详述/戏法（零环）.md",
+      "note_sha256": "sha256:bf318d178cb2915a36d5820016af305bff54a270a6228dfc89b51ae9a1d5a7f3",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/玩家手册2024/法术详述/0环.htm",
+      "source_mapping_id": "urn:uuid:da9de360-8abe-593c-9f4e-7c814411ead5"
+    },
+    {
+      "encoding": "gb18030",
+      "entry_id": "urn:uuid:048a1238-9915-5f2e-8619-c8ccbc580529",
+      "fragment_id": "urn:uuid:d6125d3b-9532-5ccd-8263-8e76bb248835",
+      "inventory_record": {
+        "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+        "charset": {
+          "declared": "gb2312",
+          "detected": "gb18030",
+          "status": "unknown"
+        },
+        "digest": "sha256:4506e95f7f2fc8fc4e92d63d66f31da29d897162c540ab0b48b1d3eb5549b688",
+        "extensions": {
+          "m1b-acquisition": {
+            "conflict_kind": null,
+            "declared_encoding": "gb2312",
+            "declared_media_type": "text/html",
+            "detected_encoding_candidate": "gb18030",
+            "detected_media_type": "text/html",
+            "duplicate_status": "filename-collision",
+            "encoding_confidence": "low",
+            "encoding_conflict": false,
+            "encoding_evidence": [
+              "declaration:gb2312",
+              "strict-decode:gb18030"
+            ],
+            "entry_kind": "regular-file",
+            "errors": [],
+            "media_type_confidence": "extension-only",
+            "normalized_path": "怪物图鉴2025/元素/四元素/火元素.htm",
+            "path_status": "safe",
+            "preserved_path": "entries/怪物图鉴2025/元素/四元素/火元素.htm",
+            "safety_remapped": false,
+            "source_order": null,
+            "warnings": []
+          }
+        },
+        "extraction_status": "extracted",
+        "id": "urn:uuid:048a1238-9915-5f2e-8619-c8ccbc580529",
+        "lifecycle": {
+          "revision": 1,
+          "status": "draft"
+        },
+        "media_type": "text/html",
+        "original_path": "怪物图鉴2025/元素/四元素/火元素.htm",
+        "schema": "core.source-entry@0.1.0",
+        "size": 4431,
+        "storage_path": "entries/怪物图鉴2025/元素/四元素/火元素.htm"
+      },
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/元素/四元素/火元素.md",
+      "note_sha256": "sha256:c9c56baacc1df4a575d8284d4e82ccb606aec1e45fe35185e1fd15932d851fb8",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/怪物图鉴2025/元素/四元素/火元素.htm",
+      "source_mapping_id": "urn:uuid:c0530d90-6451-5541-896f-ae1f13107880"
+    },
+    {
+      "encoding": "gb18030",
+      "entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+      "fragment_id": "urn:uuid:2f037a82-6e86-5b22-b290-e00cb0335153",
+      "inventory_record": {
+        "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+        "charset": {
+          "declared": "gb2312",
+          "detected": "gb18030",
+          "status": "unknown"
+        },
+        "digest": "sha256:7ca0be5211acf340470329824240850f49e5d7669074a6079bc6e7e1f1d73e37",
+        "extensions": {
+          "m1b-acquisition": {
+            "conflict_kind": null,
+            "declared_encoding": "gb2312",
+            "declared_media_type": "text/html",
+            "detected_encoding_candidate": "gb18030",
+            "detected_media_type": "text/html",
+            "duplicate_status": "unique",
+            "encoding_confidence": "low",
+            "encoding_conflict": false,
+            "encoding_evidence": [
+              "declaration:gb2312",
+              "strict-decode:gb18030"
+            ],
+            "entry_kind": "regular-file",
+            "errors": [],
+            "media_type_confidence": "extension-only",
+            "normalized_path": "怪物图鉴2025/异怪/史拉蟾/史拉绿蟾.htm",
+            "path_status": "safe",
+            "preserved_path": "entries/怪物图鉴2025/异怪/史拉蟾/史拉绿蟾.htm",
+            "safety_remapped": false,
+            "source_order": null,
+            "warnings": []
+          }
+        },
+        "extraction_status": "extracted",
+        "id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+        "lifecycle": {
+          "revision": 1,
+          "status": "draft"
+        },
+        "media_type": "text/html",
+        "original_path": "怪物图鉴2025/异怪/史拉蟾/史拉绿蟾.htm",
+        "schema": "core.source-entry@0.1.0",
+        "size": 3441,
+        "storage_path": "entries/怪物图鉴2025/异怪/史拉蟾/史拉绿蟾.htm"
+      },
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/异怪/史拉蟾/史拉绿蟾.md",
+      "note_sha256": "sha256:a9059840540c273cb7c63b35c46986bf767426fbe7584892306d9493892382ee",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/怪物图鉴2025/异怪/史拉蟾/史拉绿蟾.htm",
+      "source_mapping_id": "urn:uuid:d69b0a1f-7a80-5cc0-ad1c-f9a647e5d626"
+    },
+    {
+      "encoding": "gb18030",
+      "entry_id": "urn:uuid:2cc417f9-b3ff-5e61-b655-2653f61642d2",
+      "fragment_id": "urn:uuid:8327c556-e357-5aa1-8db1-9daa6cb59898",
+      "inventory_record": {
+        "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+        "charset": {
+          "declared": "gb2312",
+          "detected": "gb18030",
+          "status": "unknown"
+        },
+        "digest": "sha256:3f11bf28977f7dfdc784dc82c0bd4c2d526e118742892ce9887b38c9732b8911",
+        "extensions": {
+          "m1b-acquisition": {
+            "conflict_kind": null,
+            "declared_encoding": "gb2312",
+            "declared_media_type": "text/html",
+            "detected_encoding_candidate": "gb18030",
+            "detected_media_type": "text/html",
+            "duplicate_status": "filename-collision",
+            "encoding_confidence": "low",
+            "encoding_conflict": false,
+            "encoding_evidence": [
+              "declaration:gb2312",
+              "strict-decode:gb18030"
+            ],
+            "entry_kind": "regular-file",
+            "errors": [],
+            "media_type_confidence": "extension-only",
+            "normalized_path": "怪物图鉴2025/元素/四元素/气元素.htm",
+            "path_status": "safe",
+            "preserved_path": "entries/怪物图鉴2025/元素/四元素/气元素.htm",
+            "safety_remapped": false,
+            "source_order": null,
+            "warnings": []
+          }
+        },
+        "extraction_status": "extracted",
+        "id": "urn:uuid:2cc417f9-b3ff-5e61-b655-2653f61642d2",
+        "lifecycle": {
+          "revision": 1,
+          "status": "draft"
+        },
+        "media_type": "text/html",
+        "original_path": "怪物图鉴2025/元素/四元素/气元素.htm",
+        "schema": "core.source-entry@0.1.0",
+        "size": 4000,
+        "storage_path": "entries/怪物图鉴2025/元素/四元素/气元素.htm"
+      },
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/元素/四元素/气元素.md",
+      "note_sha256": "sha256:4177ed87a23d32638d852102f82464663b41655e52540f7a2e648f0d0a045c8f",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/怪物图鉴2025/元素/四元素/气元素.htm",
+      "source_mapping_id": "urn:uuid:c8be1321-c4c1-5f9e-aa78-4411f9718000"
+    },
+    {
+      "encoding": "gb18030",
+      "entry_id": "urn:uuid:57a08374-1e20-5c97-a1f3-00447e3b05d9",
+      "fragment_id": "urn:uuid:8144d427-b3e6-53aa-bddc-c78ae18e3a0d",
+      "inventory_record": {
+        "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+        "charset": {
+          "declared": "gb2312",
+          "detected": "gb18030",
+          "status": "unknown"
+        },
+        "digest": "sha256:ddf6c96dff3f59dc72b3a8749b242ac372212cfaa10d2c9df1389880553c4d07",
+        "extensions": {
+          "m1b-acquisition": {
+            "conflict_kind": null,
+            "declared_encoding": "gb2312",
+            "declared_media_type": "text/html",
+            "detected_encoding_candidate": "gb18030",
+            "detected_media_type": "text/html",
+            "duplicate_status": "filename-collision",
+            "encoding_confidence": "low",
+            "encoding_conflict": false,
+            "encoding_evidence": [
+              "declaration:gb2312",
+              "strict-decode:gb18030"
+            ],
+            "entry_kind": "regular-file",
+            "errors": [],
+            "media_type_confidence": "extension-only",
+            "normalized_path": "怪物图鉴2025/元素/四元素/土元素.htm",
+            "path_status": "safe",
+            "preserved_path": "entries/怪物图鉴2025/元素/四元素/土元素.htm",
+            "safety_remapped": false,
+            "source_order": null,
+            "warnings": []
+          }
+        },
+        "extraction_status": "extracted",
+        "id": "urn:uuid:57a08374-1e20-5c97-a1f3-00447e3b05d9",
+        "lifecycle": {
+          "revision": 1,
+          "status": "draft"
+        },
+        "media_type": "text/html",
+        "original_path": "怪物图鉴2025/元素/四元素/土元素.htm",
+        "schema": "core.source-entry@0.1.0",
+        "size": 4195,
+        "storage_path": "entries/怪物图鉴2025/元素/四元素/土元素.htm"
+      },
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/元素/四元素/土元素.md",
+      "note_sha256": "sha256:002c984c128b987a5a6f2ae9dfb3c99824e59a96d1df993b89ce2f1158c531a3",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/怪物图鉴2025/元素/四元素/土元素.htm",
+      "source_mapping_id": "urn:uuid:8851fe03-a492-5d23-8860-5d95ed2e5acf"
+    },
+    {
+      "encoding": "gb18030",
+      "entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+      "fragment_id": "urn:uuid:9636c175-25b3-5946-bf3d-d27bd737b4ec",
+      "inventory_record": {
+        "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+        "charset": {
+          "declared": "gb2312",
+          "detected": "gb18030",
+          "status": "unknown"
+        },
+        "digest": "sha256:7c1ead222cdc81cd31ef4d3ef7bdf1783914be90f8078d013393a6063dad10c3",
+        "extensions": {
+          "m1b-acquisition": {
+            "conflict_kind": null,
+            "declared_encoding": "gb2312",
+            "declared_media_type": "text/html",
+            "detected_encoding_candidate": "gb18030",
+            "detected_media_type": "text/html",
+            "duplicate_status": "filename-collision",
+            "encoding_confidence": "low",
+            "encoding_conflict": false,
+            "encoding_evidence": [
+              "declaration:gb2312",
+              "strict-decode:gb18030"
+            ],
+            "entry_kind": "regular-file",
+            "errors": [],
+            "media_type_confidence": "extension-only",
+            "normalized_path": "怪物图鉴2025/构装/盾卫.htm",
+            "path_status": "safe",
+            "preserved_path": "entries/怪物图鉴2025/构装/盾卫.htm",
+            "safety_remapped": false,
+            "source_order": null,
+            "warnings": []
+          }
+        },
+        "extraction_status": "extracted",
+        "id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+        "lifecycle": {
+          "revision": 1,
+          "status": "draft"
+        },
+        "media_type": "text/html",
+        "original_path": "怪物图鉴2025/构装/盾卫.htm",
+        "schema": "core.source-entry@0.1.0",
+        "size": 4045,
+        "storage_path": "entries/怪物图鉴2025/构装/盾卫.htm"
+      },
+      "note_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/构装/盾卫.md",
+      "note_sha256": "sha256:02efbe8a953929558945da2ede1fe2c71cb8fdb15819e95e9510d88bc662e9b9",
+      "raw_path": "/Users/chenzehao/Projects/LoreBuddy/build/acquisition-run-1/f1824e5ebdc3584ba98398335dbf1408/extracted/entries/怪物图鉴2025/构装/盾卫.htm",
+      "source_mapping_id": "urn:uuid:bb03d887-d3a3-5a05-9c90-b385a184dee9"
+    }
+  ]
+}

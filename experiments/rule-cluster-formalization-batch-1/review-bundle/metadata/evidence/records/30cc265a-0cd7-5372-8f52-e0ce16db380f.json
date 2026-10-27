@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:69dabf6858e76ecb02ba591a9b454e46aeb6a2746f02753b1a6e515586c35bdd",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/亡灵/幽魂.md",
+  "id": "urn:uuid:30cc265a-0cd7-5372-8f52-e0ce16db380f",
+  "original_record": {
+    "alias": "G25.ABILITY.3",
+    "id": "urn:uuid:30cc265a-0cd7-5372-8f52-e0ce16db380f",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 2846,
+      "interval": "[start,end)",
+      "start": 2776
+    },
+    "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+    "text": "**多重攻击Multiattack。**幽魂发动两次凋零之触攻击。\n",
+    "text_sha256": "0d251da76c712087fc3038c0543f3276e5d8b9fdd0c853ee6cabed3983849b0f"
+  },
+  "raw_fragment_id": "urn:uuid:b32518f2-acd4-5874-acf6-2482d95a72d4",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

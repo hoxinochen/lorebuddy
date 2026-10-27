@@ -1,0 +1,73 @@
+{
+  "all_candidate_facts_preserved": true,
+  "bundle_files": 654,
+  "counts": {
+    "abilities": 45,
+    "adoptions": 3,
+    "creatures": 8,
+    "evidence_records": 94,
+    "extractions": 254,
+    "mappings": 20,
+    "raw_fragments": 20,
+    "shared_references": 6,
+    "spells": 11,
+    "subjects": 70
+  },
+  "deterministic_rebuild": true,
+  "faults": [
+    {
+      "blocked": true,
+      "by": "complete subjects",
+      "fault": "missing_untested_subject"
+    },
+    {
+      "blocked": true,
+      "by": "'in_review' was expected",
+      "fault": "fake_approval"
+    },
+    {
+      "blocked": true,
+      "by": "'not_claimed' was expected",
+      "fault": "fake_full_fidelity"
+    },
+    {
+      "blocked": true,
+      "by": "source identity promotion",
+      "fault": "source_identity_upgrade"
+    },
+    {
+      "blocked": true,
+      "by": "'unknown' was expected",
+      "fault": "publication_rights_upgrade"
+    },
+    {
+      "blocked": true,
+      "by": "dependency closure",
+      "fault": "unknown_dependency"
+    },
+    {
+      "blocked": true,
+      "by": "raw coordinate",
+      "fault": "raw_and_derived_coordinate_confusion"
+    },
+    {
+      "blocked": true,
+      "by": "missing approval blockers",
+      "fault": "missing_fidelity_blocker"
+    },
+    {
+      "blocked": true,
+      "by": "package dependency cycle",
+      "fault": "package_cycle"
+    }
+  ],
+  "formal_approved_subjects": 0,
+  "full_fidelity": "not_run_not_claimed",
+  "human_rule_review": "pending",
+  "new_llm_calls": false,
+  "raw_and_derived_coordinate_separated": true,
+  "schema": "m2.formalization-preparation-validation@0.1.0",
+  "source_mapping_review": "pending",
+  "status": "passed_with_explicit_formal_approval_blockers",
+  "terminal_changes": false
+}

@@ -1,0 +1,18 @@
+{
+  "binding": {
+    "adopted_decision_ids": [],
+    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+    "source_entry_id": "urn:uuid:57a08374-1e20-5c97-a1f3-00447e3b05d9",
+    "source_evidence_id": "urn:uuid:f7bddd35-351d-570f-8011-c1d3777d3bb5",
+    "source_note_utf8_range": {
+      "end": 3414,
+      "start": 3253
+    }
+  },
+  "id": "urn:uuid:29cae193-bf26-5f34-a83c-f1d9ab66c8b6",
+  "json_pointer": "/critical_fields/burrow_material/0",
+  "review_status": "candidate",
+  "revision": 1,
+  "subject_id": "urn:uuid:69e2b783-7061-54a2-9cae-7b61e4f4898e",
+  "value": "nonmagical_unworked_earth"
+}

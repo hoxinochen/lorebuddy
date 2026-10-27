@@ -1,0 +1,49 @@
+{
+  "body": {
+    "digest": "sha256:fa8a7853561053b6857a018feca16be400392b30c7e0308da79a72462f67256b",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/54fb4631-fd48-5d41-84fd-2c41fbf2f5d5.md"
+  },
+  "candidate_snapshot": {
+    "content": {
+      "format": "m1_published_markdown_utf8",
+      "text": "---\nartifact_id: \"urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408\"\nentry_id: \"urn:uuid:2d46b742-37e3-5734-b0a8-afe4a0b85704\"\nsource_path: \"玩家手册2024/法术/法术成分.htm\"\nnavigation_paths:\n  - \"玩家手册2024/第七章：法术/施展法术/法术成分\"\nsource_sha256: \"sha256:d917b0bb1a669deecb8732578b6b25452873c17f64f222303d4b49247ab4204d\"\ndetected_encoding: \"gb18030\"\npublisher_profile: \"m1c3.obsidian-baseline@0.1.0\"\npublisher_release: \"baseline\"\npublisher_note_path: \"Notes/玩家手册2024/第七章：法术/施展法术/法术成分.md\"\n---\n# 法术成分\n\n### 法术成分Components\n\n法术成分是施法者施展该法术时必须满足的物理条件。每项法术的描述中都会说明其施展时是否需要言语Verbal（V）、姿势Somatic（S）、材料Material（M）成分。施法者只有在满足一项法术所有的成分需求后才能施展相应的法术。\n\n**言语 Verbal（V）**言语成分是一种听起来没有任何含义的深奥咒文。这些咒文必须以正常的音量来咏唱。虽然这些咒文并不给法术供应魔力，但其具有特定音高与共振之声音的特定组合却可以牵动魔法之弦。因此，被堵住嘴或者身处魔法性沉默区域中的生物不能施展带有言语成分的法术。\n\n**姿势 Somatic（S）**施法姿势可能包括一记固定的手印或一整套精巧的动作。施法者必须使用至少一只手来摆出这些手势。\n\n**材料Material（M）**\n材料成分是用于法术施展的特定材料，法术成分一栏会在括号中注明具体内容。这些材料不会在施法时被消耗，除非法术特别说明。施法者必须有一只空闲的手以拿取材料成分，但拿取材料成分的手可以和摆出施法姿势的是同一只手。\n施法者可以使用材料包（见第六章）或法器（只要施法者具有相应特性允许使用法器以作为替代）取代法术所指定的材料，除非该法术的材料成分有指定的价格或是会被消耗。要使用材料包，你必须用一只空闲的手从其中取出材料；而要使用法器，你必须并在施法过程中一直握持它，除非法术另有说明（详见第六章）。\n\n**创作言语成分 Creating Verbal Components**\n如果你喜欢喊出法术的言语成分，那你可以对其咒文进行编造。但是在设计过程中要记住，要义在于其内容需要易于说出，且不应当在现实世界中具有任何含义。创作言语成分时可以参考以下方法：首先取法术的名字（若出现重复的字母则只取其中一个），并将剩下的字母重组为几个词。例如，移除*火球术Fireball*中的第二个L，再将剩余字母重新组合起来，施法时喊出**贝尔 · 菲拉Ber Fila**或**费尔 · 比拉Fel Bira** 作为法术的言语成分。\n"
+    },
+    "coverage": {
+      "basis": "whole_note_utf8",
+      "complete_entry": true,
+      "end": 2839,
+      "start": 0
+    },
+    "evidence_ids": [
+      "urn:uuid:7aa91624-57f8-5c0c-8372-c604974b426f"
+    ],
+    "id": "urn:uuid:54fb4631-fd48-5d41-84fd-2c41fbf2f5d5",
+    "kind": "shared_rule_entry",
+    "source_entry_id": "urn:uuid:2d46b742-37e3-5734-b0a8-afe4a0b85704",
+    "title": "法术成分"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:54fb4631-fd48-5d41-84fd-2c41fbf2f5d5",
+  "language": "zh-Hans",
+  "module": "common",
+  "review_record_id": "urn:uuid:cffb885a-f27e-5770-b1c2-b7ea3c5189d4",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": null,
+    "derived_note_utf8_range": {
+      "end": 2839,
+      "start": 0
+    },
+    "entry_id": "urn:uuid:2d46b742-37e3-5734-b0a8-afe4a0b85704",
+    "fragment_id": "urn:uuid:e4072492-84d5-5c6e-8eac-15c0dcc40e55",
+    "mapping_id": "urn:uuid:2defde9a-38f6-56b2-aed5-e008a5082feb"
+  },
+  "subject_kind": "shared_reference",
+  "title": "法术成分",
+  "uncompiled_semantics_retained": true
+}

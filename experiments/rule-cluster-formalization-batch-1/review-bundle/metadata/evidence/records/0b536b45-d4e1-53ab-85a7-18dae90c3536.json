@@ -1,0 +1,26 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:40d6b4ba5aec75b37f3ec3ac1c5dda84a869111b8ae82cf196a683a4ecff44f5",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/附录C：术语汇编/状态.md",
+  "id": "urn:uuid:0b536b45-d4e1-53ab-85a7-18dae90c3536",
+  "original_record": {
+    "alias": "P.STUNNED",
+    "id": "urn:uuid:0b536b45-d4e1-53ab-85a7-18dae90c3536",
+    "line_range": [
+      133,
+      140
+    ],
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 7630,
+      "interval": "[start,end)",
+      "start": 7287
+    },
+    "source_entry_id": "urn:uuid:89505d38-cbaf-5747-9798-96f1a0bf6718",
+    "text": "<a id=\"Stunned\"></a>\n### 震慑 Stunned【状态】\n\n震慑状态期间，你将遭受以下这些效应。\n**失能Incapacitated。**你陷入失能状态。\n**豁免影响Saving Throws Affected。**你自动失败于力量豁免检定与敏捷豁免检定。\n**攻击影响Attacks Affected。**以你为目标的攻击检定具有优势。\n\n",
+    "text_sha256": "4e2f0c219fc36aff6533bacee0124095a380e499a0a1bc7a8b61f1204021c59b"
+  },
+  "raw_fragment_id": "urn:uuid:8971179e-39ce-5b76-812d-ab574f55a9c7",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

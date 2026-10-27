@@ -1,0 +1,24 @@
+{
+  "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+  "candidate_key": "sha256:75b0d005b6bebd938492366dc1b4726f713ec637b25e61023522c01ede8ed44a",
+  "decision": {
+    "reason": "Audit envelope only; per-subject derived ranges remain separate.",
+    "review_status": "pending",
+    "reviewer_id": null
+  },
+  "entry_id": "urn:uuid:2d46b742-37e3-5734-b0a8-afe4a0b85704",
+  "id": "urn:uuid:bf99363f-467b-548d-b4e2-f50d051405cb",
+  "lifecycle": {
+    "revision": 1,
+    "status": "draft"
+  },
+  "locator": {
+    "end": 2061,
+    "kind": "byte-range",
+    "start": 0
+  },
+  "node_id": null,
+  "proposed_title": "法术成分",
+  "schema": "core.boundary-record@0.1.0",
+  "status": "proposed"
+}

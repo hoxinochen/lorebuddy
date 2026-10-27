@@ -1,0 +1,18 @@
+{
+  "binding": {
+    "adopted_decision_ids": [],
+    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+    "source_evidence_id": "urn:uuid:02cc884f-2c90-5ac4-9504-3f6574f16a1e",
+    "source_note_utf8_range": {
+      "end": 3239,
+      "start": 3000
+    }
+  },
+  "id": "urn:uuid:63f3ccb5-5629-5c49-a964-2e24a29d58f0",
+  "json_pointer": "/critical_fields/equipment",
+  "review_status": "candidate",
+  "revision": 1,
+  "subject_id": "urn:uuid:5152af52-fc82-58ab-b223-f9d1f9842f2e",
+  "value": "unchanged"
+}

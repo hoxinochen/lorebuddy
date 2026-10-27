@@ -1,0 +1,36 @@
+{
+  "extensions": {
+    "lorebuddy-dnd2024-review": {
+      "decision_scope": "accept claimed association or reject; never auto-verify",
+      "previous_mapping": {
+        "book_id": "phb-2024",
+        "book_name": "玩家手册2024",
+        "category": "core-2024",
+        "entry_id": "urn:uuid:90d6a63f-2461-57ee-b524-9b59fdca9edd",
+        "mapping_basis": "source_path_top_level_root",
+        "mapping_status": "deterministic",
+        "output_path": "Notes/玩家手册2024/第七章：法术/法术详述/七环.md",
+        "source_identity_status": "claimed",
+        "source_path": "玩家手册2024/法术详述/7环.htm",
+        "system_version": "2024",
+        "title": "七环"
+      }
+    }
+  },
+  "id": "urn:uuid:c52fe7c4-69fb-59a1-9b21-08bab0bc817e",
+  "lifecycle": {
+    "revision": 1,
+    "status": "draft"
+  },
+  "mapping_status": "claimed",
+  "review_status": "pending",
+  "schema": "core.source-mapping@0.1.0",
+  "source": {
+    "id": "urn:uuid:90d6a63f-2461-57ee-b524-9b59fdca9edd",
+    "kind": "entry"
+  },
+  "target": {
+    "edition_id": "urn:uuid:72d3a3b5-fbaa-5966-90b3-3a667cf60b62",
+    "work_id": "urn:uuid:6654ea59-075b-5f6c-a0b9-23bd7229c397"
+  }
+}

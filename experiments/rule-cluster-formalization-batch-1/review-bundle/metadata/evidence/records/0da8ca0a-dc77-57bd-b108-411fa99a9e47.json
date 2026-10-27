@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:a9059840540c273cb7c63b35c46986bf767426fbe7584892306d9493892382ee",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/异怪/史拉蟾/史拉绿蟾.md",
+  "id": "urn:uuid:0da8ca0a-dc77-57bd-b108-411fa99a9e47",
+  "original_record": {
+    "alias": "S.ABILITY.6",
+    "id": "urn:uuid:0da8ca0a-dc77-57bd-b108-411fa99a9e47",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 3373,
+      "interval": "[start,end)",
+      "start": 3149
+    },
+    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+    "text": "\n**变形Shape-Shift。**史拉蟾变形为小型或中型的类人生物，或变回其真实形态。除体型以外，其各形态下游戏数据均相同。史拉蟾着装或携带的任何装备都不会随之变化。\n",
+    "text_sha256": "531eaefe5f54b0553e07a20eb2d1b303ef3b2a19f2b1b33ac2d7c67a0d7a4848"
+  },
+  "raw_fragment_id": "urn:uuid:2f037a82-6e86-5b22-b290-e00cb0335153",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

@@ -1,0 +1,18 @@
+{
+  "adopted": "储存者需佩戴护符；释放使用原施法者所设法术参数，不据此承诺自动触发或免动作",
+  "alias": "ED.STORE",
+  "basis": [
+    "G.CARD",
+    "R.SRD"
+  ],
+  "fields": [
+    "storage_requires",
+    "release_parameters_from"
+  ],
+  "id": "urn:uuid:f4cfbd9c-34cf-5c56-a94f-3878efce8dba",
+  "object": "G",
+  "original": "携带护符、预先设定条件满足时施展",
+  "reason": "按官方当前可核实表达纠正窄范围中文解释；不补造施法动作或DC算法。",
+  "revision": 1,
+  "status": "adopted_for_this_candidate_batch"
+}

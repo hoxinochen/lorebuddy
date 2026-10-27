@@ -1,0 +1,18 @@
+{
+  "binding": {
+    "adopted_decision_ids": [],
+    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+    "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+    "source_evidence_id": "urn:uuid:30cc265a-0cd7-5372-8f52-e0ce16db380f",
+    "source_note_utf8_range": {
+      "end": 2846,
+      "start": 2776
+    }
+  },
+  "id": "urn:uuid:12d15dba-09e7-5223-bbb9-5201c3b72bc4",
+  "json_pointer": "/critical_fields/allowed/0",
+  "review_status": "candidate",
+  "revision": 1,
+  "subject_id": "urn:uuid:59b4fa34-491b-5341-8e69-e8f8090577d0",
+  "value": "G25.WitheringTouch"
+}

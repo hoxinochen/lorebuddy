@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:677e4dd189f174951d627ef1bdd24f616a2e71cd1a92a262a9b005d8027643c4",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/邪魔/梦魔.md",
+  "id": "urn:uuid:02cc884f-2c90-5ac4-9504-3f6574f16a1e",
+  "original_record": {
+    "alias": "IN.ABILITY.1",
+    "id": "urn:uuid:02cc884f-2c90-5ac4-9504-3f6574f16a1e",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 3239,
+      "interval": "[start,end)",
+      "start": 3000
+    },
+    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+    "text": "**化身魅魔Succubus Form。**梦魔在完成一次长休时可以变形为**魅魔Succubus**，并使用魅魔的游戏数据替代其原来的数据。梦魔着装或携带的任何装备都不会随之变化。\n\n###### 动作Actions\n\n",
+    "text_sha256": "1b1c9bd9e11472be886190095db5e6b1d8c7d17bda40b6d389dc748361e39e49"
+  },
+  "raw_fragment_id": "urn:uuid:3da4dc0e-0945-5ef1-8d58-92662fc6ea04",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

@@ -1,0 +1,185 @@
+{
+  "body": {
+    "digest": "sha256:b0f9350fa405f3fceaebc9319d1e65fcd3adbc58a0d4c2f0c02776b048ae4326",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/58621492-1fe9-5697-9d87-a77703fcebfa.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "dc": 13,
+      "failure_condition": "prone",
+      "failure_damage": 24,
+      "failure_push_up_to_ft": 20,
+      "max_target_size": "medium",
+      "recharge": [
+        4,
+        6
+      ],
+      "save": "strength",
+      "success": "half_damage_only",
+      "target_count": 1,
+      "target_space": "inside_source_space",
+      "type": "thunder"
+    },
+    "editorial_explanation": "失败才推离和倒地；成功仅半伤。最多中型是目标资格，不是失败后才检查的附加效果门槛。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "qualification_contract": {
+          "recharge": {
+            "die": "1d6",
+            "max": 6,
+            "min": 4
+          },
+          "source_evidence_id": "urn:uuid:e840fcbd-5da3-5084-be20-b6d912d79f78",
+          "target_inside_source_space": true,
+          "target_size_max": "medium"
+        },
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:3a8bea79-4d3d-5047-979b-0d121e9eb048",
+            "json_pointer": "/critical_fields/recharge/0"
+          },
+          {
+            "extraction_id": "urn:uuid:cb672298-dc19-5b78-90f5-2bb415f7bef0",
+            "json_pointer": "/critical_fields/recharge/1"
+          },
+          {
+            "extraction_id": "urn:uuid:75ecdc47-49c9-5003-b14b-54c2a333275c",
+            "json_pointer": "/critical_fields/target_count"
+          },
+          {
+            "extraction_id": "urn:uuid:ea016b2c-fb72-5a4d-874e-abc217dad232",
+            "json_pointer": "/critical_fields/target_space"
+          },
+          {
+            "extraction_id": "urn:uuid:5a154293-6140-581a-b0aa-8b356f3a89ce",
+            "json_pointer": "/critical_fields/max_target_size"
+          },
+          {
+            "extraction_id": "urn:uuid:75ae1822-b144-5379-b124-e05f48216045",
+            "json_pointer": "/critical_fields/save"
+          },
+          {
+            "extraction_id": "urn:uuid:82752546-2921-5ed3-9f81-fdc4d2146093",
+            "json_pointer": "/critical_fields/dc"
+          },
+          {
+            "extraction_id": "urn:uuid:3c348d2e-47f8-53b4-92a2-29e49507a865",
+            "json_pointer": "/critical_fields/failure_damage"
+          },
+          {
+            "extraction_id": "urn:uuid:8522938a-bf44-501a-b700-9bde17568ff2",
+            "json_pointer": "/critical_fields/type"
+          },
+          {
+            "extraction_id": "urn:uuid:c742159f-9eec-56e8-b33a-d6001898dbb5",
+            "json_pointer": "/critical_fields/failure_push_up_to_ft"
+          },
+          {
+            "extraction_id": "urn:uuid:e2d81bac-1705-5489-b6e4-a60fe8a2759f",
+            "json_pointer": "/critical_fields/failure_condition"
+          },
+          {
+            "extraction_id": "urn:uuid:c1f24ce2-1548-5e39-a75a-30d8eb466a8a",
+            "json_pointer": "/critical_fields/success"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "local_evidence": "A.ABILITY.4",
+      "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+      "pointer": "/critical_fields"
+    },
+    "id": "urn:uuid:58621492-1fe9-5697-9d87-a77703fcebfa",
+    "kind": "动作Actions",
+    "mechanics": {
+      "clauses": {
+        "dc": 13,
+        "failure_condition": "prone",
+        "failure_damage": 24,
+        "failure_push_up_to_ft": 20,
+        "max_target_size": "medium",
+        "recharge": [
+          4,
+          6
+        ],
+        "save": "strength",
+        "success": "half_damage_only",
+        "target_count": 1,
+        "target_space": "inside_source_space",
+        "type": "thunder"
+      },
+      "damage": {
+        "amount": {
+          "dice": "4d10+2",
+          "printed_fixed": 24,
+          "selection": "use_scene_amount_mode; recorded_dice_must_not_be_rerolled"
+        },
+        "damage_type": "thunder",
+        "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+        "linked_reduction_from_damage_taken": false,
+        "other_effects": [
+          {
+            "distance_ft_max": 20,
+            "kind": "push",
+            "when": "failed_save"
+          },
+          {
+            "kind": "condition",
+            "name": "prone",
+            "when": "failed_save"
+          }
+        ],
+        "save_success": "half",
+        "trigger": "strength_save"
+      },
+      "dependencies": [
+        "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+        "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b",
+        "urn:uuid:9b807124-e59e-5ea1-8ad0-05dc5451847e"
+      ],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_and_complete_verbatim; remaining_semantics_uncompiled"
+    },
+    "owner_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+    "required_evidence": [
+      "P.PRONE",
+      "P.ROUND",
+      "M.USAGE"
+    ],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:e840fcbd-5da3-5084-be20-b6d912d79f78",
+    "title": "旋风",
+    "verbatim_evidence": "A.ABILITY.4",
+    "verbatim_text": " **旋风Whirlwind（充能4~6）。***力量豁免检定：*DC13，单一位于气元素空间的不超过中型的生物。*失败：*24（4d10+2）雷鸣伤害，且目标被气元素直线推离至多20尺，并陷入倒地状态。*成功：*仅半伤。\n"
+  },
+  "dependency_ids": [
+    "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+    "urn:uuid:9b807124-e59e-5ea1-8ad0-05dc5451847e",
+    "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b"
+  ],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:58621492-1fe9-5697-9d87-a77703fcebfa",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:6e2b201f-a60b-5853-9e37-19a3f6f41b85",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:e840fcbd-5da3-5084-be20-b6d912d79f78",
+    "derived_note_utf8_range": {
+      "end": 3710,
+      "start": 3450
+    },
+    "entry_id": "urn:uuid:2cc417f9-b3ff-5e61-b655-2653f61642d2",
+    "fragment_id": "urn:uuid:8327c556-e357-5aa1-8db1-9daa6cb59898",
+    "mapping_id": "urn:uuid:c8be1321-c4c1-5f9e-aa78-4411f9718000"
+  },
+  "subject_kind": "ability",
+  "title": "旋风",
+  "uncompiled_semantics_retained": true
+}

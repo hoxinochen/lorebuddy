@@ -1,0 +1,26 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:f160fab6ad4c958b829000b33c775f97b861ae6c688ad20919b798d0a7a67bde",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/第七章：法术/法术详述/一环.md",
+  "id": "urn:uuid:e96814d6-2bca-527a-90c8-3d4440479917",
+  "original_record": {
+    "alias": "P.DISGUISE",
+    "id": "urn:uuid:e96814d6-2bca-527a-90c8-3d4440479917",
+    "line_range": [
+      226,
+      237
+    ],
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 13607,
+      "interval": "[start,end)",
+      "start": 12707
+    },
+    "source_entry_id": "urn:uuid:23faa68f-588b-5b14-a6fb-7e0df89dcf8a",
+    "text": "<a id=\"Disguise_Self\"></a>\n#### 易容术｜Disguise Self\n\n*一环 幻术（吟游诗人、术士、法师、奇械师）*\n**施法时间：**动作\n**施法距离：**自身\n**法术成分：**V、S\n**持续时间：**1小时\n你改变自身以及随身的衣物、护甲、武器等在你身上的所有物。该效应在法术终止时结束。肉眼看来你的身高可以有1尺的增减，体态可胖可瘦。你必须选择一个和你肢体基础排列方式一致的形态。此外，幻术的影响范围由你决定。\n此法术产生的变化无法应对物理检查。比如，你用此法术添了一顶帽子，那么现实物件会从帽子穿过去，且任何触碰帽子的人将摸不到任何东西。\n如果一名生物想要分辨你是否易容，则必须使用一个研究动作研究你的外貌，并成功于一次对抗你法术豁免DC的智力（调查）检定。\n\n",
+    "text_sha256": "729f9a5a23e5bb06e03a1b0857feb6e2d2e48dd8d99c36c83f27dbed525e3489"
+  },
+  "raw_fragment_id": "urn:uuid:b457beb8-7788-5e8b-bf14-a11cfda00780",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

@@ -1,0 +1,161 @@
+[
+  {
+    "ref": "cross:P.ROUND",
+    "origin_file": "build/m2-cross-relations-6cards-2026-10-22/evidence.json",
+    "id": "urn:uuid:8d9ed635-0e59-547b-afd7-0a10224ca485",
+    "alias": "P.ROUND",
+    "source_entry_id": "urn:uuid:110fe3cc-449c-5d30-9bc5-47198a153a06",
+    "range": {
+      "basis": "whole_note_utf8",
+      "interval": "[start,end)",
+      "start": 33946,
+      "end": 34241
+    },
+    "line_range": [
+      526,
+      530
+    ],
+    "text_sha256": "29975576af32c9c34a46f75437ba401f720e5614bad4e8c3bafddc7432f980f9",
+    "text": "<a id=\"Round_Down\"></a>\n### 向下取整 Round Down\n\n每当你在游戏里对某个数字进行除法或乘法运算时，如果最终结果有小数部分，向下取整。即使小数部分超过了0.5，你也要向下取整。不过部分规则会做出例外，告诉你要向上取整。\n\n"
+  },
+  {
+    "ref": "cross:P.RESISTANCE",
+    "origin_file": "build/m2-cross-relations-6cards-2026-10-22/evidence.json",
+    "id": "urn:uuid:402203e6-571b-54e7-a3d8-505244256f62",
+    "alias": "P.RESISTANCE",
+    "source_entry_id": "urn:uuid:46f52d9f-45ec-5c25-b3b1-9c432c68caa0",
+    "range": {
+      "basis": "whole_note_utf8",
+      "interval": "[start,end)",
+      "start": 593,
+      "end": 1879
+    },
+    "line_range": [
+      12,
+      23
+    ],
+    "text_sha256": "d1bfb33f6cc5fcb596c1461b91f30ae0c0108383529137ad42f0019bfb750773",
+    "text": "\n# 抗性和易伤\n\n### 抗性和易伤Resistance and Vulnerability\n\n一些生物和物件具有特定伤害类型的抗性或易伤。如果你对某个伤害类型具有抗性，则你承受的该类型伤害减半（向下取整）。如果你对某个伤害类型具有易伤，则你承受的该类型伤害翻倍。举例来说，如果你对**寒冷**伤害具有抗性，则你承受的**寒冷**伤害减半，如果你对**火焰**伤害具有易伤，则你承受的**火焰**伤害翻倍。\n\n**抗性/易伤不叠加 No Stacking** 多个同伤害类型的抗性同时存在时，只需计算其中一个，易伤也是如此。举例来说，如果你同时有**暗蚀**伤害抗性和全伤害抗性，对你造成的**暗蚀**伤害仍然只会减少一半。\n\n**生效顺序 Order of Application**\n伤害的调整按照以下顺序生效：首先计算数值修正，比如加值、减值或者乘数；然后计算抗性；接着计算易伤。\n举例来说，假设有一名具有全伤害抗性，具有**火焰**伤害易伤，位于某个全伤害减5的魔法灵光内的生物。如果他受到28**火焰**伤害，结算伤害时应先将该伤害减5（变为23），再因其抗性减半（并向下取整变为11），然后因其易伤翻倍（变为22）。\n"
+  },
+  {
+    "ref": "cross:G14.HEADER",
+    "origin_file": "build/m2-cross-relations-6cards-2026-10-22/evidence.json",
+    "id": "urn:uuid:f895bca0-b633-58b1-8971-cb97a9f9920d",
+    "alias": "G14.HEADER",
+    "source_entry_id": "urn:uuid:92081ad9-8de3-5a76-ab55-25c33eae6ae5",
+    "range": {
+      "basis": "whole_note_utf8",
+      "interval": "[start,end)",
+      "start": 1870,
+      "end": 2685
+    },
+    "text_sha256": "d1a28bb6550517ec23cf1342cb476d78f837a616dc3f04ab295aa3b35f8b72fc",
+    "text": "\n**幽魂Ghost**\n\n*中型亡灵，任意阵营*\n\n**护甲等级：****11**\n\n**生命值：****45****（****10d8****）**\n\n**速度：****0****尺，飞行****40****尺（悬浮）**\n\n**力量****7****（****-2****）****敏捷****13****（****+1****）****体质****10****（****+0****）****智力****10****（****+0****）****感知****12****（****+1****）****魅力****17****（****+3****）**\n\n**伤害抗性：强酸，火焰，闪电，雷鸣，非魔法攻击的钝击、穿刺、****挥砍**\n\n**伤害免疫：寒冷，暗蚀，毒素**\n\n**状态免疫：魅惑，力竭，恐慌，受擒，麻痹，石化，中毒，倒地，****束缚**\n\n**感官：黑暗视觉****60****尺，被动察觉****11**\n\n**语言：任何其活着时所掌握的语言**\n\n**挑战等级：****4****（****1,100 XP****）**\n\n"
+  },
+  {
+    "ref": "cross:G25.HEADER",
+    "origin_file": "build/m2-cross-relations-6cards-2026-10-22/evidence.json",
+    "id": "urn:uuid:3031d998-0f82-5bf9-bdb3-778355f019bc",
+    "alias": "G25.HEADER",
+    "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+    "range": {
+      "basis": "whole_note_utf8",
+      "interval": "[start,end)",
+      "start": 1132,
+      "end": 2440
+    },
+    "text_sha256": "afe660568dc7dd63f09501b493fa857078bf6dfd5c1947f449f8c3d957097496",
+    "text": "<a id=\"Ghost\"></a>\n##### 幽魂Ghost\n\n中型亡灵，中立\n\n<table><tr><td><strong>AC </strong>11</td><td><strong>先攻 </strong>+1（11）</td></tr> <tr><td colspan=\"2\"><strong>HP </strong>45（10d8）</td></tr> <tr><td colspan=\"2\"><strong>速度 </strong>5尺，飞行40尺（悬浮）</td></tr></table>\n\n<table><tr><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th></tr> <tr><td><strong>力量</strong></td><td>7</td><td>-2</td><td>-2</td> <td></td> <td><strong>敏捷</strong></td><td>13</td><td>+1</td><td>+1</td> <td></td> <td><strong>体质</strong></td><td>10</td><td>+0</td><td>+0</td></tr> <tr><td><strong>智力</strong></td><td>10</td><td>+0</td><td>+0</td> <td></td> <td><strong>感知</strong></td><td>12</td><td>+1</td><td>+1</td> <td></td> <td><strong>魅力</strong></td><td>17</td><td>+3</td><td>+3</td></tr> </table>\n\n| **抗性**强酸，钝击，寒冷，火焰，闪电，穿刺，挥砍，雷鸣 |\n| --- |\n| **免疫**暗蚀，毒素；魅惑，力竭，恐慌，受擒，麻痹，石化，中毒，倒地，束缚 |\n| **感官**黑暗视觉60尺；被动察觉11 |\n| **语言**通用语，以及一门其他语言 |\n| **CR**4（XP1,100；PB+2） |\n\n###### 特质Traits\n\n"
+  },
+  {
+    "ref": "cross:SU.ABILITY.5",
+    "origin_file": "build/m2-cross-relations-6cards-2026-10-22/evidence.json",
+    "id": "urn:uuid:46a2542c-6f20-5f68-a067-ae2ca9c62e96",
+    "alias": "SU.ABILITY.5",
+    "source_entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+    "range": {
+      "basis": "whole_note_utf8",
+      "interval": "[start,end)",
+      "start": 3517,
+      "end": 3793
+    },
+    "text_sha256": "804af191937590104fe0b5d0550d4a9b4a44b0be18a8472f1efd8be0422c2798",
+    "text": " **汲命之吻Draining Kiss。***体质豁免检定：*DC15，单一5尺内魅惑于魅魔的生物。*失败：*13（3d8）心灵伤害。*成功：*半伤。*失败或成功：*目标的生命值上限减少等于其受到伤害的数值\n\n###### 附赠动作Bonus Actions\n\n"
+  },
+  {
+    "ref": "seven:P.ROUND",
+    "origin_file": "build/m2-finite-production-7cards-2026-10-22/evidence.json",
+    "id": "urn:uuid:8d9ed635-0e59-547b-afd7-0a10224ca485",
+    "alias": "P.ROUND",
+    "source_entry_id": "urn:uuid:110fe3cc-449c-5d30-9bc5-47198a153a06",
+    "range": {
+      "basis": "whole_note_utf8",
+      "interval": "[start,end)",
+      "start": 33946,
+      "end": 34241
+    },
+    "line_range": [
+      526,
+      530
+    ],
+    "text_sha256": "29975576af32c9c34a46f75437ba401f720e5614bad4e8c3bafddc7432f980f9",
+    "text": "<a id=\"Round_Down\"></a>\n### 向下取整 Round Down\n\n每当你在游戏里对某个数字进行除法或乘法运算时，如果最终结果有小数部分，向下取整。即使小数部分超过了0.5，你也要向下取整。不过部分规则会做出例外，告诉你要向上取整。\n\n"
+  },
+  {
+    "ref": "seven:P.RESISTANCE",
+    "origin_file": "build/m2-finite-production-7cards-2026-10-22/evidence.json",
+    "id": "urn:uuid:402203e6-571b-54e7-a3d8-505244256f62",
+    "alias": "P.RESISTANCE",
+    "source_entry_id": "urn:uuid:46f52d9f-45ec-5c25-b3b1-9c432c68caa0",
+    "range": {
+      "basis": "whole_note_utf8",
+      "interval": "[start,end)",
+      "start": 593,
+      "end": 1879
+    },
+    "line_range": [
+      12,
+      23
+    ],
+    "text_sha256": "d1bfb33f6cc5fcb596c1461b91f30ae0c0108383529137ad42f0019bfb750773",
+    "text": "\n# 抗性和易伤\n\n### 抗性和易伤Resistance and Vulnerability\n\n一些生物和物件具有特定伤害类型的抗性或易伤。如果你对某个伤害类型具有抗性，则你承受的该类型伤害减半（向下取整）。如果你对某个伤害类型具有易伤，则你承受的该类型伤害翻倍。举例来说，如果你对**寒冷**伤害具有抗性，则你承受的**寒冷**伤害减半，如果你对**火焰**伤害具有易伤，则你承受的**火焰**伤害翻倍。\n\n**抗性/易伤不叠加 No Stacking** 多个同伤害类型的抗性同时存在时，只需计算其中一个，易伤也是如此。举例来说，如果你同时有**暗蚀**伤害抗性和全伤害抗性，对你造成的**暗蚀**伤害仍然只会减少一半。\n\n**生效顺序 Order of Application**\n伤害的调整按照以下顺序生效：首先计算数值修正，比如加值、减值或者乘数；然后计算抗性；接着计算易伤。\n举例来说，假设有一名具有全伤害抗性，具有**火焰**伤害易伤，位于某个全伤害减5的魔法灵光内的生物。如果他受到28**火焰**伤害，结算伤害时应先将该伤害减5（变为23），再因其抗性减半（并向下取整变为11），然后因其易伤翻倍（变为22）。\n"
+  },
+  {
+    "ref": "seven:F.CARD",
+    "origin_file": "build/m2-finite-production-7cards-2026-10-22/evidence.json",
+    "id": "urn:uuid:aff196a7-e17a-5fe4-befd-4e0eb99e6ccc",
+    "alias": "F.CARD",
+    "source_entry_id": "urn:uuid:048a1238-9915-5f2e-8619-c8ccbc580529",
+    "range": {
+      "basis": "whole_note_utf8",
+      "interval": "[start,end)",
+      "start": 1955,
+      "end": 4158
+    },
+    "line_range": [
+      41,
+      67
+    ],
+    "text_sha256": "ec3325aae3d15342f23b9f49ab6b0b02b9c720ae8b6ff9bbdc4753e8222f5343",
+    "text": "<a id=\"Fire_Elemental\"></a>\n##### 火元素Fire Elemental\n\n大型元素，中立\n\n<table><tr><td><strong>AC </strong>13</td><td><strong>先攻 </strong>+3（13）</td></tr> <tr><td colspan=\"2\"><strong>HP </strong>93（11d10 + 33）</td></tr> <tr><td colspan=\"2\"><strong>速度 </strong>50尺</td></tr></table>\n\n<table><tr><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th></tr> <tr><td><strong>力量</strong></td><td>10</td><td>+0</td><td>+0</td> <td></td> <td><strong>敏捷</strong></td><td>17</td><td>+3</td><td>+3</td> <td></td> <td><strong>体质</strong></td><td>16</td><td>+3</td><td>+3</td></tr> <tr><td><strong>智力</strong></td><td>6</td><td>-2</td><td>-2</td> <td></td> <td><strong>感知</strong></td><td>10</td><td>+0</td><td>+0</td> <td></td> <td><strong>魅力</strong></td><td>7</td><td>-2</td><td>-2</td></tr> </table>\n\n| **抗性**钝击，穿刺，挥砍 |\n| --- |\n| **免疫**火焰，毒素；力竭，受擒，麻痹，石化，中毒，倒地，束缚，昏迷 |\n| **感官**黑暗视觉60尺；被动察觉10 |\n| **语言**原初语（火族语） |\n| **CR**5（XP1,800；PB+3） |\n\n###### 特质Traits\n\n**火焰灵光Fire Aura。**火元素回合结束时位于源自火元素的10尺光环区域内的每名生物受到5（1d10）点火焰伤害。光环内的生物和易燃物件开始燃烧。\n **火焰形态Fire Form。**火元素可以移动穿过最窄1寸宽的空间而无需消耗额外的移动力，且其可以进入并停留在生物所处的空间。当火元素在一个回合中首次进入某生物所处的空间时，该生物受到5（1d10）火焰伤害。\n **照明 Illumination。**火元素散发出半径30尺的明亮光照以及额外30尺的微光光照。\n**水体易感 Water Susceptibility。**每在水中移动5尺或每被泼一加仑水，火元素受到3（1d6）寒冷伤害。\n\n###### 动作Actions\n\n**多重攻击Multiattack。**火元素发动两次燃烧攻击。\n **燃烧Burn。***近战攻击检定：*+6，触及5尺。*命中：*10（2d6+3）火焰伤害。若目标为生物或易燃物件，则其开始燃烧。\n"
+  },
+  {
+    "ref": "seven:S.CARD",
+    "origin_file": "build/m2-finite-production-7cards-2026-10-22/evidence.json",
+    "id": "urn:uuid:f621096f-4f2e-5f51-8a98-3330d1b33807",
+    "alias": "S.CARD",
+    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+    "range": {
+      "basis": "whole_note_utf8",
+      "interval": "[start,end)",
+      "start": 901,
+      "end": 3373
+    },
+    "line_range": [
+      19,
+      51
+    ],
+    "text_sha256": "bf07b709e1080ec50be6f192d3f71c0520838b40fec8d20a4fc5e5effc9a7e97",
+    "text": "<a id=\"Green_Slaad\"></a>\n##### 史拉绿蟾Green Slaad\n\n大型异怪，混乱中立\n\n<table><tr><td><strong>AC </strong>16</td><td><strong>先攻 </strong>+5（15）</td></tr> <tr><td colspan=\"2\"><strong>HP </strong>144（17d10+51）</td></tr> <tr><td colspan=\"2\"><strong>速度 </strong>30尺</td></tr></table>\n\n<table><tr><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th></tr> <tr><td><strong>力量</strong></td><td>16</td><td>+3</td><td>+3</td> <td></td> <td><strong>敏捷</strong></td><td>15</td><td>+2</td><td>+2</td> <td></td> <td><strong>体质</strong></td><td>16</td><td>+3</td><td>+3</td></tr> <tr><td><strong>智力</strong></td><td>11</td><td>+0</td><td>+0</td> <td></td> <td><strong>感知</strong></td><td>8</td><td>-1</td><td>-1</td> <td></td> <td><strong>魅力</strong></td><td>18</td><td>+4</td><td>+4</td></tr> </table>\n\n| **技能**奥秘+3，察觉+2 |\n| --- |\n| **抗性**强酸，寒冷，火焰，闪电，雷鸣 |\n| **感官**盲视30尺，黑暗视觉60尺；被动察觉12 |\n| **语言**通用语，史拉蟾语；心灵感应60尺 |\n| **CR**8（XP3900；PB+3） |\n\n###### 特质Traits\n\n**魔法抗性Magic Resistance。**史拉蟾对抗法术和其他魔法效应时进行的豁免检定具有优势。\n**再生Regeneration。**若史拉蟾至少拥有1生命值，则其在自己回合开始时回复10生命值。\n\n###### 动作Actions\n\n**多重攻击Multiattack。**史拉蟾发动三次混沌法杖攻击。\n **混沌法杖Chaos Staff。***近战或远程攻击检定：*+7，触及10尺或射程60尺。*命中：*8（1d8+4）力场伤害。目标陷入某种状态直至史拉蟾的下个回合开始，掷1d4决定：1，魅惑；2，恐慌；3，中毒；4，失能。\n **施法Spellcasting。**史拉蟾施展以下一道法术，无需材料成分并使用魅力作为施法属性（法术豁免DC14，法术攻击命中+6）：\n（译注：应为DC15，命中+7，但原文如此）\n ***随意：****侦测魔法Detect Magic，侦测思想Detect Thoughts，法师之手Mage Hand*\n ***每项1/日：****火球术Fireball，隐形术Invisibility*（仅自身）\n\n###### 附赠动作Bonus Actions\n\n**变形Shape-Shift。**史拉蟾变形为小型或中型的类人生物，或变回其真实形态。除体型以外，其各形态下游戏数据均相同。史拉蟾着装或携带的任何装备都不会随之变化。\n"
+  }
+]

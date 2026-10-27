@@ -1,0 +1,26 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:f34caa83be805ca8662bbcdd2a60766332a6f07a77cc9affbf3fbfd8a3573402",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/第七章：法术/法术详述/五环.md",
+  "id": "urn:uuid:1ab31e10-4ea1-5a69-b6fb-6a124b667e19",
+  "original_record": {
+    "alias": "P.DREAM",
+    "id": "urn:uuid:1ab31e10-4ea1-5a69-b6fb-6a124b667e19",
+    "line_range": [
+      270,
+      282
+    ],
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 20928,
+      "interval": "[start,end)",
+      "start": 19779
+    },
+    "source_entry_id": "urn:uuid:e2f3f7c0-0fd2-569c-b264-08db06c4c19d",
+    "text": "<a id=\"Dream\"></a>\n#### 托梦术｜Dream\n\n*五环 幻术（吟游诗人、魔契师、法师）*\n**施法时间：**1分钟\n**施法距离：**特殊\n**法术成分：**V、S、M（一把沙子）\n**持续时间：**8小时\n你指定一名你知道且与你同处一个存在位面的生物。你（或你触碰的一名自愿生物）将作为信使进入出神。出神下，信使陷入失能状态且速度降为0。\n如果目标正睡着，则信使可以在法术持续时间内出现在其梦中并在其沉睡期间与之交流。信使能够塑造梦中的环境，创造景观，物件和其他影像。信使可以随时结束出神状态，以此终止法术。目标在醒来后能清楚地记得其梦境的内容。\n如果你施法时目标醒着，则信使可以了解到这点。此时信使可以终止出神并结束法术，或是等待目标入睡再进入其梦境。\n你可以让信使以可怕的形象出现。但此时信使只能提供不超过十个单词的信息，随后目标必须成功通过一次感知豁免。豁免失败时，目标便无法从休息中获益，并在其醒来时受到3d6点心灵伤害。\n\n",
+    "text_sha256": "19c058f3f511a76f51c5d7fc58895fb74e076ddec1364da4229210fd12bed6b1"
+  },
+  "raw_fragment_id": "urn:uuid:2432ba04-3874-5c13-b80d-5f378f428c7b",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

@@ -1,0 +1,103 @@
+{
+  "body": {
+    "digest": "sha256:531eaefe5f54b0553e07a20eb2d1b303ef3b2a19f2b1b33ac2d7c67a0d7a4848",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/ee363df5-5a9c-5063-b2a6-e0e13d6717c6.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "activation": "bonus_action",
+      "equipment_changes": false,
+      "forms": [
+        "small_humanoid",
+        "medium_humanoid",
+        "true_form"
+      ],
+      "stats_change": "size_only"
+    },
+    "editorial_explanation": "体型外数据不变；当前HP不回满，装备不随之变化，不因类人外形自动改生物类型。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:dcf0bd37-21b0-54c4-acce-d4ca082bef33",
+            "json_pointer": "/critical_fields/activation"
+          },
+          {
+            "extraction_id": "urn:uuid:61b89ce7-1ec2-5177-9bc7-a41a26130301",
+            "json_pointer": "/critical_fields/forms/0"
+          },
+          {
+            "extraction_id": "urn:uuid:80d2d249-efa7-5059-a847-5425b1279ebb",
+            "json_pointer": "/critical_fields/forms/1"
+          },
+          {
+            "extraction_id": "urn:uuid:b041fbd3-d728-5e37-94e7-c3f7e607d736",
+            "json_pointer": "/critical_fields/forms/2"
+          },
+          {
+            "extraction_id": "urn:uuid:5e0df444-0814-5b60-b788-02bb56b2b065",
+            "json_pointer": "/critical_fields/stats_change"
+          },
+          {
+            "extraction_id": "urn:uuid:1cbd00e8-dd0e-53e9-9a9c-02f925d444be",
+            "json_pointer": "/critical_fields/equipment_changes"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "local_evidence": "S.ABILITY.6",
+      "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+      "pointer": "/critical_fields"
+    },
+    "id": "urn:uuid:ee363df5-5a9c-5063-b2a6-e0e13d6717c6",
+    "kind": "附赠动作Bonus Actions",
+    "mechanics": {
+      "clauses": {
+        "activation": "bonus_action",
+        "equipment_changes": false,
+        "forms": [
+          "small_humanoid",
+          "medium_humanoid",
+          "true_form"
+        ],
+        "stats_change": "size_only"
+      },
+      "dependencies": [],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+    },
+    "owner_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+    "required_evidence": [],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:0da8ca0a-dc77-57bd-b108-411fa99a9e47",
+    "title": "变形",
+    "verbatim_evidence": "S.ABILITY.6",
+    "verbatim_text": "\n**变形Shape-Shift。**史拉蟾变形为小型或中型的类人生物，或变回其真实形态。除体型以外，其各形态下游戏数据均相同。史拉蟾着装或携带的任何装备都不会随之变化。\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:ee363df5-5a9c-5063-b2a6-e0e13d6717c6",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:99300697-49f7-5b00-9ff1-35c4eee4d240",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:0da8ca0a-dc77-57bd-b108-411fa99a9e47",
+    "derived_note_utf8_range": {
+      "end": 3373,
+      "start": 3149
+    },
+    "entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+    "fragment_id": "urn:uuid:2f037a82-6e86-5b22-b290-e00cb0335153",
+    "mapping_id": "urn:uuid:d69b0a1f-7a80-5cc0-ad1c-f9a647e5d626"
+  },
+  "subject_kind": "ability",
+  "title": "变形",
+  "uncompiled_semantics_retained": true
+}

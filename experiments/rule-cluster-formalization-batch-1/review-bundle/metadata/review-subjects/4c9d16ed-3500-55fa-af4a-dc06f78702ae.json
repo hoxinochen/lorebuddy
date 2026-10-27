@@ -1,0 +1,163 @@
+{
+  "body": {
+    "digest": "sha256:804af191937590104fe0b5d0550d4a9b4a44b0be18a8472f1efd8be0422c2798",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/4c9d16ed-3500-55fa-af4a-dc06f78702ae.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "damage": 13,
+      "dc": 15,
+      "dice": "3d8",
+      "local_reduction_end_clause": "not_stated",
+      "max_hp_reduction": "actual_damage_taken",
+      "range_ft": 5,
+      "recovery_rule": "P.LONG_REST",
+      "save": "constitution",
+      "success": "half_damage",
+      "target": "creature_charmed_by_this_succubus",
+      "type": "psychic"
+    },
+    "editorial_explanation": "必须魅惑于这只魅魔；减上限按实际受到伤害，不按原骰值；卡内未写恢复时点，依P.LONG_REST的长休增益恢复上限，不套2014私有条款。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:493fff9f-dfc6-50b8-b0bb-5e634b5942e2",
+            "json_pointer": "/critical_fields/save"
+          },
+          {
+            "extraction_id": "urn:uuid:6ef87f00-a82f-537c-81e7-e4f5ec4ca8ee",
+            "json_pointer": "/critical_fields/dc"
+          },
+          {
+            "extraction_id": "urn:uuid:c68ee73b-51ae-5e59-bc0d-aff86bca380b",
+            "json_pointer": "/critical_fields/range_ft"
+          },
+          {
+            "extraction_id": "urn:uuid:a968b05b-7391-521a-847f-11b4e4e446a5",
+            "json_pointer": "/critical_fields/target"
+          },
+          {
+            "extraction_id": "urn:uuid:5d0fb20d-766a-521f-af2a-aed0b5e3daa5",
+            "json_pointer": "/critical_fields/damage"
+          },
+          {
+            "extraction_id": "urn:uuid:32ec5528-a8dc-55de-bbe0-32e2e484a920",
+            "json_pointer": "/critical_fields/dice"
+          },
+          {
+            "extraction_id": "urn:uuid:a13e47a0-915c-535c-ac22-d0f7fb3789c0",
+            "json_pointer": "/critical_fields/type"
+          },
+          {
+            "extraction_id": "urn:uuid:a8e2e7a6-7c5a-5bec-bf10-b1fa82cd8078",
+            "json_pointer": "/critical_fields/success"
+          },
+          {
+            "extraction_id": "urn:uuid:f7042ee8-f669-52dd-9e19-b44eb479b73a",
+            "json_pointer": "/critical_fields/max_hp_reduction"
+          },
+          {
+            "extraction_id": "urn:uuid:024a97ac-1047-56e4-8ebd-213764dc3369",
+            "json_pointer": "/critical_fields/local_reduction_end_clause"
+          },
+          {
+            "extraction_id": "urn:uuid:a7b16786-e2c3-52f6-8c9a-07ee34d2a65a",
+            "json_pointer": "/critical_fields/recovery_rule"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "pointer": "/critical_fields",
+      "source_evidence": "SU.ABILITY.5"
+    },
+    "id": "urn:uuid:4c9d16ed-3500-55fa-af4a-dc06f78702ae",
+    "kind": "动作Actions",
+    "mechanics": {
+      "clauses": {
+        "damage": 13,
+        "dc": 15,
+        "dice": "3d8",
+        "local_reduction_end_clause": "not_stated",
+        "max_hp_reduction": "actual_damage_taken",
+        "range_ft": 5,
+        "recovery_rule": "P.LONG_REST",
+        "save": "constitution",
+        "success": "half_damage",
+        "target": "creature_charmed_by_this_succubus",
+        "type": "psychic"
+      },
+      "damage": {
+        "amount": {
+          "dice": "3d8",
+          "printed_fixed": 13,
+          "selection": "use_scene_amount_mode; recorded_dice_must_not_be_rerolled"
+        },
+        "damage_type": "psychic",
+        "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+        "linked_reduction_from_damage_taken": true,
+        "other_effects": [
+          {
+            "amount_from": "damage_taken",
+            "kind": "maximum_hp_reduction",
+            "recovery_dependency": "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b"
+          }
+        ],
+        "save_success": "half",
+        "trigger": "constitution_save"
+      },
+      "dependencies": [
+        "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+        "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b",
+        "urn:uuid:4dfe39fd-0141-5e50-ae95-ebeaa474aab9",
+        "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b",
+        "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b"
+      ],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+    },
+    "owner_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+    "required_evidence": [
+      "P.CHARMED",
+      "P.HP",
+      "P.RESISTANCE",
+      "P.ROUND",
+      "P.LONG_REST"
+    ],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:46a2542c-6f20-5f68-a067-ae2ca9c62e96",
+    "title": "汲命之吻",
+    "verbatim_evidence": "SU.ABILITY.5",
+    "verbatim_text": " **汲命之吻Draining Kiss。***体质豁免检定：*DC15，单一5尺内魅惑于魅魔的生物。*失败：*13（3d8）心灵伤害。*成功：*半伤。*失败或成功：*目标的生命值上限减少等于其受到伤害的数值\n\n###### 附赠动作Bonus Actions\n\n"
+  },
+  "dependency_ids": [
+    "urn:uuid:4dfe39fd-0141-5e50-ae95-ebeaa474aab9",
+    "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+    "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b"
+  ],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:4c9d16ed-3500-55fa-af4a-dc06f78702ae",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:2f77dc94-cdcb-5647-9aa6-fb4a66236068",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:46a2542c-6f20-5f68-a067-ae2ca9c62e96",
+    "derived_note_utf8_range": {
+      "end": 3793,
+      "start": 3517
+    },
+    "entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+    "fragment_id": "urn:uuid:ab664971-31bb-5827-81c4-9d5f7275a56e",
+    "mapping_id": "urn:uuid:4a7721ec-278a-529c-b1a5-258cb61423d1"
+  },
+  "subject_kind": "ability",
+  "title": "汲命之吻",
+  "uncompiled_semantics_retained": true
+}

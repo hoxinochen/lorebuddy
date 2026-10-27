@@ -1,0 +1,26 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:40d6b4ba5aec75b37f3ec3ac1c5dda84a869111b8ae82cf196a683a4ecff44f5",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/附录C：术语汇编/状态.md",
+  "id": "urn:uuid:cea9b36b-c730-53d9-951b-8f9bbfa069ac",
+  "original_record": {
+    "alias": "P.CONDITION",
+    "id": "urn:uuid:cea9b36b-c730-53d9-951b-8f9bbfa069ac",
+    "line_range": [
+      16,
+      28
+    ],
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 1196,
+      "interval": "[start,end)",
+      "start": 564
+    },
+    "source_entry_id": "urn:uuid:89505d38-cbaf-5747-9798-96f1a0bf6718",
+    "text": "### 状态 Condition\n\n状态是一种临时的游戏状况。每个状态的释义中都会解释它给其受状态者带来何样的影响，且有一系列有关如何结束这些状态的规则。这些状态在术语汇编的其他条目中皆有释义：\n\n| 目盲 | 魅惑 | 耳聋 |\n| --- | --- | --- |\n| 力竭 | 恐慌 | 受擒 |\n| 失能 | 隐形 | 麻痹 |\n| 石化 | 倒地 | 中毒 |\n| 束缚 | 震慑 | 昏迷 |\n\n 状态不会与自己叠加——一个生物只有“有这个状态”与“没有这个状态”两种状况。不过力竭状态是此规则的一个例外。另见第一章（“**状态**”）。\n\n",
+    "text_sha256": "e968c93bb3c44f344a00d50ed304882e731929aed8a08850c3a63abe7aef9f5b"
+  },
+  "raw_fragment_id": "urn:uuid:8971179e-39ce-5b76-812d-ab574f55a9c7",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

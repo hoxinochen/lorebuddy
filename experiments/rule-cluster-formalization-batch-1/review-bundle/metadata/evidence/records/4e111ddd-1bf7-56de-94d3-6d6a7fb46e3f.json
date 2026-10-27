@@ -1,0 +1,26 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:36d50665160e988ae77aa43d8feea79dad1efc477c4546a445d6bf5b0f1267e8",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/附录C：术语汇编/危害.md",
+  "id": "urn:uuid:4e111ddd-1bf7-56de-94d3-6d6a7fb46e3f",
+  "original_record": {
+    "alias": "P.BURNING",
+    "id": "urn:uuid:4e111ddd-1bf7-56de-94d3-6d6a7fb46e3f",
+    "line_range": [
+      20,
+      25
+    ],
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 1030,
+      "interval": "[start,end)",
+      "start": 725
+    },
+    "source_entry_id": "urn:uuid:fc4b66c5-886f-5388-a98b-261d1162e454",
+    "text": "<a id=\"Burning\"></a>\n### 燃烧 Burning【危害】\n\n燃烧中的生物或物件在其每个回合开始时受到1d4火焰伤害。以一个动作，你可以在地上打滚来熄灭你身上的火焰，并因此陷入倒地状态。\n燃烧的火焰同样也会在被浇灭、淹灭、扑灭时消失。\n\n",
+    "text_sha256": "9bdd4fdd9b4bfabea18ebc2cf210898b68c77cf97f0ba6054945d3b647375367"
+  },
+  "raw_fragment_id": "urn:uuid:d17a3815-3284-51a1-bbcb-057ce834a429",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

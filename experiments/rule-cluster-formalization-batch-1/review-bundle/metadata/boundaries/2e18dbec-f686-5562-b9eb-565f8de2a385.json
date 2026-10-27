@@ -1,0 +1,24 @@
+{
+  "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+  "candidate_key": "sha256:b0c37a88bba9a57b0b2f3b8abd74f51c65b0c82db11bedd7a9e48d00e8eac716",
+  "decision": {
+    "reason": "Audit envelope only; per-subject derived ranges remain separate.",
+    "review_status": "pending",
+    "reviewer_id": null
+  },
+  "entry_id": "urn:uuid:2cc417f9-b3ff-5e61-b655-2653f61642d2",
+  "id": "urn:uuid:2e18dbec-f686-5562-b9eb-565f8de2a385",
+  "lifecycle": {
+    "revision": 1,
+    "status": "draft"
+  },
+  "locator": {
+    "end": 4000,
+    "kind": "byte-range",
+    "start": 0
+  },
+  "node_id": null,
+  "proposed_title": "气元素",
+  "schema": "core.boundary-record@0.1.0",
+  "status": "proposed"
+}

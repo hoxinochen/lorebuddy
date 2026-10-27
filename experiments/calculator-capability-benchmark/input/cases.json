@@ -1,0 +1,809 @@
+{
+  "benchmark_id": "damage-capability-2026-10-23",
+  "status": "prepared_not_run",
+  "cases": [
+    {
+      "id": "N01",
+      "question": "2025幽魂未附身，受到20点寒冷伤害，无其他修正。计算该次最终伤害。",
+      "evidence_refs": [
+        "cross:G25.HEADER",
+        "cross:P.RESISTANCE",
+        "cross:P.ROUND"
+      ],
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "benchmark:N01",
+        "target": "benchmark-target:N01",
+        "event": "benchmark-event:N01",
+        "raw_damage": 20,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "not_applicable",
+        "eligibility": "confirmed",
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "context": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "benchmark:N01",
+        "target": "benchmark-target:N01",
+        "event": "benchmark-event:N01",
+        "profile_revision": "draft-1",
+        "definition_revision": "benchmark-mapping-1",
+        "defense_snapshot": "benchmark-defense:N01",
+        "target_defenses": {
+          "resistance": [
+            "acid",
+            "bludgeoning",
+            "cold",
+            "fire",
+            "lightning",
+            "piercing",
+            "slashing",
+            "thunder"
+          ],
+          "vulnerability": [],
+          "immunity": [
+            "necrotic",
+            "poison"
+          ]
+        },
+        "defense_coverage": "confirmed",
+        "definitions": {
+          "benchmark:N01": {
+            "id": "benchmark:N01",
+            "save": false,
+            "on_success": "unchanged",
+            "damage_type": "cold",
+            "linked_reduction": false,
+            "status": "candidate_research_only"
+          }
+        }
+      }
+    },
+    {
+      "id": "N02",
+      "question": "2025幽魂未附身，受到魔法武器造成的20点挥砍伤害，无其他修正。计算最终伤害。",
+      "evidence_refs": [
+        "cross:G25.HEADER",
+        "cross:P.RESISTANCE",
+        "cross:P.ROUND"
+      ],
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "benchmark:N02",
+        "target": "benchmark-target:N02",
+        "event": "benchmark-event:N02",
+        "raw_damage": 20,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "not_applicable",
+        "eligibility": "confirmed",
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "context": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "benchmark:N02",
+        "target": "benchmark-target:N02",
+        "event": "benchmark-event:N02",
+        "profile_revision": "draft-1",
+        "definition_revision": "benchmark-mapping-1",
+        "defense_snapshot": "benchmark-defense:N02",
+        "target_defenses": {
+          "resistance": [
+            "acid",
+            "bludgeoning",
+            "cold",
+            "fire",
+            "lightning",
+            "piercing",
+            "slashing",
+            "thunder"
+          ],
+          "vulnerability": [],
+          "immunity": [
+            "necrotic",
+            "poison"
+          ]
+        },
+        "defense_coverage": "confirmed",
+        "definitions": {
+          "benchmark:N02": {
+            "id": "benchmark:N02",
+            "save": false,
+            "on_success": "unchanged",
+            "damage_type": "slashing",
+            "linked_reduction": false,
+            "status": "candidate_research_only"
+          }
+        }
+      }
+    },
+    {
+      "id": "N03",
+      "question": "2025幽魂未附身，受到非魔法攻击造成的20点挥砍伤害，无其他修正。计算最终伤害。",
+      "evidence_refs": [
+        "cross:G25.HEADER",
+        "cross:P.RESISTANCE",
+        "cross:P.ROUND"
+      ],
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "benchmark:N03",
+        "target": "benchmark-target:N03",
+        "event": "benchmark-event:N03",
+        "raw_damage": 20,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "not_applicable",
+        "eligibility": "confirmed",
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "context": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "benchmark:N03",
+        "target": "benchmark-target:N03",
+        "event": "benchmark-event:N03",
+        "profile_revision": "draft-1",
+        "definition_revision": "benchmark-mapping-1",
+        "defense_snapshot": "benchmark-defense:N03",
+        "target_defenses": {
+          "resistance": [
+            "acid",
+            "bludgeoning",
+            "cold",
+            "fire",
+            "lightning",
+            "piercing",
+            "slashing",
+            "thunder"
+          ],
+          "vulnerability": [],
+          "immunity": [
+            "necrotic",
+            "poison"
+          ]
+        },
+        "defense_coverage": "confirmed",
+        "definitions": {
+          "benchmark:N03": {
+            "id": "benchmark:N03",
+            "save": false,
+            "on_success": "unchanged",
+            "damage_type": "slashing",
+            "linked_reduction": false,
+            "status": "candidate_research_only"
+          }
+        }
+      }
+    },
+    {
+      "id": "N04",
+      "question": "本批2025火元素受到魔法武器造成的11点挥砍伤害，无其他修正。计算最终伤害。",
+      "evidence_refs": [
+        "seven:F.CARD",
+        "seven:P.RESISTANCE",
+        "seven:P.ROUND"
+      ],
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "benchmark:N04",
+        "target": "benchmark-target:N04",
+        "event": "benchmark-event:N04",
+        "raw_damage": 11,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "not_applicable",
+        "eligibility": "confirmed",
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "context": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "benchmark:N04",
+        "target": "benchmark-target:N04",
+        "event": "benchmark-event:N04",
+        "profile_revision": "draft-1",
+        "definition_revision": "benchmark-mapping-1",
+        "defense_snapshot": "benchmark-defense:N04",
+        "target_defenses": {
+          "resistance": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "vulnerability": [],
+          "immunity": [
+            "fire",
+            "poison"
+          ]
+        },
+        "defense_coverage": "confirmed",
+        "definitions": {
+          "benchmark:N04": {
+            "id": "benchmark:N04",
+            "save": false,
+            "on_success": "unchanged",
+            "damage_type": "slashing",
+            "linked_reduction": false,
+            "status": "candidate_research_only"
+          }
+        }
+      }
+    },
+    {
+      "id": "N05",
+      "question": "史拉绿蟾对法术的豁免已判失败，随后受到28点火焰伤害，无其他修正。计算最终伤害；不重新判定豁免。",
+      "evidence_refs": [
+        "seven:S.CARD",
+        "seven:P.RESISTANCE"
+      ],
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "benchmark:N05",
+        "target": "benchmark-target:N05",
+        "event": "benchmark-event:N05",
+        "raw_damage": 28,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "not_applicable",
+        "eligibility": "confirmed",
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "context": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "benchmark:N05",
+        "target": "benchmark-target:N05",
+        "event": "benchmark-event:N05",
+        "profile_revision": "draft-1",
+        "definition_revision": "benchmark-mapping-1",
+        "defense_snapshot": "benchmark-defense:N05",
+        "target_defenses": {
+          "resistance": [
+            "acid",
+            "cold",
+            "fire",
+            "lightning",
+            "thunder"
+          ],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "definitions": {
+          "benchmark:N05": {
+            "id": "benchmark:N05",
+            "save": false,
+            "on_success": "unchanged",
+            "damage_type": "fire",
+            "linked_reduction": false,
+            "status": "candidate_research_only"
+          }
+        }
+      }
+    },
+    {
+      "id": "N06",
+      "question": "史拉绿蟾对法术的豁免已判失败，原始闪电伤害31，只有本卡防御且无其他修正。计算最终伤害。",
+      "evidence_refs": [
+        "seven:S.CARD",
+        "seven:P.RESISTANCE",
+        "seven:P.ROUND"
+      ],
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "benchmark:N06",
+        "target": "benchmark-target:N06",
+        "event": "benchmark-event:N06",
+        "raw_damage": 31,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "not_applicable",
+        "eligibility": "confirmed",
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "context": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "benchmark:N06",
+        "target": "benchmark-target:N06",
+        "event": "benchmark-event:N06",
+        "profile_revision": "draft-1",
+        "definition_revision": "benchmark-mapping-1",
+        "defense_snapshot": "benchmark-defense:N06",
+        "target_defenses": {
+          "resistance": [
+            "acid",
+            "cold",
+            "fire",
+            "lightning",
+            "thunder"
+          ],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "definitions": {
+          "benchmark:N06": {
+            "id": "benchmark:N06",
+            "save": false,
+            "on_success": "unchanged",
+            "damage_type": "lightning",
+            "linked_reduction": false,
+            "status": "candidate_research_only"
+          }
+        }
+      }
+    },
+    {
+      "id": "N07",
+      "question": "史拉绿蟾对法术的豁免已判失败，原始力场伤害31，只有本卡防御且无其他修正。计算最终伤害。",
+      "evidence_refs": [
+        "seven:S.CARD",
+        "seven:P.RESISTANCE"
+      ],
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "benchmark:N07",
+        "target": "benchmark-target:N07",
+        "event": "benchmark-event:N07",
+        "raw_damage": 31,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "not_applicable",
+        "eligibility": "confirmed",
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "context": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "benchmark:N07",
+        "target": "benchmark-target:N07",
+        "event": "benchmark-event:N07",
+        "profile_revision": "draft-1",
+        "definition_revision": "benchmark-mapping-1",
+        "defense_snapshot": "benchmark-defense:N07",
+        "target_defenses": {
+          "resistance": [
+            "acid",
+            "cold",
+            "fire",
+            "lightning",
+            "thunder"
+          ],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "definitions": {
+          "benchmark:N07": {
+            "id": "benchmark:N07",
+            "save": false,
+            "on_success": "unchanged",
+            "damage_type": "force",
+            "linked_reduction": false,
+            "status": "candidate_research_only"
+          }
+        }
+      }
+    },
+    {
+      "id": "N08",
+      "question": "汲命之吻的目标满足来源与距离条件，体质豁免成功；原始固定13点心灵伤害，目标有心灵抗性，无其他修正。计算最终伤害及该次对应的生命值上限减损数值，不执行写入或恢复。",
+      "evidence_refs": [
+        "cross:SU.ABILITY.5",
+        "cross:P.RESISTANCE",
+        "cross:P.ROUND"
+      ],
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "benchmark:N08",
+        "target": "benchmark-target:N08",
+        "event": "benchmark-event:N08",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "context": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "benchmark:N08",
+        "target": "benchmark-target:N08",
+        "event": "benchmark-event:N08",
+        "profile_revision": "draft-1",
+        "definition_revision": "benchmark-mapping-1",
+        "defense_snapshot": "benchmark-defense:N08",
+        "target_defenses": {
+          "resistance": [
+            "psychic"
+          ],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "definitions": {
+          "benchmark:N08": {
+            "id": "benchmark:N08",
+            "save": true,
+            "on_success": "half",
+            "damage_type": "psychic",
+            "linked_reduction": true,
+            "status": "candidate_research_only"
+          }
+        }
+      }
+    },
+    {
+      "id": "B01",
+      "question": "选择2014幽魂，未附身，受到20点寒冷伤害，无其他修正。当前只提供2024研究Profile；检查能否执行，不得替换为2025幽魂。",
+      "evidence_refs": [
+        "cross:G14.HEADER"
+      ],
+      "request": {
+        "environment": "benchmark.dnd2014-unimplemented",
+        "ability": "benchmark:B01",
+        "target": "benchmark-target:B01",
+        "event": "benchmark-event:B01",
+        "raw_damage": 20,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "not_applicable",
+        "eligibility": "confirmed",
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "context": {
+        "environment": "benchmark.dnd2014-unimplemented",
+        "ability": "benchmark:B01",
+        "target": "benchmark-target:B01",
+        "event": "benchmark-event:B01",
+        "profile_revision": "draft-1",
+        "definition_revision": "benchmark-mapping-1",
+        "defense_snapshot": "benchmark-defense:B01",
+        "target_defenses": {
+          "resistance": [],
+          "vulnerability": [],
+          "immunity": [
+            "cold"
+          ]
+        },
+        "defense_coverage": "confirmed",
+        "definitions": {
+          "benchmark:B01": {
+            "id": "benchmark:B01",
+            "save": false,
+            "on_success": "unchanged",
+            "damage_type": "cold",
+            "linked_reduction": false,
+            "status": "candidate_research_only"
+          }
+        }
+      }
+    },
+    {
+      "id": "B02",
+      "question": "选择2014幽魂，未附身，受到20点魔法武器挥砍伤害，无其他修正。当前只提供2024研究Profile；检查能否执行，不得替换为2025幽魂。",
+      "evidence_refs": [
+        "cross:G14.HEADER"
+      ],
+      "request": {
+        "environment": "benchmark.dnd2014-unimplemented",
+        "ability": "benchmark:B02",
+        "target": "benchmark-target:B02",
+        "event": "benchmark-event:B02",
+        "raw_damage": 20,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "not_applicable",
+        "eligibility": "confirmed",
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "context": {
+        "environment": "benchmark.dnd2014-unimplemented",
+        "ability": "benchmark:B02",
+        "target": "benchmark-target:B02",
+        "event": "benchmark-event:B02",
+        "profile_revision": "draft-1",
+        "definition_revision": "benchmark-mapping-1",
+        "defense_snapshot": "benchmark-defense:B02",
+        "target_defenses": {
+          "resistance": [],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "definitions": {
+          "benchmark:B02": {
+            "id": "benchmark:B02",
+            "save": false,
+            "on_success": "unchanged",
+            "damage_type": "slashing",
+            "linked_reduction": false,
+            "status": "candidate_research_only"
+          }
+        }
+      }
+    },
+    {
+      "id": "B03",
+      "question": "选择2014幽魂，未附身，受到20点非魔法攻击挥砍伤害，无其他修正。当前只提供2024研究Profile；检查能否执行，不得替换为2025幽魂。",
+      "evidence_refs": [
+        "cross:G14.HEADER"
+      ],
+      "request": {
+        "environment": "benchmark.dnd2014-unimplemented",
+        "ability": "benchmark:B03",
+        "target": "benchmark-target:B03",
+        "event": "benchmark-event:B03",
+        "raw_damage": 20,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "not_applicable",
+        "eligibility": "confirmed",
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "context": {
+        "environment": "benchmark.dnd2014-unimplemented",
+        "ability": "benchmark:B03",
+        "target": "benchmark-target:B03",
+        "event": "benchmark-event:B03",
+        "profile_revision": "draft-1",
+        "definition_revision": "benchmark-mapping-1",
+        "defense_snapshot": "benchmark-defense:B03",
+        "target_defenses": {
+          "resistance": [
+            "slashing"
+          ],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "definitions": {
+          "benchmark:B03": {
+            "id": "benchmark:B03",
+            "save": false,
+            "on_success": "unchanged",
+            "damage_type": "slashing",
+            "linked_reduction": false,
+            "status": "candidate_research_only"
+          }
+        }
+      }
+    },
+    {
+      "id": "B04",
+      "question": "汲命之吻原始13点心灵伤害，目标有心灵抗性、资格已确认，但豁免结果未提供。检查能否结算。",
+      "evidence_refs": [
+        "cross:SU.ABILITY.5"
+      ],
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "benchmark:B04",
+        "target": "benchmark-target:B04",
+        "event": "benchmark-event:B04",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": null,
+        "eligibility": "confirmed",
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "context": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "benchmark:B04",
+        "target": "benchmark-target:B04",
+        "event": "benchmark-event:B04",
+        "profile_revision": "draft-1",
+        "definition_revision": "benchmark-mapping-1",
+        "defense_snapshot": "benchmark-defense:B04",
+        "target_defenses": {
+          "resistance": [
+            "psychic"
+          ],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "definitions": {
+          "benchmark:B04": {
+            "id": "benchmark:B04",
+            "save": true,
+            "on_success": "half",
+            "damage_type": "psychic",
+            "linked_reduction": true,
+            "status": "candidate_research_only"
+          }
+        }
+      }
+    },
+    {
+      "id": "B05",
+      "question": "汲命之吻原始13点心灵伤害、豁免成功，但目标防御是否完整尚未确认。检查能否结算。",
+      "evidence_refs": [
+        "cross:SU.ABILITY.5"
+      ],
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "benchmark:B05",
+        "target": "benchmark-target:B05",
+        "event": "benchmark-event:B05",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defense_coverage": "unknown",
+        "other_adjustments": "none"
+      },
+      "context": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "benchmark:B05",
+        "target": "benchmark-target:B05",
+        "event": "benchmark-event:B05",
+        "profile_revision": "draft-1",
+        "definition_revision": "benchmark-mapping-1",
+        "defense_snapshot": "benchmark-defense:B05",
+        "target_defenses": {
+          "resistance": [],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "unknown",
+        "definitions": {
+          "benchmark:B05": {
+            "id": "benchmark:B05",
+            "save": true,
+            "on_success": "half",
+            "damage_type": "psychic",
+            "linked_reduction": true,
+            "status": "candidate_research_only"
+          }
+        }
+      }
+    },
+    {
+      "id": "B06",
+      "question": "汲命之吻原始13点心灵伤害、豁免成功、心灵抗性已确认；另有额外固定减伤，当前计算流程未支持。检查能否结算。",
+      "evidence_refs": [
+        "cross:SU.ABILITY.5"
+      ],
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "benchmark:B06",
+        "target": "benchmark-target:B06",
+        "event": "benchmark-event:B06",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defense_coverage": "confirmed",
+        "other_adjustments": "additional_fixed_reduction"
+      },
+      "context": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "benchmark:B06",
+        "target": "benchmark-target:B06",
+        "event": "benchmark-event:B06",
+        "profile_revision": "draft-1",
+        "definition_revision": "benchmark-mapping-1",
+        "defense_snapshot": "benchmark-defense:B06",
+        "target_defenses": {
+          "resistance": [
+            "psychic"
+          ],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "definitions": {
+          "benchmark:B06": {
+            "id": "benchmark:B06",
+            "save": true,
+            "on_success": "half",
+            "damage_type": "psychic",
+            "linked_reduction": true,
+            "status": "candidate_research_only"
+          }
+        }
+      }
+    },
+    {
+      "id": "B07",
+      "question": "合成接口边界请求：同一次事件有7点心灵及6点火焰两种伤害分量。检查当前单类型核心能否接收；这不是对汲命之吻正文的修改。",
+      "evidence_refs": [
+        "cross:SU.ABILITY.5"
+      ],
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "benchmark:B07",
+        "target": "benchmark-target:B07",
+        "event": "benchmark-event:B07",
+        "raw_damage": 13,
+        "damage_basis": "before_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none",
+        "components": [
+          {
+            "type": "psychic",
+            "amount": 7
+          },
+          {
+            "type": "fire",
+            "amount": 6
+          }
+        ]
+      },
+      "context": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "benchmark:B07",
+        "target": "benchmark-target:B07",
+        "event": "benchmark-event:B07",
+        "profile_revision": "draft-1",
+        "definition_revision": "benchmark-mapping-1",
+        "defense_snapshot": "benchmark-defense:B07",
+        "target_defenses": {
+          "resistance": [
+            "psychic"
+          ],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "definitions": {
+          "benchmark:B07": {
+            "id": "benchmark:B07",
+            "save": true,
+            "on_success": "half",
+            "damage_type": "psychic",
+            "linked_reduction": true,
+            "status": "candidate_research_only"
+          }
+        }
+      }
+    },
+    {
+      "id": "B08",
+      "question": "汲命之吻输入的13被标记为豁免与防御处理后的数值，仍要求执行完整减伤流程。检查输入口径是否合法。",
+      "evidence_refs": [
+        "cross:SU.ABILITY.5"
+      ],
+      "request": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "benchmark:B08",
+        "target": "benchmark-target:B08",
+        "event": "benchmark-event:B08",
+        "raw_damage": 13,
+        "damage_basis": "after_save_and_defenses",
+        "save_outcome": "success",
+        "eligibility": "confirmed",
+        "defense_coverage": "confirmed",
+        "other_adjustments": "none"
+      },
+      "context": {
+        "environment": "research.dnd2024-srd521",
+        "ability": "benchmark:B08",
+        "target": "benchmark-target:B08",
+        "event": "benchmark-event:B08",
+        "profile_revision": "draft-1",
+        "definition_revision": "benchmark-mapping-1",
+        "defense_snapshot": "benchmark-defense:B08",
+        "target_defenses": {
+          "resistance": [
+            "psychic"
+          ],
+          "vulnerability": [],
+          "immunity": []
+        },
+        "defense_coverage": "confirmed",
+        "definitions": {
+          "benchmark:B08": {
+            "id": "benchmark:B08",
+            "save": true,
+            "on_success": "half",
+            "damage_type": "psychic",
+            "linked_reduction": true,
+            "status": "candidate_research_only"
+          }
+        }
+      }
+    }
+  ]
+}

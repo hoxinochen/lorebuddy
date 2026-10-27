@@ -1,0 +1,265 @@
+{
+  "body": {
+    "digest": "sha256:9961dec2b96b421ec8e87ada3465ee601efecb069242e9231a0a1db2dd3d9f22",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/c4f2e545-e477-52a2-902c-a5046d32ed32.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "cast_level": 8,
+      "casting_ability": "charisma",
+      "components_override": "none",
+      "save_dc": 15,
+      "spell": "P.DOMINATE"
+    },
+    "editorial_explanation": "无成分不免专注；八环时长上限仍需按法术维持。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "casting_calls": [
+          {
+            "availability": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+                "source_evidence_id": "urn:uuid:0a1f8361-88fb-5999-b98a-f868d5b9cfae",
+                "source_note_utf8_range": {
+                  "end": 3517,
+                  "start": 3358
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "cast_level": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+                "source_evidence_id": "urn:uuid:0a1f8361-88fb-5999-b98a-f868d5b9cfae",
+                "source_note_utf8_range": {
+                  "end": 3517,
+                  "start": 3358
+                }
+              },
+              "state": "known",
+              "value": 8
+            },
+            "casting_ability": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+                "source_evidence_id": "urn:uuid:0a1f8361-88fb-5999-b98a-f868d5b9cfae",
+                "source_note_utf8_range": {
+                  "end": 3517,
+                  "start": 3358
+                }
+              },
+              "state": "known",
+              "value": "charisma"
+            },
+            "components_waived": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+                "source_evidence_id": "urn:uuid:0a1f8361-88fb-5999-b98a-f868d5b9cfae",
+                "source_note_utf8_range": {
+                  "end": 3517,
+                  "start": 3358
+                }
+              },
+              "state": "known",
+              "value": [
+                "V",
+                "S",
+                "M"
+              ]
+            },
+            "concentration_override": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+                "source_evidence_id": "urn:uuid:0a1f8361-88fb-5999-b98a-f868d5b9cfae",
+                "source_note_utf8_range": {
+                  "end": 3517,
+                  "start": 3358
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "mapping_adoption_ids": [],
+            "mode": "intrinsic_spell_call",
+            "parameter_owner": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+                "source_evidence_id": "urn:uuid:0a1f8361-88fb-5999-b98a-f868d5b9cfae",
+                "source_note_utf8_range": {
+                  "end": 3517,
+                  "start": 3358
+                }
+              },
+              "state": "known",
+              "value": "this_actor_instance"
+            },
+            "save_dc": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+                "source_evidence_id": "urn:uuid:0a1f8361-88fb-5999-b98a-f868d5b9cfae",
+                "source_note_utf8_range": {
+                  "end": 3517,
+                  "start": 3358
+                }
+              },
+              "state": "known",
+              "value": 15
+            },
+            "spell_attack_bonus": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+                "source_evidence_id": "urn:uuid:0a1f8361-88fb-5999-b98a-f868d5b9cfae",
+                "source_note_utf8_range": {
+                  "end": 3517,
+                  "start": 3358
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "spell_id": "urn:uuid:73291d6c-3766-5e10-858e-e5bb7cb507db",
+            "target_override": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+                "source_evidence_id": "urn:uuid:0a1f8361-88fb-5999-b98a-f868d5b9cfae",
+                "source_note_utf8_range": {
+                  "end": 3517,
+                  "start": 3358
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "uncompiled_qualifications": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+                "source_evidence_id": "urn:uuid:0a1f8361-88fb-5999-b98a-f868d5b9cfae",
+                "source_note_utf8_range": {
+                  "end": 3517,
+                  "start": 3358
+                }
+              },
+              "state": "known",
+              "value": {}
+            }
+          }
+        ],
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:f086af0c-b79d-5701-a36d-5d96db1b66c0",
+            "json_pointer": "/critical_fields/spell"
+          },
+          {
+            "extraction_id": "urn:uuid:35963a02-54a1-5a34-b6d6-e4d2b18200a1",
+            "json_pointer": "/critical_fields/cast_level"
+          },
+          {
+            "extraction_id": "urn:uuid:9d75b1f2-44fa-56e2-b271-595ca9a12e56",
+            "json_pointer": "/critical_fields/save_dc"
+          },
+          {
+            "extraction_id": "urn:uuid:07136a4e-9750-5db4-b177-0b7c5b92d20d",
+            "json_pointer": "/critical_fields/casting_ability"
+          },
+          {
+            "extraction_id": "urn:uuid:b7194845-01e2-5fd8-9676-1029579008b1",
+            "json_pointer": "/critical_fields/components_override"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "pointer": "/critical_fields",
+      "source_evidence": "SU.ABILITY.4"
+    },
+    "id": "urn:uuid:c4f2e545-e477-52a2-902c-a5046d32ed32",
+    "kind": "动作Actions",
+    "mechanics": {
+      "clauses": {
+        "cast_level": 8,
+        "casting_ability": "charisma",
+        "components_override": "none",
+        "save_dc": 15,
+        "spell": "P.DOMINATE"
+      },
+      "dependencies": [
+        "urn:uuid:73291d6c-3766-5e10-858e-e5bb7cb507db",
+        "urn:uuid:54fb4631-fd48-5d41-84fd-2c41fbf2f5d5",
+        "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b",
+        "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb"
+      ],
+      "kind": "source_bound_candidate",
+      "spell_calls": [
+        {
+          "caller_overrides_from": "/critical_fields",
+          "source_evidence_id": "urn:uuid:0a1f8361-88fb-5999-b98a-f868d5b9cfae",
+          "target_id": "urn:uuid:73291d6c-3766-5e10-858e-e5bb7cb507db"
+        }
+      ],
+      "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+    },
+    "owner_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+    "required_evidence": [
+      "P.DOMINATE",
+      "P.COMPONENTS",
+      "P.CONCENTRATION",
+      "P.CHARMED"
+    ],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:0a1f8361-88fb-5999-b98a-f868d5b9cfae",
+    "title": "魅惑",
+    "verbatim_evidence": "SU.ABILITY.4",
+    "verbatim_text": " **魅惑Charm。**魅魔施展*支配类人Dominate Person* （八环版本），无需法术成分并使用魅力作为施法属性（法术豁免DC15）。\n"
+  },
+  "dependency_ids": [
+    "urn:uuid:54fb4631-fd48-5d41-84fd-2c41fbf2f5d5",
+    "urn:uuid:73291d6c-3766-5e10-858e-e5bb7cb507db",
+    "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+    "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b"
+  ],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:c4f2e545-e477-52a2-902c-a5046d32ed32",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:b15ecefd-12c7-535d-92d2-1372b2e20150",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:0a1f8361-88fb-5999-b98a-f868d5b9cfae",
+    "derived_note_utf8_range": {
+      "end": 3517,
+      "start": 3358
+    },
+    "entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+    "fragment_id": "urn:uuid:ab664971-31bb-5827-81c4-9d5f7275a56e",
+    "mapping_id": "urn:uuid:4a7721ec-278a-529c-b1a5-258cb61423d1"
+  },
+  "subject_kind": "ability",
+  "title": "魅惑",
+  "uncompiled_semantics_retained": true
+}

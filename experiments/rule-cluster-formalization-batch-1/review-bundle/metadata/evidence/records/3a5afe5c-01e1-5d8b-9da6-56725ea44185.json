@@ -1,0 +1,26 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:f73f8240683f4920f2b46a72484965e056e78259006db1b326307194d44dbfa3",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/第七章：法术/法术详述/二环.md",
+  "id": "urn:uuid:3a5afe5c-01e1-5d8b-9da6-56725ea44185",
+  "original_record": {
+    "alias": "P.RAYS",
+    "id": "urn:uuid:3a5afe5c-01e1-5d8b-9da6-56725ea44185",
+    "line_range": [
+      620,
+      630
+    ],
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 43756,
+      "interval": "[start,end)",
+      "start": 43249
+    },
+    "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+    "text": "<a id=\"Scorching_Ray\"></a>\n#### 灼热射线｜Scorching Ray\n\n*二环 塑能（术士、法师）*\n**施法时间：**动作\n**施法距离：**120 尺\n**法术成分：**V、S\n**持续时间：**立即\n你射出三道火焰的射线。你可以将其射向施法距离内的一个或多个目标。每道射线需要你分别进行一次远程法术攻击。若命中，则目标受到2d6点火焰伤害。\n**升环施法。**使用的法术位每比二环高一环，你就能多创造出一道射线。\n\n",
+    "text_sha256": "7d33493161d3b184b82335f477194a706b6e80662f7a64b0ca6dcc398ebd3b4a"
+  },
+  "raw_fragment_id": "urn:uuid:a6cb8fb7-ab28-5156-b9b5-c10a75688a58",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

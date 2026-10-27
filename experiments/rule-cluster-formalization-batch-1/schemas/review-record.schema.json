@@ -1,0 +1,66 @@
+{
+  "$defs": {
+    "digest": {
+      "pattern": "^sha256:[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "id": {
+      "pattern": "^urn:uuid:[0-9a-f-]{36}$",
+      "type": "string"
+    }
+  },
+  "$id": "m2.rule-review-record@0.1.0",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "ai_precheck": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "checks": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 4,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "human_decision": {
+      "type": "null"
+    },
+    "id": {
+      "$ref": "#/$defs/id"
+    },
+    "reviewer": {
+      "type": "null"
+    },
+    "schema": {
+      "const": "m2.rule-review-record@0.1.0"
+    },
+    "source_fidelity_gate": {
+      "const": "pending_normative_raw_to_library_coverage"
+    },
+    "status": {
+      "const": "awaiting_review"
+    },
+    "subject_digest": {
+      "$ref": "#/$defs/digest"
+    },
+    "subject_id": {
+      "$ref": "#/$defs/id"
+    }
+  },
+  "required": [
+    "schema",
+    "id",
+    "subject_id",
+    "subject_digest",
+    "status",
+    "ai_precheck",
+    "human_decision",
+    "reviewer",
+    "checks",
+    "source_fidelity_gate"
+  ],
+  "type": "object"
+}

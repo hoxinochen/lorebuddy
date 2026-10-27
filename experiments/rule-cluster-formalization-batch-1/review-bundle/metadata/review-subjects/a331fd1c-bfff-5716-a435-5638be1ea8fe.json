@@ -1,0 +1,91 @@
+{
+  "body": {
+    "digest": "sha256:7a2f8abae4163206c6e0b152545347a364d00a15b84709c5e73912c7d24b629a",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/a331fd1c-bfff-5716-a435-5638be1ea8fe.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "allowed": [
+        "E.Slam",
+        "E.RockLaunch"
+      ],
+      "attacks": 2,
+      "mixed_allowed": true
+    },
+    "editorial_explanation": "共两次，可猛击/岩石射击混合；不是两次各再加两次。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:d6f3186b-2574-5190-ae00-e5091f98d6ba",
+            "json_pointer": "/critical_fields/attacks"
+          },
+          {
+            "extraction_id": "urn:uuid:484fafa5-c42f-5a45-a828-a5bf2fbcb2fa",
+            "json_pointer": "/critical_fields/allowed/0"
+          },
+          {
+            "extraction_id": "urn:uuid:ee2b99b6-04f8-5ec9-9294-6219843b8b10",
+            "json_pointer": "/critical_fields/allowed/1"
+          },
+          {
+            "extraction_id": "urn:uuid:888c9e17-0702-5914-af4c-316a4484e638",
+            "json_pointer": "/critical_fields/mixed_allowed"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "local_evidence": "E.ABILITY.3",
+      "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+      "pointer": "/critical_fields"
+    },
+    "id": "urn:uuid:a331fd1c-bfff-5716-a435-5638be1ea8fe",
+    "kind": "动作Actions",
+    "mechanics": {
+      "clauses": {
+        "allowed": [
+          "E.Slam",
+          "E.RockLaunch"
+        ],
+        "attacks": 2,
+        "mixed_allowed": true
+      },
+      "dependencies": [],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_and_complete_verbatim; remaining_semantics_uncompiled"
+    },
+    "owner_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+    "required_evidence": [],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:48e46a8b-601f-5116-ade2-9d3c3df42a62",
+    "title": "多重攻击",
+    "verbatim_evidence": "E.ABILITY.3",
+    "verbatim_text": "\n**多重攻击Multiattack。**土元素使用猛击或岩石射击发动共计两次攻击。\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:a331fd1c-bfff-5716-a435-5638be1ea8fe",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:173cc9a8-ecdf-5047-a3b5-2db5f3c25fd8",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:48e46a8b-601f-5116-ade2-9d3c3df42a62",
+    "derived_note_utf8_range": {
+      "end": 3613,
+      "start": 3518
+    },
+    "entry_id": "urn:uuid:57a08374-1e20-5c97-a1f3-00447e3b05d9",
+    "fragment_id": "urn:uuid:8144d427-b3e6-53aa-bddc-c78ae18e3a0d",
+    "mapping_id": "urn:uuid:8851fe03-a492-5d23-8860-5d95ed2e5acf"
+  },
+  "subject_kind": "ability",
+  "title": "多重攻击",
+  "uncompiled_semantics_retained": true
+}

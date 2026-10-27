@@ -1,0 +1,20 @@
+{
+  "source_questions": "experiments/full-cluster-calculator-pilot/input/questions.json",
+  "source_questions_sha256": "5c8ccfb855238e25950b00dbc471c40d985d0b0d074319feee2418ca2d6a95c5",
+  "scope_source_path": "/Users/chenzehao/Projects/LoreBuddy/experiments/rule-cluster-contract-v1-batch-1/fixtures/request-scopes-source.json",
+  "scope_source_origin": "/Users/chenzehao/Projects/DND Terminal/tests/fixtures/calculator/full-cluster/request-scopes.json",
+  "scope_source_sha256": "eca0266fda7aab2d3ff3fc1807afdc561e8479f695c090ee3ffaa10592f818ea",
+  "scope_source_revision": "explicit-scope-adapter-2",
+  "changed_fields": [
+    "top_level corpus_delivery_id/instructions/format_revision",
+    "per_case request_scope",
+    "per_case delivery_label"
+  ],
+  "preserved_fields": [
+    "id",
+    "question",
+    "scene"
+  ],
+  "data_format_requires_new_reader": true,
+  "terminal_code_modified": false
+}

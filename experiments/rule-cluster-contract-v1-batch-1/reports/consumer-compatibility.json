@@ -1,0 +1,21 @@
+{
+  "kind": "read_only_old_consumer_compatibility_probe",
+  "input_format": "lorebuddy.dnd2024.rule-cluster-contract-1",
+  "consumer_api": "calculator-corpus-1",
+  "consumer_source_sha256": "9368f911271338f36f55c28dc7e3e5ffd0774d6d36271916fba3b2e2443e43b5",
+  "input_sha256": "a09d46a43e4b01f68a45edc1a870279c06a313af466be298970fec43d2625c92",
+  "actual": {
+    "status": "data_error",
+    "issues": [
+      {
+        "code": "unsupported_corpus_environment",
+        "field": "format_revision/rules_context/status"
+      }
+    ]
+  },
+  "interpretation": "Old consumer safely rejects the explicit new format. This is not a new 48-case run or a source-data correctness failure.",
+  "schema_adaptation_required": true,
+  "per_case_execution": "Not Run",
+  "consumer_acceptance": "Pending",
+  "terminal_modified": false
+}

@@ -1,0 +1,272 @@
+{
+  "body": {
+    "digest": "sha256:a8f4b4be73237e3d7d8dcbb82724aad59211f0a1d997fec0f90960e0578f931d",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/414fc8f8-4da0-5a5b-816e-a38b3c554336.md"
+  },
+  "candidate_snapshot": {
+    "alias": "P.INVISIBILITY",
+    "candidate_revision": 2,
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "casting_contract": {
+          "activation": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+              "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+              "source_evidence_id": "urn:uuid:5cb47e1a-24da-562b-aa40-247a6cea7bbc",
+              "source_note_utf8_range": {
+                "end": 27698,
+                "start": 27673
+              }
+            },
+            "state": "known",
+            "value": "动作"
+          },
+          "base_level": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+              "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+              "source_evidence_id": "urn:uuid:5cb47e1a-24da-562b-aa40-247a6cea7bbc",
+              "source_note_utf8_range": {
+                "end": 28166,
+                "start": 27540
+              }
+            },
+            "state": "known",
+            "value": 2
+          },
+          "components": {
+            "material": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:e7d2d510-5802-5350-a6c7-391b020fa902",
+                "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+                "source_evidence_id": "urn:uuid:5cb47e1a-24da-562b-aa40-247a6cea7bbc",
+                "source_note_utf8_range": {
+                  "end": 27798,
+                  "start": 27725
+                }
+              },
+              "state": "known",
+              "value": true
+            },
+            "material_consumption": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+                "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+                "source_evidence_id": "urn:uuid:5cb47e1a-24da-562b-aa40-247a6cea7bbc",
+                "source_note_utf8_range": {
+                  "end": 27798,
+                  "start": 27725
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "material_detail": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+                "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+                "source_evidence_id": "urn:uuid:5cb47e1a-24da-562b-aa40-247a6cea7bbc",
+                "source_note_utf8_range": {
+                  "end": 27798,
+                  "start": 27725
+                }
+              },
+              "state": "known",
+              "value": "一根包裹在阿拉伯胶中的睫毛"
+            },
+            "material_value": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+                "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+                "source_evidence_id": "urn:uuid:5cb47e1a-24da-562b-aa40-247a6cea7bbc",
+                "source_note_utf8_range": {
+                  "end": 27798,
+                  "start": 27725
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "somatic": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:e7d2d510-5802-5350-a6c7-391b020fa902",
+                "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+                "source_evidence_id": "urn:uuid:5cb47e1a-24da-562b-aa40-247a6cea7bbc",
+                "source_note_utf8_range": {
+                  "end": 27798,
+                  "start": 27725
+                }
+              },
+              "state": "known",
+              "value": true
+            },
+            "verbal": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:e7d2d510-5802-5350-a6c7-391b020fa902",
+                "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+                "source_evidence_id": "urn:uuid:5cb47e1a-24da-562b-aa40-247a6cea7bbc",
+                "source_note_utf8_range": {
+                  "end": 27798,
+                  "start": 27725
+                }
+              },
+              "state": "known",
+              "value": true
+            }
+          },
+          "concentration": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:49dace82-f73e-5fff-8f21-b5bef68a7a74",
+              "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+              "source_evidence_id": "urn:uuid:5cb47e1a-24da-562b-aa40-247a6cea7bbc",
+              "source_note_utf8_range": {
+                "end": 27840,
+                "start": 27799
+              }
+            },
+            "state": "known",
+            "value": true
+          },
+          "coverage": "headers_targets_saves_and_calls_structured; remaining_effect_prose_retained_uncompiled; not_full_casting_legality",
+          "duration": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+              "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+              "source_evidence_id": "urn:uuid:5cb47e1a-24da-562b-aa40-247a6cea7bbc",
+              "source_note_utf8_range": {
+                "end": 27840,
+                "start": 27799
+              }
+            },
+            "state": "known",
+            "value": "专注，至多1小时"
+          },
+          "effects": [
+            {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+                "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+                "source_evidence_id": "urn:uuid:5cb47e1a-24da-562b-aa40-247a6cea7bbc",
+                "source_note_utf8_range": {
+                  "end": 28166,
+                  "start": 27540
+                }
+              },
+              "state": "verbatim_only",
+              "value": {
+                "numeric_facet_pointer": null,
+                "read_from_evidence_id": "urn:uuid:5cb47e1a-24da-562b-aa40-247a6cea7bbc"
+              }
+            }
+          ],
+          "range": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+              "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+              "source_evidence_id": "urn:uuid:5cb47e1a-24da-562b-aa40-247a6cea7bbc",
+              "source_note_utf8_range": {
+                "end": 27724,
+                "start": 27699
+              }
+            },
+            "state": "known",
+            "value": "触碰"
+          },
+          "save_attack": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+              "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+              "source_evidence_id": "urn:uuid:5cb47e1a-24da-562b-aa40-247a6cea7bbc",
+              "source_note_utf8_range": {
+                "end": 28166,
+                "start": 27540
+              }
+            },
+            "state": "known",
+            "value": {
+              "kind": "no_save_or_attack_stated"
+            }
+          },
+          "targeting": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+              "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+              "source_evidence_id": "urn:uuid:5cb47e1a-24da-562b-aa40-247a6cea7bbc",
+              "source_note_utf8_range": {
+                "end": 28166,
+                "start": 27540
+              }
+            },
+            "state": "known",
+            "value": {
+              "base_max_targets": 1,
+              "extra_targets_per_slot_level_above_2": 1,
+              "kind": "touched_creature"
+            }
+          },
+          "upcast": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+              "source_entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+              "source_evidence_id": "urn:uuid:5cb47e1a-24da-562b-aa40-247a6cea7bbc",
+              "source_note_utf8_range": {
+                "end": 28164,
+                "start": 28001
+              }
+            },
+            "state": "known",
+            "value": "使用三环或更高法术位施展该法术时，你使用的法术位每比二环高一环，就可以额外指定一个生物作为目标。"
+          }
+        }
+      }
+    },
+    "id": "urn:uuid:414fc8f8-4da0-5a5b-816e-a38b3c554336",
+    "kind": "spell",
+    "review_status": "candidate",
+    "rule_context": "PHB2024",
+    "source_evidence_id": "urn:uuid:5cb47e1a-24da-562b-aa40-247a6cea7bbc",
+    "structured_mechanics_status": "verbatim_complete_structured_facets_below_are_partial_not_silent_defaults",
+    "title": "隐形术｜Invisibility",
+    "verbatim_text": "<a id=\"Invisibility\"></a>\n#### 隐形术｜Invisibility\n\n*二环 幻术（吟游诗人、术士、魔契师、法师、奇械师）*\n**施法时间：**动作\n**施法距离：**触碰\n**法术成分：**V、S、M（一根包裹在阿拉伯胶中的睫毛）\n**持续时间：**专注，至多1小时\n你触碰的一个生物进入隐形状态并维持至法术终止。如果目标进行攻击检定、造成伤害或施展法术，则此法术提前终止。\n**升环施法。**使用三环或更高法术位施展该法术时，你使用的法术位每比二环高一环，就可以额外指定一个生物作为目标。\n\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:414fc8f8-4da0-5a5b-816e-a38b3c554336",
+  "language": "zh-Hans",
+  "module": "spells",
+  "review_record_id": "urn:uuid:ba98416c-5a75-5700-b364-348b70d05d06",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:5cb47e1a-24da-562b-aa40-247a6cea7bbc",
+    "derived_note_utf8_range": {
+      "end": 28166,
+      "start": 27540
+    },
+    "entry_id": "urn:uuid:550bd37a-95ea-5e62-8df5-916c5b55eb30",
+    "fragment_id": "urn:uuid:a6cb8fb7-ab28-5156-b9b5-c10a75688a58",
+    "mapping_id": "urn:uuid:2b6584ea-16ab-541e-93e1-a63ae63c1dad"
+  },
+  "subject_kind": "spell",
+  "title": "隐形术｜Invisibility",
+  "uncompiled_semantics_retained": true
+}

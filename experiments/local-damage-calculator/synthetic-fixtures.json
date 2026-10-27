@@ -1,0 +1,34 @@
+{
+  "half-drain": {
+    "id": "urn:uuid:cce51c6a-5501-5632-b815-30125cad982e",
+    "save": true,
+    "on_success": "half",
+    "linked_reduction": true,
+    "damage_type": "psychic",
+    "status": "synthetic_fixture_not_approved_rule"
+  },
+  "half": {
+    "id": "urn:uuid:fb431c90-83dd-5b7b-8d80-31d707fe37bc",
+    "save": true,
+    "on_success": "half",
+    "linked_reduction": false,
+    "damage_type": "psychic",
+    "status": "synthetic_fixture_not_approved_rule"
+  },
+  "negate": {
+    "id": "urn:uuid:116cf125-3020-527c-a7c1-d82abf598a82",
+    "save": true,
+    "on_success": "zero",
+    "linked_reduction": false,
+    "damage_type": "psychic",
+    "status": "synthetic_fixture_not_approved_rule"
+  },
+  "direct": {
+    "id": "urn:uuid:2b7b1c64-95ff-5eb6-98a5-6d9210e3cc0e",
+    "save": false,
+    "on_success": "unchanged",
+    "linked_reduction": false,
+    "damage_type": "psychic",
+    "status": "synthetic_fixture_not_approved_rule"
+  }
+}

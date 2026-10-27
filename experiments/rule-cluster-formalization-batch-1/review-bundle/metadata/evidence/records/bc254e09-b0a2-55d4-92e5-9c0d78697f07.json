@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:a0502b76c55e4004a72020f2279593ae99a9c21d32da825e34b24b893afa7104",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/邪魔/魅魔.md",
+  "id": "urn:uuid:bc254e09-b0a2-55d4-92e5-9c0d78697f07",
+  "original_record": {
+    "alias": "SU.ABILITY.1",
+    "id": "urn:uuid:bc254e09-b0a2-55d4-92e5-9c0d78697f07",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 3150,
+      "interval": "[start,end)",
+      "start": 2973
+    },
+    "source_entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+    "text": "**化身梦魔Incubus Form。**魅魔在完成一次长休时可以变形为**梦魔Incubus**，并使用梦魔的游戏数据替代其原来的数据。\n\n###### 动作Actions\n\n",
+    "text_sha256": "fe5fc3038360b0b6ad5e16dfa975c7165fcc1298981920cc8196bb05dc4b1d25"
+  },
+  "raw_fragment_id": "urn:uuid:ab664971-31bb-5827-81c4-9d5f7275a56e",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

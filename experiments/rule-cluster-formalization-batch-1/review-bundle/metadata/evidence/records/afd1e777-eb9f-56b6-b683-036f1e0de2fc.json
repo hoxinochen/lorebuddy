@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:a9059840540c273cb7c63b35c46986bf767426fbe7584892306d9493892382ee",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/异怪/史拉蟾/史拉绿蟾.md",
+  "id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+  "original_record": {
+    "alias": "S.ABILITY.5",
+    "id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 3149,
+      "interval": "[start,end)",
+      "start": 2721
+    },
+    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+    "text": " **施法Spellcasting。**史拉蟾施展以下一道法术，无需材料成分并使用魅力作为施法属性（法术豁免DC14，法术攻击命中+6）：\n（译注：应为DC15，命中+7，但原文如此）\n ***随意：****侦测魔法Detect Magic，侦测思想Detect Thoughts，法师之手Mage Hand*\n ***每项1/日：****火球术Fireball，隐形术Invisibility*（仅自身）\n\n###### 附赠动作Bonus Actions\n",
+    "text_sha256": "385f70b96f35acd1e77bc1548d140c97ad659478eb6698250f215ac28b313668"
+  },
+  "raw_fragment_id": "urn:uuid:2f037a82-6e86-5b22-b290-e00cb0335153",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

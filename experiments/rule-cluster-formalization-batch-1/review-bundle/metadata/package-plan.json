@@ -1,0 +1,76 @@
+{
+  "access_domain": {
+    "id": "urn:uuid:cc33347f-036f-53dc-9c0b-8bd79a3b460f",
+    "principal": "local project owner; no public distribution",
+    "status": "proposed"
+  },
+  "language": "zh-Hans",
+  "migration": "Original 70 semantic IDs retained; new review/mapping/fragment IDs separate. Original consumed corpus remains immutable.",
+  "note": "Boundary plan only; no Package publication or source relocation in this run.",
+  "packages": [
+    {
+      "build_dependencies": [],
+      "content_dependencies": [],
+      "id": "urn:uuid:3eee6b7f-5e20-58d9-923a-a53f9d98da77",
+      "name": "audit",
+      "package_revision": "0.1.0-draft.1",
+      "payload_scope": "locked original Artifact/Entry references, mappings, evidence and reviews"
+    },
+    {
+      "build_dependencies": [
+        "audit"
+      ],
+      "content_dependencies": [],
+      "id": "urn:uuid:65ce7620-152d-5fce-9f7e-163234deb21b",
+      "name": "common",
+      "package_revision": "0.1.0-draft.1",
+      "payload_scope": "six complete shared references; no consumer-specific truncation"
+    },
+    {
+      "build_dependencies": [
+        "audit"
+      ],
+      "content_dependencies": [
+        "common"
+      ],
+      "id": "urn:uuid:138d51c3-e280-5185-8211-cbd7490a026d",
+      "name": "spells",
+      "package_revision": "0.1.0-draft.1",
+      "payload_scope": "eleven complete spells; spell bodies own base casting facts"
+    },
+    {
+      "build_dependencies": [
+        "audit"
+      ],
+      "content_dependencies": [
+        "common",
+        "spells"
+      ],
+      "id": "urn:uuid:81a74044-ca53-5111-86c5-3bfd446bc092",
+      "name": "creatures",
+      "package_revision": "0.1.0-draft.1",
+      "payload_scope": "eight creatures and forty-five owned abilities"
+    }
+  ],
+  "release": "not_requested; Rights unknown never grants redistribution",
+  "rights": "unknown",
+  "rules_context": {
+    "content_claims": [
+      "MM2025",
+      "PHB2024"
+    ],
+    "id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+    "publication_identity": "claimed",
+    "rights": "unknown",
+    "rules_edition": "2024",
+    "system": "D&D",
+    "translation_authority": "unknown"
+  },
+  "schema": "m2.package-boundary-plan@0.1.0",
+  "schemas": [
+    "existing finite D&D production profile retained",
+    "review-subject schema is a staging envelope, not new Core"
+  ],
+  "source_authority": "claimed and unknown preserved separately from local rule adoption",
+  "status": "proposed_for_review"
+}

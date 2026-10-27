@@ -1,0 +1,307 @@
+{
+  "status": "source_checked_expected_not_calculator_output",
+  "cases": [
+    {
+      "id": "N01",
+      "cohort": "numeric",
+      "origin": {
+        "kind": "historical_numeric_projection",
+        "batch": "build/m2-cross-relations-6cards-2026-10-22",
+        "question_id": "V01"
+      },
+      "expected": {
+        "status": "calculated",
+        "stages": {
+          "after_ability": 20,
+          "after_resistance": 10,
+          "after_vulnerability": 10
+        },
+        "damage_taken": 10,
+        "linked_reduction": null
+      },
+      "review": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "N02",
+      "cohort": "numeric",
+      "origin": {
+        "kind": "historical_numeric_projection",
+        "batch": "build/m2-cross-relations-6cards-2026-10-22",
+        "question_id": "V01"
+      },
+      "expected": {
+        "status": "calculated",
+        "stages": {
+          "after_ability": 20,
+          "after_resistance": 10,
+          "after_vulnerability": 10
+        },
+        "damage_taken": 10,
+        "linked_reduction": null
+      },
+      "review": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "N03",
+      "cohort": "numeric",
+      "origin": {
+        "kind": "historical_numeric_projection",
+        "batch": "build/m2-cross-relations-6cards-2026-10-22",
+        "question_id": "V01"
+      },
+      "expected": {
+        "status": "calculated",
+        "stages": {
+          "after_ability": 20,
+          "after_resistance": 10,
+          "after_vulnerability": 10
+        },
+        "damage_taken": 10,
+        "linked_reduction": null
+      },
+      "review": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "N04",
+      "cohort": "numeric",
+      "origin": {
+        "kind": "historical_numeric_projection",
+        "batch": "build/m2-facts-first-high-2026-10-22",
+        "question_id": "E06"
+      },
+      "expected": {
+        "status": "calculated",
+        "stages": {
+          "after_ability": 11,
+          "after_resistance": 5,
+          "after_vulnerability": 5
+        },
+        "damage_taken": 5,
+        "linked_reduction": null
+      },
+      "review": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "N05",
+      "cohort": "numeric",
+      "origin": {
+        "kind": "historical_numeric_projection",
+        "batch": "build/m2-cross-relations-6cards-2026-10-22",
+        "question_id": "G14"
+      },
+      "expected": {
+        "status": "calculated",
+        "stages": {
+          "after_ability": 28,
+          "after_resistance": 14,
+          "after_vulnerability": 14
+        },
+        "damage_taken": 14,
+        "linked_reduction": null
+      },
+      "review": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "N06",
+      "cohort": "numeric",
+      "origin": {
+        "kind": "historical_numeric_projection",
+        "batch": "build/m2-cross-relations-6cards-2026-10-22",
+        "question_id": "R02"
+      },
+      "expected": {
+        "status": "calculated",
+        "stages": {
+          "after_ability": 31,
+          "after_resistance": 15,
+          "after_vulnerability": 15
+        },
+        "damage_taken": 15,
+        "linked_reduction": null
+      },
+      "review": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "N07",
+      "cohort": "numeric",
+      "origin": {
+        "kind": "historical_numeric_projection",
+        "batch": "build/m2-cross-relations-6cards-2026-10-22",
+        "question_id": "R02"
+      },
+      "expected": {
+        "status": "calculated",
+        "stages": {
+          "after_ability": 31,
+          "after_resistance": 31,
+          "after_vulnerability": 31
+        },
+        "damage_taken": 31,
+        "linked_reduction": null
+      },
+      "review": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "N08",
+      "cohort": "numeric",
+      "origin": {
+        "kind": "historical_numeric_projection",
+        "batch": "build/m2-cross-relations-6cards-2026-10-22",
+        "question_id": "D09"
+      },
+      "expected": {
+        "status": "calculated",
+        "stages": {
+          "after_ability": 6,
+          "after_resistance": 3,
+          "after_vulnerability": 3
+        },
+        "damage_taken": 3,
+        "linked_reduction": 3
+      },
+      "review": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "B01",
+      "cohort": "boundary",
+      "origin": {
+        "kind": "historical_edition_boundary",
+        "batch": "build/m2-cross-relations-6cards-2026-10-22",
+        "question_id": "V01"
+      },
+      "expected": {
+        "status": "unsupported",
+        "required_issue_codes": [
+          "unsupported_profile"
+        ],
+        "forbid_numeric_result": true
+      },
+      "review": "root_AI_source_checked_not_independent_human_approval",
+      "historical_rule_answer_outside_current_profile": 0,
+      "exclusion": "Not in numeric accuracy; inability to execute is a capability limit, not equality with historical LLM coverage."
+    },
+    {
+      "id": "B02",
+      "cohort": "boundary",
+      "origin": {
+        "kind": "historical_edition_boundary",
+        "batch": "build/m2-cross-relations-6cards-2026-10-22",
+        "question_id": "V01"
+      },
+      "expected": {
+        "status": "unsupported",
+        "required_issue_codes": [
+          "unsupported_profile"
+        ],
+        "forbid_numeric_result": true
+      },
+      "review": "root_AI_source_checked_not_independent_human_approval",
+      "historical_rule_answer_outside_current_profile": 20,
+      "exclusion": "Not in numeric accuracy; inability to execute is a capability limit, not equality with historical LLM coverage."
+    },
+    {
+      "id": "B03",
+      "cohort": "boundary",
+      "origin": {
+        "kind": "historical_edition_boundary",
+        "batch": "build/m2-cross-relations-6cards-2026-10-22",
+        "question_id": "V01"
+      },
+      "expected": {
+        "status": "unsupported",
+        "required_issue_codes": [
+          "unsupported_profile"
+        ],
+        "forbid_numeric_result": true
+      },
+      "review": "root_AI_source_checked_not_independent_human_approval",
+      "historical_rule_answer_outside_current_profile": 10,
+      "exclusion": "Not in numeric accuracy; inability to execute is a capability limit, not equality with historical LLM coverage."
+    },
+    {
+      "id": "B04",
+      "cohort": "boundary",
+      "origin": {
+        "kind": "new_boundary_probe",
+        "derived_from": "N08",
+        "historical_llm_comparison": false
+      },
+      "expected": {
+        "status": "needs_input",
+        "required_issue_codes": [
+          "missing_save_outcome"
+        ],
+        "forbid_numeric_result": true
+      },
+      "review": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "B05",
+      "cohort": "boundary",
+      "origin": {
+        "kind": "new_boundary_probe",
+        "derived_from": "N08",
+        "historical_llm_comparison": false
+      },
+      "expected": {
+        "status": "needs_input",
+        "required_issue_codes": [
+          "defense_coverage_unknown"
+        ],
+        "forbid_numeric_result": true
+      },
+      "review": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "B06",
+      "cohort": "boundary",
+      "origin": {
+        "kind": "new_boundary_probe",
+        "derived_from": "N08",
+        "historical_llm_comparison": false
+      },
+      "expected": {
+        "status": "unsupported",
+        "required_issue_codes": [
+          "unsupported_adjustment"
+        ],
+        "forbid_numeric_result": true
+      },
+      "review": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "B07",
+      "cohort": "boundary",
+      "origin": {
+        "kind": "new_boundary_probe",
+        "derived_from": "N08",
+        "historical_llm_comparison": false
+      },
+      "expected": {
+        "status": "unsupported",
+        "required_issue_codes": [
+          "mixed_damage_not_supported"
+        ],
+        "forbid_numeric_result": true
+      },
+      "review": "root_AI_source_checked_not_independent_human_approval"
+    },
+    {
+      "id": "B08",
+      "cohort": "boundary",
+      "origin": {
+        "kind": "new_boundary_probe",
+        "derived_from": "N08",
+        "historical_llm_comparison": false
+      },
+      "expected": {
+        "status": "invalid",
+        "required_issue_codes": [
+          "wrong_damage_basis"
+        ],
+        "forbid_numeric_result": true
+      },
+      "review": "root_AI_source_checked_not_independent_human_approval"
+    }
+  ]
+}

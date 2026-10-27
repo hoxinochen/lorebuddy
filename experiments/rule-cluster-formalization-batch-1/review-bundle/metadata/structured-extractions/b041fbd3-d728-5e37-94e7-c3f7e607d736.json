@@ -1,0 +1,18 @@
+{
+  "binding": {
+    "adopted_decision_ids": [],
+    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+    "source_evidence_id": "urn:uuid:0da8ca0a-dc77-57bd-b108-411fa99a9e47",
+    "source_note_utf8_range": {
+      "end": 3373,
+      "start": 3149
+    }
+  },
+  "id": "urn:uuid:b041fbd3-d728-5e37-94e7-c3f7e607d736",
+  "json_pointer": "/critical_fields/forms/2",
+  "review_status": "candidate",
+  "revision": 1,
+  "subject_id": "urn:uuid:ee363df5-5a9c-5063-b2a6-e0e13d6717c6",
+  "value": "true_form"
+}

@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:02efbe8a953929558945da2ede1fe2c71cb8fdb15819e95e9510d88bc662e9b9",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/构装/盾卫.md",
+  "id": "urn:uuid:0eeb15f9-7d51-5ffd-a9c2-67589f16bfda",
+  "original_record": {
+    "alias": "G.ABILITY.2",
+    "id": "urn:uuid:0eeb15f9-7d51-5ffd-a9c2-67589f16bfda",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 3340,
+      "interval": "[start,end)",
+      "start": 3229
+    },
+    "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+    "text": " **再生Regeneration。**若盾卫至少拥有1生命值，则其在自己回合开始时回复10生命值。\n",
+    "text_sha256": "1abb9c187bddc2b478d37554ec5be87578d02b34afa37f3d4b57cc8dd55c7fdc"
+  },
+  "raw_fragment_id": "urn:uuid:9636c175-25b3-5946-bf3d-d27bd737b4ec",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

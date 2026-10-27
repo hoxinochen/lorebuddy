@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:002c984c128b987a5a6f2ae9dfb3c99824e59a96d1df993b89ce2f1158c531a3",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/元素/四元素/土元素.md",
+  "id": "urn:uuid:2bbdca1d-71c7-515b-b483-28da7860ecf3",
+  "original_record": {
+    "alias": "E.HEADER",
+    "id": "urn:uuid:2bbdca1d-71c7-515b-b483-28da7860ecf3",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 3253,
+      "interval": "[start,end)",
+      "start": 2026
+    },
+    "source_entry_id": "urn:uuid:57a08374-1e20-5c97-a1f3-00447e3b05d9",
+    "text": "<a id=\"Earth_Elemental\"></a>\n##### 土元素Earth Elemental\n\n大型元素，中立\n\n<table><tr><td><strong>AC </strong>17</td><td><strong>先攻 </strong>-1（9）</td></tr> <tr><td colspan=\"2\"><strong>HP </strong>147（14d10+70）</td></tr> <tr><td colspan=\"2\"><strong>速度 </strong>30尺，掘穴30尺</td></tr></table>\n\n<table><tr><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th></tr> <tr><td><strong>力量</strong></td><td>20</td><td>+5</td><td>+5</td> <td></td> <td><strong>敏捷</strong></td><td>8</td><td>-1</td><td>-1</td> <td></td> <td><strong>体质</strong></td><td>20</td><td>+5</td><td>+5</td></tr> <tr><td><strong>智力</strong></td><td>5</td><td>-3</td><td>-3</td> <td></td> <td><strong>感知</strong></td><td>10</td><td>+0</td><td>+0</td> <td></td> <td><strong>魅力</strong></td><td>5</td><td>-3</td><td>-3</td></tr> </table>\n\n| **易伤**雷鸣。 |\n| --- |\n| **免疫**毒素；力竭，麻痹，石化，中毒，昏迷。 |\n| **感官**黑暗视觉60尺，震颤感知60尺；被动察觉10 |\n| **语言**原初语（土族语） |\n| **CR**5（XP1,800；PB+3） |\n\n###### 特质Traits\n",
+    "text_sha256": "3ac1e229762d87f3cdc2fd496dcb510e106252f3ee40fffe0717deff66534f19"
+  },
+  "raw_fragment_id": "urn:uuid:8144d427-b3e6-53aa-bddc-c78ae18e3a0d",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

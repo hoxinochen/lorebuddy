@@ -1,0 +1,26 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:c1c336ece29a8e70c283191e98da06ec717fc664d9af74881a22534f0b2d1367",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/玩家手册2024/第七章：法术/法术详述/三环.md",
+  "id": "urn:uuid:207df704-38f2-544f-89c2-694dc7cf2758",
+  "original_record": {
+    "alias": "P.FIREBALL",
+    "id": "urn:uuid:207df704-38f2-544f-89c2-694dc7cf2758",
+    "line_range": [
+      224,
+      235
+    ],
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 15641,
+      "interval": "[start,end)",
+      "start": 14964
+    },
+    "source_entry_id": "urn:uuid:5909de48-eb19-58e3-b6ae-98cbe7e58c88",
+    "text": "<a id=\"Fireball\"></a>\n#### 火球术｜Fireball\n\n*三环 塑能（术士、法师）*\n**施法时间：**动作\n**施法距离：**150尺\n**法术成分：**V、S、M（一颗蝙蝠粪和硫磺搓成的小球）\n**持续时间：**立即\n明亮的闪光从你的指间飞驰向施法距离内你指定的一点，并随着一声低吼迸成一片烈焰。目标点周围半径20尺球状区域内的每个生物必须进行一次敏捷豁免。豁免失败者将受到8d6点火焰伤害，豁免成功则伤害减半。\n区域内所有未被着装或携带的可燃物件会开始燃烧。\n**升环施法。**使用的法术位每比三环高一环，此伤害就增加1d6。\n\n",
+    "text_sha256": "278924dd02af1178781eb2a50f30b2bdfc536e4d914159e09dbe5681a84a9a02"
+  },
+  "raw_fragment_id": "urn:uuid:38138731-29ce-562c-96ae-d5f4882f905f",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

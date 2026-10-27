@@ -1,0 +1,275 @@
+{
+  "body": {
+    "digest": "sha256:d9bf6f4adf931c948c9a38343410a35d7d274f89564bb03fb943a5d4b79252f4",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/73291d6c-3766-5e10-858e-e5bb7cb507db.md"
+  },
+  "candidate_snapshot": {
+    "alias": "P.DOMINATE",
+    "candidate_revision": 2,
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "casting_contract": {
+          "activation": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+              "source_entry_id": "urn:uuid:e2f3f7c0-0fd2-569c-b264-08db06c4c19d",
+              "source_evidence_id": "urn:uuid:1869171a-821b-57f9-8ad6-605f90bd11bf",
+              "source_note_utf8_range": {
+                "end": 18695,
+                "start": 18670
+              }
+            },
+            "state": "known",
+            "value": "动作"
+          },
+          "base_level": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+              "source_entry_id": "urn:uuid:e2f3f7c0-0fd2-569c-b264-08db06c4c19d",
+              "source_evidence_id": "urn:uuid:1869171a-821b-57f9-8ad6-605f90bd11bf",
+              "source_note_utf8_range": {
+                "end": 19779,
+                "start": 18552
+              }
+            },
+            "state": "known",
+            "value": 5
+          },
+          "components": {
+            "material": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:e7d2d510-5802-5350-a6c7-391b020fa902",
+                "source_entry_id": "urn:uuid:e2f3f7c0-0fd2-569c-b264-08db06c4c19d",
+                "source_evidence_id": "urn:uuid:1869171a-821b-57f9-8ad6-605f90bd11bf",
+                "source_note_utf8_range": {
+                  "end": 18745,
+                  "start": 18721
+                }
+              },
+              "state": "known",
+              "value": false
+            },
+            "material_consumption": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+                "source_entry_id": "urn:uuid:e2f3f7c0-0fd2-569c-b264-08db06c4c19d",
+                "source_evidence_id": "urn:uuid:1869171a-821b-57f9-8ad6-605f90bd11bf",
+                "source_note_utf8_range": {
+                  "end": 18745,
+                  "start": 18721
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "material_detail": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+                "source_entry_id": "urn:uuid:e2f3f7c0-0fd2-569c-b264-08db06c4c19d",
+                "source_evidence_id": "urn:uuid:1869171a-821b-57f9-8ad6-605f90bd11bf",
+                "source_note_utf8_range": {
+                  "end": 18745,
+                  "start": 18721
+                }
+              },
+              "state": "not_applicable",
+              "value": null
+            },
+            "material_value": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+                "source_entry_id": "urn:uuid:e2f3f7c0-0fd2-569c-b264-08db06c4c19d",
+                "source_evidence_id": "urn:uuid:1869171a-821b-57f9-8ad6-605f90bd11bf",
+                "source_note_utf8_range": {
+                  "end": 18745,
+                  "start": 18721
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "somatic": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:e7d2d510-5802-5350-a6c7-391b020fa902",
+                "source_entry_id": "urn:uuid:e2f3f7c0-0fd2-569c-b264-08db06c4c19d",
+                "source_evidence_id": "urn:uuid:1869171a-821b-57f9-8ad6-605f90bd11bf",
+                "source_note_utf8_range": {
+                  "end": 18745,
+                  "start": 18721
+                }
+              },
+              "state": "known",
+              "value": true
+            },
+            "verbal": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:e7d2d510-5802-5350-a6c7-391b020fa902",
+                "source_entry_id": "urn:uuid:e2f3f7c0-0fd2-569c-b264-08db06c4c19d",
+                "source_evidence_id": "urn:uuid:1869171a-821b-57f9-8ad6-605f90bd11bf",
+                "source_note_utf8_range": {
+                  "end": 18745,
+                  "start": 18721
+                }
+              },
+              "state": "known",
+              "value": true
+            }
+          },
+          "concentration": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:49dace82-f73e-5fff-8f21-b5bef68a7a74",
+              "source_entry_id": "urn:uuid:e2f3f7c0-0fd2-569c-b264-08db06c4c19d",
+              "source_evidence_id": "urn:uuid:1869171a-821b-57f9-8ad6-605f90bd11bf",
+              "source_note_utf8_range": {
+                "end": 18787,
+                "start": 18746
+              }
+            },
+            "state": "known",
+            "value": true
+          },
+          "coverage": "headers_targets_saves_and_calls_structured; remaining_effect_prose_retained_uncompiled; not_full_casting_legality",
+          "duration": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+              "source_entry_id": "urn:uuid:e2f3f7c0-0fd2-569c-b264-08db06c4c19d",
+              "source_evidence_id": "urn:uuid:1869171a-821b-57f9-8ad6-605f90bd11bf",
+              "source_note_utf8_range": {
+                "end": 18787,
+                "start": 18746
+              }
+            },
+            "state": "known",
+            "value": "专注，至多1分钟"
+          },
+          "effects": [
+            {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:813631ad-e647-5c35-a0cb-15b1ad3892de",
+                "source_entry_id": "urn:uuid:e2f3f7c0-0fd2-569c-b264-08db06c4c19d",
+                "source_evidence_id": "urn:uuid:1869171a-821b-57f9-8ad6-605f90bd11bf",
+                "source_note_utf8_range": {
+                  "end": 19779,
+                  "start": 18552
+                }
+              },
+              "state": "verbatim_only",
+              "value": {
+                "numeric_facet_pointer": null,
+                "read_from_evidence_id": "urn:uuid:1869171a-821b-57f9-8ad6-605f90bd11bf"
+              }
+            }
+          ],
+          "range": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+              "source_entry_id": "urn:uuid:e2f3f7c0-0fd2-569c-b264-08db06c4c19d",
+              "source_evidence_id": "urn:uuid:1869171a-821b-57f9-8ad6-605f90bd11bf",
+              "source_note_utf8_range": {
+                "end": 18720,
+                "start": 18696
+              }
+            },
+            "state": "known",
+            "value": "60尺"
+          },
+          "save_attack": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+              "source_entry_id": "urn:uuid:e2f3f7c0-0fd2-569c-b264-08db06c4c19d",
+              "source_evidence_id": "urn:uuid:1869171a-821b-57f9-8ad6-605f90bd11bf",
+              "source_note_utf8_range": {
+                "end": 19779,
+                "start": 18552
+              }
+            },
+            "state": "known",
+            "value": {
+              "ability": "wisdom",
+              "ends_on_success": true,
+              "kind": "saving_throw",
+              "repeat_when": "target_takes_damage"
+            }
+          },
+          "targeting": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+              "source_entry_id": "urn:uuid:e2f3f7c0-0fd2-569c-b264-08db06c4c19d",
+              "source_evidence_id": "urn:uuid:1869171a-821b-57f9-8ad6-605f90bd11bf",
+              "source_note_utf8_range": {
+                "end": 19779,
+                "start": 18552
+              }
+            },
+            "state": "known",
+            "value": {
+              "creature_type": "humanoid",
+              "kind": "one_creature",
+              "visible": true
+            }
+          },
+          "upcast": {
+            "binding": {
+              "adopted_decision_ids": [],
+              "mapping_rule_id": "urn:uuid:7b67c27c-eab4-5b94-a57e-113337482fb3",
+              "source_entry_id": "urn:uuid:e2f3f7c0-0fd2-569c-b264-08db06c4c19d",
+              "source_evidence_id": "urn:uuid:1869171a-821b-57f9-8ad6-605f90bd11bf",
+              "source_note_utf8_range": {
+                "end": 19777,
+                "start": 19607
+              }
+            },
+            "state": "known",
+            "value": "使用更高环阶法术位施展时，你的专注能持续更长时间：六环至多10分钟，七环至多1小时，八环及以上至多8小时。"
+          }
+        }
+      }
+    },
+    "id": "urn:uuid:73291d6c-3766-5e10-858e-e5bb7cb507db",
+    "kind": "spell",
+    "review_status": "candidate",
+    "rule_context": "PHB2024",
+    "source_evidence_id": "urn:uuid:1869171a-821b-57f9-8ad6-605f90bd11bf",
+    "structured_mechanics_status": "verbatim_complete_structured_facets_below_are_partial_not_silent_defaults",
+    "title": "支配类人｜Dominate Person",
+    "verbatim_text": "<a id=\"Dominate_Person\"></a>\n#### 支配类人｜Dominate Person\n\n*五环 惑控（吟游诗人、术士、法师）*\n**施法时间：**动作\n**施法距离：**60尺\n**法术成分：**V、S\n**持续时间：**专注，至多1分钟\n一名施法距离内你可见的类人生物必须成功于一次感知豁免，否则在持续时间内陷入魅惑状态。若你或你的盟友正在与其战斗，则目标在此豁免上具有优势。目标受到伤害时，可以重复进行该豁免，豁免成功则其身上的此法术终止。\n该目标被魅惑期间，只要你与其处于同一位面就可以与之保持心灵感应。在你的回合，你可以通过心灵感应命令该生物（无需动作），比如“攻击那个生物”“跑到那个位置”或是“去拿那个物品”。该生物会在其回合内尽其所能以遵守你的指令。目标完成一项指令却未收到你的进一步指示时，将会凭自身喜好行动，尽可能的保护自己。\n你可以用自己的反应去要求目标执行一项反应。\n**升环施法。**使用更高环阶法术位施展时，你的专注能持续更长时间：六环至多10分钟，七环至多1小时，八环及以上至多8小时。\n\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:73291d6c-3766-5e10-858e-e5bb7cb507db",
+  "language": "zh-Hans",
+  "module": "spells",
+  "review_record_id": "urn:uuid:62fb7611-39f2-5158-af32-6db2970d7479",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:1869171a-821b-57f9-8ad6-605f90bd11bf",
+    "derived_note_utf8_range": {
+      "end": 19779,
+      "start": 18552
+    },
+    "entry_id": "urn:uuid:e2f3f7c0-0fd2-569c-b264-08db06c4c19d",
+    "fragment_id": "urn:uuid:2432ba04-3874-5c13-b80d-5f378f428c7b",
+    "mapping_id": "urn:uuid:04f775cd-2972-5caa-b615-d73d4913b038"
+  },
+  "subject_kind": "spell",
+  "title": "支配类人｜Dominate Person",
+  "uncompiled_semantics_retained": true
+}

@@ -1,0 +1,76 @@
+{
+  "body": {
+    "digest": "sha256:fe5fc3038360b0b6ad5e16dfa975c7165fcc1298981920cc8196bb05dc4b1d25",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/5479a7d8-99df-5791-9013-dd434cfa2908.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "replace_game_statistics_with": "IN",
+      "when": "on_finishing_long_rest"
+    },
+    "editorial_explanation": "整卡替换与附赠动作外形变化不同；当前HP与已消耗资源迁移不补算法。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:bfdd6f51-4e87-54a4-8972-728fa3cb7ec5",
+            "json_pointer": "/critical_fields/when"
+          },
+          {
+            "extraction_id": "urn:uuid:947d7f02-dd8c-5b12-9573-be99e768ccb2",
+            "json_pointer": "/critical_fields/replace_game_statistics_with"
+          }
+        ]
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [],
+      "pointer": "/critical_fields",
+      "source_evidence": "SU.ABILITY.1"
+    },
+    "id": "urn:uuid:5479a7d8-99df-5791-9013-dd434cfa2908",
+    "kind": "特质Traits",
+    "mechanics": {
+      "clauses": {
+        "replace_game_statistics_with": "IN",
+        "when": "on_finishing_long_rest"
+      },
+      "dependencies": [],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+    },
+    "owner_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+    "required_evidence": [],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:bc254e09-b0a2-55d4-92e5-9c0d78697f07",
+    "title": "化身梦魔",
+    "verbatim_evidence": "SU.ABILITY.1",
+    "verbatim_text": "**化身梦魔Incubus Form。**魅魔在完成一次长休时可以变形为**梦魔Incubus**，并使用梦魔的游戏数据替代其原来的数据。\n\n###### 动作Actions\n\n"
+  },
+  "dependency_ids": [
+    "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce"
+  ],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:5479a7d8-99df-5791-9013-dd434cfa2908",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:a0df48d4-08fd-5781-b9eb-e94e7eb0b9c5",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:bc254e09-b0a2-55d4-92e5-9c0d78697f07",
+    "derived_note_utf8_range": {
+      "end": 3150,
+      "start": 2973
+    },
+    "entry_id": "urn:uuid:6b39e079-5444-5437-9a89-b9fa3ed06027",
+    "fragment_id": "urn:uuid:ab664971-31bb-5827-81c4-9d5f7275a56e",
+    "mapping_id": "urn:uuid:4a7721ec-278a-529c-b1a5-258cb61423d1"
+  },
+  "subject_kind": "ability",
+  "title": "化身梦魔",
+  "uncompiled_semantics_retained": true
+}

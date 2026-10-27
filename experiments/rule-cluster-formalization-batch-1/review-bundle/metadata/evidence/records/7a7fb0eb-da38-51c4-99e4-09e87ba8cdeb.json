@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:69dabf6858e76ecb02ba591a9b454e46aeb6a2746f02753b1a6e515586c35bdd",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/亡灵/幽魂.md",
+  "id": "urn:uuid:7a7fb0eb-da38-51c4-99e4-09e87ba8cdeb",
+  "original_record": {
+    "alias": "G25.ABILITY.2",
+    "id": "urn:uuid:7a7fb0eb-da38-51c4-99e4-09e87ba8cdeb",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 2776,
+      "interval": "[start,end)",
+      "start": 2545
+    },
+    "source_entry_id": "urn:uuid:b1a26be8-f173-5e7c-a9e8-1253c0018d9d",
+    "text": " **虚体移动Incorporeal Movement。**幽魂可以移动穿过其他生物或物件，如同穿过困难地形一般。在其回合结束时，若幽魂还处于物件内，其受到5（1d10）力场伤害\n\n###### 动作Actions\n\n",
+    "text_sha256": "e807cf9ba855be09ffe68d92884606a78c00bc29ddb98c66003eaaaced307ced"
+  },
+  "raw_fragment_id": "urn:uuid:b32518f2-acd4-5874-acf6-2482d95a72d4",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

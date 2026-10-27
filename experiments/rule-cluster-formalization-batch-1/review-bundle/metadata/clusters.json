@@ -1,0 +1,166 @@
+[
+  {
+    "cluster_revision": 2,
+    "content_dependencies": [
+      "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+      "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+      "urn:uuid:5239b2ad-4c89-50ec-bd69-95a5df09d2c9",
+      "urn:uuid:73291d6c-3766-5e10-858e-e5bb7cb507db",
+      "urn:uuid:be92f54c-9051-5867-b673-10e61433b6c3",
+      "urn:uuid:e3995331-da2b-5e63-a16d-118e40c00303",
+      "urn:uuid:eb5e535c-2645-5c77-b237-a1a7e79c9681",
+      "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b",
+      "urn:uuid:54fb4631-fd48-5d41-84fd-2c41fbf2f5d5",
+      "urn:uuid:4dfe39fd-0141-5e50-ae95-ebeaa474aab9",
+      "urn:uuid:9b807124-e59e-5ea1-8ad0-05dc5451847e",
+      "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+      "urn:uuid:7e7508f9-6982-5247-8301-85b530a5665c"
+    ],
+    "coverage": "all_card_text_all_card_abilities_all_direct_spell_calls_full_shared_rule_entries; no_question_filter",
+    "id": "urn:uuid:a667f252-0d34-5de7-9a82-e71d3dde6c33",
+    "review_status": "candidate",
+    "root_object_id": "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+    "title": "魅魔完整规则簇",
+    "uncompiled_semantics": "original complete text remains available; unsupported consumer must report limit"
+  },
+  {
+    "cluster_revision": 2,
+    "content_dependencies": [
+      "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+      "urn:uuid:5a08c0b2-4376-5daa-a254-10a3de5b1115",
+      "urn:uuid:5239b2ad-4c89-50ec-bd69-95a5df09d2c9",
+      "urn:uuid:73291d6c-3766-5e10-858e-e5bb7cb507db",
+      "urn:uuid:be92f54c-9051-5867-b673-10e61433b6c3",
+      "urn:uuid:e3995331-da2b-5e63-a16d-118e40c00303",
+      "urn:uuid:eb5e535c-2645-5c77-b237-a1a7e79c9681",
+      "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b",
+      "urn:uuid:54fb4631-fd48-5d41-84fd-2c41fbf2f5d5",
+      "urn:uuid:4dfe39fd-0141-5e50-ae95-ebeaa474aab9",
+      "urn:uuid:9b807124-e59e-5ea1-8ad0-05dc5451847e",
+      "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+      "urn:uuid:7e7508f9-6982-5247-8301-85b530a5665c"
+    ],
+    "coverage": "all_card_text_all_card_abilities_all_direct_spell_calls_full_shared_rule_entries; no_question_filter",
+    "id": "urn:uuid:49db4d9b-fc90-58e0-b0b8-b97f534ae484",
+    "review_status": "candidate",
+    "root_object_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+    "title": "梦魔完整规则簇",
+    "uncompiled_semantics": "original complete text remains available; unsupported consumer must report limit"
+  },
+  {
+    "cluster_revision": 2,
+    "content_dependencies": [
+      "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+      "urn:uuid:e3995331-da2b-5e63-a16d-118e40c00303",
+      "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b",
+      "urn:uuid:54fb4631-fd48-5d41-84fd-2c41fbf2f5d5",
+      "urn:uuid:4dfe39fd-0141-5e50-ae95-ebeaa474aab9",
+      "urn:uuid:9b807124-e59e-5ea1-8ad0-05dc5451847e",
+      "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+      "urn:uuid:7e7508f9-6982-5247-8301-85b530a5665c"
+    ],
+    "coverage": "all_card_text_all_card_abilities_all_direct_spell_calls_full_shared_rule_entries; no_question_filter",
+    "id": "urn:uuid:2d55b1b7-869b-5284-8f6b-249725a44b2b",
+    "review_status": "candidate",
+    "root_object_id": "urn:uuid:d033fa7e-4270-5b0d-abe8-dadd9d5123bc",
+    "title": "幽魂（2025）完整规则簇",
+    "uncompiled_semantics": "original complete text remains available; unsupported consumer must report limit"
+  },
+  {
+    "cluster_revision": 2,
+    "content_dependencies": [
+      "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+      "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b",
+      "urn:uuid:54fb4631-fd48-5d41-84fd-2c41fbf2f5d5",
+      "urn:uuid:4dfe39fd-0141-5e50-ae95-ebeaa474aab9",
+      "urn:uuid:9b807124-e59e-5ea1-8ad0-05dc5451847e",
+      "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+      "urn:uuid:7e7508f9-6982-5247-8301-85b530a5665c"
+    ],
+    "coverage": "all_card_text_all_card_abilities_all_direct_spell_calls_full_shared_rule_entries; no_question_filter",
+    "id": "urn:uuid:55e47227-f98a-5807-93e2-9e3a95044337",
+    "review_status": "candidate",
+    "root_object_id": "urn:uuid:2fc755dc-0248-542f-b265-9a5290be8982",
+    "title": "火元素完整规则簇",
+    "uncompiled_semantics": "original complete text remains available; unsupported consumer must report limit"
+  },
+  {
+    "cluster_revision": 2,
+    "content_dependencies": [
+      "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+      "urn:uuid:3286e1a5-1f82-5736-9028-f658f1e4d3da",
+      "urn:uuid:414fc8f8-4da0-5a5b-816e-a38b3c554336",
+      "urn:uuid:99a9d4c8-57a7-55d5-8d55-d9ff42749632",
+      "urn:uuid:aa4d4567-18df-5e3d-865f-9f5891ca7fc3",
+      "urn:uuid:c00679f8-148d-5365-a724-6c73858b5e0b",
+      "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b",
+      "urn:uuid:54fb4631-fd48-5d41-84fd-2c41fbf2f5d5",
+      "urn:uuid:4dfe39fd-0141-5e50-ae95-ebeaa474aab9",
+      "urn:uuid:9b807124-e59e-5ea1-8ad0-05dc5451847e",
+      "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+      "urn:uuid:7e7508f9-6982-5247-8301-85b530a5665c"
+    ],
+    "coverage": "all_card_text_all_card_abilities_all_direct_spell_calls_full_shared_rule_entries; no_question_filter",
+    "id": "urn:uuid:a1204e6b-6a60-5d65-bb67-79ca7cb5465d",
+    "review_status": "candidate",
+    "root_object_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+    "title": "史拉绿蟾完整规则簇",
+    "uncompiled_semantics": "original complete text remains available; unsupported consumer must report limit"
+  },
+  {
+    "cluster_revision": 1,
+    "content_dependencies": [
+      "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b",
+      "urn:uuid:54fb4631-fd48-5d41-84fd-2c41fbf2f5d5",
+      "urn:uuid:4dfe39fd-0141-5e50-ae95-ebeaa474aab9",
+      "urn:uuid:9b807124-e59e-5ea1-8ad0-05dc5451847e",
+      "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+      "urn:uuid:7e7508f9-6982-5247-8301-85b530a5665c",
+      "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804"
+    ],
+    "coverage": "complete_card_all_abilities_direct_dependencies",
+    "id": "urn:uuid:c63aba04-5ced-5c98-89bc-0ba50c5c10dc",
+    "review_status": "candidate",
+    "root_object_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+    "title": "气元素完整规则簇",
+    "uncompiled_semantics": "retained_not_silently_executed"
+  },
+  {
+    "cluster_revision": 1,
+    "content_dependencies": [
+      "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b",
+      "urn:uuid:54fb4631-fd48-5d41-84fd-2c41fbf2f5d5",
+      "urn:uuid:4dfe39fd-0141-5e50-ae95-ebeaa474aab9",
+      "urn:uuid:9b807124-e59e-5ea1-8ad0-05dc5451847e",
+      "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+      "urn:uuid:7e7508f9-6982-5247-8301-85b530a5665c",
+      "urn:uuid:08bb9681-7945-5066-8942-20699f45e336"
+    ],
+    "coverage": "complete_card_all_abilities_direct_dependencies",
+    "id": "urn:uuid:95bbe4fb-0f5c-5ad9-9b5b-87906d577fc7",
+    "review_status": "candidate",
+    "root_object_id": "urn:uuid:08bb9681-7945-5066-8942-20699f45e336",
+    "title": "土元素完整规则簇",
+    "uncompiled_semantics": "retained_not_silently_executed"
+  },
+  {
+    "cluster_revision": 1,
+    "content_dependencies": [
+      "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b",
+      "urn:uuid:54fb4631-fd48-5d41-84fd-2c41fbf2f5d5",
+      "urn:uuid:4dfe39fd-0141-5e50-ae95-ebeaa474aab9",
+      "urn:uuid:9b807124-e59e-5ea1-8ad0-05dc5451847e",
+      "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+      "urn:uuid:7e7508f9-6982-5247-8301-85b530a5665c",
+      "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+      "urn:uuid:99a9d4c8-57a7-55d5-8d55-d9ff42749632",
+      "urn:uuid:b0c16e81-f5e8-5e73-96e1-72735aaec1e9"
+    ],
+    "coverage": "complete_card_all_abilities_direct_dependencies",
+    "id": "urn:uuid:39bc9865-78ce-5a73-ae10-a2f71f6e8153",
+    "review_status": "candidate",
+    "root_object_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+    "title": "盾卫完整规则簇",
+    "uncompiled_semantics": "retained_not_silently_executed"
+  }
+]

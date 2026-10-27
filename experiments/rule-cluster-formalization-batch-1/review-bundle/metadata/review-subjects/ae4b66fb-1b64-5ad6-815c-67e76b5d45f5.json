@@ -1,0 +1,1392 @@
+{
+  "body": {
+    "digest": "sha256:bf07b709e1080ec50be6f192d3f71c0520838b40fec8d20a4fc5e5effc9a7e97",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/ae4b66fb-1b64-5ad6-815c-67e76b5d45f5.md"
+  },
+  "candidate_snapshot": {
+    "abilities": [
+      {
+        "critical_fields": {
+          "advantage": "saving_throws_against_spells_and_other_magical_effects"
+        },
+        "editorial_explanation": "魔法抗性是特定豁免优势，不是所有魔法伤害减半；伤害抗性另看完整基础卡。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:9b3b102c-7e15-5cf6-bf10-1e181ec7d413",
+                "json_pointer": "/critical_fields/advantage"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "local_evidence": "S.ABILITY.1",
+          "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+          "pointer": "/critical_fields"
+        },
+        "id": "urn:uuid:d2dd764c-14ed-527c-8886-f5766f3a1452",
+        "kind": "特质Traits",
+        "mechanics": {
+          "clauses": {
+            "advantage": "saving_throws_against_spells_and_other_magical_effects"
+          },
+          "dependencies": [
+            "urn:uuid:4dfe39fd-0141-5e50-ae95-ebeaa474aab9"
+          ],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+        "required_evidence": [
+          "P.RESISTANCE"
+        ],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:6afabf80-ae33-5e0a-b82f-4494861828d2",
+        "title": "魔法抗性",
+        "verbatim_evidence": "S.ABILITY.1",
+        "verbatim_text": "\n**魔法抗性Magic Resistance。**史拉蟾对抗法术和其他魔法效应时进行的豁免检定具有优势。\n"
+      },
+      {
+        "critical_fields": {
+          "hp_regained": 10,
+          "requires_hp_at_least": 1,
+          "timing": "own_turn_start"
+        },
+        "editorial_explanation": "0HP不能仅凭此特质自行回复；本卡没有巨魔的酸火抑制条款。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:78f156a9-993b-5e24-8819-99315c019c72",
+                "json_pointer": "/critical_fields/hp_regained"
+              },
+              {
+                "extraction_id": "urn:uuid:f683a57c-aab4-590e-b6d6-4322670f8ac2",
+                "json_pointer": "/critical_fields/timing"
+              },
+              {
+                "extraction_id": "urn:uuid:33d35bf4-f50f-5fe2-aeaa-a5b018479a84",
+                "json_pointer": "/critical_fields/requires_hp_at_least"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "local_evidence": "S.ABILITY.2",
+          "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+          "pointer": "/critical_fields"
+        },
+        "id": "urn:uuid:6f37153d-8e5e-58b4-80b9-7cd3b445122d",
+        "kind": "特质Traits",
+        "mechanics": {
+          "clauses": {
+            "hp_regained": 10,
+            "requires_hp_at_least": 1,
+            "timing": "own_turn_start"
+          },
+          "dependencies": [
+            "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b"
+          ],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+        "required_evidence": [
+          "P.HP"
+        ],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:b88af575-a594-58f9-8e13-bdb32abb1500",
+        "title": "再生",
+        "verbatim_evidence": "S.ABILITY.2",
+        "verbatim_text": "**再生Regeneration。**若史拉蟾至少拥有1生命值，则其在自己回合开始时回复10生命值。\n\n###### 动作Actions\n"
+      },
+      {
+        "critical_fields": {
+          "allowed": [
+            "S.ChaosStaff"
+          ],
+          "attacks": 3
+        },
+        "editorial_explanation": "三次混沌法杖，不存在法术替换许可。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:1709fce1-7acd-5ef7-9d17-0efd54bce664",
+                "json_pointer": "/critical_fields/attacks"
+              },
+              {
+                "extraction_id": "urn:uuid:3df3efa1-205a-5096-8994-b00005f94343",
+                "json_pointer": "/critical_fields/allowed/0"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "local_evidence": "S.ABILITY.3",
+          "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+          "pointer": "/critical_fields"
+        },
+        "id": "urn:uuid:eb31f875-0047-53b6-a275-f029cfb2a215",
+        "kind": "动作Actions",
+        "mechanics": {
+          "clauses": {
+            "allowed": [
+              "S.ChaosStaff"
+            ],
+            "attacks": 3
+          },
+          "dependencies": [],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+        "required_evidence": [],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:c2e7faea-d234-518d-9499-4c9351c842d7",
+        "title": "多重攻击",
+        "verbatim_evidence": "S.ABILITY.3",
+        "verbatim_text": "\n**多重攻击Multiattack。**史拉蟾发动三次混沌法杖攻击。\n"
+      },
+      {
+        "critical_fields": {
+          "attack_bonus": 7,
+          "condition_roll": "1d4",
+          "conditions": {
+            "1": "charmed",
+            "2": "frightened",
+            "3": "poisoned",
+            "4": "incapacitated"
+          },
+          "damage": 8,
+          "damage_dice": "1d8+4",
+          "ends": "source_next_turn_start",
+          "range_ft": 60,
+          "reach_ft": 10,
+          "type": "force"
+        },
+        "editorial_explanation": "直接能力附带随机状态，不调用魅惑类人；源生物/能力/实例分别关联，到来源下回合开始仅结束该实例，不清其他来源。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:1febb5b9-cc90-5174-b5f3-f4c5594c4a4e",
+                "json_pointer": "/critical_fields/attack_bonus"
+              },
+              {
+                "extraction_id": "urn:uuid:77c0f83c-92e1-5e2f-8272-c99fe63a925f",
+                "json_pointer": "/critical_fields/reach_ft"
+              },
+              {
+                "extraction_id": "urn:uuid:40cb981e-a11b-5005-9134-909ff06f0768",
+                "json_pointer": "/critical_fields/range_ft"
+              },
+              {
+                "extraction_id": "urn:uuid:c0cab5c1-c5ce-5f58-bbc8-2fdc1871ac62",
+                "json_pointer": "/critical_fields/damage"
+              },
+              {
+                "extraction_id": "urn:uuid:1c556801-6ae4-5068-932b-2a23f1fb68e9",
+                "json_pointer": "/critical_fields/damage_dice"
+              },
+              {
+                "extraction_id": "urn:uuid:4665fbae-0b43-552c-879e-1151a6a20d86",
+                "json_pointer": "/critical_fields/type"
+              },
+              {
+                "extraction_id": "urn:uuid:79f5a3ea-c234-54a3-abe7-26bc714aa8b2",
+                "json_pointer": "/critical_fields/condition_roll"
+              },
+              {
+                "extraction_id": "urn:uuid:50ae3450-fe1f-5e79-93d3-6c99811a5ebd",
+                "json_pointer": "/critical_fields/conditions/1"
+              },
+              {
+                "extraction_id": "urn:uuid:56850df1-2e20-522b-ae5e-985f3006f641",
+                "json_pointer": "/critical_fields/conditions/2"
+              },
+              {
+                "extraction_id": "urn:uuid:12a87ef6-96ca-59ef-9905-01327e916e8d",
+                "json_pointer": "/critical_fields/conditions/3"
+              },
+              {
+                "extraction_id": "urn:uuid:d502dfa2-0524-5685-be57-c7b4bad2b73c",
+                "json_pointer": "/critical_fields/conditions/4"
+              },
+              {
+                "extraction_id": "urn:uuid:1c2cb0f4-95ab-5c21-a4ff-1bbf2271ed7c",
+                "json_pointer": "/critical_fields/ends"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "local_evidence": "S.ABILITY.4",
+          "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+          "pointer": "/critical_fields"
+        },
+        "id": "urn:uuid:41d0162f-23e7-5172-9ffb-0ce92ff0ee4d",
+        "kind": "动作Actions",
+        "mechanics": {
+          "clauses": {
+            "attack_bonus": 7,
+            "condition_roll": "1d4",
+            "conditions": {
+              "1": "charmed",
+              "2": "frightened",
+              "3": "poisoned",
+              "4": "incapacitated"
+            },
+            "damage": 8,
+            "damage_dice": "1d8+4",
+            "ends": "source_next_turn_start",
+            "range_ft": 60,
+            "reach_ft": 10,
+            "type": "force"
+          },
+          "damage": {
+            "amount": {
+              "dice": "1d8+4",
+              "printed_fixed": 8,
+              "selection": "use_scene_amount_mode; recorded_dice_must_not_be_rerolled"
+            },
+            "damage_type": "force",
+            "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+            "linked_reduction_from_damage_taken": false,
+            "other_effects": [
+              {
+                "choose_by_d4": {
+                  "1": "charmed",
+                  "2": "frightened",
+                  "3": "poisoned",
+                  "4": "incapacitated"
+                },
+                "ends": "this_source_next_turn_start",
+                "kind": "sourced_condition"
+              }
+            ],
+            "save_success": null,
+            "trigger": "hit"
+          },
+          "dependencies": [
+            "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+            "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+            "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+            "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+            "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb"
+          ],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+        "required_evidence": [
+          "P.CHARMED",
+          "P.FRIGHTENED",
+          "P.POISONED",
+          "P.INCAP",
+          "P.CONDITION"
+        ],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:05d04086-d13a-53b2-866c-02f8ccf6774b",
+        "title": "混沌法杖",
+        "verbatim_evidence": "S.ABILITY.4",
+        "verbatim_text": " **混沌法杖Chaos Staff。***近战或远程攻击检定：*+7，触及10尺或射程60尺。*命中：*8（1d8+4）力场伤害。目标陷入某种状态直至史拉蟾的下个回合开始，掷1d4决定：1，魅惑；2，恐慌；3，中毒；4，失能。\n"
+      },
+      {
+        "critical_fields": {
+          "ability": "charisma",
+          "at_will": [
+            "P.DETECT",
+            "P.THOUGHTS",
+            "P.HAND"
+          ],
+          "components_waived": [
+            "M"
+          ],
+          "dc": 14,
+          "local_target_override": {
+            "P.INVISIBILITY": "self_only"
+          },
+          "one_per_day_each": [
+            "P.FIREBALL",
+            "P.INVISIBILITY"
+          ],
+          "spell_attack_bonus": 6,
+          "translator_suggestion": {
+            "dc": 15,
+            "spell_attack_bonus": 7
+          }
+        },
+        "editorial_explanation": "当前明确采用卡载DC14/+6，不用公式或译注静默覆盖；译注15/+7单列尚未核验。每项1/日各自独立；只免M；隐形术仅自身且仍需专注，攻击等结束条件不被目标覆盖豁免。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "casting_calls": [
+              {
+                "availability": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": {
+                    "kind": "at_will"
+                  }
+                },
+                "cast_level": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "casting_ability": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": "charisma"
+                },
+                "components_waived": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": [
+                    "M"
+                  ]
+                },
+                "concentration_override": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "mapping_adoption_ids": [],
+                "mode": "intrinsic_spell_call",
+                "parameter_owner": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": "this_actor_instance"
+                },
+                "save_dc": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": 14
+                },
+                "spell_attack_bonus": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": 6
+                },
+                "spell_id": "urn:uuid:aa4d4567-18df-5e3d-865f-9f5891ca7fc3",
+                "target_override": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "uncompiled_qualifications": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": {}
+                }
+              },
+              {
+                "availability": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": {
+                    "kind": "at_will"
+                  }
+                },
+                "cast_level": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "casting_ability": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": "charisma"
+                },
+                "components_waived": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": [
+                    "M"
+                  ]
+                },
+                "concentration_override": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "mapping_adoption_ids": [],
+                "mode": "intrinsic_spell_call",
+                "parameter_owner": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": "this_actor_instance"
+                },
+                "save_dc": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": 14
+                },
+                "spell_attack_bonus": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": 6
+                },
+                "spell_id": "urn:uuid:3286e1a5-1f82-5736-9028-f658f1e4d3da",
+                "target_override": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "uncompiled_qualifications": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": {}
+                }
+              },
+              {
+                "availability": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": {
+                    "kind": "at_will"
+                  }
+                },
+                "cast_level": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "casting_ability": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": "charisma"
+                },
+                "components_waived": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": [
+                    "M"
+                  ]
+                },
+                "concentration_override": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "mapping_adoption_ids": [],
+                "mode": "intrinsic_spell_call",
+                "parameter_owner": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": "this_actor_instance"
+                },
+                "save_dc": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": 14
+                },
+                "spell_attack_bonus": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": 6
+                },
+                "spell_id": "urn:uuid:c00679f8-148d-5365-a724-6c73858b5e0b",
+                "target_override": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "uncompiled_qualifications": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": {}
+                }
+              },
+              {
+                "availability": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": {
+                    "kind": "each_once_per_day",
+                    "recovery_evidence_id": "urn:uuid:325369fb-509c-57dc-9c14-7f5c093407d0"
+                  }
+                },
+                "cast_level": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "casting_ability": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": "charisma"
+                },
+                "components_waived": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": [
+                    "M"
+                  ]
+                },
+                "concentration_override": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "mapping_adoption_ids": [],
+                "mode": "intrinsic_spell_call",
+                "parameter_owner": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": "this_actor_instance"
+                },
+                "save_dc": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": 14
+                },
+                "spell_attack_bonus": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": 6
+                },
+                "spell_id": "urn:uuid:99a9d4c8-57a7-55d5-8d55-d9ff42749632",
+                "target_override": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "uncompiled_qualifications": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": {}
+                }
+              },
+              {
+                "availability": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": {
+                    "kind": "each_once_per_day",
+                    "recovery_evidence_id": "urn:uuid:325369fb-509c-57dc-9c14-7f5c093407d0"
+                  }
+                },
+                "cast_level": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "casting_ability": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": "charisma"
+                },
+                "components_waived": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": [
+                    "M"
+                  ]
+                },
+                "concentration_override": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "mapping_adoption_ids": [],
+                "mode": "intrinsic_spell_call",
+                "parameter_owner": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": "this_actor_instance"
+                },
+                "save_dc": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": 14
+                },
+                "spell_attack_bonus": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": 6
+                },
+                "spell_id": "urn:uuid:414fc8f8-4da0-5a5b-816e-a38b3c554336",
+                "target_override": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": "self_only"
+                },
+                "uncompiled_qualifications": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+                    "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+                    "source_note_utf8_range": {
+                      "end": 3149,
+                      "start": 2721
+                    }
+                  },
+                  "state": "known",
+                  "value": {}
+                }
+              }
+            ],
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:14754410-f47b-520b-a659-d7cc164a2b92",
+                "json_pointer": "/critical_fields/ability"
+              },
+              {
+                "extraction_id": "urn:uuid:90e8e0c2-17a5-5f6c-8c26-f107df3e4b09",
+                "json_pointer": "/critical_fields/dc"
+              },
+              {
+                "extraction_id": "urn:uuid:5edfa5ea-cb77-5564-9b29-2e272290f3a0",
+                "json_pointer": "/critical_fields/spell_attack_bonus"
+              },
+              {
+                "extraction_id": "urn:uuid:630a78c2-6f72-590b-878f-3a552da1e5e6",
+                "json_pointer": "/critical_fields/components_waived/0"
+              },
+              {
+                "extraction_id": "urn:uuid:39348099-bf64-56fd-a3ad-654e6de0e6c6",
+                "json_pointer": "/critical_fields/at_will/0"
+              },
+              {
+                "extraction_id": "urn:uuid:10c486f5-91f9-5c64-8007-78da65c367db",
+                "json_pointer": "/critical_fields/at_will/1"
+              },
+              {
+                "extraction_id": "urn:uuid:d70c2949-21f1-5ba7-bfc3-6d5872ad31f6",
+                "json_pointer": "/critical_fields/at_will/2"
+              },
+              {
+                "extraction_id": "urn:uuid:8b5c0de9-8005-5be5-a855-5ffdf4d39ca2",
+                "json_pointer": "/critical_fields/one_per_day_each/0"
+              },
+              {
+                "extraction_id": "urn:uuid:e03fca55-abdc-5b96-999d-578028f46bde",
+                "json_pointer": "/critical_fields/one_per_day_each/1"
+              },
+              {
+                "extraction_id": "urn:uuid:a01f25b5-5f92-513b-8765-35983c720d26",
+                "json_pointer": "/critical_fields/local_target_override/P.INVISIBILITY"
+              },
+              {
+                "extraction_id": "urn:uuid:c628bb8c-f8b1-5439-87f5-b0594fab5d13",
+                "json_pointer": "/critical_fields/translator_suggestion/dc"
+              },
+              {
+                "extraction_id": "urn:uuid:60c3a7c2-301f-5b32-ab97-05635d06e8b5",
+                "json_pointer": "/critical_fields/translator_suggestion/spell_attack_bonus"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [
+            "ED.SLAAD"
+          ],
+          "local_evidence": "S.ABILITY.5",
+          "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+          "pointer": "/critical_fields"
+        },
+        "id": "urn:uuid:cdd0d432-35be-5863-b45e-28a63353d464",
+        "kind": "动作Actions",
+        "mechanics": {
+          "clauses": {
+            "ability": "charisma",
+            "at_will": [
+              "P.DETECT",
+              "P.THOUGHTS",
+              "P.HAND"
+            ],
+            "components_waived": [
+              "M"
+            ],
+            "dc": 14,
+            "local_target_override": {
+              "P.INVISIBILITY": "self_only"
+            },
+            "one_per_day_each": [
+              "P.FIREBALL",
+              "P.INVISIBILITY"
+            ],
+            "spell_attack_bonus": 6,
+            "translator_suggestion": {
+              "dc": 15,
+              "spell_attack_bonus": 7
+            }
+          },
+          "dependencies": [
+            "urn:uuid:aa4d4567-18df-5e3d-865f-9f5891ca7fc3",
+            "urn:uuid:3286e1a5-1f82-5736-9028-f658f1e4d3da",
+            "urn:uuid:c00679f8-148d-5365-a724-6c73858b5e0b",
+            "urn:uuid:99a9d4c8-57a7-55d5-8d55-d9ff42749632",
+            "urn:uuid:414fc8f8-4da0-5a5b-816e-a38b3c554336",
+            "urn:uuid:54fb4631-fd48-5d41-84fd-2c41fbf2f5d5",
+            "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b",
+            "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+            "urn:uuid:9b807124-e59e-5ea1-8ad0-05dc5451847e",
+            "urn:uuid:9b807124-e59e-5ea1-8ad0-05dc5451847e"
+          ],
+          "kind": "source_bound_candidate",
+          "spell_calls": [
+            {
+              "caller_overrides_from": "/critical_fields",
+              "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+              "target_id": "urn:uuid:aa4d4567-18df-5e3d-865f-9f5891ca7fc3"
+            },
+            {
+              "caller_overrides_from": "/critical_fields",
+              "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+              "target_id": "urn:uuid:3286e1a5-1f82-5736-9028-f658f1e4d3da"
+            },
+            {
+              "caller_overrides_from": "/critical_fields",
+              "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+              "target_id": "urn:uuid:c00679f8-148d-5365-a724-6c73858b5e0b"
+            },
+            {
+              "caller_overrides_from": "/critical_fields",
+              "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+              "target_id": "urn:uuid:99a9d4c8-57a7-55d5-8d55-d9ff42749632"
+            },
+            {
+              "caller_overrides_from": "/critical_fields",
+              "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+              "target_id": "urn:uuid:414fc8f8-4da0-5a5b-816e-a38b3c554336"
+            }
+          ],
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+        "required_evidence": [
+          "P.DETECT",
+          "P.THOUGHTS",
+          "P.HAND",
+          "P.FIREBALL",
+          "P.INVISIBILITY",
+          "P.COMPONENTS",
+          "P.CONCENTRATION",
+          "P.INVISIBLE",
+          "M.ACTIONS",
+          "M.USAGE"
+        ],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:afd1e777-eb9f-56b6-b683-036f1e0de2fc",
+        "title": "施法",
+        "verbatim_evidence": "S.ABILITY.5",
+        "verbatim_text": " **施法Spellcasting。**史拉蟾施展以下一道法术，无需材料成分并使用魅力作为施法属性（法术豁免DC14，法术攻击命中+6）：\n（译注：应为DC15，命中+7，但原文如此）\n ***随意：****侦测魔法Detect Magic，侦测思想Detect Thoughts，法师之手Mage Hand*\n ***每项1/日：****火球术Fireball，隐形术Invisibility*（仅自身）\n\n###### 附赠动作Bonus Actions\n"
+      },
+      {
+        "critical_fields": {
+          "activation": "bonus_action",
+          "equipment_changes": false,
+          "forms": [
+            "small_humanoid",
+            "medium_humanoid",
+            "true_form"
+          ],
+          "stats_change": "size_only"
+        },
+        "editorial_explanation": "体型外数据不变；当前HP不回满，装备不随之变化，不因类人外形自动改生物类型。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:dcf0bd37-21b0-54c4-acce-d4ca082bef33",
+                "json_pointer": "/critical_fields/activation"
+              },
+              {
+                "extraction_id": "urn:uuid:61b89ce7-1ec2-5177-9bc7-a41a26130301",
+                "json_pointer": "/critical_fields/forms/0"
+              },
+              {
+                "extraction_id": "urn:uuid:80d2d249-efa7-5059-a847-5425b1279ebb",
+                "json_pointer": "/critical_fields/forms/1"
+              },
+              {
+                "extraction_id": "urn:uuid:b041fbd3-d728-5e37-94e7-c3f7e607d736",
+                "json_pointer": "/critical_fields/forms/2"
+              },
+              {
+                "extraction_id": "urn:uuid:5e0df444-0814-5b60-b788-02bb56b2b065",
+                "json_pointer": "/critical_fields/stats_change"
+              },
+              {
+                "extraction_id": "urn:uuid:1cbd00e8-dd0e-53e9-9a9c-02f925d444be",
+                "json_pointer": "/critical_fields/equipment_changes"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "local_evidence": "S.ABILITY.6",
+          "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+          "pointer": "/critical_fields"
+        },
+        "id": "urn:uuid:ee363df5-5a9c-5063-b2a6-e0e13d6717c6",
+        "kind": "附赠动作Bonus Actions",
+        "mechanics": {
+          "clauses": {
+            "activation": "bonus_action",
+            "equipment_changes": false,
+            "forms": [
+              "small_humanoid",
+              "medium_humanoid",
+              "true_form"
+            ],
+            "stats_change": "size_only"
+          },
+          "dependencies": [],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+        "required_evidence": [],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:0da8ca0a-dc77-57bd-b108-411fa99a9e47",
+        "title": "变形",
+        "verbatim_evidence": "S.ABILITY.6",
+        "verbatim_text": "\n**变形Shape-Shift。**史拉蟾变形为小型或中型的类人生物，或变回其真实形态。除体型以外，其各形态下游戏数据均相同。史拉蟾着装或携带的任何装备都不会随之变化。\n"
+      }
+    ],
+    "ability_evidence": [
+      "S.ABILITY.1",
+      "S.ABILITY.2",
+      "S.ABILITY.3",
+      "S.ABILITY.4",
+      "S.ABILITY.5",
+      "S.ABILITY.6"
+    ],
+    "all_abilities_present": true,
+    "all_card_text_present": true,
+    "candidate_revision": 4,
+    "card_evidence": "S.CARD",
+    "every_numeric_field_atomized": false,
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "content_coverage": {
+          "all_abilities": "complete",
+          "card_text": "complete",
+          "formal_rule_approval": false,
+          "structured_semantics": "partial_explicit"
+        },
+        "identity_traits": {
+          "creature_type": "aberration",
+          "entity_kind": "creature",
+          "size": "large",
+          "source_evidence_id": "urn:uuid:36101a48-d967-54ff-8be1-b62bf4e3607f"
+        }
+      }
+    },
+    "group": "G",
+    "header": {
+      "ac": 16,
+      "defense_binding": {
+        "enumeration_complete_for_selected_card": true,
+        "evidence": "S.HEADER",
+        "scope": "intrinsic enumerated defense of this selected source card, not every possible runtime defense"
+      },
+      "defenses": {
+        "condition_immunity": [],
+        "damage_immunity": [],
+        "resistance": [
+          "acid",
+          "cold",
+          "fire",
+          "lightning",
+          "thunder"
+        ],
+        "vulnerability": []
+      },
+      "hp": 144,
+      "hp_role": "printed_default_maximum_hp; never runtime_current_hp",
+      "runtime_hp_rule": "题目明确给出当前/最大HP时使用该实例输入；印刷HP不覆盖题目给定的最大HP。缺当前HP不推定满血。",
+      "source_evidence": "S.HEADER"
+    },
+    "id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+    "language": "zh-Hans",
+    "previous_candidate_revision": 3,
+    "prototype_role": "printed_template_not_live_instance",
+    "publication_identity": "claimed",
+    "review_status": "candidate",
+    "rights": "unknown",
+    "rule_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+    "rule_edition": "2024",
+    "rules_context": "MM2025 + selected PHB2024 trial",
+    "source_evidence_id": "urn:uuid:f621096f-4f2e-5f51-8a98-3330d1b33807",
+    "title": "史拉绿蟾",
+    "translation_authority": "unknown",
+    "verbatim_text": "<a id=\"Green_Slaad\"></a>\n##### 史拉绿蟾Green Slaad\n\n大型异怪，混乱中立\n\n<table><tr><td><strong>AC </strong>16</td><td><strong>先攻 </strong>+5（15）</td></tr> <tr><td colspan=\"2\"><strong>HP </strong>144（17d10+51）</td></tr> <tr><td colspan=\"2\"><strong>速度 </strong>30尺</td></tr></table>\n\n<table><tr><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th></tr> <tr><td><strong>力量</strong></td><td>16</td><td>+3</td><td>+3</td> <td></td> <td><strong>敏捷</strong></td><td>15</td><td>+2</td><td>+2</td> <td></td> <td><strong>体质</strong></td><td>16</td><td>+3</td><td>+3</td></tr> <tr><td><strong>智力</strong></td><td>11</td><td>+0</td><td>+0</td> <td></td> <td><strong>感知</strong></td><td>8</td><td>-1</td><td>-1</td> <td></td> <td><strong>魅力</strong></td><td>18</td><td>+4</td><td>+4</td></tr> </table>\n\n| **技能**奥秘+3，察觉+2 |\n| --- |\n| **抗性**强酸，寒冷，火焰，闪电，雷鸣 |\n| **感官**盲视30尺，黑暗视觉60尺；被动察觉12 |\n| **语言**通用语，史拉蟾语；心灵感应60尺 |\n| **CR**8（XP3900；PB+3） |\n\n###### 特质Traits\n\n**魔法抗性Magic Resistance。**史拉蟾对抗法术和其他魔法效应时进行的豁免检定具有优势。\n**再生Regeneration。**若史拉蟾至少拥有1生命值，则其在自己回合开始时回复10生命值。\n\n###### 动作Actions\n\n**多重攻击Multiattack。**史拉蟾发动三次混沌法杖攻击。\n **混沌法杖Chaos Staff。***近战或远程攻击检定：*+7，触及10尺或射程60尺。*命中：*8（1d8+4）力场伤害。目标陷入某种状态直至史拉蟾的下个回合开始，掷1d4决定：1，魅惑；2，恐慌；3，中毒；4，失能。\n **施法Spellcasting。**史拉蟾施展以下一道法术，无需材料成分并使用魅力作为施法属性（法术豁免DC14，法术攻击命中+6）：\n（译注：应为DC15，命中+7，但原文如此）\n ***随意：****侦测魔法Detect Magic，侦测思想Detect Thoughts，法师之手Mage Hand*\n ***每项1/日：****火球术Fireball，隐形术Invisibility*（仅自身）\n\n###### 附赠动作Bonus Actions\n\n**变形Shape-Shift。**史拉蟾变形为小型或中型的类人生物，或变回其真实形态。除体型以外，其各形态下游戏数据均相同。史拉蟾着装或携带的任何装备都不会随之变化。\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:ae4b66fb-1b64-5ad6-815c-67e76b5d45f5",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:309bf9b2-5d19-5ec4-abad-d40141c8dc2a",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:f621096f-4f2e-5f51-8a98-3330d1b33807",
+    "derived_note_utf8_range": {
+      "end": 3373,
+      "start": 901
+    },
+    "entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+    "fragment_id": "urn:uuid:2f037a82-6e86-5b22-b290-e00cb0335153",
+    "mapping_id": "urn:uuid:d69b0a1f-7a80-5cc0-ad1c-f9a647e5d626"
+  },
+  "subject_kind": "creature",
+  "title": "史拉绿蟾",
+  "uncompiled_semantics_retained": true
+}

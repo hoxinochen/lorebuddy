@@ -1,0 +1,438 @@
+{
+  "body": {
+    "digest": "sha256:2a8abcf9c7c54fa20a64a83ae6514a0bce58105b2d089fffcabf7547136b887b",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/54f1247d-83b4-5942-8249-db0365d3c804.md"
+  },
+  "candidate_snapshot": {
+    "abilities": [
+      {
+        "critical_fields": {
+          "extra_movement_cost": 0,
+          "minimum_gap_inch": 1,
+          "occupy_creature_space": true
+        },
+        "editorial_explanation": "穿隙与进入空间不自动附加火元素的首次进入伤害。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:e968e2bf-91be-5724-8b87-4d32756b7f04",
+                "json_pointer": "/critical_fields/minimum_gap_inch"
+              },
+              {
+                "extraction_id": "urn:uuid:a0e6f952-ff44-5131-afb1-2d3930c7b07a",
+                "json_pointer": "/critical_fields/extra_movement_cost"
+              },
+              {
+                "extraction_id": "urn:uuid:715c8f07-000e-56fb-8196-34be7a134d99",
+                "json_pointer": "/critical_fields/occupy_creature_space"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "local_evidence": "A.ABILITY.1",
+          "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+          "pointer": "/critical_fields"
+        },
+        "id": "urn:uuid:4fba9e98-7ca9-5080-b2e9-50449af380e2",
+        "kind": "特质Traits",
+        "mechanics": {
+          "clauses": {
+            "extra_movement_cost": 0,
+            "minimum_gap_inch": 1,
+            "occupy_creature_space": true
+          },
+          "dependencies": [],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_and_complete_verbatim; remaining_semantics_uncompiled"
+        },
+        "owner_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+        "required_evidence": [],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:7f4e3f9f-dc79-5323-9ef3-dbdd5e617214",
+        "title": "空气形态",
+        "verbatim_evidence": "A.ABILITY.1",
+        "verbatim_text": "\n**空气形态Air Form。**气元素可以进入并停留在生物所处的空间。其可以移动穿过最窄1寸宽的空间而无需消耗额外的移动力。\n\n###### 动作Actions\n"
+      },
+      {
+        "critical_fields": {
+          "allowed": [
+            "A.ThunderousSlam"
+          ],
+          "attacks": 2
+        },
+        "editorial_explanation": "两次雷鸣猛击，不包含旋风替换许可。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:d36d2582-89b1-516f-8623-796c7e007dbb",
+                "json_pointer": "/critical_fields/attacks"
+              },
+              {
+                "extraction_id": "urn:uuid:04f50de7-4fcf-5542-9662-89184c475635",
+                "json_pointer": "/critical_fields/allowed/0"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "local_evidence": "A.ABILITY.2",
+          "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+          "pointer": "/critical_fields"
+        },
+        "id": "urn:uuid:8ef9ad7f-fe87-57f5-a6d7-8724ffc8546d",
+        "kind": "动作Actions",
+        "mechanics": {
+          "clauses": {
+            "allowed": [
+              "A.ThunderousSlam"
+            ],
+            "attacks": 2
+          },
+          "dependencies": [],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_and_complete_verbatim; remaining_semantics_uncompiled"
+        },
+        "owner_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+        "required_evidence": [],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:b2508f14-6e32-59aa-aa94-851da2c4ecce",
+        "title": "多重攻击",
+        "verbatim_evidence": "A.ABILITY.2",
+        "verbatim_text": "\n**多重攻击Multiattack。**气元素发动两次雷鸣猛击攻击。\n"
+      },
+      {
+        "critical_fields": {
+          "attack_bonus": 8,
+          "damage": 14,
+          "damage_dice": "2d8+5",
+          "reach_ft": 10,
+          "type": "thunder"
+        },
+        "editorial_explanation": "按本卡攻击，不把火元素攻击加值借来。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:ba5f6256-9b41-5ec8-9a33-8a2104ab2669",
+                "json_pointer": "/critical_fields/attack_bonus"
+              },
+              {
+                "extraction_id": "urn:uuid:53c05379-ec56-55c8-8168-dd197e0d831f",
+                "json_pointer": "/critical_fields/reach_ft"
+              },
+              {
+                "extraction_id": "urn:uuid:1ee01a0b-a8ec-5462-96cb-36be11a8d2be",
+                "json_pointer": "/critical_fields/damage"
+              },
+              {
+                "extraction_id": "urn:uuid:bc8679fd-fe7e-5c0e-b352-ec3170d80f7a",
+                "json_pointer": "/critical_fields/damage_dice"
+              },
+              {
+                "extraction_id": "urn:uuid:a16787eb-10c0-5429-9845-fdcc9b3ee828",
+                "json_pointer": "/critical_fields/type"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "local_evidence": "A.ABILITY.3",
+          "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+          "pointer": "/critical_fields"
+        },
+        "id": "urn:uuid:2e1f2c9a-26b2-563b-b713-4ffca1e85a67",
+        "kind": "动作Actions",
+        "mechanics": {
+          "clauses": {
+            "attack_bonus": 8,
+            "damage": 14,
+            "damage_dice": "2d8+5",
+            "reach_ft": 10,
+            "type": "thunder"
+          },
+          "damage": {
+            "amount": {
+              "dice": "2d8+5",
+              "printed_fixed": 14,
+              "selection": "use_scene_amount_mode; recorded_dice_must_not_be_rerolled"
+            },
+            "damage_type": "thunder",
+            "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+            "linked_reduction_from_damage_taken": false,
+            "other_effects": [],
+            "save_success": null,
+            "trigger": "hit"
+          },
+          "dependencies": [],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_and_complete_verbatim; remaining_semantics_uncompiled"
+        },
+        "owner_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+        "required_evidence": [],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:9f4c5666-f6e4-59fb-81ca-d9be65e8026e",
+        "title": "雷鸣猛击",
+        "verbatim_evidence": "A.ABILITY.3",
+        "verbatim_text": " **雷鸣猛击Thunderous Slam。***近战攻击检定：*+8，触及10尺。*命中：*14（2d8+5）雷鸣伤害。\n"
+      },
+      {
+        "critical_fields": {
+          "dc": 13,
+          "failure_condition": "prone",
+          "failure_damage": 24,
+          "failure_push_up_to_ft": 20,
+          "max_target_size": "medium",
+          "recharge": [
+            4,
+            6
+          ],
+          "save": "strength",
+          "success": "half_damage_only",
+          "target_count": 1,
+          "target_space": "inside_source_space",
+          "type": "thunder"
+        },
+        "editorial_explanation": "失败才推离和倒地；成功仅半伤。最多中型是目标资格，不是失败后才检查的附加效果门槛。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "qualification_contract": {
+              "recharge": {
+                "die": "1d6",
+                "max": 6,
+                "min": 4
+              },
+              "source_evidence_id": "urn:uuid:e840fcbd-5da3-5084-be20-b6d912d79f78",
+              "target_inside_source_space": true,
+              "target_size_max": "medium"
+            },
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:3a8bea79-4d3d-5047-979b-0d121e9eb048",
+                "json_pointer": "/critical_fields/recharge/0"
+              },
+              {
+                "extraction_id": "urn:uuid:cb672298-dc19-5b78-90f5-2bb415f7bef0",
+                "json_pointer": "/critical_fields/recharge/1"
+              },
+              {
+                "extraction_id": "urn:uuid:75ecdc47-49c9-5003-b14b-54c2a333275c",
+                "json_pointer": "/critical_fields/target_count"
+              },
+              {
+                "extraction_id": "urn:uuid:ea016b2c-fb72-5a4d-874e-abc217dad232",
+                "json_pointer": "/critical_fields/target_space"
+              },
+              {
+                "extraction_id": "urn:uuid:5a154293-6140-581a-b0aa-8b356f3a89ce",
+                "json_pointer": "/critical_fields/max_target_size"
+              },
+              {
+                "extraction_id": "urn:uuid:75ae1822-b144-5379-b124-e05f48216045",
+                "json_pointer": "/critical_fields/save"
+              },
+              {
+                "extraction_id": "urn:uuid:82752546-2921-5ed3-9f81-fdc4d2146093",
+                "json_pointer": "/critical_fields/dc"
+              },
+              {
+                "extraction_id": "urn:uuid:3c348d2e-47f8-53b4-92a2-29e49507a865",
+                "json_pointer": "/critical_fields/failure_damage"
+              },
+              {
+                "extraction_id": "urn:uuid:8522938a-bf44-501a-b700-9bde17568ff2",
+                "json_pointer": "/critical_fields/type"
+              },
+              {
+                "extraction_id": "urn:uuid:c742159f-9eec-56e8-b33a-d6001898dbb5",
+                "json_pointer": "/critical_fields/failure_push_up_to_ft"
+              },
+              {
+                "extraction_id": "urn:uuid:e2d81bac-1705-5489-b6e4-a60fe8a2759f",
+                "json_pointer": "/critical_fields/failure_condition"
+              },
+              {
+                "extraction_id": "urn:uuid:c1f24ce2-1548-5e39-a75a-30d8eb466a8a",
+                "json_pointer": "/critical_fields/success"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "local_evidence": "A.ABILITY.4",
+          "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+          "pointer": "/critical_fields"
+        },
+        "id": "urn:uuid:58621492-1fe9-5697-9d87-a77703fcebfa",
+        "kind": "动作Actions",
+        "mechanics": {
+          "clauses": {
+            "dc": 13,
+            "failure_condition": "prone",
+            "failure_damage": 24,
+            "failure_push_up_to_ft": 20,
+            "max_target_size": "medium",
+            "recharge": [
+              4,
+              6
+            ],
+            "save": "strength",
+            "success": "half_damage_only",
+            "target_count": 1,
+            "target_space": "inside_source_space",
+            "type": "thunder"
+          },
+          "damage": {
+            "amount": {
+              "dice": "4d10+2",
+              "printed_fixed": 24,
+              "selection": "use_scene_amount_mode; recorded_dice_must_not_be_rerolled"
+            },
+            "damage_type": "thunder",
+            "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+            "linked_reduction_from_damage_taken": false,
+            "other_effects": [
+              {
+                "distance_ft_max": 20,
+                "kind": "push",
+                "when": "failed_save"
+              },
+              {
+                "kind": "condition",
+                "name": "prone",
+                "when": "failed_save"
+              }
+            ],
+            "save_success": "half",
+            "trigger": "strength_save"
+          },
+          "dependencies": [
+            "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+            "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b",
+            "urn:uuid:9b807124-e59e-5ea1-8ad0-05dc5451847e"
+          ],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_and_complete_verbatim; remaining_semantics_uncompiled"
+        },
+        "owner_id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+        "required_evidence": [
+          "P.PRONE",
+          "P.ROUND",
+          "M.USAGE"
+        ],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:e840fcbd-5da3-5084-be20-b6d912d79f78",
+        "title": "旋风",
+        "verbatim_evidence": "A.ABILITY.4",
+        "verbatim_text": " **旋风Whirlwind（充能4~6）。***力量豁免检定：*DC13，单一位于气元素空间的不超过中型的生物。*失败：*24（4d10+2）雷鸣伤害，且目标被气元素直线推离至多20尺，并陷入倒地状态。*成功：*仅半伤。\n"
+      }
+    ],
+    "ability_evidence": [
+      "A.ABILITY.1",
+      "A.ABILITY.2",
+      "A.ABILITY.3",
+      "A.ABILITY.4"
+    ],
+    "all_abilities_present": true,
+    "all_card_text_present": true,
+    "candidate_revision": 3,
+    "card_evidence": "A.CARD",
+    "every_numeric_field_atomized": false,
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "content_coverage": {
+          "all_abilities": "complete",
+          "card_text": "complete",
+          "formal_rule_approval": false,
+          "structured_semantics": "partial_explicit"
+        },
+        "identity_traits": {
+          "creature_type": "elemental",
+          "entity_kind": "creature",
+          "size": "large",
+          "source_evidence_id": "urn:uuid:bb23ea13-be4d-57f4-a8fe-1a2d70130cbf"
+        }
+      }
+    },
+    "group": "E",
+    "header": {
+      "ac": 15,
+      "defense_binding": {
+        "enumeration_complete_for_selected_card": true,
+        "evidence": "A.HEADER",
+        "scope": "intrinsic enumerated defense of this selected source card, not every possible runtime defense"
+      },
+      "defenses": {
+        "condition_immunity": [
+          "exhaustion",
+          "grappled",
+          "paralyzed",
+          "petrified",
+          "poisoned",
+          "prone",
+          "restrained",
+          "unconscious"
+        ],
+        "damage_immunity": [
+          "poison",
+          "thunder"
+        ],
+        "resistance": [
+          "bludgeoning",
+          "lightning",
+          "piercing",
+          "slashing"
+        ],
+        "vulnerability": []
+      },
+      "hp": 90,
+      "hp_role": "printed_default_maximum_hp; never runtime_current_hp",
+      "runtime_hp_rule": "题目明确给出当前/最大HP时使用该实例输入；印刷HP不覆盖题目给定的最大HP。缺当前HP不推定满血。",
+      "source_evidence": "A.HEADER"
+    },
+    "id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+    "language": "zh-Hans",
+    "previous_candidate_revision": 2,
+    "prototype_role": "printed_template_not_live_instance",
+    "publication_identity": "claimed",
+    "review_status": "candidate",
+    "rights": "unknown",
+    "rule_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+    "rule_edition": "2024",
+    "rules_context": "MM2025 + selected PHB2024 trial",
+    "source_evidence_id": "urn:uuid:c1d0eeff-17e9-58be-aa39-fdc5142070ee",
+    "title": "气元素",
+    "translation_authority": "unknown",
+    "verbatim_text": "<a id=\"Air_Elemental\"></a>\n##### 气元素Air Elemental\n\n大型元素，中立\n\n<table><tr><td><strong>AC </strong>15</td><td><strong>先攻 </strong>+5（15）</td></tr> <tr><td colspan=\"2\"><strong>HP </strong>90（12d10+24）</td></tr> <tr><td colspan=\"2\"><strong>速度 </strong>10尺，飞行90尺（悬浮）</td></tr></table>\n\n<table><tr><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th></tr> <tr><td><strong>力量</strong></td><td>14</td><td>+2</td><td>+2</td> <td></td> <td><strong>敏捷</strong></td><td>20</td><td>+5</td><td>+5</td> <td></td> <td><strong>体质</strong></td><td>14</td><td>+2</td><td>+2</td></tr> <tr><td><strong>智力</strong></td><td>6</td><td>-2</td><td>-2</td> <td></td> <td><strong>感知</strong></td><td>10</td><td>+0</td><td>+0</td> <td></td> <td><strong>魅力</strong></td><td>6</td><td>-2</td><td>-2</td></tr> </table>\n\n| **抗性**钝击，闪电，穿刺，挥砍 |\n| --- |\n| **免疫**毒素，雷鸣；力竭，受擒，麻痹，石化，中毒，倒地，束缚，昏迷。 |\n| **感官**黑暗视觉60尺；被动察觉10 |\n| **语言**原初语（气族语） |\n| **CR**5（XP1,800；PB+3） |\n\n###### 特质Traits\n\n**空气形态Air Form。**气元素可以进入并停留在生物所处的空间。其可以移动穿过最窄1寸宽的空间而无需消耗额外的移动力。\n\n###### 动作Actions\n\n**多重攻击Multiattack。**气元素发动两次雷鸣猛击攻击。\n **雷鸣猛击Thunderous Slam。***近战攻击检定：*+8，触及10尺。*命中：*14（2d8+5）雷鸣伤害。\n **旋风Whirlwind（充能4~6）。***力量豁免检定：*DC13，单一位于气元素空间的不超过中型的生物。*失败：*24（4d10+2）雷鸣伤害，且目标被气元素直线推离至多20尺，并陷入倒地状态。*成功：*仅半伤。\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:54f1247d-83b4-5942-8249-db0365d3c804",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:600f6d10-16ae-5ca1-9d2e-888f67d32254",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:c1d0eeff-17e9-58be-aa39-fdc5142070ee",
+    "derived_note_utf8_range": {
+      "end": 3710,
+      "start": 1796
+    },
+    "entry_id": "urn:uuid:2cc417f9-b3ff-5e61-b655-2653f61642d2",
+    "fragment_id": "urn:uuid:8327c556-e357-5aa1-8db1-9daa6cb59898",
+    "mapping_id": "urn:uuid:c8be1321-c4c1-5f9e-aa78-4411f9718000"
+  },
+  "subject_kind": "creature",
+  "title": "气元素",
+  "uncompiled_semantics_retained": true
+}

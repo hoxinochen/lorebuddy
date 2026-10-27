@@ -1,0 +1,1175 @@
+{
+  "body": {
+    "digest": "sha256:299ce372bdf8fb2953a91a28a9c32fd7ac2d8e0426c8820b643a28e15f967c43",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce.md"
+  },
+  "candidate_snapshot": {
+    "abilities": [
+      {
+        "critical_fields": {
+          "equipment": "unchanged",
+          "replace_game_statistics_with": "SU",
+          "when": "on_finishing_long_rest"
+        },
+        "editorial_explanation": "内容可双向引用而不必拆成互相依赖的两个发布包。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:dc84d8f5-b9ae-522f-a3f5-34861797e882",
+                "json_pointer": "/critical_fields/when"
+              },
+              {
+                "extraction_id": "urn:uuid:82b358db-8c26-52a6-b4e5-78efba2a58b4",
+                "json_pointer": "/critical_fields/replace_game_statistics_with"
+              },
+              {
+                "extraction_id": "urn:uuid:63f3ccb5-5629-5c49-a964-2e24a29d58f0",
+                "json_pointer": "/critical_fields/equipment"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "pointer": "/critical_fields",
+          "source_evidence": "IN.ABILITY.1"
+        },
+        "id": "urn:uuid:5152af52-fc82-58ab-b223-f9d1f9842f2e",
+        "kind": "特质Traits",
+        "mechanics": {
+          "clauses": {
+            "equipment": "unchanged",
+            "replace_game_statistics_with": "SU",
+            "when": "on_finishing_long_rest"
+          },
+          "dependencies": [],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+        "required_evidence": [],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:02cc884f-2c90-5ac4-9504-3f6574f16a1e",
+        "title": "化身魅魔",
+        "verbatim_evidence": "IN.ABILITY.1",
+        "verbatim_text": "**化身魅魔Succubus Form。**梦魔在完成一次长休时可以变形为**魅魔Succubus**，并使用魅魔的游戏数据替代其原来的数据。梦魔着装或携带的任何装备都不会随之变化。\n\n###### 动作Actions\n\n"
+      },
+      {
+        "critical_fields": {
+          "allowed": [
+            "RestlessTouch"
+          ],
+          "attacks": 2
+        },
+        "editorial_explanation": "不是沿用魅魔的触碰加魅惑/吻组合。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:5e21470c-3c84-541d-8ce8-1c1141e78bfa",
+                "json_pointer": "/critical_fields/attacks"
+              },
+              {
+                "extraction_id": "urn:uuid:1975ba55-180b-5a83-853c-eb81e8963450",
+                "json_pointer": "/critical_fields/allowed/0"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "pointer": "/critical_fields",
+          "source_evidence": "IN.ABILITY.2"
+        },
+        "id": "urn:uuid:ba233757-3295-5d09-95ef-4470dfe7142c",
+        "kind": "动作Actions",
+        "mechanics": {
+          "clauses": {
+            "allowed": [
+              "RestlessTouch"
+            ],
+            "attacks": 2
+          },
+          "dependencies": [],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+        "required_evidence": [],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:73ea8ad6-ba19-5686-abf5-1647fd6f1a3e",
+        "title": "多重攻击",
+        "verbatim_evidence": "IN.ABILITY.2",
+        "verbatim_text": "**多重攻击Multiattack。**梦魔发动两次毁梦之触攻击。\n"
+      },
+      {
+        "critical_fields": {
+          "attack_bonus": 7,
+          "curse_early_end": "this_incubus_dies",
+          "curse_effect": "cannot_benefit_from_short_rest",
+          "curse_hours": 24,
+          "damage": 15,
+          "dice": "3d6+5",
+          "reach_ft": 5,
+          "type": "psychic"
+        },
+        "editorial_explanation": "此诅咒不自动禁止长休，也不按别的梦魔死亡结束。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:08d70ccf-2868-5f5b-87b6-0e7ea0de41df",
+                "json_pointer": "/critical_fields/attack_bonus"
+              },
+              {
+                "extraction_id": "urn:uuid:77e1f7ba-990b-5bda-b9d0-2def79cb2ed0",
+                "json_pointer": "/critical_fields/reach_ft"
+              },
+              {
+                "extraction_id": "urn:uuid:1cb09a81-c6e9-5c42-9fbe-148e9c36f549",
+                "json_pointer": "/critical_fields/damage"
+              },
+              {
+                "extraction_id": "urn:uuid:707c529a-7d4f-5dce-be19-a1fe0cfa59f4",
+                "json_pointer": "/critical_fields/dice"
+              },
+              {
+                "extraction_id": "urn:uuid:6948d52f-4d77-5c7b-ae66-a7e3fd27064d",
+                "json_pointer": "/critical_fields/type"
+              },
+              {
+                "extraction_id": "urn:uuid:3fca9091-dc2e-5f26-930c-e67ea638c63b",
+                "json_pointer": "/critical_fields/curse_hours"
+              },
+              {
+                "extraction_id": "urn:uuid:d4c15404-ae1d-5f29-aebd-89c3a3d65207",
+                "json_pointer": "/critical_fields/curse_early_end"
+              },
+              {
+                "extraction_id": "urn:uuid:70ee9ba1-20ae-5a44-b666-4e3042615d88",
+                "json_pointer": "/critical_fields/curse_effect"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "pointer": "/critical_fields",
+          "source_evidence": "IN.ABILITY.3"
+        },
+        "id": "urn:uuid:efcea215-d122-5c93-891b-46a8c262b18f",
+        "kind": "动作Actions",
+        "mechanics": {
+          "clauses": {
+            "attack_bonus": 7,
+            "curse_early_end": "this_incubus_dies",
+            "curse_effect": "cannot_benefit_from_short_rest",
+            "curse_hours": 24,
+            "damage": 15,
+            "dice": "3d6+5",
+            "reach_ft": 5,
+            "type": "psychic"
+          },
+          "damage": {
+            "amount": {
+              "dice": "3d6+5",
+              "printed_fixed": 15,
+              "selection": "use_scene_amount_mode; recorded_dice_must_not_be_rerolled"
+            },
+            "damage_type": "psychic",
+            "expression_id": "urn:uuid:211ac4bb-d78b-51fc-8d52-04328f80e8f6",
+            "linked_reduction_from_damage_taken": false,
+            "other_effects": [
+              {
+                "duration_hours": 24,
+                "ends_early": "this_source_dies",
+                "kind": "sourced_curse",
+                "prevents": "benefit_from_short_rest"
+              }
+            ],
+            "save_success": null,
+            "trigger": "hit"
+          },
+          "dependencies": [],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+        "required_evidence": [],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:a488f87b-85b2-5435-9a8e-0d529f330cf3",
+        "title": "毁梦之触",
+        "verbatim_evidence": "IN.ABILITY.3",
+        "verbatim_text": " **毁梦之触Restless Touch。**近战攻击：+7，触及5尺。*命中：*15（3d6+5）心灵伤害，且目标被诅咒，持续24小时或在梦魔死亡时提前结束。受诅咒期间，目标无法从完成短休中获益。\n"
+      },
+      {
+        "critical_fields": {
+          "at_will": [
+            "P.DISGUISE",
+            "P.ETHEREAL"
+          ],
+          "casting_ability": "charisma",
+          "components_override": "no_material_only",
+          "each_once_per_day": [
+            "P.DREAM",
+            "P.HYPNOTIC"
+          ],
+          "save_dc": 15
+        },
+        "editorial_explanation": "保留V/S和各法术专注；Hypnotic按ED.HYPNOTIC作明确映射。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "casting_calls": [
+              {
+                "availability": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "known",
+                  "value": {
+                    "kind": "at_will"
+                  }
+                },
+                "cast_level": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "casting_ability": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "known",
+                  "value": "charisma"
+                },
+                "components_waived": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "known",
+                  "value": [
+                    "M"
+                  ]
+                },
+                "concentration_override": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "mapping_adoption_ids": [],
+                "mode": "intrinsic_spell_call",
+                "parameter_owner": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "known",
+                  "value": "this_actor_instance"
+                },
+                "save_dc": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "known",
+                  "value": 15
+                },
+                "spell_attack_bonus": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "spell_id": "urn:uuid:be92f54c-9051-5867-b673-10e61433b6c3",
+                "target_override": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "uncompiled_qualifications": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "known",
+                  "value": {}
+                }
+              },
+              {
+                "availability": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "known",
+                  "value": {
+                    "kind": "at_will"
+                  }
+                },
+                "cast_level": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "casting_ability": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "known",
+                  "value": "charisma"
+                },
+                "components_waived": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "known",
+                  "value": [
+                    "M"
+                  ]
+                },
+                "concentration_override": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "mapping_adoption_ids": [],
+                "mode": "intrinsic_spell_call",
+                "parameter_owner": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "known",
+                  "value": "this_actor_instance"
+                },
+                "save_dc": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "known",
+                  "value": 15
+                },
+                "spell_attack_bonus": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "spell_id": "urn:uuid:e3995331-da2b-5e63-a16d-118e40c00303",
+                "target_override": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "uncompiled_qualifications": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "known",
+                  "value": {}
+                }
+              },
+              {
+                "availability": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "known",
+                  "value": {
+                    "kind": "each_once_per_day",
+                    "recovery_evidence_id": "urn:uuid:325369fb-509c-57dc-9c14-7f5c093407d0"
+                  }
+                },
+                "cast_level": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "casting_ability": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "known",
+                  "value": "charisma"
+                },
+                "components_waived": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "known",
+                  "value": [
+                    "M"
+                  ]
+                },
+                "concentration_override": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "mapping_adoption_ids": [],
+                "mode": "intrinsic_spell_call",
+                "parameter_owner": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "known",
+                  "value": "this_actor_instance"
+                },
+                "save_dc": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "known",
+                  "value": 15
+                },
+                "spell_attack_bonus": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "spell_id": "urn:uuid:eb5e535c-2645-5c77-b237-a1a7e79c9681",
+                "target_override": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "uncompiled_qualifications": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "known",
+                  "value": {}
+                }
+              },
+              {
+                "availability": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "known",
+                  "value": {
+                    "kind": "each_once_per_day",
+                    "recovery_evidence_id": "urn:uuid:325369fb-509c-57dc-9c14-7f5c093407d0"
+                  }
+                },
+                "cast_level": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "casting_ability": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "known",
+                  "value": "charisma"
+                },
+                "components_waived": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "known",
+                  "value": [
+                    "M"
+                  ]
+                },
+                "concentration_override": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "mapping_adoption_ids": [
+                  "urn:uuid:1607dde9-3615-5501-8660-838d00e4e588"
+                ],
+                "mode": "intrinsic_spell_call",
+                "parameter_owner": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "known",
+                  "value": "this_actor_instance"
+                },
+                "save_dc": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "known",
+                  "value": 15
+                },
+                "spell_attack_bonus": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "spell_id": "urn:uuid:5239b2ad-4c89-50ec-bd69-95a5df09d2c9",
+                "target_override": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "not_stated",
+                  "value": null
+                },
+                "uncompiled_qualifications": {
+                  "binding": {
+                    "adopted_decision_ids": [],
+                    "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+                    "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+                    "source_note_utf8_range": {
+                      "end": 3841,
+                      "start": 3544
+                    }
+                  },
+                  "state": "known",
+                  "value": {}
+                }
+              }
+            ],
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:e2ae41b3-7450-5f55-804d-29e66b90cf40",
+                "json_pointer": "/critical_fields/casting_ability"
+              },
+              {
+                "extraction_id": "urn:uuid:4cc262ed-845a-53c6-b09f-dafe14485448",
+                "json_pointer": "/critical_fields/save_dc"
+              },
+              {
+                "extraction_id": "urn:uuid:986987db-f184-5e3e-87c5-ff92da7e6276",
+                "json_pointer": "/critical_fields/components_override"
+              },
+              {
+                "extraction_id": "urn:uuid:b99b9a55-b0f3-5ad8-8526-41aedd8a2971",
+                "json_pointer": "/critical_fields/at_will/0"
+              },
+              {
+                "extraction_id": "urn:uuid:b56890f9-6ce5-5100-b281-20a5f6c65ff2",
+                "json_pointer": "/critical_fields/at_will/1"
+              },
+              {
+                "extraction_id": "urn:uuid:aa87b11f-83c4-5d56-a953-535b9bcf3d86",
+                "json_pointer": "/critical_fields/each_once_per_day/0"
+              },
+              {
+                "extraction_id": "urn:uuid:f8920966-f8bd-5733-a0eb-df369fa039c0",
+                "json_pointer": "/critical_fields/each_once_per_day/1"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [
+            "ED.HYPNOTIC"
+          ],
+          "pointer": "/critical_fields",
+          "source_evidence": "IN.ABILITY.4"
+        },
+        "id": "urn:uuid:242f80c2-a7ea-5199-9088-8d5a12a6c5c5",
+        "kind": "动作Actions",
+        "mechanics": {
+          "clauses": {
+            "at_will": [
+              "P.DISGUISE",
+              "P.ETHEREAL"
+            ],
+            "casting_ability": "charisma",
+            "components_override": "no_material_only",
+            "each_once_per_day": [
+              "P.DREAM",
+              "P.HYPNOTIC"
+            ],
+            "save_dc": 15
+          },
+          "dependencies": [
+            "urn:uuid:be92f54c-9051-5867-b673-10e61433b6c3",
+            "urn:uuid:e3995331-da2b-5e63-a16d-118e40c00303",
+            "urn:uuid:eb5e535c-2645-5c77-b237-a1a7e79c9681",
+            "urn:uuid:5239b2ad-4c89-50ec-bd69-95a5df09d2c9",
+            "urn:uuid:54fb4631-fd48-5d41-84fd-2c41fbf2f5d5",
+            "urn:uuid:cf600e1c-c1b5-54dc-9ad2-2b3bde6f751b",
+            "urn:uuid:9b807124-e59e-5ea1-8ad0-05dc5451847e"
+          ],
+          "kind": "source_bound_candidate",
+          "spell_calls": [
+            {
+              "caller_overrides_from": "/critical_fields",
+              "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+              "target_id": "urn:uuid:be92f54c-9051-5867-b673-10e61433b6c3"
+            },
+            {
+              "caller_overrides_from": "/critical_fields",
+              "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+              "target_id": "urn:uuid:e3995331-da2b-5e63-a16d-118e40c00303"
+            },
+            {
+              "caller_overrides_from": "/critical_fields",
+              "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+              "target_id": "urn:uuid:eb5e535c-2645-5c77-b237-a1a7e79c9681"
+            },
+            {
+              "caller_overrides_from": "/critical_fields",
+              "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+              "target_id": "urn:uuid:5239b2ad-4c89-50ec-bd69-95a5df09d2c9"
+            }
+          ],
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+        "required_evidence": [
+          "P.DISGUISE",
+          "P.ETHEREAL",
+          "P.DREAM",
+          "P.HYPNOTIC",
+          "P.COMPONENTS",
+          "P.CONCENTRATION",
+          "M.USAGE"
+        ],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:8807ca14-3c56-5edf-ae32-df14c98f7af2",
+        "title": "施法",
+        "verbatim_evidence": "IN.ABILITY.4",
+        "verbatim_text": " **施法Spellcasting。**梦魔施展以下一道法术，无需材料成分并使用魅力作为施法属性（法术豁免DC15）：\n ***随意：****易容术Disguise Self，以太化Etherealness*\n ***每项1/日：****托梦术Dream，催眠图纹Hypnotic*\n\n###### 附赠动作Bonus Actions\n\n"
+      },
+      {
+        "critical_fields": {
+          "activation": "bonus_action",
+          "dc": 15,
+          "dice": "4d8",
+          "else_damage": 18,
+          "failure_if_current_hp_lte": 20,
+          "low_hp": "unconscious_1_hour",
+          "low_hp_ends": [
+            "damage",
+            "another_creature_within_5_ft_uses_action_to_wake"
+          ],
+          "range_ft": 60,
+          "recharge": [
+            6
+          ],
+          "save": "wisdom",
+          "target": "one_visible_creature",
+          "type": "psychic"
+        },
+        "editorial_explanation": "以判定时当前HP选择分支；高HP伤害分支不在伤后低于20时追加昏迷。",
+        "extensions": {
+          "lorebuddy.dnd2024": {
+            "source_parameter_bindings": [
+              {
+                "extraction_id": "urn:uuid:6f99dd68-d478-5f7c-9f95-ff40279ace18",
+                "json_pointer": "/critical_fields/activation"
+              },
+              {
+                "extraction_id": "urn:uuid:c0bb4edd-615d-5cc9-89eb-b9da5d946fa2",
+                "json_pointer": "/critical_fields/recharge/0"
+              },
+              {
+                "extraction_id": "urn:uuid:ef19c0cd-726c-59d6-bd4c-6139585917fa",
+                "json_pointer": "/critical_fields/save"
+              },
+              {
+                "extraction_id": "urn:uuid:d756ad22-c712-510c-976e-ac8eb05bdecc",
+                "json_pointer": "/critical_fields/dc"
+              },
+              {
+                "extraction_id": "urn:uuid:5be8f5c2-6d93-5799-a601-16b6f78106e9",
+                "json_pointer": "/critical_fields/range_ft"
+              },
+              {
+                "extraction_id": "urn:uuid:3ab8bd25-c084-5620-a473-96a3750174e8",
+                "json_pointer": "/critical_fields/target"
+              },
+              {
+                "extraction_id": "urn:uuid:4c518148-34e3-565c-84dd-7e412471089e",
+                "json_pointer": "/critical_fields/failure_if_current_hp_lte"
+              },
+              {
+                "extraction_id": "urn:uuid:2f525542-80e1-51b2-b1c9-da9747360748",
+                "json_pointer": "/critical_fields/low_hp"
+              },
+              {
+                "extraction_id": "urn:uuid:ef97ebb4-0c44-5b27-9241-3564af04cb75",
+                "json_pointer": "/critical_fields/low_hp_ends/0"
+              },
+              {
+                "extraction_id": "urn:uuid:6a4c14eb-606e-5b15-b756-e85a0b2d911c",
+                "json_pointer": "/critical_fields/low_hp_ends/1"
+              },
+              {
+                "extraction_id": "urn:uuid:3e5bdad1-1931-5c5b-9a35-27658b4b6f17",
+                "json_pointer": "/critical_fields/else_damage"
+              },
+              {
+                "extraction_id": "urn:uuid:f4444ab5-4cd3-514b-9d1a-d3afe0fb3edd",
+                "json_pointer": "/critical_fields/dice"
+              },
+              {
+                "extraction_id": "urn:uuid:42ae8420-f6b2-5cf4-8633-b3c55494c88d",
+                "json_pointer": "/critical_fields/type"
+              }
+            ]
+          }
+        },
+        "field_binding": {
+          "adopted_decisions": [],
+          "pointer": "/critical_fields",
+          "source_evidence": "IN.ABILITY.5"
+        },
+        "id": "urn:uuid:c428c860-1e7b-5a39-8eff-54cbc6726dca",
+        "kind": "附赠动作Bonus Actions",
+        "mechanics": {
+          "branch_selection_time": "before_applying_this_effect; no_reentry_after_damage",
+          "branches": [
+            {
+              "effect": {
+                "early_end": [
+                  "damage",
+                  "another_creature_within_5ft_uses_action_to_wake"
+                ],
+                "hours": 1,
+                "kind": "unconscious"
+              },
+              "when": {
+                "save": "failure",
+                "target_current_hp_lte": 20
+              }
+            },
+            {
+              "effect": {
+                "amount": {
+                  "dice": "4d8",
+                  "printed_fixed": 18
+                },
+                "damage_type": "psychic",
+                "kind": "damage"
+              },
+              "when": {
+                "save": "failure",
+                "target_current_hp_gt": 20
+              }
+            },
+            {
+              "effect": {
+                "kind": "none_stated"
+              },
+              "when": {
+                "save": "success"
+              }
+            }
+          ],
+          "clauses": {
+            "activation": "bonus_action",
+            "dc": 15,
+            "dice": "4d8",
+            "else_damage": 18,
+            "failure_if_current_hp_lte": 20,
+            "low_hp": "unconscious_1_hour",
+            "low_hp_ends": [
+              "damage",
+              "another_creature_within_5_ft_uses_action_to_wake"
+            ],
+            "range_ft": 60,
+            "recharge": [
+              6
+            ],
+            "save": "wisdom",
+            "target": "one_visible_creature",
+            "type": "psychic"
+          },
+          "dependencies": [
+            "urn:uuid:9809bb64-da00-54a8-9512-ca442fc5befb",
+            "urn:uuid:4dfe39fd-0141-5e50-ae95-ebeaa474aab9"
+          ],
+          "kind": "source_bound_candidate",
+          "structured_coverage": "critical_clauses_plus_complete_verbatim; not_every_semantic_clause_compiled"
+        },
+        "owner_id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+        "required_evidence": [
+          "P.UNCONSCIOUS",
+          "P.RESISTANCE"
+        ],
+        "review_status": "candidate",
+        "source_evidence_id": "urn:uuid:bc146ab1-be32-5848-9c30-6bd65d4ad38f",
+        "title": "噩梦",
+        "verbatim_evidence": "IN.ABILITY.5",
+        "verbatim_text": "**噩梦Nightmare（充能6）。***感知豁免检定：*DC15，单一60尺内梦魔可见的生物。*失败：*若目标的生命值为20或更低，则其陷入昏迷状态，持续1小时并在其受到伤害或被目标5尺内的另一生物用一个动作摇醒时提前结束；否则，目标受到18（4d8）心灵伤害。\n"
+      }
+    ],
+    "all_abilities_present": true,
+    "all_card_text_present": true,
+    "candidate_revision": 3,
+    "card_evidence": "IN.CARD",
+    "every_numeric_field_atomized": false,
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "content_coverage": {
+          "all_abilities": "complete",
+          "card_text": "complete",
+          "formal_rule_approval": false,
+          "structured_semantics": "partial_explicit"
+        },
+        "identity_traits": {
+          "creature_type": "fiend",
+          "entity_kind": "creature",
+          "size": "medium",
+          "source_evidence_id": "urn:uuid:354c562e-94c9-59fc-91bc-acaefb34d9d3"
+        }
+      }
+    },
+    "group": "D",
+    "header": {
+      "ac": 15,
+      "defense_binding": {
+        "enumeration_complete_for_selected_card": true,
+        "evidence": "IN.HEADER"
+      },
+      "defenses": {
+        "condition_immunity": [],
+        "damage_immunity": [],
+        "resistance": [
+          "cold",
+          "fire",
+          "poison",
+          "psychic"
+        ]
+      },
+      "hp": 66,
+      "hp_role": "printed_default_maximum_hp; never runtime_current_hp",
+      "source_evidence": "IN.HEADER"
+    },
+    "id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+    "language": "zh-Hans",
+    "previous_candidate_revision": 2,
+    "prototype_role": "printed_template_not_live_instance",
+    "publication_identity": "claimed",
+    "review_status": "candidate",
+    "rights": "unknown",
+    "rule_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+    "rule_edition": "2024",
+    "rules_context": "MM2025+PHB2024",
+    "source_evidence_id": "urn:uuid:a614a20b-4e06-5886-a7da-3c26515f2dcb",
+    "title": "梦魔",
+    "translation_authority": "unknown",
+    "verbatim_text": "<a id=\"Incubus\"></a>\n##### 梦魔Incubus\n\n中型邪魔，中立邪恶\n\n<table><tr><td><strong>AC </strong>15</td><td><strong>先攻 </strong>+3（13）</td></tr> <tr><td colspan=\"2\"><strong>HP </strong>66（12d8+12）</td></tr> <tr><td colspan=\"2\"><strong>速度 </strong>30尺，飞行60尺</td></tr></table>\n\n<table><tr><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th></tr> <tr><td><strong>力量</strong></td><td>8</td><td>-1</td><td>-1</td> <td></td> <td><strong>敏捷</strong></td><td>17</td><td>+3</td><td>+3</td> <td></td> <td><strong>体质</strong></td><td>13</td><td>+1</td><td>+1</td></tr> <tr><td><strong>智力</strong></td><td>15</td><td>+2</td><td>+2</td> <td></td> <td><strong>感知</strong></td><td>12</td><td>+1</td><td>+1</td> <td></td> <td><strong>魅力</strong></td><td>20</td><td>+5</td><td>+5</td></tr> </table>\n\n| **技能**欺瞒+9，洞悉+5，察觉+5，游说+9，隐匿+7 |\n| --- |\n| **抗性**寒冷，火焰，毒素，心灵 |\n| **感官**黑暗视觉60尺；被动察觉15 |\n| **语言**深渊语，通用语，炼狱语；心灵感应60尺 |\n| **CR**4（XP1,100；PB+2） |\n\n###### 特质Traits\n\n**化身魅魔Succubus Form。**梦魔在完成一次长休时可以变形为**魅魔Succubus**，并使用魅魔的游戏数据替代其原来的数据。梦魔着装或携带的任何装备都不会随之变化。\n\n###### 动作Actions\n\n**多重攻击Multiattack。**梦魔发动两次毁梦之触攻击。\n **毁梦之触Restless Touch。**近战攻击：+7，触及5尺。*命中：*15（3d6+5）心灵伤害，且目标被诅咒，持续24小时或在梦魔死亡时提前结束。受诅咒期间，目标无法从完成短休中获益。\n **施法Spellcasting。**梦魔施展以下一道法术，无需材料成分并使用魅力作为施法属性（法术豁免DC15）：\n ***随意：****易容术Disguise Self，以太化Etherealness*\n ***每项1/日：****托梦术Dream，催眠图纹Hypnotic*\n\n###### 附赠动作Bonus Actions\n\n**噩梦Nightmare（充能6）。***感知豁免检定：*DC15，单一60尺内梦魔可见的生物。*失败：*若目标的生命值为20或更低，则其陷入昏迷状态，持续1小时并在其受到伤害或被目标5尺内的另一生物用一个动作摇醒时提前结束；否则，目标受到18（4d8）心灵伤害。\n"
+  },
+  "dependency_ids": [],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:6f96ba2d-5b1c-53b5-b06e-6cbcbf9087ce",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:76eb6c0a-f64d-566d-9182-00a678a803ca",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:a614a20b-4e06-5886-a7da-3c26515f2dcb",
+    "derived_note_utf8_range": {
+      "end": 4175,
+      "start": 1753
+    },
+    "entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+    "fragment_id": "urn:uuid:3da4dc0e-0945-5ef1-8d58-92662fc6ea04",
+    "mapping_id": "urn:uuid:63ace06a-e3e6-5b0c-b9bb-590596d6589b"
+  },
+  "subject_kind": "creature",
+  "title": "梦魔",
+  "uncompiled_semantics_retained": true
+}

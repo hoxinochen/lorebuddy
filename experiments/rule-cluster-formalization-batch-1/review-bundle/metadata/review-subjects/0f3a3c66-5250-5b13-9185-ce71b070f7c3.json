@@ -1,0 +1,497 @@
+{
+  "body": {
+    "digest": "sha256:d67524ba0e5527dadb61fa94306df6208f6be3aca29d6d26d0e9fd4bc3aafdd7",
+    "encoding": "utf-8",
+    "path": "library/review-bodies/0f3a3c66-5250-5b13-9185-ce71b070f7c3.md"
+  },
+  "candidate_snapshot": {
+    "critical_fields": {
+      "capacity": 1,
+      "cast_distance_ft": 5,
+      "cast_on_guardian": true,
+      "max_spell_level": 4,
+      "on_new_store": "previous_spell_lost",
+      "on_release": "stored_spell_lost",
+      "on_store": "no_immediate_spell_effect",
+      "release_ability_from": "original_storing_caster",
+      "release_components": "none",
+      "release_parameters_from": "original_storing_caster",
+      "storage_requires": "spellcaster_wearing_this_guardian_amulet",
+      "tested_spells": [
+        "P.FIREBALL",
+        "P.RAYS"
+      ]
+    },
+    "editorial_explanation": "本批采用官方交叉核对：储存需佩戴而非仅携带；原施法者设置法术参数。不能把本地“条件”译法当自动触发/免动作引擎。法术攻击DC完整算法未展开，题目需提供；不擅自继承后任持有人属性。",
+    "extensions": {
+      "lorebuddy.dnd2024": {
+        "casting_calls": [
+          {
+            "availability": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                "source_note_utf8_range": {
+                  "end": 3865,
+                  "start": 3340
+                }
+              },
+              "state": "requires_runtime",
+              "value": {
+                "capacity": 1,
+                "kind": "stored_instance"
+              }
+            },
+            "cast_level": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                "source_note_utf8_range": {
+                  "end": 3865,
+                  "start": 3340
+                }
+              },
+              "state": "requires_runtime",
+              "value": null
+            },
+            "casting_ability": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                "source_note_utf8_range": {
+                  "end": 3865,
+                  "start": 3340
+                }
+              },
+              "state": "known",
+              "value": "original_storing_caster"
+            },
+            "components_waived": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                "source_note_utf8_range": {
+                  "end": 3865,
+                  "start": 3340
+                }
+              },
+              "state": "known",
+              "value": [
+                "V",
+                "S",
+                "M"
+              ]
+            },
+            "concentration_override": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                "source_note_utf8_range": {
+                  "end": 3865,
+                  "start": 3340
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "mapping_adoption_ids": [
+              "urn:uuid:f4cfbd9c-34cf-5c56-a94f-3878efce8dba"
+            ],
+            "mode": "stored_spell_instance",
+            "parameter_owner": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                "source_note_utf8_range": {
+                  "end": 3865,
+                  "start": 3340
+                }
+              },
+              "state": "known",
+              "value": "original_storing_caster"
+            },
+            "save_dc": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                "source_note_utf8_range": {
+                  "end": 3865,
+                  "start": 3340
+                }
+              },
+              "state": "requires_runtime",
+              "value": null
+            },
+            "spell_attack_bonus": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                "source_note_utf8_range": {
+                  "end": 3865,
+                  "start": 3340
+                }
+              },
+              "state": "requires_runtime",
+              "value": null
+            },
+            "spell_id": "urn:uuid:99a9d4c8-57a7-55d5-8d55-d9ff42749632",
+            "target_override": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                "source_note_utf8_range": {
+                  "end": 3865,
+                  "start": 3340
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "uncompiled_qualifications": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                "source_note_utf8_range": {
+                  "end": 3865,
+                  "start": 3340
+                }
+              },
+              "state": "known",
+              "value": {
+                "cast_distance_ft": 5,
+                "cast_on_guardian": true,
+                "max_spell_level": 4,
+                "on_new_store": "previous_spell_lost",
+                "on_release": "stored_spell_lost",
+                "on_store": "no_immediate_spell_effect",
+                "storage_requires": "spellcaster_wearing_this_guardian_amulet"
+              }
+            }
+          },
+          {
+            "availability": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                "source_note_utf8_range": {
+                  "end": 3865,
+                  "start": 3340
+                }
+              },
+              "state": "requires_runtime",
+              "value": {
+                "capacity": 1,
+                "kind": "stored_instance"
+              }
+            },
+            "cast_level": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                "source_note_utf8_range": {
+                  "end": 3865,
+                  "start": 3340
+                }
+              },
+              "state": "requires_runtime",
+              "value": null
+            },
+            "casting_ability": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                "source_note_utf8_range": {
+                  "end": 3865,
+                  "start": 3340
+                }
+              },
+              "state": "known",
+              "value": "original_storing_caster"
+            },
+            "components_waived": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                "source_note_utf8_range": {
+                  "end": 3865,
+                  "start": 3340
+                }
+              },
+              "state": "known",
+              "value": [
+                "V",
+                "S",
+                "M"
+              ]
+            },
+            "concentration_override": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                "source_note_utf8_range": {
+                  "end": 3865,
+                  "start": 3340
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "mapping_adoption_ids": [
+              "urn:uuid:f4cfbd9c-34cf-5c56-a94f-3878efce8dba"
+            ],
+            "mode": "stored_spell_instance",
+            "parameter_owner": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                "source_note_utf8_range": {
+                  "end": 3865,
+                  "start": 3340
+                }
+              },
+              "state": "known",
+              "value": "original_storing_caster"
+            },
+            "save_dc": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                "source_note_utf8_range": {
+                  "end": 3865,
+                  "start": 3340
+                }
+              },
+              "state": "requires_runtime",
+              "value": null
+            },
+            "spell_attack_bonus": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                "source_note_utf8_range": {
+                  "end": 3865,
+                  "start": 3340
+                }
+              },
+              "state": "requires_runtime",
+              "value": null
+            },
+            "spell_id": "urn:uuid:b0c16e81-f5e8-5e73-96e1-72735aaec1e9",
+            "target_override": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                "source_note_utf8_range": {
+                  "end": 3865,
+                  "start": 3340
+                }
+              },
+              "state": "not_stated",
+              "value": null
+            },
+            "uncompiled_qualifications": {
+              "binding": {
+                "adopted_decision_ids": [],
+                "mapping_rule_id": "urn:uuid:2999a6ed-f92d-51ae-9af0-3e1fc7a9454f",
+                "source_entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+                "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+                "source_note_utf8_range": {
+                  "end": 3865,
+                  "start": 3340
+                }
+              },
+              "state": "known",
+              "value": {
+                "cast_distance_ft": 5,
+                "cast_on_guardian": true,
+                "max_spell_level": 4,
+                "on_new_store": "previous_spell_lost",
+                "on_release": "stored_spell_lost",
+                "on_store": "no_immediate_spell_effect",
+                "storage_requires": "spellcaster_wearing_this_guardian_amulet"
+              }
+            }
+          }
+        ],
+        "source_parameter_bindings": [
+          {
+            "extraction_id": "urn:uuid:2d49c62b-42a3-5cf4-bdae-7cc1f72f163d",
+            "json_pointer": "/critical_fields/capacity"
+          },
+          {
+            "extraction_id": "urn:uuid:8cedca4e-0040-57e6-a8d8-2365f2d11078",
+            "json_pointer": "/critical_fields/max_spell_level"
+          },
+          {
+            "extraction_id": "urn:uuid:6e4daae9-e825-5dd6-ae28-4493fbeb1311",
+            "json_pointer": "/critical_fields/storage_requires"
+          },
+          {
+            "extraction_id": "urn:uuid:bcb9aa97-f247-523d-b59c-019f0ccf1b89",
+            "json_pointer": "/critical_fields/cast_distance_ft"
+          },
+          {
+            "extraction_id": "urn:uuid:5a75b2c8-dba6-5908-89a3-c846b383d388",
+            "json_pointer": "/critical_fields/cast_on_guardian"
+          },
+          {
+            "extraction_id": "urn:uuid:b6adae73-da69-506b-93e1-5182c027ba61",
+            "json_pointer": "/critical_fields/on_store"
+          },
+          {
+            "extraction_id": "urn:uuid:de841622-b3dd-5e93-853d-1bb5c326fa3b",
+            "json_pointer": "/critical_fields/on_new_store"
+          },
+          {
+            "extraction_id": "urn:uuid:9594fbc4-0cb7-5ff7-8e31-411d33d65502",
+            "json_pointer": "/critical_fields/release_components"
+          },
+          {
+            "extraction_id": "urn:uuid:d4f6850b-c69b-503e-a036-0130ac80f4a5",
+            "json_pointer": "/critical_fields/release_ability_from"
+          },
+          {
+            "extraction_id": "urn:uuid:15258c5d-717b-5b1a-b6a8-8ec4b9448e8c",
+            "json_pointer": "/critical_fields/release_parameters_from"
+          },
+          {
+            "extraction_id": "urn:uuid:a7bc3766-26a0-5f94-b5e0-216cd7aba54e",
+            "json_pointer": "/critical_fields/on_release"
+          },
+          {
+            "extraction_id": "urn:uuid:75edc2fe-965f-52f7-9278-a2dcd158e549",
+            "json_pointer": "/critical_fields/tested_spells/0"
+          },
+          {
+            "extraction_id": "urn:uuid:22b9af5f-28af-5390-9b0a-f0ab07ad8cd0",
+            "json_pointer": "/critical_fields/tested_spells/1"
+          }
+        ],
+        "stored_spell_contract": {
+          "capacity": 1,
+          "execution_requirement": "stored_spell_call",
+          "max_spell_level": 4,
+          "on_release": "stored_spell_lost",
+          "parameter_owner": "original_storing_caster",
+          "selected_spell_and_parameters_from": "runtime_stored_spell_instance",
+          "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50"
+        }
+      }
+    },
+    "field_binding": {
+      "adopted_decisions": [
+        "ED.STORE"
+      ],
+      "local_evidence": "G.ABILITY.3",
+      "meaning": "source_bound_candidate_with_explicit_editorial_overrides_not_verbatim",
+      "pointer": "/critical_fields"
+    },
+    "id": "urn:uuid:0f3a3c66-5250-5b13-9185-ce71b070f7c3",
+    "kind": "特质Traits",
+    "mechanics": {
+      "clauses": {
+        "capacity": 1,
+        "cast_distance_ft": 5,
+        "cast_on_guardian": true,
+        "max_spell_level": 4,
+        "on_new_store": "previous_spell_lost",
+        "on_release": "stored_spell_lost",
+        "on_store": "no_immediate_spell_effect",
+        "release_ability_from": "original_storing_caster",
+        "release_components": "none",
+        "release_parameters_from": "original_storing_caster",
+        "storage_requires": "spellcaster_wearing_this_guardian_amulet",
+        "tested_spells": [
+          "P.FIREBALL",
+          "P.RAYS"
+        ]
+      },
+      "dependencies": [
+        "urn:uuid:99a9d4c8-57a7-55d5-8d55-d9ff42749632",
+        "urn:uuid:b0c16e81-f5e8-5e73-96e1-72735aaec1e9",
+        "urn:uuid:54fb4631-fd48-5d41-84fd-2c41fbf2f5d5",
+        "urn:uuid:9b807124-e59e-5ea1-8ad0-05dc5451847e"
+      ],
+      "kind": "source_bound_candidate",
+      "structured_coverage": "critical_clauses_and_complete_verbatim; remaining_semantics_uncompiled"
+    },
+    "owner_id": "urn:uuid:8503ecd3-5ef8-5833-a69b-35b2a6193a46",
+    "required_evidence": [
+      "P.FIREBALL",
+      "P.RAYS",
+      "P.COMPONENTS",
+      "M.ACTIONS"
+    ],
+    "review_status": "candidate",
+    "source_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+    "title": "法术储存",
+    "verbatim_evidence": "G.ABILITY.3",
+    "verbatim_text": " **法术储存Spell Storing。**一名携带着盾卫命令护符的施法者可以让盾卫储存一道四环及以下的法术。为此，护符携带者必须在盾卫5尺内施展那道法术。此时该法术不会产生任何效应，而是被储存在盾卫之中。新法术储存时先前储存的旧法术将会消失。盾卫可以在法术储存者预先设定的条件满足时将其施展，无需法术成分并使用法术储存者的施法属性。储存其内的法术随后消失。\n\n###### 动作Actions\n"
+  },
+  "dependency_ids": [
+    "urn:uuid:54fb4631-fd48-5d41-84fd-2c41fbf2f5d5",
+    "urn:uuid:99a9d4c8-57a7-55d5-8d55-d9ff42749632",
+    "urn:uuid:9b807124-e59e-5ea1-8ad0-05dc5451847e",
+    "urn:uuid:b0c16e81-f5e8-5e73-96e1-72735aaec1e9"
+  ],
+  "full_fidelity": "not_claimed",
+  "id": "urn:uuid:0f3a3c66-5250-5b13-9185-ce71b070f7c3",
+  "language": "zh-Hans",
+  "module": "creatures",
+  "review_record_id": "urn:uuid:39bb53b9-afd8-5dbd-8e6b-c6fa703acc63",
+  "review_status": "in_review",
+  "rules_context_id": "urn:uuid:cff6ac89-cab7-506f-bd7a-d5f2a1d0ebc2",
+  "schema": "m2.rule-review-subject@0.1.0",
+  "source_binding": {
+    "artifact_id": "urn:uuid:f1824e5e-bdc3-584b-a983-98335dbf1408",
+    "derived_evidence_id": "urn:uuid:cbdf6a4e-055a-5f9d-8c7b-9be556805b50",
+    "derived_note_utf8_range": {
+      "end": 3865,
+      "start": 3340
+    },
+    "entry_id": "urn:uuid:3646eae6-0f84-53de-b53d-6d96a30d90ec",
+    "fragment_id": "urn:uuid:9636c175-25b3-5946-bf3d-d27bd737b4ec",
+    "mapping_id": "urn:uuid:bb03d887-d3a3-5a05-9c90-b385a184dee9"
+  },
+  "subject_kind": "ability",
+  "title": "法术储存",
+  "uncompiled_semantics_retained": true
+}

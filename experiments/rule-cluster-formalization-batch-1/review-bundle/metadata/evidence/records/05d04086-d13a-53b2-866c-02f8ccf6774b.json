@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:a9059840540c273cb7c63b35c46986bf767426fbe7584892306d9493892382ee",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/异怪/史拉蟾/史拉绿蟾.md",
+  "id": "urn:uuid:05d04086-d13a-53b2-866c-02f8ccf6774b",
+  "original_record": {
+    "alias": "S.ABILITY.4",
+    "id": "urn:uuid:05d04086-d13a-53b2-866c-02f8ccf6774b",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 2721,
+      "interval": "[start,end)",
+      "start": 2456
+    },
+    "source_entry_id": "urn:uuid:41afcc45-68bb-5c05-a89e-1fbd872196e4",
+    "text": " **混沌法杖Chaos Staff。***近战或远程攻击检定：*+7，触及10尺或射程60尺。*命中：*8（1d8+4）力场伤害。目标陷入某种状态直至史拉蟾的下个回合开始，掷1d4决定：1，魅惑；2，恐慌；3，中毒；4，失能。\n",
+    "text_sha256": "228a7094a6614def26831096228f4e95dd6e016f6ae68b4e89e737e56a3a8cd7"
+  },
+  "raw_fragment_id": "urn:uuid:2f037a82-6e86-5b22-b290-e00cb0335153",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

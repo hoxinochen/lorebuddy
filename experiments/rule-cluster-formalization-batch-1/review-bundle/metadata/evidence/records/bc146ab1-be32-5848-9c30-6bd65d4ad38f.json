@@ -1,0 +1,22 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:677e4dd189f174951d627ef1bdd24f616a2e71cd1a92a262a9b005d8027643c4",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/邪魔/梦魔.md",
+  "id": "urn:uuid:bc146ab1-be32-5848-9c30-6bd65d4ad38f",
+  "original_record": {
+    "alias": "IN.ABILITY.5",
+    "id": "urn:uuid:bc146ab1-be32-5848-9c30-6bd65d4ad38f",
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 4175,
+      "interval": "[start,end)",
+      "start": 3841
+    },
+    "source_entry_id": "urn:uuid:0a854a80-9264-5529-b52c-68c9083b0cd2",
+    "text": "**噩梦Nightmare（充能6）。***感知豁免检定：*DC15，单一60尺内梦魔可见的生物。*失败：*若目标的生命值为20或更低，则其陷入昏迷状态，持续1小时并在其受到伤害或被目标5尺内的另一生物用一个动作摇醒时提前结束；否则，目标受到18（4d8）心灵伤害。\n",
+    "text_sha256": "d211c3d33cc52b43da833fdb4ad5bca95052bf401a879606ebf8676270d3e835"
+  },
+  "raw_fragment_id": "urn:uuid:3da4dc0e-0945-5ef1-8d58-92662fc6ea04",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}

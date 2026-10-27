@@ -1,0 +1,26 @@
+{
+  "coordinate_basis": "derived_note_utf8_not_raw_entry",
+  "derived_artifact_digest": "sha256:002c984c128b987a5a6f2ae9dfb3c99824e59a96d1df993b89ce2f1158c531a3",
+  "derived_artifact_path": "/Users/chenzehao/Projects/LoreBuddy/build/m1c3-obsidian-baseline/Notes/怪物图鉴2025/元素/四元素/土元素.md",
+  "id": "urn:uuid:e74fc3cc-7f9e-5086-a28e-917370606c53",
+  "original_record": {
+    "alias": "E.CARD",
+    "id": "urn:uuid:e74fc3cc-7f9e-5086-a28e-917370606c53",
+    "line_range": [
+      41,
+      66
+    ],
+    "range": {
+      "basis": "whole_note_utf8",
+      "end": 3891,
+      "interval": "[start,end)",
+      "start": 2026
+    },
+    "source_entry_id": "urn:uuid:57a08374-1e20-5c97-a1f3-00447e3b05d9",
+    "text": "<a id=\"Earth_Elemental\"></a>\n##### 土元素Earth Elemental\n\n大型元素，中立\n\n<table><tr><td><strong>AC </strong>17</td><td><strong>先攻 </strong>-1（9）</td></tr> <tr><td colspan=\"2\"><strong>HP </strong>147（14d10+70）</td></tr> <tr><td colspan=\"2\"><strong>速度 </strong>30尺，掘穴30尺</td></tr></table>\n\n<table><tr><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th><td></td><th></th><th></th><th>调整</th><th>豁免</th></tr> <tr><td><strong>力量</strong></td><td>20</td><td>+5</td><td>+5</td> <td></td> <td><strong>敏捷</strong></td><td>8</td><td>-1</td><td>-1</td> <td></td> <td><strong>体质</strong></td><td>20</td><td>+5</td><td>+5</td></tr> <tr><td><strong>智力</strong></td><td>5</td><td>-3</td><td>-3</td> <td></td> <td><strong>感知</strong></td><td>10</td><td>+0</td><td>+0</td> <td></td> <td><strong>魅力</strong></td><td>5</td><td>-3</td><td>-3</td></tr> </table>\n\n| **易伤**雷鸣。 |\n| --- |\n| **免疫**毒素；力竭，麻痹，石化，中毒，昏迷。 |\n| **感官**黑暗视觉60尺，震颤感知60尺；被动察觉10 |\n| **语言**原初语（土族语） |\n| **CR**5（XP1,800；PB+3） |\n\n###### 特质Traits\n\n**遁地Earth Glide。**土元素可以掘穴穿过非魔法且未经加工的泥土及岩石。遁地期间，土元素不会破坏其穿过的任何材质。\n **攻城怪物Siege Monster。**土元素对物件和建筑造成双倍伤害。\n\n###### 动作Actions\n\n**多重攻击Multiattack。**土元素使用猛击或岩石射击发动共计两次攻击。\n **猛击Slam。***近战攻击检定：*+8，触及10尺。*命中：*14（2d8+5）钝击伤害。\n **岩石射击Rock Launch。***远程攻击检定：*+8，射程60尺。*命中：*8（1d6+5）钝击伤害。若目标生物体型不超过大型，则其陷入倒地状态。\n",
+    "text_sha256": "d200aec6ef9cee68ce8ed30ac630adcd0cee063d5906cc7fc5e45c0ba315d246"
+  },
+  "raw_fragment_id": "urn:uuid:8144d427-b3e6-53aa-bddc-c78ae18e3a0d",
+  "raw_to_derived_fidelity": "not_proven_by_this_record",
+  "schema": "m2.derived-text-evidence@0.1.0"
+}
